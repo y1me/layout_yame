@@ -1,0 +1,9 @@
+(module Mire (layer F.Cu) (tedit 5550A3A7)
+  (fp_text reference Mire (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value VAL** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd circle (at 0 0) (size 1 1) (layers F.Cu F.Mask))
+)

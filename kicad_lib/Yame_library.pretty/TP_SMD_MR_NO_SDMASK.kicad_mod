@@ -1,0 +1,11 @@
+(module TP_SMD_MR_NO_SDMASK (layer F.Cu) (tedit 540477B9)
+  (descr "module 1 pin (ou trou mecanique de percage)")
+  (tags DEV)
+  (fp_text reference "" (at 0 -0.7) (layer F.SilkS) hide
+    (effects (font (size 0.3 0.3) (thickness 0.075)))
+  )
+  (fp_text value "" (at 0 0.6) (layer F.SilkS) hide
+    (effects (font (size 0.127 0.127) (thickness 0.03175)))
+  )
+  (pad 1 smd circle (at 0 0) (size 1 1) (layers F.Cu))
+)

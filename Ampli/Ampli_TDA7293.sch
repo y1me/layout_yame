@@ -1,0 +1,222 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:yame
+EELAYER 24 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TDA7293 U?
+U 1 1 54A9BE26
+P 5300 4100
+F 0 "U?" H 4400 4650 60  0000 C CNN
+F 1 "TDA7293" H 4550 3500 60  0000 C CNN
+F 2 "" H 5300 4100 60  0000 C CNN
+F 3 "" H 5300 4100 60  0000 C CNN
+	1    5300 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 54A9BE35
+P 5350 1750
+F 0 "R?" V 5430 1750 40  0000 C CNN
+F 1 "24k" V 5357 1751 40  0000 C CNN
+F 2 "" V 5280 1750 30  0000 C CNN
+F 3 "" H 5350 1750 30  0000 C CNN
+	1    5350 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C?
+U 1 1 54A9BE44
+P 4900 2350
+F 0 "C?" H 4900 2450 40  0000 L CNN
+F 1 "100n" H 4906 2265 40  0000 L CNN
+F 2 "" H 4938 2200 30  0000 C CNN
+F 3 "" H 4900 2350 60  0000 C CNN
+	1    4900 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP1 C?
+U 1 1 54A9BE53
+P 4700 2050
+F 0 "C?" H 4750 2150 50  0000 L CNN
+F 1 "100u" H 4750 1950 50  0000 L CNN
+F 2 "" H 4700 2050 60  0000 C CNN
+F 3 "" H 4700 2050 60  0000 C CNN
+	1    4700 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP1 C?
+U 1 1 54A9BE65
+P 5150 2050
+F 0 "C?" H 5200 2150 50  0000 L CNN
+F 1 "100u" H 5200 1950 50  0000 L CNN
+F 2 "" H 5150 2050 60  0000 C CNN
+F 3 "" H 5150 2050 60  0000 C CNN
+	1    5150 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4900 2050 4950 2050
+$Comp
+L C C?
+U 1 1 54A9BE87
+P 5650 2050
+F 0 "C?" H 5650 2150 40  0000 L CNN
+F 1 "22p" H 5656 1965 40  0000 L CNN
+F 2 "" H 5688 1900 30  0000 C CNN
+F 3 "" H 5650 2050 60  0000 C CNN
+	1    5650 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 54A9BEAA
+P 4100 1750
+F 0 "R?" V 4180 1750 40  0000 C CNN
+F 1 "560" V 4107 1751 40  0000 C CNN
+F 2 "" V 4030 1750 30  0000 C CNN
+F 3 "" H 4100 1750 30  0000 C CNN
+	1    4100 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP1 C?
+U 1 1 54A9BEBE
+P 6550 4300
+F 0 "C?" H 6600 4400 50  0000 L CNN
+F 1 "47u" H 6600 4200 50  0000 L CNN
+F 2 "" H 6550 4300 60  0000 C CNN
+F 3 "" H 6550 4300 60  0000 C CNN
+	1    6550 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 4000 6550 4000
+Wire Wire Line
+	6550 4000 6550 4100
+Wire Wire Line
+	6550 4500 6550 4550
+Wire Wire Line
+	6550 4550 6300 4550
+$Comp
+L C C?
+U 1 1 54A9C153
+P 2400 4000
+F 0 "C?" H 2400 4100 40  0000 L CNN
+F 1 "1u" H 2406 3915 40  0000 L CNN
+F 2 "" H 2438 3850 30  0000 C CNN
+F 3 "" H 2400 4000 60  0000 C CNN
+	1    2400 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 54A9C162
+P 2900 4000
+F 0 "R?" V 2980 4000 40  0000 C CNN
+F 1 "390" V 2907 4001 40  0000 C CNN
+F 2 "" V 2830 4000 30  0000 C CNN
+F 3 "" H 2900 4000 30  0000 C CNN
+	1    2900 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C?
+U 1 1 54A9C16F
+P 3250 4300
+F 0 "C?" H 3250 4400 40  0000 L CNN
+F 1 "470p" H 3256 4215 40  0000 L CNN
+F 2 "" H 3288 4150 30  0000 C CNN
+F 3 "" H 3250 4300 60  0000 C CNN
+	1    3250 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 54A9C177
+P 3500 4350
+F 0 "R?" V 3580 4350 40  0000 C CNN
+F 1 "24k" V 3507 4351 40  0000 C CNN
+F 2 "" V 3430 4350 30  0000 C CNN
+F 3 "" H 3500 4350 30  0000 C CNN
+	1    3500 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P?
+U 1 1 54A9C18A
+P 1600 4100
+F 0 "P?" V 1550 4100 40  0000 C CNN
+F 1 "CONN_2" V 1650 4100 40  0000 C CNN
+F 2 "" H 1600 4100 60  0000 C CNN
+F 3 "" H 1600 4100 60  0000 C CNN
+	1    1600 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 54A9C1CF
+P 6850 4150
+F 0 "R?" V 6930 4150 40  0000 C CNN
+F 1 "2.2" V 6857 4151 40  0000 C CNN
+F 2 "" V 6780 4150 30  0000 C CNN
+F 3 "" H 6850 4150 30  0000 C CNN
+	1    6850 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 54A9C1DE
+P 6850 4650
+F 0 "C?" H 6850 4750 40  0000 L CNN
+F 1 "100n" H 6856 4565 40  0000 L CNN
+F 2 "" H 6888 4500 30  0000 C CNN
+F 3 "" H 6850 4650 60  0000 C CNN
+	1    6850 4650
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
