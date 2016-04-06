@@ -1,4 +1,4 @@
-update=dim. 14 févr. 2016 19:33:34 CET
+update=mer. 06 avril 2016 17:50:09 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,9 +23,11 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=/home/blobby/kicad
+LibDir=../kicad_lib
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,5 +60,3 @@ LibName28=contrib
 LibName29=valves
 LibName30=BancGeo-cache
 LibName31=YameLib
-[general]
-version=1
