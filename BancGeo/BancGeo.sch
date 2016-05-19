@@ -832,7 +832,7 @@ F 3 "" H 4650 4650 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 4150 4650 0    60   ~ 0
-+Vref1
++Vref2
 $Comp
 L R R11
 U 1 1 56BA8C06
@@ -3023,7 +3023,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 1050 4300 1050
 Wire Wire Line
-	4700 900  4700 1050
+	4700 900  4700 1150
 Wire Wire Line
 	4700 1050 4600 1050
 Wire Wire Line
@@ -3100,4 +3100,37 @@ Wire Wire Line
 	13000 1650 13000 1700
 Wire Wire Line
 	13000 1700 12950 1700
+$Comp
+L C C36
+U 1 1 573E302E
+P 4700 1300
+F 0 "C36" H 4725 1400 50  0000 L CNN
+F 1 "100n" H 4725 1200 50  0000 L CNN
+F 2 "Yame_library:SM0603-MR" H 4738 1150 30  0001 C CNN
+F 3 "" H 4700 1300 60  0000 C CNN
+	1    4700 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR070
+U 1 1 573E3034
+P 4700 1550
+F 0 "#PWR070" H 4700 1300 50  0001 C CNN
+F 1 "GND" H 4700 1400 50  0000 C CNN
+F 2 "" H 4700 1550 60  0000 C CNN
+F 3 "" H 4700 1550 60  0000 C CNN
+	1    4700 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 1450 4700 1550
+Connection ~ 4700 1050
+Text Label 5700 8000 0    60   ~ 0
+TR_Low_Side
+Text Label 5700 7300 0    60   ~ 0
+TR_High_Side
+Text Label 6350 7400 0    60   ~ 0
+Self_Out_2
+Text Label 6850 7900 0    60   ~ 0
+Self_Out_1
 $EndSCHEMATC
