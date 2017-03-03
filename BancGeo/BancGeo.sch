@@ -89,17 +89,6 @@ F 3 "" H 1700 6850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCP23008-QFN_PCKG U9
-U 1 1 56A54FC2
-P 12350 1650
-F 0 "U9" H 12000 2350 60  0000 C CNN
-F 1 "MCP23008-QFN_PCKG" H 12900 1050 60  0000 C CNN
-F 2 "Housings_DFN_QFN:QFN-20-1EP_4x4mm_Pitch0.5mm" H 12350 1650 60  0001 C CNN
-F 3 "" H 12350 1650 60  0000 C CNN
-	1    12350 1650
-	1    0    0    -1  
-$EndComp
-$Comp
 L N-MOS_SOT23 Q3
 U 1 1 56B7BD68
 P 5600 7700
@@ -729,8 +718,6 @@ F 3 "" H 1800 5800 30  0000 C CNN
 $EndComp
 Text Label 3100 650  0    60   ~ 0
 +Vref1
-Text Label 1500 5000 0    60   ~ 0
-+Vref1
 $Comp
 L GND #PWR022
 U 1 1 56B9CD48
@@ -829,8 +816,6 @@ F 3 "" H 4650 4650 30  0000 C CNN
 	1    4650 4650
 	0    1    1    0   
 $EndComp
-Text Label 4150 4650 0    60   ~ 0
-+Vref2
 $Comp
 L R R11
 U 1 1 56BA8C06
@@ -2252,7 +2237,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 10800 1550 9800
 Wire Wire Line
-	3100 10200 3100 10100
+	3100 10100 3100 10200
 Wire Wire Line
 	2900 10100 2900 10200
 Wire Wire Line
@@ -3353,4 +3338,70 @@ Wire Wire Line
 	6200 5150 6650 5150
 Connection ~ 6600 5600
 Connection ~ 6600 5150
+Text Label 6300 1200 0    60   ~ 0
+/MCLR
+Text Label 6300 1000 0    60   ~ 0
+ICSPCLK
+Text Label 6300 900  0    60   ~ 0
+ICSPDATA
+$Comp
+L R R?
+U 1 1 58B982F4
+P 9350 2050
+F 0 "R?" V 9430 2050 50  0000 C CNN
+F 1 "2.2k" V 9350 2050 50  0000 C CNN
+F 2 "" V 9280 2050 50  0000 C CNN
+F 3 "" H 9350 2050 50  0000 C CNN
+	1    9350 2050
+	1    0    0    -1  
+$EndComp
+Text Label 9250 1800 0    60   ~ 0
++5V
+Wire Wire Line
+	9250 1800 9350 1800
+Wire Wire Line
+	9350 1800 9350 1900
+$Comp
+L R R?
+U 1 1 58B98A00
+P 9600 2050
+F 0 "R?" V 9680 2050 50  0000 C CNN
+F 1 "2.2k" V 9600 2050 50  0000 C CNN
+F 2 "" V 9530 2050 50  0000 C CNN
+F 3 "" H 9600 2050 50  0000 C CNN
+	1    9600 2050
+	1    0    0    -1  
+$EndComp
+Text Label 9100 2300 0    60   ~ 0
+SCL
+Text Label 9800 2300 0    60   ~ 0
+SDA
+Wire Wire Line
+	9100 2300 9350 2300
+Wire Wire Line
+	9600 2300 9950 2300
+Wire Wire Line
+	9350 2300 9350 2200
+Wire Wire Line
+	9600 2200 9600 2300
+Wire Wire Line
+	9350 1850 9600 1850
+Wire Wire Line
+	9600 1850 9600 1900
+Connection ~ 9350 1850
+Text Label 1500 5000 0    60   ~ 0
++5V
+Text Label 4150 4650 0    60   ~ 0
++5V
+$Comp
+L MCP23008-QFN_PCKG U?
+U 1 1 58B97AC8
+P 12350 1650
+F 0 "U?" H 12000 2350 60  0000 C CNN
+F 1 "MCP23008-QFN_PCKG" H 12900 1050 60  0000 C CNN
+F 2 "" H 12350 1650 60  0000 C CNN
+F 3 "" H 12350 1650 60  0000 C CNN
+	1    12350 1650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
