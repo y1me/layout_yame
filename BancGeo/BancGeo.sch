@@ -1475,19 +1475,19 @@ F 3 "" H 6300 1350 60  0000 C CNN
 $EndComp
 Text Label 2250 6850 0    60   ~ 0
 Vtemp
-Text Label 6350 2550 0    60   ~ 0
+Text Label 8300 2150 0    60   ~ 0
 Vtemp
 Text Label 4700 9650 0    60   ~ 0
 Vsense
-Text Label 6400 2950 0    60   ~ 0
+Text Label 8250 2350 0    60   ~ 0
 Vsense
 Text Label 11500 1400 0    60   ~ 0
 SCL
 Text Label 11500 1550 0    60   ~ 0
 SDA
-Text Label 8400 2150 0    60   ~ 0
+Text Label 6350 2550 0    60   ~ 0
 SCL
-Text Label 8400 2350 0    60   ~ 0
+Text Label 6400 2950 0    60   ~ 0
 SDA
 Text Label 8400 2950 0    60   ~ 0
 Tx_µC
