@@ -1,4 +1,4 @@
-update=sam. 18 févr. 2017 18:07:20 CET
+update=mar. 08 août 2017 14:34:58 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -37,7 +37,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=../kicad_lib
+LibDir=../kicad_lib;../../kicad-library/library/symbols
 [eeschema/libraries]
 LibName1=BancGeo-rescue
 LibName2=power
@@ -71,3 +71,5 @@ LibName29=contrib
 LibName30=valves
 LibName31=BancGeo-cache
 LibName32=YameLib
+LibName33=/home/blobby/kicad-library/library/bbd
+LibName34=/home/blobby/kicad-library/library/texas
