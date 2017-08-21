@@ -33,7 +33,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -51,4 +51,12 @@ F1 "Filter_Out.sch" 60
 $EndSheet
 Text Notes 8600 2350 0    79   ~ 0
 Filter Analog out
+$Sheet
+S 8250 3250 1450 850 
+U 599B5101
+F0 "DigitalCv_DAC" 60
+F1 "DigitalCv_DAC.sch" 60
+$EndSheet
+Text Notes 8550 3900 0    79   ~ 0
+Digital \nsource converter\n &\nDAC
 $EndSCHEMATC
