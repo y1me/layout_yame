@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:YameLib
+LIBS:DAC_Analog-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
