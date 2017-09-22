@@ -60,4 +60,15 @@ F1 "DigitalCv_DAC.sch" 60
 $EndSheet
 Text Notes 8550 3900 0    79   ~ 0
 Digital \nsource converter\n &\nDAC
+$Comp
+L ISO154x U?
+U 1 1 59C5CEDC
+P 4850 4050
+F 0 "U?" H 4600 4500 60  0000 C CNN
+F 1 "ISO154x" H 4950 3600 60  0000 C CNN
+F 2 "" H 4850 4050 60  0001 C CNN
+F 3 "" H 4850 4050 60  0001 C CNN
+	1    4850 4050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
