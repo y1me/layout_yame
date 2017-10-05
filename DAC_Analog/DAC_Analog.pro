@@ -1,4 +1,4 @@
-update=lun. 21 août 2017 12:17:37 CEST
+update=jeu. 05 oct. 2017 16:08:53 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,4 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/home/blobby/layout_yame/kicad_lib/YameLib
+LibName30=YameLib
