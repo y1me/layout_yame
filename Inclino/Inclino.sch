@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Inclino-rescue
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -32,7 +33,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:YameLib
-LIBS:Inclino-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
@@ -48,7 +48,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_01X05 P1
+L Conn_01x05 P1
 U 1 1 59D25512
 P 6100 6550
 F 0 "P1" H 6100 6850 50  0000 C CNN
