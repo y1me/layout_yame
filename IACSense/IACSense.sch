@@ -899,9 +899,9 @@ Text Label 6850 2050 0    60   ~ 0
 SCL
 Text Label 6850 2350 0    60   ~ 0
 SDA
-Text Label 9000 2100 0    60   ~ 0
+Text Label 8550 2100 0    60   ~ 0
 SCL
-Text Label 9000 2500 0    60   ~ 0
+Text Label 8550 2500 0    60   ~ 0
 SDA
 $Comp
 L GND #PWR29
@@ -1251,7 +1251,7 @@ Wire Wire Line
 Wire Wire Line
 	10000 1050 10000 1250
 Wire Wire Line
-	9000 2100 9350 2100
+	8550 2100 9000 2100
 Wire Wire Line
 	14950 5950 14950 6050
 Wire Wire Line
@@ -1333,7 +1333,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 4150 8650 4150
 Wire Wire Line
-	9350 2500 9000 2500
+	8550 2500 9000 2500
 Wire Wire Line
 	10200 5350 10650 5350
 $Comp
@@ -1941,24 +1941,8 @@ F 3 "" H 2600 4600 30  0000 C CNN
 	1    2600 4600
 	1    0    0    -1  
 $EndComp
-$Comp
-L C C10
-U 1 1 59DE78F2
-P 1900 4600
-F 0 "C10" H 1925 4700 50  0000 L CNN
-F 1 "100n" H 1925 4500 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L16.5mm_W10.7mm_P15.00mm_MKT" H 1938 4450 50  0001 C CNN
-F 3 "" H 1900 4600 50  0001 C CNN
-	1    1900 4600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	1900 4250 1900 4450
-Connection ~ 1900 4250
-Wire Wire Line
-	1900 4750 1900 4900
-Wire Wire Line
-	1900 4900 2600 4900
+	1600 4900 2600 4900
 Wire Wire Line
 	2600 4750 2600 5300
 Wire Wire Line
@@ -1970,7 +1954,7 @@ U 1 1 59DE8E56
 P 1600 4600
 F 0 "C3" H 1625 4700 50  0000 L CNN
 F 1 "100n" H 1625 4500 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L11.0mm_W4.2mm_P10.00mm_MKT" H 1638 4450 50  0001 C CNN
+F 2 "Capacitors_THT:C_Rect_L13.0mm_W6.0mm_P10.00mm_FKS3_FKP3_MKS4" H 1638 4450 50  0001 C CNN
 F 3 "" H 1600 4600 50  0001 C CNN
 	1    1600 4600
 	1    0    0    -1  
@@ -1978,10 +1962,7 @@ $EndComp
 Wire Wire Line
 	1600 4250 1600 4450
 Wire Wire Line
-	1600 4750 1600 4850
-Wire Wire Line
-	1600 4850 1900 4850
-Connection ~ 1900 4850
+	1600 4750 1600 4900
 Text Label 7150 3100 0    60   ~ 0
 ZCD
 Text Label 10800 2100 0    60   ~ 0
@@ -2058,4 +2039,30 @@ F 3 "" V 2300 4250 50  0001 C CNN
 	1    2300 4250
 	0    1    -1   0   
 $EndComp
+$Comp
+L R R16
+U 1 1 59E5209E
+P 9150 2500
+F 0 "R16" V 9230 2500 50  0000 C CNN
+F 1 "R" V 9150 2500 50  0000 C CNN
+F 2 "Yame_library:SM0201-MR" V 9080 2500 50  0001 C CNN
+F 3 "" H 9150 2500 50  0001 C CNN
+	1    9150 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R15
+U 1 1 59E522A4
+P 9150 2100
+F 0 "R15" V 9230 2100 50  0000 C CNN
+F 1 "R" V 9150 2100 50  0000 C CNN
+F 2 "Yame_library:SM0201-MR" V 9080 2100 50  0001 C CNN
+F 3 "" H 9150 2100 50  0001 C CNN
+	1    9150 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9300 2100 9350 2100
+Wire Wire Line
+	9300 2500 9350 2500
 $EndSCHEMATC
