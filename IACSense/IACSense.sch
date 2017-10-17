@@ -1007,8 +1007,6 @@ F 3 "" H 2450 2000 50  0001 C CNN
 $EndComp
 Text Label 1950 3300 0    60   ~ 0
 Neutral
-Text Label 10750 1700 0    60   ~ 0
-Vtemp
 $Comp
 L FILTER FB6
 U 1 1 59D565F4
@@ -1270,8 +1268,6 @@ Wire Wire Line
 	6750 2350 7550 2350
 Wire Wire Line
 	7550 2350 7550 2000
-Wire Wire Line
-	10700 1700 10950 1700
 Wire Wire Line
 	10700 1900 10950 1900
 Wire Wire Line
@@ -2065,4 +2061,17 @@ Wire Wire Line
 	9300 2100 9350 2100
 Wire Wire Line
 	9300 2500 9350 2500
+$Comp
+L CONN_01X01 P?
+U 1 1 59E6384E
+P 11150 1700
+F 0 "P?" H 11150 1800 50  0000 C CNN
+F 1 "Test" V 11250 1700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.00mm" H 11150 1700 60  0001 C CNN
+F 3 "" H 11150 1700 60  0000 C CNN
+	1    11150 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10700 1700 10950 1700
 $EndSCHEMATC
