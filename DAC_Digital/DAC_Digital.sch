@@ -1736,8 +1736,8 @@ F 3 "" H 15700 4850 50  0001 C CNN
 	1    15700 4850
 	-1   0    0    -1  
 $EndComp
-Text Label 15350 4450 0    60   ~ 0
-VDD_5V
+Text Label 15050 4450 0    60   ~ 0
+VDD_5V_USB1
 $Comp
 L Conn_01x04 J7
 U 1 1 59D9DEC2
@@ -3386,7 +3386,7 @@ Wire Wire Line
 Wire Wire Line
 	15150 4650 15700 4650
 Wire Wire Line
-	15700 4450 15350 4450
+	15050 4450 15700 4450
 Wire Wire Line
 	16700 5500 16700 5600
 Wire Wire Line
