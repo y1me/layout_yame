@@ -143,13 +143,13 @@ $EndComp
 $Comp
 L Conn_01x04 J5
 U 1 1 59C97424
-P 1300 3800
-F 0 "J5" H 1300 4000 50  0000 C CNN
-F 1 "I2C_IN" H 1300 3500 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 1300 3800 50  0001 C CNN
-F 3 "" H 1300 3800 50  0001 C CNN
-	1    1300 3800
-	-1   0    0    1   
+P 900 3700
+F 0 "J5" H 900 3900 50  0000 C CNN
+F 1 "I2C_IN" H 900 3400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 900 3700 50  0001 C CNN
+F 3 "" H 900 3700 50  0001 C CNN
+	1    900  3700
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Conn_01x02 J6
@@ -258,25 +258,15 @@ Text Label 2950 3450 0    60   ~ 0
 Wire Wire Line
 	2900 3450 3700 3450
 Wire Wire Line
-	1500 3600 1650 3600
+	1100 3600 1650 3600
 Wire Wire Line
 	1650 3600 1650 3450
 Wire Wire Line
 	1650 3450 1900 3450
 Wire Wire Line
-	1500 3700 1800 3700
+	1100 3800 1800 3800
 Wire Wire Line
-	1800 3700 1800 3650
-Wire Wire Line
-	1800 3650 1900 3650
-Wire Wire Line
-	1500 3800 1800 3800
-Wire Wire Line
-	1800 3800 1800 3850
-Wire Wire Line
-	1800 3850 1900 3850
-Wire Wire Line
-	1500 3900 1650 3900
+	1100 3900 1650 3900
 Wire Wire Line
 	1650 3900 1650 4050
 Wire Wire Line
@@ -531,7 +521,7 @@ U 1 1 59CC96F6
 P 4450 5450
 F 0 "C4" H 4475 5550 50  0000 L CNN
 F 1 "100u" H 4475 5350 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_Tantal_D8.0mm_P2.50mm" H 4488 5300 50  0001 C CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-C_EIA-6032-28_Hand" H 4488 5300 50  0001 C CNN
 F 3 "" H 4450 5450 50  0001 C CNN
 	1    4450 5450
 	1    0    0    -1  
@@ -542,7 +532,7 @@ U 1 1 59CCA036
 P 5200 5450
 F 0 "C6" H 5225 5550 50  0000 L CNN
 F 1 "100u" H 5225 5350 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_Tantal_D8.0mm_P2.50mm" H 5238 5300 50  0001 C CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-C_EIA-6032-28_Hand" H 5238 5300 50  0001 C CNN
 F 3 "" H 5200 5450 50  0001 C CNN
 	1    5200 5450
 	-1   0    0    -1  
@@ -553,7 +543,7 @@ U 1 1 59CCA13A
 P 5950 5450
 F 0 "C7" H 5975 5550 50  0000 L CNN
 F 1 "100u" H 5975 5350 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_Tantal_D8.0mm_P2.50mm" H 5988 5300 50  0001 C CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-C_EIA-6032-28_Hand" H 5988 5300 50  0001 C CNN
 F 3 "" H 5950 5450 50  0001 C CNN
 	1    5950 5450
 	-1   0    0    -1  
@@ -564,7 +554,7 @@ U 1 1 59CCA245
 P 5150 6300
 F 0 "C5" H 5175 6400 50  0000 L CNN
 F 1 "100u" H 5175 6200 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_Tantal_D8.0mm_P2.50mm" H 5188 6150 50  0001 C CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-C_EIA-6032-28_Hand" H 5188 6150 50  0001 C CNN
 F 3 "" H 5150 6300 50  0001 C CNN
 	1    5150 6300
 	-1   0    0    -1  
@@ -575,7 +565,7 @@ U 1 1 59CCA371
 P 4400 6300
 F 0 "C3" H 4425 6400 50  0000 L CNN
 F 1 "100u" H 4425 6200 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_Tantal_D8.0mm_P2.50mm" H 4438 6150 50  0001 C CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-C_EIA-6032-28_Hand" H 4438 6150 50  0001 C CNN
 F 3 "" H 4400 6300 50  0001 C CNN
 	1    4400 6300
 	-1   0    0    -1  
@@ -696,4 +686,22 @@ Text Label 7750 3850 0    60   ~ 0
 +3.3V_rcv
 Wire Wire Line
 	7750 3850 8250 3850
+Text Label 1150 3900 0    60   ~ 0
+gnd_dig
+Text Label 1150 3700 0    60   ~ 0
+scl_dig
+Text Label 1150 3800 0    60   ~ 0
+sda_dig
+Text Label 1150 3600 0    60   ~ 0
+vcc_dig
+Wire Wire Line
+	1100 3700 1850 3700
+Wire Wire Line
+	1850 3700 1850 3850
+Wire Wire Line
+	1850 3850 1900 3850
+Wire Wire Line
+	1800 3800 1800 3650
+Wire Wire Line
+	1800 3650 1900 3650
 $EndSCHEMATC

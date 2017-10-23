@@ -2145,4 +2145,48 @@ Text HLabel 1750 3400 0    60   Input ~ 0
 IOUTL_N
 Text HLabel 1750 1500 0    60   Input ~ 0
 GND
+$Comp
+L Conn_01x01 J10
+U 1 1 59EDF80A
+P 8650 1850
+F 0 "J10" H 8650 1950 50  0000 C CNN
+F 1 "Fix" H 8650 1750 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 8650 1850 50  0001 C CNN
+F 3 "" H 8650 1850 50  0001 C CNN
+	1    8650 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J12
+U 1 1 59EDFC7C
+P 9000 1850
+F 0 "J12" H 9000 1950 50  0000 C CNN
+F 1 "Fix" H 9000 1750 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 9000 1850 50  0001 C CNN
+F 3 "" H 9000 1850 50  0001 C CNN
+	1    9000 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J11
+U 1 1 59EDFCEF
+P 8650 2150
+F 0 "J11" H 8650 2250 50  0000 C CNN
+F 1 "Fix" H 8650 2050 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 8650 2150 50  0001 C CNN
+F 3 "" H 8650 2150 50  0001 C CNN
+	1    8650 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J13
+U 1 1 59EDFCF5
+P 9000 2150
+F 0 "J13" H 9000 2250 50  0000 C CNN
+F 1 "Fix" H 9000 2050 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 9000 2150 50  0001 C CNN
+F 3 "" H 9000 2150 50  0001 C CNN
+	1    9000 2150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
