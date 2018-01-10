@@ -30,6 +30,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:BancGeo-cache
 LIBS:YameLib
+LIBS:bbd
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693

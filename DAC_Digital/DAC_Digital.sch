@@ -1001,12 +1001,12 @@ $EndComp
 $Comp
 L Conn_01x04 J5
 U 1 1 59D63510
-P 9700 11900
-F 0 "J5" H 9700 12100 50  0000 C CNN
-F 1 "USB0" H 9700 11600 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 9700 11900 50  0001 C CNN
-F 3 "" H 9700 11900 50  0001 C CNN
-	1    9700 11900
+P 9450 11900
+F 0 "J5" H 9450 12100 50  0000 C CNN
+F 1 "USB0" H 9450 11600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 9450 11900 50  0001 C CNN
+F 3 "" H 9450 11900 50  0001 C CNN
+	1    9450 11900
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1536,10 +1536,6 @@ F 3 "" H 17950 11200 50  0001 C CNN
 	1    17950 11200
 	1    0    0    -1  
 $EndComp
-Text Label 15450 10850 0    60   ~ 0
-Vanlg
-Text Label 15450 12400 0    60   ~ 0
-Vanlg
 $Comp
 L GNDD #PWR29
 U 1 1 59D64FAB
@@ -3026,15 +3022,13 @@ Wire Wire Line
 Wire Wire Line
 	10600 12250 10950 12250
 Wire Wire Line
-	10600 11800 9900 11800
+	10600 11800 9650 11800
 Wire Wire Line
-	9900 11900 10800 11900
+	9650 11900 10800 11900
 Wire Wire Line
 	10800 11650 10800 12000
 Wire Wire Line
 	10800 12000 10950 12000
-Wire Wire Line
-	9900 12000 9900 12100
 Connection ~ 10800 11900
 Wire Wire Line
 	10500 11250 10800 11250
@@ -3042,7 +3036,6 @@ Wire Wire Line
 	10800 11250 10800 11350
 Wire Wire Line
 	9950 11300 9950 11700
-Connection ~ 9950 11700
 Wire Wire Line
 	10400 11700 10400 12850
 Wire Wire Line
@@ -3076,8 +3069,6 @@ Connection ~ 12100 14450
 Wire Wire Line
 	12250 14400 12250 14450
 Connection ~ 12250 14450
-Wire Wire Line
-	9900 11700 10400 11700
 Wire Wire Line
 	10850 12650 11400 12650
 Wire Wire Line
@@ -3958,4 +3949,22 @@ F 3 "" H 5000 11750 50  0001 C CNN
 	1    5000 11750
 	1    0    0    -1  
 $EndComp
+Text Label 15450 10850 0    50   ~ 10
++5v_Dev
+Text Label 15450 12400 0    50   ~ 10
++5v_Dev
+Wire Wire Line
+	9650 12000 9900 12000
+Wire Wire Line
+	9900 12000 9900 12100
+Wire Wire Line
+	9950 11700 10400 11700
+Text Label 9400 11450 0    60   ~ 0
+VDD_5V
+Wire Wire Line
+	9400 11450 9750 11450
+Wire Wire Line
+	9750 11450 9750 11700
+Wire Wire Line
+	9750 11700 9650 11700
 $EndSCHEMATC
