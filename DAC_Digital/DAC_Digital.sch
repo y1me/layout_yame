@@ -1,102 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:microchip_pic18mcu
-LIBS:74xgxx
-LIBS:ac-dc
-LIBS:actel
-LIBS:allegro
-LIBS:Altera
-LIBS:analog_devices
-LIBS:battery_management
-LIBS:bbd
-LIBS:bosch
-LIBS:brooktre
-LIBS:cmos_ieee
-LIBS:dc-dc
-LIBS:diode
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic_symbols
-LIBS:hc11
-LIBS:infineon
-LIBS:intersil
-LIBS:ir
-LIBS:Lattice
-LIBS:leds
-LIBS:LEM
-LIBS:logic_programmable
-LIBS:maxim
-LIBS:mechanical
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic24mcu
-LIBS:microchip_pic32mcu
-LIBS:modules
-LIBS:motor_drivers
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:Oscillators
-LIBS:powerint
-LIBS:Power_Management
-LIBS:pspice
-LIBS:references
-LIBS:rfcom
-LIBS:RFSolutions
-LIBS:sensors
-LIBS:silabs
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:transf
-LIBS:triac_thyristor
-LIBS:ttl_ieee
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:zetex
-LIBS:Zilog
-LIBS:YameLib
+EESchema Schematic File Version 4
 LIBS:DAC_Digital-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -111,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L USB2514B U6
+L YameLib:USB2514B U6
 U 1 1 59D398CC
 P 13550 5750
 F 0 "U6" H 12650 7250 60  0000 C CNN
@@ -125,7 +29,7 @@ F 6 "~" H 14000 5800 60  0001 C CNN "Tolerance (%)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CMJ206T32.768KDZF-UT X1
+L YameLib:CMJ206T32.768KDZF-UT X1
 U 1 1 59D398CD
 P 11300 6950
 F 0 "X1" H 11150 7200 60  0000 C CNN
@@ -139,7 +43,7 @@ F 6 "~" H 11300 6950 60  0001 C CNN "Tolerance (%)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-EPM_V5 R25
+L DAC_Digital-rescue:R-RESCUE-EPM_V5 R25
 U 1 1 59D398CE
 P 11600 3650
 F 0 "R25" V 11680 3650 40  0000 C CNN
@@ -153,7 +57,7 @@ F 6 "~" H 11600 3650 30  0001 C CNN "Tolerance (%)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-EPM_V5 R23
+L DAC_Digital-rescue:R-RESCUE-EPM_V5 R23
 U 1 1 59D398D4
 P 11500 5450
 F 0 "R23" V 11580 5450 40  0000 C CNN
@@ -167,7 +71,7 @@ F 6 "~" H 11500 5450 30  0001 C CNN "Tolerance (%)"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R-RESCUE-EPM_V5 R21
+L DAC_Digital-rescue:R-RESCUE-EPM_V5 R21
 U 1 1 59D398D6
 P 11500 5000
 F 0 "R21" V 11580 5000 40  0000 C CNN
@@ -181,7 +85,7 @@ F 6 "~" H 11500 5000 30  0001 C CNN "Tolerance (%)"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R-RESCUE-EPM_V5 R22
+L DAC_Digital-rescue:R-RESCUE-EPM_V5 R22
 U 1 1 59D398D9
 P 11500 5300
 F 0 "R22" V 11580 5300 40  0000 C CNN
@@ -195,7 +99,7 @@ F 6 "~" H 11500 5300 30  0001 C CNN "Tolerance (%)"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R-RESCUE-EPM_V5 R24
+L DAC_Digital-rescue:R-RESCUE-EPM_V5 R24
 U 1 1 59D398DB
 P 11500 5900
 F 0 "R24" V 11580 5900 40  0000 C CNN
@@ -210,7 +114,7 @@ F 6 "~" H 11500 5900 30  0001 C CNN "Tolerance (%)"
 $EndComp
 NoConn ~ 12350 7150
 $Comp
-L C-RESCUE-EPM_V5 C18
+L DAC_Digital-rescue:C-RESCUE-EPM_V5 C18
 U 1 1 59D398E0
 P 11600 4200
 F 0 "C18" H 11600 4300 40  0000 L CNN
@@ -224,7 +128,7 @@ F 6 "10" H 11600 4200 60  0001 C CNN "Tolerance (%)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-EPM_V5 C17
+L DAC_Digital-rescue:C-RESCUE-EPM_V5 C17
 U 1 1 59D398E2
 P 10900 7400
 F 0 "C17" H 10900 7500 40  0000 L CNN
@@ -238,7 +142,7 @@ F 6 "50" H 10900 7400 60  0001 C CNN "Tolerance (%)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-EPM_V5 C19
+L DAC_Digital-rescue:C-RESCUE-EPM_V5 C19
 U 1 1 59D398E3
 P 11750 7400
 F 0 "C19" H 11750 7500 40  0000 L CNN
@@ -252,7 +156,7 @@ F 6 "50" H 11750 7400 60  0001 C CNN "Tolerance (%)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-EPM_V5 R26
+L DAC_Digital-rescue:R-RESCUE-EPM_V5 R26
 U 1 1 59D398E6
 P 13450 7850
 F 0 "R26" V 13530 7850 40  0000 C CNN
@@ -266,7 +170,7 @@ F 6 "~" H 13450 7850 30  0001 C CNN "Tolerance (%)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-EPM_V5 C27
+L DAC_Digital-rescue:C-RESCUE-EPM_V5 C27
 U 1 1 59D398E7
 P 13650 7850
 F 0 "C27" H 13650 7950 40  0000 L CNN
@@ -280,7 +184,7 @@ F 6 "10" H 13650 7850 60  0001 C CNN "Tolerance (%)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-EPM_V5 C28
+L DAC_Digital-rescue:C-RESCUE-EPM_V5 C28
 U 1 1 59D398E8
 P 13850 7850
 F 0 "C28" H 13850 7950 40  0000 L CNN
@@ -294,7 +198,7 @@ F 6 "10" H 13850 7850 60  0001 C CNN "Tolerance (%)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-EPM_V5 C32
+L DAC_Digital-rescue:C-RESCUE-EPM_V5 C32
 U 1 1 59D398ED
 P 14650 3500
 F 0 "C32" H 14650 3600 40  0000 L CNN
@@ -308,7 +212,7 @@ F 6 "10" H 14650 3500 60  0001 C CNN "Tolerance (%)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-EPM_V5 C31
+L DAC_Digital-rescue:C-RESCUE-EPM_V5 C31
 U 1 1 59D398F0
 P 14450 3500
 F 0 "C31" H 14450 3600 40  0000 L CNN
@@ -322,7 +226,7 @@ F 6 "10" H 14450 3500 60  0001 C CNN "Tolerance (%)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-EPM_V5 C30
+L DAC_Digital-rescue:C-RESCUE-EPM_V5 C30
 U 1 1 59D398F3
 P 14250 3500
 F 0 "C30" H 14250 3600 40  0000 L CNN
@@ -336,7 +240,7 @@ F 6 "10" H 14250 3500 60  0001 C CNN "Tolerance (%)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-EPM_V5 C37
+L DAC_Digital-rescue:C-RESCUE-EPM_V5 C37
 U 1 1 59D398F6
 P 15350 3500
 F 0 "C37" H 15350 3600 40  0000 L CNN
@@ -350,7 +254,7 @@ F 6 "10" H 15350 3500 60  0001 C CNN "Tolerance (%)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-EPM_V5 C36
+L DAC_Digital-rescue:C-RESCUE-EPM_V5 C36
 U 1 1 59D398F9
 P 15150 3500
 F 0 "C36" H 15150 3600 40  0000 L CNN
@@ -364,7 +268,7 @@ F 6 "10" H 15150 3500 60  0001 C CNN "Tolerance (%)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-EPM_V5 C35
+L DAC_Digital-rescue:C-RESCUE-EPM_V5 C35
 U 1 1 59D398FC
 P 14950 3500
 F 0 "C35" H 14950 3600 40  0000 L CNN
@@ -402,7 +306,7 @@ NoConn ~ 12350 5950
 NoConn ~ 12350 5850
 NoConn ~ 12350 5750
 $Comp
-L C-RESCUE-EPM_V5 C25
+L DAC_Digital-rescue:C-RESCUE-EPM_V5 C25
 U 1 1 59D39901
 P 13500 8900
 F 0 "C25" H 13500 9000 40  0000 L CNN
@@ -416,7 +320,7 @@ F 6 "6.3" H 13500 8900 60  0001 C CNN "Tolerance (%)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x23_Odd_Even J14
+L DAC_Digital-rescue:Conn_02x23_Odd_Even J14
 U 1 1 59D3A598
 P 21350 3000
 F 0 "J14" H 21400 4200 50  0000 C CNN
@@ -427,7 +331,7 @@ F 3 "" H 21350 3000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Conn_02x23_Odd_Even J11
+L DAC_Digital-rescue:Conn_02x23_Odd_Even J11
 U 1 1 59D3A89C
 P 18250 3000
 F 0 "J11" H 18300 4200 50  0000 C CNN
@@ -438,7 +342,7 @@ F 3 "" H 18250 3000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L P-MOS_SOIC Q3
+L YameLib:P-MOS_SOIC Q3
 U 1 1 59D3D531
 P 7450 13300
 F 0 "Q3" H 7250 13350 50  0000 L BNN
@@ -452,7 +356,7 @@ F 6 "~" H 7450 13300 60  0001 C CNN "Tolerance (%)"
 	1    0    0    1   
 $EndComp
 $Comp
-L R-RESCUE-EPM_V5 R8
+L DAC_Digital-rescue:R-RESCUE-EPM_V5 R8
 U 1 1 59D3D532
 P 6700 12850
 F 0 "R8" V 6780 12850 40  0000 C CNN
@@ -466,7 +370,7 @@ F 6 "~" H 6700 12850 30  0001 C CNN "Tolerance (%)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-EPM_V5 R6
+L DAC_Digital-rescue:R-RESCUE-EPM_V5 R6
 U 1 1 59D3D534
 P 6300 14000
 F 0 "R6" V 6380 14000 40  0000 C CNN
@@ -484,7 +388,7 @@ Text Label 8100 13600 0    50   ~ 10
 Text Label 5800 13650 0    50   ~ 10
 Power_Dev
 $Comp
-L C C12
+L DAC_Digital-rescue:C C12
 U 1 1 59D3D53F
 P 8050 12600
 F 0 "C12" H 8075 12700 50  0000 L CNN
@@ -498,7 +402,7 @@ F 6 "16" H 8050 12600 60  0001 C CNN "Tolerance (%)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PCM2903C U4
+L YameLib:PCM2903C U4
 U 1 1 59D3FD00
 P 12100 12400
 F 0 "U4" H 12500 14000 60  0000 C CNN
@@ -509,7 +413,7 @@ F 3 "" H 13750 14300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PIC18F6722 U2
+L YameLib:PIC18F6722 U2
 U 1 1 59D4228A
 P 5950 5250
 F 0 "U2" H 4950 7150 50  0000 C CNN
@@ -520,7 +424,7 @@ F 3 "" H 5950 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR60
+L power:GNDD #PWR60
 U 1 1 59D4371D
 P 17250 1950
 F 0 "#PWR60" H 17250 1700 50  0001 C CNN
@@ -531,7 +435,7 @@ F 3 "" H 17250 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR70
+L power:GNDD #PWR70
 U 1 1 59D43779
 P 19200 1950
 F 0 "#PWR70" H 19200 1700 50  0001 C CNN
@@ -542,7 +446,7 @@ F 3 "" H 19200 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR74
+L power:GNDD #PWR74
 U 1 1 59D439CC
 P 22300 1950
 F 0 "#PWR74" H 22300 1700 50  0001 C CNN
@@ -553,7 +457,7 @@ F 3 "" H 22300 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR73
+L power:GNDD #PWR73
 U 1 1 59D43AFE
 P 20350 1950
 F 0 "#PWR73" H 20350 1700 50  0001 C CNN
@@ -564,7 +468,7 @@ F 3 "" H 20350 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR66
+L power:GNDD #PWR66
 U 1 1 59D43DB3
 P 17850 4250
 F 0 "#PWR66" H 17850 4000 50  0001 C CNN
@@ -575,7 +479,7 @@ F 3 "" H 17850 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR69
+L power:GNDD #PWR69
 U 1 1 59D43DDE
 P 18550 4250
 F 0 "#PWR69" H 18550 4000 50  0001 C CNN
@@ -642,7 +546,7 @@ AIN3
 Text Label 17550 3600 0    60   ~ 0
 AIN5
 $Comp
-L GNDD #PWR61
+L power:GNDD #PWR61
 U 1 1 59D454AD
 P 17350 3600
 F 0 "#PWR61" H 17350 3350 50  0001 C CNN
@@ -683,7 +587,7 @@ LRCK
 Text Label 19200 3400 0    60   ~ 0
 BCK
 $Comp
-L CS8406_2 U1
+L YameLib:CS8406_2 U1
 U 1 1 59D4C186
 P 3050 13050
 F 0 "U1" H 3500 12150 50  0000 C CNN
@@ -694,7 +598,7 @@ F 3 "" H 3050 13050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L_Core_Ferrite L1
+L DAC_Digital-rescue:L_Core_Ferrite L1
 U 1 1 59D4C965
 P 3050 11400
 F 0 "L1" V 3000 11400 50  0000 C CNN
@@ -705,7 +609,7 @@ F 3 "" H 3050 11400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R5
+L DAC_Digital-rescue:R R5
 U 1 1 59D4D51B
 P 3900 14000
 F 0 "R5" V 3980 14000 50  0000 C CNN
@@ -716,7 +620,7 @@ F 3 "" H 3900 14000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR1
+L power:GNDD #PWR1
 U 1 1 59D4DAC5
 P 1750 12850
 F 0 "#PWR1" H 1750 12600 50  0001 C CNN
@@ -727,7 +631,7 @@ F 3 "" H 1750 12850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R39
+L DAC_Digital-rescue:R R39
 U 1 1 59D4E0E6
 P 1450 12350
 F 0 "R39" V 1530 12350 50  0000 C CNN
@@ -738,7 +642,7 @@ F 3 "" H 1450 12350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C1
+L DAC_Digital-rescue:C C1
 U 1 1 59D4E2CD
 P 1750 12550
 F 0 "C1" H 1775 12650 50  0000 L CNN
@@ -749,7 +653,7 @@ F 3 "" H 1750 12550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L DAC_Digital-rescue:R R1
 U 1 1 59D4E87F
 P 1300 13000
 F 0 "R1" V 1380 13000 50  0000 C CNN
@@ -760,7 +664,7 @@ F 3 "" H 1300 13000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2
+L DAC_Digital-rescue:R R2
 U 1 1 59D4E967
 P 1300 13200
 F 0 "R2" V 1380 13200 50  0000 C CNN
@@ -771,7 +675,7 @@ F 3 "" H 1300 13200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R3
+L DAC_Digital-rescue:R R3
 U 1 1 59D4EA86
 P 1300 13400
 F 0 "R3" V 1380 13400 50  0000 C CNN
@@ -782,7 +686,7 @@ F 3 "" H 1300 13400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GNDD #PWR7
+L power:GNDD #PWR7
 U 1 1 59D4FE1F
 P 3900 14250
 F 0 "#PWR7" H 3900 14000 50  0001 C CNN
@@ -793,7 +697,7 @@ F 3 "" H 3900 14250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L DAC_Digital-rescue:C C3
 U 1 1 59D4FFDF
 P 3400 15000
 F 0 "C3" H 3425 15100 50  0000 L CNN
@@ -804,7 +708,7 @@ F 3 "" H 3400 15000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L DAC_Digital-rescue:C C2
 U 1 1 59D500C4
 P 2650 15000
 F 0 "C2" H 2675 15100 50  0000 L CNN
@@ -815,7 +719,7 @@ F 3 "" H 2650 15000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR4
+L power:GNDD #PWR4
 U 1 1 59D50136
 P 3400 14150
 F 0 "#PWR4" H 3400 13900 50  0001 C CNN
@@ -826,7 +730,7 @@ F 3 "" H 3400 14150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR2
+L power:GNDD #PWR2
 U 1 1 59D5097F
 P 2250 12050
 F 0 "#PWR2" H 2250 11800 50  0001 C CNN
@@ -859,7 +763,7 @@ VDD_5V
 Text Label 2650 14750 0    60   ~ 0
 VD
 $Comp
-L GNDD #PWR5
+L power:GNDD #PWR5
 U 1 1 59D58D8D
 P 3400 15250
 F 0 "#PWR5" H 3400 15000 50  0001 C CNN
@@ -870,7 +774,7 @@ F 3 "" H 3400 15250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR3
+L power:GNDD #PWR3
 U 1 1 59D58DBD
 P 2650 15250
 F 0 "#PWR3" H 2650 15000 50  0001 C CNN
@@ -889,7 +793,7 @@ Text Label 700  12950 0    50   ~ 10
 Text Label 950  12350 0    50   ~ 10
 +5v_Dev
 $Comp
-L R R10
+L DAC_Digital-rescue:R R10
 U 1 1 59D5B319
 P 3950 12650
 F 0 "R10" V 4030 12650 50  0000 C CNN
@@ -900,7 +804,7 @@ F 3 "" H 3950 12650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C5
+L DAC_Digital-rescue:C C5
 U 1 1 59D5B544
 P 4000 12850
 F 0 "C5" H 4025 12950 50  0000 L CNN
@@ -911,7 +815,7 @@ F 3 "" H 4000 12850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R11
+L DAC_Digital-rescue:R R11
 U 1 1 59D5B8A2
 P 7850 15250
 F 0 "R11" V 7930 15250 50  0000 C CNN
@@ -922,7 +826,7 @@ F 3 "" H 7850 15250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GNDD #PWR9
+L power:GNDD #PWR9
 U 1 1 59D5BA84
 P 4250 12900
 F 0 "#PWR9" H 4250 12650 50  0001 C CNN
@@ -933,7 +837,7 @@ F 3 "" H 4250 12900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR22
+L power:GNDD #PWR22
 U 1 1 59D5C150
 P 7850 15550
 F 0 "#PWR22" H 7850 15300 50  0001 C CNN
@@ -944,7 +848,7 @@ F 3 "" H 7850 15550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DA103C T1
+L YameLib:DA103C T1
 U 1 1 59D5C5E9
 P 8400 15250
 F 0 "T1" H 8400 15710 50  0000 C CNN
@@ -955,7 +859,7 @@ F 3 "" H 8400 15250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x02 J4
+L DAC_Digital-rescue:Conn_01x02 J4
 U 1 1 59D5CDDE
 P 9200 15200
 F 0 "J4" H 9200 15300 50  0000 C CNN
@@ -966,7 +870,7 @@ F 3 "" H 9200 15200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OPA2333xxD U7
+L DAC_Digital-rescue:OPA2333xxD U7
 U 1 1 59D5DF76
 P 15800 10400
 F 0 "U7" H 15800 10600 50  0000 L CNN
@@ -977,7 +881,7 @@ F 3 "" H 15800 10400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R19
+L DAC_Digital-rescue:R R19
 U 1 1 59D602DF
 P 11100 12000
 F 0 "R19" V 11180 12000 50  0000 C CNN
@@ -988,7 +892,7 @@ F 3 "" H 11100 12000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R20
+L DAC_Digital-rescue:R R20
 U 1 1 59D60728
 P 11100 12250
 F 0 "R20" V 11180 12250 50  0000 C CNN
@@ -999,7 +903,7 @@ F 3 "" H 11100 12250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Conn_01x04 J5
+L DAC_Digital-rescue:Conn_01x04 J5
 U 1 1 59D63510
 P 9450 11900
 F 0 "J5" H 9450 12100 50  0000 C CNN
@@ -1010,7 +914,7 @@ F 3 "" H 9450 11900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GNDD #PWR27
+L power:GNDD #PWR27
 U 1 1 59D64419
 P 9900 12100
 F 0 "#PWR27" H 9900 11850 50  0001 C CNN
@@ -1021,7 +925,7 @@ F 3 "" H 9900 12100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R18
+L DAC_Digital-rescue:R R18
 U 1 1 59D64884
 P 10800 11500
 F 0 "R18" V 10880 11500 50  0000 C CNN
@@ -1032,7 +936,7 @@ F 3 "" H 10800 11500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C14
+L DAC_Digital-rescue:C C14
 U 1 1 59D662F5
 P 10100 10300
 F 0 "C14" H 10125 10400 50  0000 L CNN
@@ -1043,7 +947,7 @@ F 3 "" H 10100 10300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR28
+L power:GNDD #PWR28
 U 1 1 59D662FB
 P 10100 10550
 F 0 "#PWR28" H 10100 10300 50  0001 C CNN
@@ -1054,7 +958,7 @@ F 3 "" H 10100 10550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R16
+L DAC_Digital-rescue:R R16
 U 1 1 59D67E05
 P 10400 13000
 F 0 "R16" V 10480 13000 50  0000 C CNN
@@ -1065,7 +969,7 @@ F 3 "" H 10400 13000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR31
+L power:GNDD #PWR31
 U 1 1 59D67F63
 P 10400 13250
 F 0 "#PWR31" H 10400 13000 50  0001 C CNN
@@ -1076,7 +980,7 @@ F 3 "" H 10400 13250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR40
+L power:GNDD #PWR40
 U 1 1 59D6892A
 P 12400 14500
 F 0 "#PWR40" H 12400 14250 50  0001 C CNN
@@ -1087,7 +991,7 @@ F 3 "" H 12400 14500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Crystal Y2
+L DAC_Digital-rescue:Crystal Y2
 U 1 1 59D691B3
 P 10550 14300
 F 0 "Y2" H 10550 14450 50  0000 C CNN
@@ -1098,7 +1002,7 @@ F 3 "" H 10550 14300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C15
+L DAC_Digital-rescue:C C15
 U 1 1 59D694B2
 P 10250 14600
 F 0 "C15" H 10275 14700 50  0000 L CNN
@@ -1109,7 +1013,7 @@ F 3 "" H 10250 14600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C16
+L DAC_Digital-rescue:C C16
 U 1 1 59D69802
 P 10800 14600
 F 0 "C16" H 10825 14700 50  0000 L CNN
@@ -1120,7 +1024,7 @@ F 3 "" H 10800 14600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR30
+L power:GNDD #PWR30
 U 1 1 59D6A215
 P 10250 14850
 F 0 "#PWR30" H 10250 14600 50  0001 C CNN
@@ -1131,7 +1035,7 @@ F 3 "" H 10250 14850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR32
+L power:GNDD #PWR32
 U 1 1 59D6A256
 P 10800 14850
 F 0 "#PWR32" H 10800 14600 50  0001 C CNN
@@ -1142,7 +1046,7 @@ F 3 "" H 10800 14850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R17
+L DAC_Digital-rescue:R R17
 U 1 1 59D6AA80
 P 10550 13950
 F 0 "R17" V 10630 13950 50  0000 C CNN
@@ -1153,7 +1057,7 @@ F 3 "" H 10550 13950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C20
+L DAC_Digital-rescue:C C20
 U 1 1 59D6BE5C
 P 11800 15300
 F 0 "C20" H 11825 15400 50  0000 L CNN
@@ -1164,7 +1068,7 @@ F 3 "" H 11800 15300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C21
+L DAC_Digital-rescue:C C21
 U 1 1 59D6C2C7
 P 12100 15300
 F 0 "C21" H 12125 15400 50  0000 L CNN
@@ -1175,7 +1079,7 @@ F 3 "" H 12100 15300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C22
+L DAC_Digital-rescue:C C22
 U 1 1 59D6C354
 P 12400 15300
 F 0 "C22" H 12425 15400 50  0000 L CNN
@@ -1186,7 +1090,7 @@ F 3 "" H 12400 15300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C23
+L DAC_Digital-rescue:C C23
 U 1 1 59D6C35A
 P 12700 15300
 F 0 "C23" H 12725 15400 50  0000 L CNN
@@ -1197,7 +1101,7 @@ F 3 "" H 12700 15300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L_Core_Ferrite L2
+L DAC_Digital-rescue:L_Core_Ferrite L2
 U 1 1 59D6CA0C
 P 12350 10050
 F 0 "L2" V 12300 10050 50  0000 C CNN
@@ -1210,7 +1114,7 @@ $EndComp
 Text Label 11800 10300 0    60   ~ 0
 Vanlg
 $Comp
-L C C24
+L DAC_Digital-rescue:C C24
 U 1 1 59D6EB21
 P 12950 15300
 F 0 "C24" H 12975 15400 50  0000 L CNN
@@ -1221,7 +1125,7 @@ F 3 "" H 12950 15300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR39
+L power:GNDD #PWR39
 U 1 1 59D6EC71
 P 11800 15650
 F 0 "#PWR39" H 11800 15400 50  0001 C CNN
@@ -1234,7 +1138,7 @@ $EndComp
 Text Label 11450 14950 0    60   ~ 0
 Vanlg
 $Comp
-L C C26
+L DAC_Digital-rescue:C C26
 U 1 1 59D71722
 P 13600 12400
 F 0 "C26" H 13625 12500 50  0000 L CNN
@@ -1245,7 +1149,7 @@ F 3 "" H 13600 12400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GNDD #PWR47
+L power:GNDD #PWR47
 U 1 1 59D71CC2
 P 13850 12450
 F 0 "#PWR47" H 13850 12200 50  0001 C CNN
@@ -1256,7 +1160,7 @@ F 3 "" H 13850 12450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C33
+L DAC_Digital-rescue:C C33
 U 1 1 59D73308
 P 14750 10400
 F 0 "C33" H 14775 10500 50  0000 L CNN
@@ -1267,7 +1171,7 @@ F 3 "" H 14750 10400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R27
+L DAC_Digital-rescue:R R27
 U 1 1 59D736C0
 P 15200 10400
 F 0 "R27" V 15280 10400 50  0000 C CNN
@@ -1278,7 +1182,7 @@ F 3 "" H 15200 10400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C38
+L DAC_Digital-rescue:C C38
 U 1 1 59D73D51
 P 15700 9800
 F 0 "C38" H 15725 9900 50  0000 L CNN
@@ -1289,7 +1193,7 @@ F 3 "" H 15700 9800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R29
+L DAC_Digital-rescue:R R29
 U 1 1 59D74117
 P 15550 9450
 F 0 "R29" V 15630 9450 50  0000 C CNN
@@ -1300,7 +1204,7 @@ F 3 "" H 15550 9450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R31
+L DAC_Digital-rescue:R R31
 U 1 1 59D7458B
 P 16400 10000
 F 0 "R31" V 16480 10000 50  0000 C CNN
@@ -1311,7 +1215,7 @@ F 3 "" H 16400 10000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R33
+L DAC_Digital-rescue:R R33
 U 1 1 59D74764
 P 16900 10000
 F 0 "R33" V 16980 10000 50  0000 C CNN
@@ -1322,7 +1226,7 @@ F 3 "" H 16900 10000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C41
+L DAC_Digital-rescue:C C41
 U 1 1 59D749E2
 P 16650 10400
 F 0 "C41" H 16675 10500 50  0000 L CNN
@@ -1333,7 +1237,7 @@ F 3 "" H 16650 10400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C43
+L DAC_Digital-rescue:C C43
 U 1 1 59D74D0C
 P 17350 10000
 F 0 "C43" H 17375 10100 50  0000 L CNN
@@ -1348,7 +1252,7 @@ Vcom
 Text Label 16100 10500 0    60   ~ 0
 Vcom
 $Comp
-L GNDD #PWR51
+L power:GNDD #PWR51
 U 1 1 59D761C4
 P 16050 10000
 F 0 "#PWR51" H 16050 9750 50  0001 C CNN
@@ -1359,7 +1263,7 @@ F 3 "" H 16050 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR54
+L power:GNDD #PWR54
 U 1 1 59D7711D
 P 16650 10600
 F 0 "#PWR54" H 16650 10350 50  0001 C CNN
@@ -1370,7 +1274,7 @@ F 3 "" H 16650 10600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C40
+L DAC_Digital-rescue:C C40
 U 1 1 59D787DF
 P 16100 12950
 F 0 "C40" H 16125 13050 50  0000 L CNN
@@ -1381,7 +1285,7 @@ F 3 "" H 16100 12950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR53
+L power:GNDD #PWR53
 U 1 1 59D788C5
 P 16100 13200
 F 0 "#PWR53" H 16100 12950 50  0001 C CNN
@@ -1392,7 +1296,7 @@ F 3 "" H 16100 13200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OPA2333xxD U7
+L DAC_Digital-rescue:OPA2333xxD U7
 U 2 1 59D7AFBD
 P 15800 11950
 F 0 "U7" H 15800 12150 50  0000 L CNN
@@ -1403,7 +1307,7 @@ F 3 "" H 15800 11950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C34
+L DAC_Digital-rescue:C C34
 U 1 1 59D7AFC3
 P 14750 11950
 F 0 "C34" H 14775 12050 50  0000 L CNN
@@ -1414,7 +1318,7 @@ F 3 "" H 14750 11950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R28
+L DAC_Digital-rescue:R R28
 U 1 1 59D7AFC9
 P 15200 11950
 F 0 "R28" V 15280 11950 50  0000 C CNN
@@ -1425,7 +1329,7 @@ F 3 "" H 15200 11950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C39
+L DAC_Digital-rescue:C C39
 U 1 1 59D7AFCF
 P 15700 11350
 F 0 "C39" H 15725 11450 50  0000 L CNN
@@ -1436,7 +1340,7 @@ F 3 "" H 15700 11350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R30
+L DAC_Digital-rescue:R R30
 U 1 1 59D7AFD5
 P 15550 11000
 F 0 "R30" V 15630 11000 50  0000 C CNN
@@ -1447,7 +1351,7 @@ F 3 "" H 15550 11000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R32
+L DAC_Digital-rescue:R R32
 U 1 1 59D7AFDB
 P 16400 11550
 F 0 "R32" V 16480 11550 50  0000 C CNN
@@ -1458,7 +1362,7 @@ F 3 "" H 16400 11550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R34
+L DAC_Digital-rescue:R R34
 U 1 1 59D7AFE1
 P 16900 11550
 F 0 "R34" V 16980 11550 50  0000 C CNN
@@ -1469,7 +1373,7 @@ F 3 "" H 16900 11550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C42
+L DAC_Digital-rescue:C C42
 U 1 1 59D7AFE7
 P 16650 11950
 F 0 "C42" H 16675 12050 50  0000 L CNN
@@ -1480,7 +1384,7 @@ F 3 "" H 16650 11950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C44
+L DAC_Digital-rescue:C C44
 U 1 1 59D7AFED
 P 17350 11550
 F 0 "C44" H 17375 11650 50  0000 L CNN
@@ -1493,7 +1397,7 @@ $EndComp
 Text Label 16100 12050 0    60   ~ 0
 Vcom
 $Comp
-L GNDD #PWR52
+L power:GNDD #PWR52
 U 1 1 59D7AFF6
 P 16050 11550
 F 0 "#PWR52" H 16050 11300 50  0001 C CNN
@@ -1504,7 +1408,7 @@ F 3 "" H 16050 11550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR55
+L power:GNDD #PWR55
 U 1 1 59D7B006
 P 16650 12150
 F 0 "#PWR55" H 16650 11900 50  0001 C CNN
@@ -1515,7 +1419,7 @@ F 3 "" H 16650 12150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x04 J12
+L DAC_Digital-rescue:Conn_01x04 J12
 U 1 1 59D7CE40
 P 18300 10800
 F 0 "J12" H 18300 11000 50  0000 C CNN
@@ -1526,7 +1430,7 @@ F 3 "" H 18300 10800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR67
+L power:GNDD #PWR67
 U 1 1 59D7D56B
 P 17950 11200
 F 0 "#PWR67" H 17950 10950 50  0001 C CNN
@@ -1537,7 +1441,7 @@ F 3 "" H 17950 11200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR29
+L power:GNDD #PWR29
 U 1 1 59D64FAB
 P 10250 11500
 F 0 "#PWR29" H 10250 11250 50  0001 C CNN
@@ -1548,7 +1452,7 @@ F 3 "" H 10250 11500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74AHC1G08 U3
+L DAC_Digital-rescue:74AHC1G08 U3
 U 1 1 59D5F28A
 P 10250 11250
 F 0 "U3" H 10150 11400 50  0000 C CNN
@@ -1559,7 +1463,7 @@ F 3 "" H 10250 11250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR42
+L power:GNDD #PWR42
 U 1 1 59D81488
 P 13350 13450
 F 0 "#PWR42" H 13350 13200 50  0001 C CNN
@@ -1570,7 +1474,7 @@ F 3 "" H 13350 13450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74AHC1G08 U5
+L DAC_Digital-rescue:74AHC1G08 U5
 U 1 1 59D8148E
 P 13350 13200
 F 0 "U5" H 13250 13350 50  0000 C CNN
@@ -1581,7 +1485,7 @@ F 3 "" H 13350 13200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C29
+L DAC_Digital-rescue:C C29
 U 1 1 59D81BAE
 P 13900 14300
 F 0 "C29" H 13925 14400 50  0000 L CNN
@@ -1592,7 +1496,7 @@ F 3 "" H 13900 14300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR48
+L power:GNDD #PWR48
 U 1 1 59D81BB4
 P 13900 14550
 F 0 "#PWR48" H 13900 14300 50  0001 C CNN
@@ -1611,7 +1515,7 @@ Vanlg
 Text Label 16800 2400 0    50   ~ 10
 Power_Dev
 $Comp
-L P-MOS_SOIC Q4
+L YameLib:P-MOS_SOIC Q4
 U 1 1 59D8C194
 P 7500 11300
 F 0 "Q4" H 7300 11350 50  0000 L BNN
@@ -1625,7 +1529,7 @@ F 6 "~" H 7500 11300 60  0001 C CNN "Tolerance (%)"
 	1    0    0    1   
 $EndComp
 $Comp
-L R-RESCUE-EPM_V5 R9
+L DAC_Digital-rescue:R-RESCUE-EPM_V5 R9
 U 1 1 59D8C19D
 P 6750 10850
 F 0 "R9" V 6830 10850 40  0000 C CNN
@@ -1639,7 +1543,7 @@ F 6 "~" H 6750 10850 30  0001 C CNN "Tolerance (%)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L N-MOS_SOT23 Q2
+L YameLib:N-MOS_SOT23 Q2
 U 1 1 59D8C1A6
 P 6650 11550
 F 0 "Q2" H 6800 11600 50  0000 L BNN
@@ -1653,7 +1557,7 @@ F 6 "~" H 6650 11550 60  0001 C CNN "Tolerance (%)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-EPM_V5 R7
+L DAC_Digital-rescue:R-RESCUE-EPM_V5 R7
 U 1 1 59D8C1AF
 P 6350 12000
 F 0 "R7" V 6430 12000 40  0000 C CNN
@@ -1671,7 +1575,7 @@ Text Label 8150 11600 0    50   ~ 10
 Text Label 5850 11650 0    50   ~ 10
 Power_Dev
 $Comp
-L C C13
+L DAC_Digital-rescue:C C13
 U 1 1 59D8C1C6
 P 8100 10600
 F 0 "C13" H 8125 10700 50  0000 L CNN
@@ -1709,7 +1613,7 @@ Text Label 13250 4000 0    50   ~ 10
 Text Label 10550 12800 0    50   ~ 10
 +5v_Dev
 $Comp
-L Conn_01x04 J6
+L DAC_Digital-rescue:Conn_01x04 J6
 U 1 1 59D94AA8
 P 15900 4650
 F 0 "J6" H 15900 4850 50  0000 C CNN
@@ -1720,7 +1624,7 @@ F 3 "" H 15900 4650 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L GNDD #PWR50
+L power:GNDD #PWR50
 U 1 1 59D94AAE
 P 15700 4850
 F 0 "#PWR50" H 15700 4600 50  0001 C CNN
@@ -1733,7 +1637,7 @@ $EndComp
 Text Label 15050 4450 0    60   ~ 0
 VDD_5V_USB1
 $Comp
-L Conn_01x04 J7
+L DAC_Digital-rescue:Conn_01x04 J7
 U 1 1 59D9DEC2
 P 16900 5400
 F 0 "J7" H 16900 5600 50  0000 C CNN
@@ -1744,7 +1648,7 @@ F 3 "" H 16900 5400 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L GNDD #PWR56
+L power:GNDD #PWR56
 U 1 1 59D9DEC8
 P 16700 5600
 F 0 "#PWR56" H 16700 5350 50  0001 C CNN
@@ -1755,7 +1659,7 @@ F 3 "" H 16700 5600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Conn_01x04 J8
+L DAC_Digital-rescue:Conn_01x04 J8
 U 1 1 59D9F0C4
 P 16900 6200
 F 0 "J8" H 16900 6400 50  0000 C CNN
@@ -1766,7 +1670,7 @@ F 3 "" H 16900 6200 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L GNDD #PWR57
+L power:GNDD #PWR57
 U 1 1 59D9F0CA
 P 16700 6400
 F 0 "#PWR57" H 16700 6150 50  0001 C CNN
@@ -1777,7 +1681,7 @@ F 3 "" H 16700 6400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Conn_01x04 J9
+L DAC_Digital-rescue:Conn_01x04 J9
 U 1 1 59D9F66D
 P 16900 7000
 F 0 "J9" H 16900 7200 50  0000 C CNN
@@ -1788,7 +1692,7 @@ F 3 "" H 16900 7000 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L GNDD #PWR58
+L power:GNDD #PWR58
 U 1 1 59D9F673
 P 16700 7200
 F 0 "#PWR58" H 16700 6950 50  0001 C CNN
@@ -1799,7 +1703,7 @@ F 3 "" H 16700 7200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Conn_01x04 J10
+L DAC_Digital-rescue:Conn_01x04 J10
 U 1 1 59D9F67C
 P 16900 7800
 F 0 "J10" H 16900 8000 50  0000 C CNN
@@ -1810,7 +1714,7 @@ F 3 "" H 16900 7800 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L GNDD #PWR59
+L power:GNDD #PWR59
 U 1 1 59D9F682
 P 16700 8000
 F 0 "#PWR59" H 16700 7750 50  0001 C CNN
@@ -1845,7 +1749,7 @@ Text Label 11650 3350 0    50   ~ 10
 Text Label 10850 5300 0    50   ~ 10
 +3.3v_Dev
 $Comp
-L Conn_01x08 J3
+L DAC_Digital-rescue:Conn_01x08 J3
 U 1 1 59DA4C83
 P 9000 5400
 F 0 "J3" H 9000 5800 50  0000 C CNN
@@ -1858,7 +1762,7 @@ $EndComp
 Text Label 3400 14750 0    50   ~ 10
 +5v_Dev
 $Comp
-L C C8
+L DAC_Digital-rescue:C C8
 U 1 1 59DA6B30
 P 5250 8750
 F 0 "C8" H 5275 8850 50  0000 L CNN
@@ -1869,7 +1773,7 @@ F 3 "" H 5250 8750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR12
+L power:GNDD #PWR12
 U 1 1 59DA6B36
 P 5250 9000
 F 0 "#PWR12" H 5250 8750 50  0001 C CNN
@@ -1882,7 +1786,7 @@ $EndComp
 Text Label 5250 8500 0    50   ~ 10
 +5v_Dev
 $Comp
-L C C9
+L DAC_Digital-rescue:C C9
 U 1 1 59DA72E8
 P 5750 8750
 F 0 "C9" H 5775 8850 50  0000 L CNN
@@ -1893,7 +1797,7 @@ F 3 "" H 5750 8750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR13
+L power:GNDD #PWR13
 U 1 1 59DA72EE
 P 5750 9000
 F 0 "#PWR13" H 5750 8750 50  0001 C CNN
@@ -1906,7 +1810,7 @@ $EndComp
 Text Label 5750 8500 0    50   ~ 10
 +5v_Dev
 $Comp
-L C C10
+L DAC_Digital-rescue:C C10
 U 1 1 59DA73CD
 P 6250 8750
 F 0 "C10" H 6275 8850 50  0000 L CNN
@@ -1917,7 +1821,7 @@ F 3 "" H 6250 8750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR16
+L power:GNDD #PWR16
 U 1 1 59DA73D3
 P 6250 9000
 F 0 "#PWR16" H 6250 8750 50  0001 C CNN
@@ -1930,7 +1834,7 @@ $EndComp
 Text Label 6250 8500 0    50   ~ 10
 +5v_Dev
 $Comp
-L C C11
+L DAC_Digital-rescue:C C11
 U 1 1 59DA73DD
 P 6750 8750
 F 0 "C11" H 6775 8850 50  0000 L CNN
@@ -1941,7 +1845,7 @@ F 3 "" H 6750 8750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR20
+L power:GNDD #PWR20
 U 1 1 59DA73E3
 P 6750 9000
 F 0 "#PWR20" H 6750 8750 50  0001 C CNN
@@ -1954,7 +1858,7 @@ $EndComp
 Text Label 6750 8500 0    50   ~ 10
 +5v_Dev
 $Comp
-L C C7
+L DAC_Digital-rescue:C C7
 U 1 1 59DA746E
 P 4750 8750
 F 0 "C7" H 4775 8850 50  0000 L CNN
@@ -1965,7 +1869,7 @@ F 3 "" H 4750 8750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR10
+L power:GNDD #PWR10
 U 1 1 59DA7474
 P 4750 9000
 F 0 "#PWR10" H 4750 8750 50  0001 C CNN
@@ -1978,7 +1882,7 @@ $EndComp
 Text Label 4750 8500 0    50   ~ 10
 +5v_Dev
 $Comp
-L GNDD #PWR15
+L power:GNDD #PWR15
 U 1 1 59DA773A
 P 6050 7450
 F 0 "#PWR15" H 6050 7200 50  0001 C CNN
@@ -1988,10 +1892,8 @@ F 3 "" H 6050 7450 50  0001 C CNN
 	1    6050 7450
 	1    0    0    -1  
 $EndComp
-Text Label 5600 2950 0    50   ~ 10
-+5v_Dev
 $Comp
-L Crystal Y1
+L DAC_Digital-rescue:Crystal Y1
 U 1 1 59DAB57B
 P 3900 7550
 F 0 "Y1" H 3900 7700 50  0000 C CNN
@@ -2002,7 +1904,7 @@ F 3 "" H 3900 7550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C4
+L DAC_Digital-rescue:C C4
 U 1 1 59DAB581
 P 3600 7850
 F 0 "C4" H 3625 7950 50  0000 L CNN
@@ -2013,7 +1915,7 @@ F 3 "" H 3600 7850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C6
+L DAC_Digital-rescue:C C6
 U 1 1 59DAB587
 P 4150 7850
 F 0 "C6" H 4175 7950 50  0000 L CNN
@@ -2024,7 +1926,7 @@ F 3 "" H 4150 7850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR6
+L power:GNDD #PWR6
 U 1 1 59DAB58D
 P 3600 8100
 F 0 "#PWR6" H 3600 7850 50  0001 C CNN
@@ -2035,7 +1937,7 @@ F 3 "" H 3600 8100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR8
+L power:GNDD #PWR8
 U 1 1 59DAB593
 P 4150 8100
 F 0 "#PWR8" H 4150 7850 50  0001 C CNN
@@ -2046,7 +1948,7 @@ F 3 "" H 4150 8100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L DAC_Digital-rescue:R R4
 U 1 1 59DAB599
 P 3900 7200
 F 0 "R4" V 3980 7200 50  0000 C CNN
@@ -2057,7 +1959,7 @@ F 3 "" H 3900 7200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GNDD #PWR49
+L power:GNDD #PWR49
 U 1 1 59DB009A
 P 15350 3800
 F 0 "#PWR49" H 15350 3550 50  0001 C CNN
@@ -2068,7 +1970,7 @@ F 3 "" H 15350 3800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR37
+L power:GNDD #PWR37
 U 1 1 59DB1EB8
 P 11600 4450
 F 0 "#PWR37" H 11600 4200 50  0001 C CNN
@@ -2079,7 +1981,7 @@ F 3 "" H 11600 4450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR34
+L power:GNDD #PWR34
 U 1 1 59DB2133
 P 11150 5050
 F 0 "#PWR34" H 11150 4800 50  0001 C CNN
@@ -2090,7 +1992,7 @@ F 3 "" H 11150 5050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR35
+L power:GNDD #PWR35
 U 1 1 59DB2416
 P 11150 5500
 F 0 "#PWR35" H 11150 5250 50  0001 C CNN
@@ -2101,7 +2003,7 @@ F 3 "" H 11150 5500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR36
+L power:GNDD #PWR36
 U 1 1 59DB2559
 P 11150 5950
 F 0 "#PWR36" H 11150 5700 50  0001 C CNN
@@ -2112,7 +2014,7 @@ F 3 "" H 11150 5950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR33
+L power:GNDD #PWR33
 U 1 1 59DB27D4
 P 10900 7650
 F 0 "#PWR33" H 10900 7400 50  0001 C CNN
@@ -2123,7 +2025,7 @@ F 3 "" H 10900 7650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR38
+L power:GNDD #PWR38
 U 1 1 59DB2917
 P 11750 7650
 F 0 "#PWR38" H 11750 7400 50  0001 C CNN
@@ -2134,7 +2036,7 @@ F 3 "" H 11750 7650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR43
+L power:GNDD #PWR43
 U 1 1 59DB2B2A
 P 13450 8150
 F 0 "#PWR43" H 13450 7900 50  0001 C CNN
@@ -2145,7 +2047,7 @@ F 3 "" H 13450 8150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR45
+L power:GNDD #PWR45
 U 1 1 59DB2DA5
 P 13650 8150
 F 0 "#PWR45" H 13650 7900 50  0001 C CNN
@@ -2156,7 +2058,7 @@ F 3 "" H 13650 8150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR46
+L power:GNDD #PWR46
 U 1 1 59DB2EE8
 P 13850 8150
 F 0 "#PWR46" H 13850 7900 50  0001 C CNN
@@ -2167,7 +2069,7 @@ F 3 "" H 13850 8150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR44
+L power:GNDD #PWR44
 U 1 1 59DB302B
 P 13500 9150
 F 0 "#PWR44" H 13500 8900 50  0001 C CNN
@@ -2178,7 +2080,7 @@ F 3 "" H 13500 9150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR26
+L power:GNDD #PWR26
 U 1 1 59DB41AE
 P 8650 5950
 F 0 "#PWR26" H 8650 5700 50  0001 C CNN
@@ -2189,7 +2091,7 @@ F 3 "" H 8650 5950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Conn_01x04 J13
+L DAC_Digital-rescue:Conn_01x04 J13
 U 1 1 59DB51B2
 P 19750 6250
 F 0 "J13" H 19750 6450 50  0000 C CNN
@@ -2204,7 +2106,7 @@ SDA
 Text Label 19000 6250 0    60   ~ 0
 SCL
 $Comp
-L R R36
+L DAC_Digital-rescue:R R36
 U 1 1 59DB69F9
 P 18550 6100
 F 0 "R36" V 18630 6100 50  0000 C CNN
@@ -2215,7 +2117,7 @@ F 3 "" H 18550 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R37
+L DAC_Digital-rescue:R R37
 U 1 1 59DB6B6E
 P 18850 6100
 F 0 "R37" V 18930 6100 50  0000 C CNN
@@ -2226,7 +2128,7 @@ F 3 "" H 18850 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR72
+L power:GNDD #PWR72
 U 1 1 59DB886F
 P 19450 6550
 F 0 "#PWR72" H 19450 6300 50  0001 C CNN
@@ -2237,7 +2139,7 @@ F 3 "" H 19450 6550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR41
+L power:GNDD #PWR41
 U 1 1 59DB9C47
 P 13250 7600
 F 0 "#PWR41" H 13250 7350 50  0001 C CNN
@@ -2248,7 +2150,7 @@ F 3 "" H 13250 7600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Conn_01x05 J2
+L DAC_Digital-rescue:Conn_01x05 J2
 U 1 1 59DBA440
 P 8550 4300
 F 0 "J2" H 8550 4600 50  0000 C CNN
@@ -2258,10 +2160,8 @@ F 3 "" H 8550 4300 50  0001 C CNN
 	1    8550 4300
 	1    0    0    -1  
 $EndComp
-Text Label 7950 4300 0    50   ~ 10
-+5v_Dev
 $Comp
-L GNDD #PWR25
+L power:GNDD #PWR25
 U 1 1 59DBB7A9
 P 8250 4600
 F 0 "#PWR25" H 8250 4350 50  0001 C CNN
@@ -2272,7 +2172,7 @@ F 3 "" H 8250 4600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 2N7002 Q5
+L DAC_Digital-rescue:2N7002 Q5
 U 1 1 59DBD108
 P 8500 2900
 F 0 "Q5" V 8500 3050 50  0000 L CNN
@@ -2283,7 +2183,7 @@ F 3 "" H 8500 2900 50  0001 L CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L R R12
+L DAC_Digital-rescue:R R12
 U 1 1 59DBE975
 P 8050 2800
 F 0 "R12" V 8130 2800 50  0000 C CNN
@@ -2294,7 +2194,7 @@ F 3 "" H 8050 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R14
+L DAC_Digital-rescue:R R14
 U 1 1 59DBEBDC
 P 8900 2800
 F 0 "R14" V 8980 2800 50  0000 C CNN
@@ -2304,8 +2204,6 @@ F 3 "" H 8900 2800 50  0001 C CNN
 	1    8900 2800
 	1    0    0    -1  
 $EndComp
-Text Label 8050 2550 0    50   ~ 10
-+5v_Dev
 Text Label 8550 2600 0    50   ~ 10
 +3.3v_Dev
 Text Label 8950 3000 0    60   ~ 0
@@ -2313,7 +2211,7 @@ UART4_RXD
 Text Label 8950 3750 0    60   ~ 0
 UART4_TXD
 $Comp
-L 2N7002 Q6
+L DAC_Digital-rescue:2N7002 Q6
 U 1 1 59DC229E
 P 8500 3650
 F 0 "Q6" V 8500 3800 50  0000 L CNN
@@ -2324,7 +2222,7 @@ F 3 "" H 8500 3650 50  0001 L CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L R R13
+L DAC_Digital-rescue:R R13
 U 1 1 59DC22A4
 P 8050 3550
 F 0 "R13" V 8130 3550 50  0000 C CNN
@@ -2335,7 +2233,7 @@ F 3 "" H 8050 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R15
+L DAC_Digital-rescue:R R15
 U 1 1 59DC22AA
 P 8900 3550
 F 0 "R15" V 8980 3550 50  0000 C CNN
@@ -2345,12 +2243,10 @@ F 3 "" H 8900 3550 50  0001 C CNN
 	1    8900 3550
 	1    0    0    -1  
 $EndComp
-Text Label 8050 3300 0    50   ~ 10
-+5v_Dev
 Text Label 8550 3350 0    50   ~ 10
 +3.3v_Dev
 $Comp
-L LED D2
+L DAC_Digital-rescue:LED D2
 U 1 1 59DC7688
 P 18500 8350
 F 0 "D2" H 18500 8450 50  0000 C CNN
@@ -2365,7 +2261,7 @@ Text Label 19250 8050 0    50   ~ 10
 Text Label 18500 8050 0    50   ~ 10
 +5v_Dev
 $Comp
-L LED D3
+L DAC_Digital-rescue:LED D3
 U 1 1 59DC86F4
 P 19250 8350
 F 0 "D3" H 19250 8450 50  0000 C CNN
@@ -2376,7 +2272,7 @@ F 3 "" H 19250 8350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GNDD #PWR68
+L power:GNDD #PWR68
 U 1 1 59DC906C
 P 18500 8900
 F 0 "#PWR68" H 18500 8650 50  0001 C CNN
@@ -2387,7 +2283,7 @@ F 3 "" H 18500 8900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R35
+L DAC_Digital-rescue:R R35
 U 1 1 59DC90E8
 P 18500 8700
 F 0 "R35" V 18580 8700 50  0000 C CNN
@@ -2398,7 +2294,7 @@ F 3 "" H 18500 8700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR71
+L power:GNDD #PWR71
 U 1 1 59DC9489
 P 19250 8900
 F 0 "#PWR71" H 19250 8650 50  0001 C CNN
@@ -2409,7 +2305,7 @@ F 3 "" H 19250 8900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R38
+L DAC_Digital-rescue:R R38
 U 1 1 59DC948F
 P 19250 8700
 F 0 "R38" V 19330 8700 50  0000 C CNN
@@ -2420,7 +2316,7 @@ F 3 "" H 19250 8700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x02 J1
+L DAC_Digital-rescue:Conn_01x02 J1
 U 1 1 59D4CC70
 P 4700 10250
 F 0 "J1" H 4700 10350 50  0000 C CNN
@@ -2433,7 +2329,7 @@ $EndComp
 Text Label 5850 10150 0    60   ~ 0
 VDD_5V
 $Comp
-L FUSE_CLIP_5x20 F1
+L YameLib:FUSE_CLIP_5x20 F1
 U 1 1 59D4DEFE
 P 5250 10050
 F 0 "F1" H 5350 10100 50  0000 C CNN
@@ -2444,7 +2340,7 @@ F 3 "" H 5250 10050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_TVS D1
+L DAC_Digital-rescue:D_TVS D1
 U 1 1 59D4E195
 P 5800 10600
 F 0 "D1" H 5800 10700 50  0000 C CNN
@@ -2455,7 +2351,7 @@ F 3 "" H 5800 10600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L N-MOS_SOT23 Q1
+L YameLib:N-MOS_SOT23 Q1
 U 1 1 59D3D533
 P 6600 13550
 F 0 "Q1" H 6750 13600 50  0000 L BNN
@@ -2469,7 +2365,7 @@ F 6 "~" H 6600 13550 60  0001 C CNN "Tolerance (%)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR17
+L power:GNDD #PWR17
 U 1 1 59D4F0A7
 P 6300 14300
 F 0 "#PWR17" H 6300 14050 50  0001 C CNN
@@ -2480,7 +2376,7 @@ F 3 "" H 6300 14300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR19
+L power:GNDD #PWR19
 U 1 1 59D4F21D
 P 6700 13850
 F 0 "#PWR19" H 6700 13600 50  0001 C CNN
@@ -2491,7 +2387,7 @@ F 3 "" H 6700 13850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR18
+L power:GNDD #PWR18
 U 1 1 59D4F393
 P 6350 12350
 F 0 "#PWR18" H 6350 12100 50  0001 C CNN
@@ -2502,7 +2398,7 @@ F 3 "" H 6350 12350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR21
+L power:GNDD #PWR21
 U 1 1 59D4F8D1
 P 6750 11950
 F 0 "#PWR21" H 6750 11700 50  0001 C CNN
@@ -2513,7 +2409,7 @@ F 3 "" H 6750 11950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR24
+L power:GNDD #PWR24
 U 1 1 59D5118D
 P 8100 10800
 F 0 "#PWR24" H 8100 10550 50  0001 C CNN
@@ -2524,7 +2420,7 @@ F 3 "" H 8100 10800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR23
+L power:GNDD #PWR23
 U 1 1 59D51303
 P 8050 12800
 F 0 "#PWR23" H 8050 12550 50  0001 C CNN
@@ -2535,7 +2431,7 @@ F 3 "" H 8050 12800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR14
+L power:GNDD #PWR14
 U 1 1 59D5213C
 P 5800 10850
 F 0 "#PWR14" H 5800 10600 50  0001 C CNN
@@ -2546,7 +2442,7 @@ F 3 "" H 5800 10850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR11
+L power:GNDD #PWR11
 U 1 1 59D52601
 P 4950 10400
 F 0 "#PWR11" H 4950 10150 50  0001 C CNN
@@ -2557,7 +2453,7 @@ F 3 "" H 4950 10400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13250 4000 13250 4100
+	13250 4000 13250 4050
 Wire Wire Line
 	13350 4050 13350 4100
 Wire Wire Line
@@ -2613,18 +2509,18 @@ Wire Wire Line
 Wire Wire Line
 	11600 4400 11600 4450
 Wire Wire Line
-	11600 3900 11600 4000
+	11600 3900 11600 3950
 Wire Wire Line
 	11600 3950 12150 3950
 Connection ~ 11600 3950
 Wire Wire Line
-	13250 4050 13850 4050
+	13250 4050 13350 4050
 Connection ~ 13250 4050
 Connection ~ 13350 4050
 Connection ~ 13650 4050
 Connection ~ 13750 4050
 Wire Wire Line
-	11600 6950 12350 6950
+	11600 6950 11750 6950
 Wire Wire Line
 	10900 6550 11700 6550
 Wire Wire Line
@@ -2632,7 +2528,7 @@ Wire Wire Line
 Wire Wire Line
 	11700 6750 12350 6750
 Wire Wire Line
-	10900 6550 10900 7200
+	10900 6550 10900 6950
 Wire Wire Line
 	11000 6950 10900 6950
 Connection ~ 10900 6950
@@ -2666,7 +2562,7 @@ Wire Wire Line
 Wire Wire Line
 	15350 3250 15350 3300
 Wire Wire Line
-	15350 3700 15350 3800
+	15350 3700 15350 3750
 Wire Wire Line
 	15150 3250 15150 3300
 Wire Wire Line
@@ -2698,18 +2594,18 @@ Wire Wire Line
 Wire Wire Line
 	6700 13200 7250 13200
 Wire Wire Line
-	6700 13100 6700 13300
+	6700 13100 6700 13200
 Connection ~ 6700 13200
 Wire Wire Line
 	6300 13750 6300 13650
 Wire Wire Line
-	5800 13650 6400 13650
+	5800 13650 6300 13650
 Wire Wire Line
 	7550 13050 7550 13000
 Wire Wire Line
-	7550 13000 7850 13000
+	7550 13000 7700 13000
 Wire Wire Line
-	7850 12400 7850 13050
+	7850 12400 7850 13000
 Wire Wire Line
 	7700 13000 7700 13050
 Connection ~ 7700 13000
@@ -2721,7 +2617,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 13550 7550 13600
 Wire Wire Line
-	7550 13600 8400 13600
+	7550 13600 7700 13600
 Wire Wire Line
 	8000 13550 8000 13600
 Connection ~ 8000 13600
@@ -2756,14 +2652,14 @@ Wire Wire Line
 Wire Wire Line
 	18450 4000 18550 4000
 Wire Wire Line
-	18550 4000 18550 4250
+	18550 4000 18550 4100
 Wire Wire Line
 	18450 4100 18550 4100
 Connection ~ 18550 4100
 Wire Wire Line
 	17950 4000 17850 4000
 Wire Wire Line
-	17850 4000 17850 4250
+	17850 4000 17850 4100
 Wire Wire Line
 	17950 4100 17850 4100
 Connection ~ 17850 4100
@@ -2856,7 +2752,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 12700 2350 12700
 Wire Wire Line
-	1600 12350 2000 12350
+	1600 12350 1750 12350
 Wire Wire Line
 	2000 12350 2000 12500
 Wire Wire Line
@@ -2866,7 +2762,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 12750 1750 12750
 Wire Wire Line
-	1750 12700 1750 12850
+	1750 12700 1750 12750
 Connection ~ 1750 12750
 Wire Wire Line
 	1750 12400 1750 12350
@@ -2906,13 +2802,13 @@ Wire Wire Line
 Wire Wire Line
 	3200 11400 3200 11800
 Wire Wire Line
-	3150 11800 3600 11800
+	3150 11800 3200 11800
 Wire Wire Line
 	3150 11800 3150 12050
 Wire Wire Line
 	2750 11850 2750 12050
 Wire Wire Line
-	2250 11850 2750 11850
+	2250 11850 2650 11850
 Wire Wire Line
 	2250 11850 2250 12050
 Wire Wire Line
@@ -2921,9 +2817,9 @@ Connection ~ 2650 11850
 Wire Wire Line
 	2700 14050 2700 14100
 Wire Wire Line
-	2700 14100 3400 14100
+	2700 14100 2850 14100
 Wire Wire Line
-	3400 14050 3400 14150
+	3400 14050 3400 14100
 Connection ~ 3400 14100
 Wire Wire Line
 	3250 14050 3250 14100
@@ -2955,7 +2851,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 13500 2350 13500
 Wire Wire Line
-	7400 12400 8050 12400
+	7400 12400 7850 12400
 Connection ~ 3200 11800
 Wire Wire Line
 	2650 14750 2800 14750
@@ -2974,7 +2870,7 @@ Wire Wire Line
 Wire Wire Line
 	700  12950 1100 12950
 Wire Wire Line
-	1100 12950 1100 13400
+	1100 12950 1100 13000
 Wire Wire Line
 	1100 13400 1150 13400
 Wire Wire Line
@@ -2992,11 +2888,11 @@ Wire Wire Line
 Wire Wire Line
 	4100 12650 4450 12650
 Wire Wire Line
-	7000 15050 8000 15050
+	7000 15050 7850 15050
 Wire Wire Line
 	7850 15050 7850 15100
 Wire Wire Line
-	7850 15400 7850 15550
+	7850 15400 7850 15450
 Connection ~ 7850 15050
 Wire Wire Line
 	7850 15450 8000 15450
@@ -3026,7 +2922,7 @@ Wire Wire Line
 Wire Wire Line
 	9650 11900 10800 11900
 Wire Wire Line
-	10800 11650 10800 12000
+	10800 11650 10800 11900
 Wire Wire Line
 	10800 12000 10950 12000
 Connection ~ 10800 11900
@@ -3037,7 +2933,7 @@ Wire Wire Line
 Wire Wire Line
 	9950 11300 9950 11700
 Wire Wire Line
-	10400 11700 10400 12850
+	10400 11700 10400 12800
 Wire Wire Line
 	10400 12800 11400 12800
 Wire Wire Line
@@ -3054,9 +2950,9 @@ Wire Wire Line
 	10400 13150 10400 13250
 Connection ~ 10400 12800
 Wire Wire Line
-	12400 14400 12400 14500
+	12400 14400 12400 14450
 Wire Wire Line
-	11800 14450 12400 14450
+	11800 14450 11950 14450
 Wire Wire Line
 	11800 14450 11800 14400
 Connection ~ 12400 14450
@@ -3078,14 +2974,14 @@ Wire Wire Line
 Wire Wire Line
 	10250 14300 10400 14300
 Wire Wire Line
-	10250 13600 10250 14450
+	10250 13600 10250 13950
 Wire Wire Line
 	11400 13600 10250 13600
 Connection ~ 10250 14300
 Wire Wire Line
 	11400 13750 10800 13750
 Wire Wire Line
-	10800 13750 10800 14450
+	10800 13750 10800 13950
 Wire Wire Line
 	10700 14300 10800 14300
 Connection ~ 10800 14300
@@ -3098,15 +2994,15 @@ Connection ~ 10800 13950
 Wire Wire Line
 	12500 10050 12500 10400
 Wire Wire Line
-	12400 10400 12900 10400
+	12400 10400 12500 10400
 Wire Wire Line
 	12400 10400 12400 10650
 Wire Wire Line
 	12200 10050 11800 10050
 Wire Wire Line
-	11800 10050 11800 10650
+	11800 10050 11800 10500
 Wire Wire Line
-	11800 10500 12250 10500
+	11800 10500 11950 10500
 Wire Wire Line
 	12250 10500 12250 10650
 Connection ~ 11800 10500
@@ -3118,9 +3014,9 @@ Wire Wire Line
 Connection ~ 11950 10500
 Connection ~ 12500 10400
 Wire Wire Line
-	11800 15450 11800 15650
+	11800 15450 11800 15550
 Wire Wire Line
-	11800 15550 12950 15550
+	11800 15550 12100 15550
 Wire Wire Line
 	12950 15550 12950 15450
 Connection ~ 11800 15550
@@ -3134,7 +3030,7 @@ Wire Wire Line
 	12100 15450 12100 15550
 Connection ~ 12100 15550
 Wire Wire Line
-	11450 14950 12700 14950
+	11450 14950 11800 14950
 Wire Wire Line
 	11800 14950 11800 15150
 Wire Wire Line
@@ -3165,16 +3061,16 @@ Wire Wire Line
 Wire Wire Line
 	15850 9800 16200 9800
 Wire Wire Line
-	16200 9800 16200 10300
+	16200 9800 16200 10000
 Wire Wire Line
 	16200 10300 16100 10300
 Wire Wire Line
 	16250 10000 16200 10000
 Connection ~ 16200 10000
 Wire Wire Line
-	16550 10000 16750 10000
+	16550 10000 16650 10000
 Wire Wire Line
-	16650 9450 16650 10250
+	16650 9450 16650 10000
 Connection ~ 16650 10000
 Wire Wire Line
 	17050 10000 17200 10000
@@ -3183,9 +3079,9 @@ Wire Wire Line
 Wire Wire Line
 	15700 9450 16650 9450
 Wire Wire Line
-	15400 9450 15400 10400
+	15400 9450 15400 9800
 Wire Wire Line
-	15350 10400 15500 10400
+	15350 10400 15400 10400
 Wire Wire Line
 	15550 9800 15400 9800
 Connection ~ 15400 9800
@@ -3217,16 +3113,16 @@ Wire Wire Line
 Wire Wire Line
 	15850 11350 16200 11350
 Wire Wire Line
-	16200 11350 16200 11850
+	16200 11350 16200 11550
 Wire Wire Line
 	16200 11850 16100 11850
 Wire Wire Line
 	16250 11550 16200 11550
 Connection ~ 16200 11550
 Wire Wire Line
-	16550 11550 16750 11550
+	16550 11550 16650 11550
 Wire Wire Line
-	16650 11000 16650 11800
+	16650 11000 16650 11550
 Connection ~ 16650 11550
 Wire Wire Line
 	17050 11550 17200 11550
@@ -3235,9 +3131,9 @@ Wire Wire Line
 Wire Wire Line
 	15700 11000 16650 11000
 Wire Wire Line
-	15400 11000 15400 11950
+	15400 11000 15400 11350
 Wire Wire Line
-	15350 11950 15500 11950
+	15350 11950 15400 11950
 Wire Wire Line
 	15550 11350 15400 11350
 Connection ~ 15400 11350
@@ -3267,7 +3163,7 @@ Wire Wire Line
 Wire Wire Line
 	17800 11550 17500 11550
 Wire Wire Line
-	17950 10800 17950 11200
+	17950 10800 17950 10900
 Wire Wire Line
 	17950 10800 18100 10800
 Wire Wire Line
@@ -3277,7 +3173,7 @@ Connection ~ 10250 10850
 Wire Wire Line
 	10250 10850 10250 11150
 Wire Wire Line
-	9950 10850 10650 10850
+	9950 10850 10250 10850
 Wire Wire Line
 	10250 11350 10250 11500
 Wire Wire Line
@@ -3297,7 +3193,7 @@ Wire Wire Line
 Wire Wire Line
 	12900 13200 13000 13200
 Wire Wire Line
-	13000 13150 13000 13250
+	13000 13150 13000 13200
 Wire Wire Line
 	13000 13150 13050 13150
 Wire Wire Line
@@ -3306,20 +3202,20 @@ Connection ~ 13000 13200
 Wire Wire Line
 	6750 11200 7300 11200
 Wire Wire Line
-	6750 11100 6750 11300
+	6750 11100 6750 11200
 Connection ~ 6750 11200
 Wire Wire Line
 	6350 11750 6350 11650
 Wire Wire Line
-	5850 11650 6450 11650
+	5850 11650 6350 11650
 Wire Wire Line
 	6750 11800 6750 11950
 Wire Wire Line
 	7600 11050 7600 11000
 Wire Wire Line
-	7600 11000 7900 11000
+	7600 11000 7750 11000
 Wire Wire Line
-	7900 10400 7900 11050
+	7900 10400 7900 11000
 Wire Wire Line
 	7750 11000 7750 11050
 Connection ~ 7750 11000
@@ -3331,7 +3227,7 @@ Wire Wire Line
 Wire Wire Line
 	7600 11550 7600 11600
 Wire Wire Line
-	7600 11600 8450 11600
+	7600 11600 7750 11600
 Wire Wire Line
 	8050 11550 8050 11600
 Connection ~ 8050 11600
@@ -3348,7 +3244,7 @@ Connection ~ 7900 10400
 Wire Wire Line
 	8100 10400 8100 10450
 Wire Wire Line
-	7450 10400 8100 10400
+	7450 10400 7900 10400
 Connection ~ 13450 4050
 Wire Wire Line
 	15000 4550 15700 4550
@@ -3401,7 +3297,7 @@ Wire Wire Line
 Wire Wire Line
 	13850 3150 13850 3250
 Wire Wire Line
-	13850 3250 15350 3250
+	13850 3250 14250 3250
 Connection ~ 15150 3250
 Connection ~ 14950 3250
 Connection ~ 14650 3250
@@ -3442,9 +3338,9 @@ Wire Wire Line
 Wire Wire Line
 	5550 7250 5550 7350
 Wire Wire Line
-	5550 7350 6050 7350
+	5550 7350 5750 7350
 Wire Wire Line
-	6050 7250 6050 7450
+	6050 7250 6050 7350
 Connection ~ 6050 7350
 Wire Wire Line
 	5950 7250 5950 7350
@@ -3458,9 +3354,9 @@ Connection ~ 5750 7350
 Wire Wire Line
 	5600 2950 5900 2950
 Wire Wire Line
-	5600 2950 5600 3250
+	5600 2950 5600 3150
 Wire Wire Line
-	5600 3150 6050 3150
+	5600 3150 5750 3150
 Wire Wire Line
 	5750 3150 5750 3250
 Connection ~ 5600 3150
@@ -3480,12 +3376,12 @@ Wire Wire Line
 Wire Wire Line
 	3600 7550 3750 7550
 Wire Wire Line
-	3600 6800 3600 7700
+	3600 6800 3600 7200
 Connection ~ 3600 7550
 Wire Wire Line
 	4750 7000 4150 7000
 Wire Wire Line
-	4150 7000 4150 7700
+	4150 7000 4150 7200
 Wire Wire Line
 	4050 7550 4150 7550
 Connection ~ 4150 7550
@@ -3532,12 +3428,12 @@ Wire Wire Line
 Wire Wire Line
 	8800 5100 8650 5100
 Wire Wire Line
-	8650 5100 8650 5950
+	8650 5100 8650 5800
 Wire Wire Line
 	8800 5800 8650 5800
 Connection ~ 8650 5800
 Wire Wire Line
-	14250 3750 15350 3750
+	14250 3750 14450 3750
 Wire Wire Line
 	14250 3750 14250 3700
 Connection ~ 15350 3750
@@ -3558,9 +3454,9 @@ Wire Wire Line
 Wire Wire Line
 	18550 6350 19550 6350
 Wire Wire Line
-	18550 5800 18550 5950
+	18550 5800 18550 5900
 Wire Wire Line
-	18550 5900 19300 5900
+	18550 5900 18850 5900
 Wire Wire Line
 	18850 5900 18850 5950
 Connection ~ 18550 5900
@@ -3590,9 +3486,9 @@ Wire Wire Line
 Wire Wire Line
 	7500 5700 7150 5700
 Wire Wire Line
-	4750 3550 4350 3550
+	4350 3550 4750 3550
 Wire Wire Line
-	4350 3550 4350 2650
+	4350 2500 4350 2650
 Wire Wire Line
 	4350 2650 7750 2650
 Wire Wire Line
@@ -3614,11 +3510,11 @@ Wire Wire Line
 Wire Wire Line
 	8050 2550 8150 2550
 Wire Wire Line
-	7600 3000 8300 3000
+	7600 3000 8050 3000
 Wire Wire Line
 	8050 3000 8050 2950
 Wire Wire Line
-	8700 3000 9200 3000
+	8700 3000 8900 3000
 Wire Wire Line
 	8900 3000 8900 2950
 Connection ~ 8900 3000
@@ -3635,9 +3531,9 @@ Wire Wire Line
 Wire Wire Line
 	8300 3750 8050 3750
 Wire Wire Line
-	8050 3700 8050 3800
+	8050 3700 8050 3750
 Wire Wire Line
-	8700 3750 9200 3750
+	8700 3750 8900 3750
 Wire Wire Line
 	8900 3750 8900 3700
 Connection ~ 8900 3750
@@ -3682,22 +3578,22 @@ Wire Wire Line
 Wire Wire Line
 	4950 10050 4950 10150
 Wire Wire Line
-	4900 10150 5000 10150
+	4900 10150 4950 10150
 Connection ~ 4950 10150
 Wire Wire Line
-	5600 10150 6150 10150
+	5600 10150 5800 10150
 Wire Wire Line
 	5800 10150 5800 10450
 Wire Wire Line
 	5500 9950 5600 9950
 Wire Wire Line
-	5600 9950 5600 10150
+	5600 9950 5600 10050
 Connection ~ 5800 10150
 Wire Wire Line
 	5500 10050 5600 10050
 Connection ~ 5600 10050
 $Comp
-L Conn_01x08 J15
+L DAC_Digital-rescue:Conn_01x08 J15
 U 1 1 59DDF235
 P 4400 5050
 F 0 "J15" H 4400 5450 50  0000 C CNN
@@ -3708,7 +3604,7 @@ F 3 "" H 4400 5050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Conn_01x08 J16
+L DAC_Digital-rescue:Conn_01x08 J16
 U 1 1 59DDF412
 P 4400 6000
 F 0 "J16" H 4400 6400 50  0000 C CNN
@@ -3757,7 +3653,7 @@ Wire Wire Line
 Text Label 18550 5800 0    50   ~ 10
 +3.3v_Dev
 $Comp
-L C-RESCUE-EPM_V5 C45
+L DAC_Digital-rescue:C-RESCUE-EPM_V5 C45
 U 1 1 59ECF31A
 P 17550 5300
 F 0 "C45" H 17550 5400 40  0000 L CNN
@@ -3771,7 +3667,7 @@ F 6 "6.3" H 17550 5300 60  0001 C CNN "Tolerance (%)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR62
+L power:GNDD #PWR62
 U 1 1 59ECF320
 P 17550 5550
 F 0 "#PWR62" H 17550 5300 50  0001 C CNN
@@ -3786,7 +3682,7 @@ Wire Wire Line
 Wire Wire Line
 	17550 5100 17200 5100
 $Comp
-L C-RESCUE-EPM_V5 C46
+L DAC_Digital-rescue:C-RESCUE-EPM_V5 C46
 U 1 1 59ECF740
 P 17550 6050
 F 0 "C46" H 17550 6150 40  0000 L CNN
@@ -3800,7 +3696,7 @@ F 6 "6.3" H 17550 6050 60  0001 C CNN "Tolerance (%)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR63
+L power:GNDD #PWR63
 U 1 1 59ECF746
 P 17550 6300
 F 0 "#PWR63" H 17550 6050 50  0001 C CNN
@@ -3815,7 +3711,7 @@ Wire Wire Line
 Wire Wire Line
 	17550 5850 17200 5850
 $Comp
-L C-RESCUE-EPM_V5 C47
+L DAC_Digital-rescue:C-RESCUE-EPM_V5 C47
 U 1 1 59ECFAEC
 P 17550 6900
 F 0 "C47" H 17550 7000 40  0000 L CNN
@@ -3829,7 +3725,7 @@ F 6 "6.3" H 17550 6900 60  0001 C CNN "Tolerance (%)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR64
+L power:GNDD #PWR64
 U 1 1 59ECFAF2
 P 17550 7150
 F 0 "#PWR64" H 17550 6900 50  0001 C CNN
@@ -3844,7 +3740,7 @@ Wire Wire Line
 Wire Wire Line
 	17550 6700 17200 6700
 $Comp
-L C-RESCUE-EPM_V5 C48
+L DAC_Digital-rescue:C-RESCUE-EPM_V5 C48
 U 1 1 59ECFAFE
 P 17550 7650
 F 0 "C48" H 17550 7750 40  0000 L CNN
@@ -3858,7 +3754,7 @@ F 6 "6.3" H 17550 7650 60  0001 C CNN "Tolerance (%)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR65
+L power:GNDD #PWR65
 U 1 1 59ECFB04
 P 17550 7900
 F 0 "#PWR65" H 17550 7650 50  0001 C CNN
@@ -3891,7 +3787,7 @@ Text Label 16350 5200 0    50   ~ 10
 Wire Wire Line
 	3750 12650 3800 12650
 $Comp
-L R R40
+L DAC_Digital-rescue:R R40
 U 1 1 59ED9A04
 P 13850 13200
 F 0 "R40" V 13930 13200 50  0000 C CNN
@@ -3906,7 +3802,7 @@ SPDIF_OUT
 Wire Wire Line
 	14000 13200 14350 13200
 $Comp
-L Conn_01x01 J17
+L DAC_Digital-rescue:Conn_01x01 J17
 U 1 1 59EDA602
 P 4600 12050
 F 0 "J17" H 4600 12150 50  0000 C CNN
@@ -3917,7 +3813,7 @@ F 3 "" H 4600 12050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x01 J20
+L DAC_Digital-rescue:Conn_01x01 J20
 U 1 1 59EDB15F
 P 5000 12050
 F 0 "J20" H 5000 12150 50  0000 C CNN
@@ -3928,7 +3824,7 @@ F 3 "" H 5000 12050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x01 J18
+L DAC_Digital-rescue:Conn_01x01 J18
 U 1 1 59EDB3D1
 P 4600 11750
 F 0 "J18" H 4600 11850 50  0000 C CNN
@@ -3939,7 +3835,7 @@ F 3 "" H 4600 11750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x01 J19
+L DAC_Digital-rescue:Conn_01x01 J19
 U 1 1 59EDB3D7
 P 5000 11750
 F 0 "J19" H 5000 11850 50  0000 C CNN
@@ -3979,4 +3875,244 @@ Text Label 8100 5600 0    60   ~ 0
 SCK
 Text Label 8150 5700 0    60   ~ 0
 /CS
+Text Label 5600 2950 0    60   ~ 0
+VDD_5V
+$Comp
+L DAC_Digital-rescue:R R?
+U 1 1 5B2FED1D
+P 4350 2350
+F 0 "R?" V 4430 2350 50  0000 C CNN
+F 1 "10k" V 4350 2350 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 4280 2350 50  0001 C CNN
+F 3 "" H 4350 2350 50  0001 C CNN
+	1    4350 2350
+	1    0    0    -1  
+$EndComp
+Text Label 8050 2550 0    60   ~ 0
+VDD_5V
+Text Label 8050 3300 0    60   ~ 0
+VDD_5V
+Text Label 7950 4300 0    60   ~ 0
+VDD_5V
+Text Label 4350 2100 0    60   ~ 0
+VDD_5V
+Connection ~ 4350 2650
+Wire Wire Line
+	4350 2200 4350 2100
+Wire Wire Line
+	4350 2100 4600 2100
+Wire Wire Line
+	11600 3950 11600 4000
+Wire Wire Line
+	13250 4050 13250 4100
+Wire Wire Line
+	13350 4050 13450 4050
+Wire Wire Line
+	13650 4050 13750 4050
+Wire Wire Line
+	13750 4050 13850 4050
+Wire Wire Line
+	10900 6950 10900 7200
+Wire Wire Line
+	11750 6950 12350 6950
+Wire Wire Line
+	6700 13200 6700 13300
+Wire Wire Line
+	7700 13000 7850 13000
+Wire Wire Line
+	7850 13000 7850 13050
+Wire Wire Line
+	8000 13600 8400 13600
+Wire Wire Line
+	7850 13600 8000 13600
+Wire Wire Line
+	7700 13600 7850 13600
+Wire Wire Line
+	6300 13650 6400 13650
+Wire Wire Line
+	7850 12400 8050 12400
+Wire Wire Line
+	18550 4100 18550 4250
+Wire Wire Line
+	17850 4100 17850 4250
+Wire Wire Line
+	1750 12750 1750 12850
+Wire Wire Line
+	1750 12350 2000 12350
+Wire Wire Line
+	2650 11850 2750 11850
+Wire Wire Line
+	3400 14100 3400 14150
+Wire Wire Line
+	3250 14100 3400 14100
+Wire Wire Line
+	3150 14100 3250 14100
+Wire Wire Line
+	3050 14100 3150 14100
+Wire Wire Line
+	2950 14100 3050 14100
+Wire Wire Line
+	2850 14100 2950 14100
+Wire Wire Line
+	3200 11800 3600 11800
+Wire Wire Line
+	1100 13200 1100 13400
+Wire Wire Line
+	1100 13000 1100 13200
+Wire Wire Line
+	7850 15050 8000 15050
+Wire Wire Line
+	7850 15450 7850 15550
+Wire Wire Line
+	10800 11900 10800 12000
+Wire Wire Line
+	10400 12800 10400 12850
+Wire Wire Line
+	12400 14450 12400 14500
+Wire Wire Line
+	11950 14450 12100 14450
+Wire Wire Line
+	12100 14450 12250 14450
+Wire Wire Line
+	12250 14450 12400 14450
+Wire Wire Line
+	10250 14300 10250 14450
+Wire Wire Line
+	10800 14300 10800 14450
+Wire Wire Line
+	10250 13950 10250 14300
+Wire Wire Line
+	10800 13950 10800 14300
+Wire Wire Line
+	11800 10500 11800 10650
+Wire Wire Line
+	12100 10500 12250 10500
+Wire Wire Line
+	11950 10500 12100 10500
+Wire Wire Line
+	12500 10400 12900 10400
+Wire Wire Line
+	11800 15550 11800 15650
+Wire Wire Line
+	12700 15550 12950 15550
+Wire Wire Line
+	12400 15550 12700 15550
+Wire Wire Line
+	12100 15550 12400 15550
+Wire Wire Line
+	11800 14950 12100 14950
+Wire Wire Line
+	12100 14950 12400 14950
+Wire Wire Line
+	12400 14950 12700 14950
+Wire Wire Line
+	16200 10000 16200 10300
+Wire Wire Line
+	16650 10000 16750 10000
+Wire Wire Line
+	16650 10000 16650 10250
+Wire Wire Line
+	15400 9800 15400 10400
+Wire Wire Line
+	15400 10400 15500 10400
+Wire Wire Line
+	16200 11550 16200 11850
+Wire Wire Line
+	16650 11550 16750 11550
+Wire Wire Line
+	16650 11550 16650 11800
+Wire Wire Line
+	15400 11350 15400 11950
+Wire Wire Line
+	15400 11950 15500 11950
+Wire Wire Line
+	17950 10900 17950 11200
+Wire Wire Line
+	10250 10850 10650 10850
+Wire Wire Line
+	13000 13200 13000 13250
+Wire Wire Line
+	6750 11200 6750 11300
+Wire Wire Line
+	7750 11000 7900 11000
+Wire Wire Line
+	7900 11000 7900 11050
+Wire Wire Line
+	8050 11600 8450 11600
+Wire Wire Line
+	7900 11600 8050 11600
+Wire Wire Line
+	7750 11600 7900 11600
+Wire Wire Line
+	6350 11650 6450 11650
+Wire Wire Line
+	7900 10400 8100 10400
+Wire Wire Line
+	13450 4050 13650 4050
+Wire Wire Line
+	15150 3250 15350 3250
+Wire Wire Line
+	14950 3250 15150 3250
+Wire Wire Line
+	14650 3250 14950 3250
+Wire Wire Line
+	14450 3250 14650 3250
+Wire Wire Line
+	14250 3250 14450 3250
+Wire Wire Line
+	6050 7350 6050 7450
+Wire Wire Line
+	5950 7350 6050 7350
+Wire Wire Line
+	5850 7350 5950 7350
+Wire Wire Line
+	5750 7350 5850 7350
+Wire Wire Line
+	5600 3150 5600 3250
+Wire Wire Line
+	5750 3150 5850 3150
+Wire Wire Line
+	5850 3150 5950 3150
+Wire Wire Line
+	5950 3150 6050 3150
+Wire Wire Line
+	3600 7550 3600 7700
+Wire Wire Line
+	4150 7550 4150 7700
+Wire Wire Line
+	3600 7200 3600 7550
+Wire Wire Line
+	4150 7200 4150 7550
+Wire Wire Line
+	8650 5800 8650 5950
+Wire Wire Line
+	15350 3750 15350 3800
+Wire Wire Line
+	14450 3750 14650 3750
+Wire Wire Line
+	14650 3750 14950 3750
+Wire Wire Line
+	14950 3750 15150 3750
+Wire Wire Line
+	15150 3750 15350 3750
+Wire Wire Line
+	18550 5900 18550 5950
+Wire Wire Line
+	18850 5900 19300 5900
+Wire Wire Line
+	8900 3000 9200 3000
+Wire Wire Line
+	8900 3750 9200 3750
+Wire Wire Line
+	8050 3000 8300 3000
+Wire Wire Line
+	8050 3750 8050 3800
+Wire Wire Line
+	4950 10150 5000 10150
+Wire Wire Line
+	5800 10150 6150 10150
+Wire Wire Line
+	5600 10050 5600 10150
+Wire Wire Line
+	4350 2650 4350 3550
 $EndSCHEMATC

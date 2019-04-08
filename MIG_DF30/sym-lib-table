@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name MIG_DF30-rescue)(type Legacy)(uri ${KIPRJMOD}/MIG_DF30-rescue.lib)(options "")(descr ""))
+)
