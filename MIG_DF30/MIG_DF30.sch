@@ -1023,12 +1023,12 @@ $EndComp
 $Comp
 L Device:CP C28
 U 1 1 5CAED442
-P 3850 6100
-F 0 "C28" H 3968 6146 50  0000 L CNN
-F 1 "CP" H 3968 6055 50  0000 L CNN
-F 2 "" H 3888 5950 50  0001 C CNN
-F 3 "~" H 3850 6100 50  0001 C CNN
-	1    3850 6100
+P 3150 6300
+F 0 "C28" H 3268 6346 50  0000 L CNN
+F 1 "CP" H 3268 6255 50  0000 L CNN
+F 2 "" H 3188 6150 50  0001 C CNN
+F 3 "~" H 3150 6300 50  0001 C CNN
+	1    3150 6300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1133,12 +1133,12 @@ $EndComp
 $Comp
 L Device:C C29
 U 1 1 5CAEF02D
-P 6600 6550
-F 0 "C29" H 6715 6596 50  0000 L CNN
-F 1 "C" H 6715 6505 50  0000 L CNN
-F 2 "Capacitors_THT:C_Rect_L18.0mm_W6.0mm_P15.00mm_FKS3_FKP3" H 6638 6400 50  0001 C CNN
-F 3 "~" H 6600 6550 50  0001 C CNN
-	1    6600 6550
+P 5700 6750
+F 0 "C29" H 5815 6796 50  0000 L CNN
+F 1 "C" H 5815 6705 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L18.0mm_W6.0mm_P15.00mm_FKS3_FKP3" H 5738 6600 50  0001 C CNN
+F 3 "~" H 5700 6750 50  0001 C CNN
+	1    5700 6750
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1155,34 +1155,34 @@ $EndComp
 $Comp
 L Device:R R20
 U 1 1 5CAEF2AB
-P 5950 6800
-F 0 "R20" H 6020 6846 50  0000 L CNN
-F 1 "R" H 6020 6755 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" V 5880 6800 50  0001 C CNN
-F 3 "~" H 5950 6800 50  0001 C CNN
-	1    5950 6800
+P 5050 8150
+F 0 "R20" H 5120 8196 50  0000 L CNN
+F 1 "R" H 5120 8105 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" V 4980 8150 50  0001 C CNN
+F 3 "~" H 5050 8150 50  0001 C CNN
+	1    5050 8150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D12
 U 1 1 5CAEF3C1
-P 5700 6800
-F 0 "D12" V 5746 6721 50  0000 R CNN
-F 1 "D" V 5655 6721 50  0000 R CNN
-F 2 "Yame_library:D_P600_R-6_P18.00mm_Horizontal" H 5700 6800 50  0001 C CNN
-F 3 "~" H 5700 6800 50  0001 C CNN
-	1    5700 6800
+P 4800 8150
+F 0 "D12" V 4846 8071 50  0000 R CNN
+F 1 "D" V 4755 8071 50  0000 R CNN
+F 2 "Yame_library:D_P600_R-6_P18.00mm_Horizontal" H 4800 8150 50  0001 C CNN
+F 3 "~" H 4800 8150 50  0001 C CNN
+	1    4800 8150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D11
 U 1 1 5CAEF4ED
-P 4600 7100
-F 0 "D11" V 4646 7021 50  0000 R CNN
-F 1 "D" V 4555 7021 50  0000 R CNN
-F 2 "Yame_library:D_P600_R-6_P18.00mm_Horizontal" H 4600 7100 50  0001 C CNN
-F 3 "~" H 4600 7100 50  0001 C CNN
-	1    4600 7100
+P 4400 8050
+F 0 "D11" V 4446 7971 50  0000 R CNN
+F 1 "D" V 4355 7971 50  0000 R CNN
+F 2 "Yame_library:D_P600_R-6_P18.00mm_Horizontal" H 4400 8050 50  0001 C CNN
+F 3 "~" H 4400 8050 50  0001 C CNN
+	1    4400 8050
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -3346,26 +3346,9 @@ Wire Wire Line
 	1350 7350 1350 8100
 Connection ~ 1500 7350
 Wire Wire Line
-	8850 3950 8850 4250
-Wire Wire Line
 	8850 4400 8750 4400
 Wire Wire Line
 	6300 4650 6750 4650
-Wire Wire Line
-	6750 4650 6750 4100
-Wire Wire Line
-	6750 4100 7450 4100
-Wire Wire Line
-	7450 4100 7450 3850
-Wire Wire Line
-	7450 3850 8050 3850
-Wire Wire Line
-	8050 3850 8050 4250
-Wire Wire Line
-	8050 4250 8850 4250
-Connection ~ 8850 4250
-Wire Wire Line
-	8850 4250 8850 4400
 Wire Wire Line
 	2450 5600 1900 5600
 Wire Wire Line
@@ -3396,7 +3379,7 @@ Wire Wire Line
 	6300 5350 6300 5050
 Connection ~ 4350 5050
 Wire Wire Line
-	4350 5400 4600 5400
+	4350 5400 4500 5400
 Wire Wire Line
 	6000 4750 6000 4850
 Wire Wire Line
@@ -3431,23 +3414,23 @@ $EndComp
 $Comp
 L 4xxx:4001 U1
 U 4 1 5CE970C6
-P 5650 7700
-F 0 "U1" H 5650 8025 50  0000 C CNN
-F 1 "4001" H 5650 7934 50  0000 C CNN
-F 2 "" H 5650 7700 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 5650 7700 50  0001 C CNN
-	4    5650 7700
+P 4250 5800
+F 0 "U1" H 4250 6125 50  0000 C CNN
+F 1 "4001" H 4250 6034 50  0000 C CNN
+F 2 "" H 4250 5800 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 4250 5800 50  0001 C CNN
+	4    4250 5800
 	1    0    0    -1  
 $EndComp
 $Comp
 L 4xxx:4001 U1
 U 5 1 5CE9A059
-P 4600 8500
-F 0 "U1" H 4600 8825 50  0000 C CNN
-F 1 "4001" H 4600 8734 50  0000 C CNN
-F 2 "" H 4600 8500 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 4600 8500 50  0001 C CNN
-	5    4600 8500
+P 3600 6000
+F 0 "U1" H 3600 6325 50  0000 C CNN
+F 1 "4001" H 3600 6234 50  0000 C CNN
+F 2 "" H 3600 6000 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 3600 6000 50  0001 C CNN
+	5    3600 6000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3463,4 +3446,177 @@ F 3 "" H 2650 5300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2450 5300 2650 5300
+$Comp
+L power:GND #PWR?
+U 1 1 5CB52321
+P 3150 6450
+F 0 "#PWR?" H 3150 6200 50  0001 C CNN
+F 1 "GND" H 3155 6277 50  0000 C CNN
+F 2 "" H 3150 6450 50  0001 C CNN
+F 3 "" H 3150 6450 50  0001 C CNN
+	1    3150 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 5500 3150 5500
+Wire Wire Line
+	3150 5500 3150 6150
+Wire Wire Line
+	4150 5450 4150 5500
+Wire Wire Line
+	4150 5500 3600 5500
+Connection ~ 3600 5500
+Wire Wire Line
+	3950 5900 3850 5900
+Wire Wire Line
+	3850 5900 3850 5400
+Wire Wire Line
+	3950 5700 3900 5700
+Wire Wire Line
+	3900 5700 3900 6350
+Wire Wire Line
+	3900 6350 4350 6350
+Wire Wire Line
+	3850 5900 3850 6500
+Wire Wire Line
+	3850 6500 5200 6500
+Wire Wire Line
+	5200 6500 5200 6700
+Connection ~ 3850 5900
+Wire Wire Line
+	4600 6600 4600 6450
+Wire Wire Line
+	4600 6450 4950 6450
+Wire Wire Line
+	4950 6450 4950 6250
+Wire Wire Line
+	4550 5800 4550 6000
+Wire Wire Line
+	4550 6000 4050 6000
+Wire Wire Line
+	4050 6000 4050 6800
+Wire Wire Line
+	4050 6800 4600 6800
+$Comp
+L power:GND #PWR?
+U 1 1 5CBE5176
+P 4700 7500
+F 0 "#PWR?" H 4700 7250 50  0001 C CNN
+F 1 "GND" H 4705 7327 50  0000 C CNN
+F 2 "" H 4700 7500 50  0001 C CNN
+F 3 "" H 4700 7500 50  0001 C CNN
+	1    4700 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 7250 4700 7250
+Wire Wire Line
+	4700 7250 4700 7450
+Wire Wire Line
+	4750 7450 4700 7450
+Connection ~ 4700 7450
+Wire Wire Line
+	4700 7450 4700 7500
+$Comp
+L power:GND #PWR?
+U 1 1 5CC242FA
+P 4450 4500
+F 0 "#PWR?" H 4450 4250 50  0001 C CNN
+F 1 "GND" H 4455 4327 50  0000 C CNN
+F 2 "" H 4450 4500 50  0001 C CNN
+F 3 "" H 4450 4500 50  0001 C CNN
+	1    4450 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 5100 4600 4500
+Wire Wire Line
+	4600 4500 4450 4500
+Wire Wire Line
+	7500 4800 7250 4800
+Wire Wire Line
+	7250 4800 7250 5450
+Wire Wire Line
+	7250 5450 4500 5450
+Wire Wire Line
+	4500 5450 4500 5400
+Connection ~ 4500 5400
+Wire Wire Line
+	4500 5400 4600 5400
+Wire Wire Line
+	7500 4500 8550 4500
+Wire Wire Line
+	8800 4500 8800 4700
+Wire Wire Line
+	7700 5450 7800 5450
+Wire Wire Line
+	8550 5450 8550 4500
+Connection ~ 8550 4500
+Wire Wire Line
+	8550 4500 8800 4500
+Wire Wire Line
+	6350 5750 6350 5550
+Wire Wire Line
+	6350 5550 6500 5550
+Wire Wire Line
+	7400 5550 7400 5250
+Wire Wire Line
+	6650 6050 6500 6050
+Wire Wire Line
+	6500 6050 6500 5550
+Connection ~ 6500 5550
+Wire Wire Line
+	6500 5550 7400 5550
+Wire Wire Line
+	6650 5750 6650 5600
+Wire Wire Line
+	6650 5600 7800 5600
+Wire Wire Line
+	7800 5600 7800 5450
+Connection ~ 7800 5450
+Wire Wire Line
+	7800 5450 8550 5450
+$Comp
+L power:GND #PWR?
+U 1 1 5CCC4C34
+P 5750 5750
+F 0 "#PWR?" H 5750 5500 50  0001 C CNN
+F 1 "GND" H 5755 5577 50  0000 C CNN
+F 2 "" H 5750 5750 50  0001 C CNN
+F 3 "" H 5750 5750 50  0001 C CNN
+	1    5750 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 5750 5750 5750
+Wire Wire Line
+	7700 5050 7700 4450
+Wire Wire Line
+	7700 4450 8850 4450
+Wire Wire Line
+	8850 4450 8850 4400
+Connection ~ 8850 4400
+Wire Wire Line
+	8850 3950 8850 4400
+Wire Wire Line
+	6750 4650 6750 4800
+Wire Wire Line
+	6750 4800 7050 4800
+Connection ~ 7050 4800
+Wire Wire Line
+	4150 5500 8300 5500
+Wire Wire Line
+	8300 5500 8300 5000
+Connection ~ 4150 5500
+$Comp
+L power:GND #PWR?
+U 1 1 5CD2E72D
+P 5550 6750
+F 0 "#PWR?" H 5550 6500 50  0001 C CNN
+F 1 "GND" H 5555 6577 50  0000 C CNN
+F 2 "" H 5550 6750 50  0001 C CNN
+F 3 "" H 5550 6750 50  0001 C CNN
+	1    5550 6750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
