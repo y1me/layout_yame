@@ -31,10 +31,10 @@ L Device:D D2
 U 1 1 5CABAB04
 P 4950 2300
 F 0 "D2" V 4996 2221 50  0000 R CNN
-F 1 "D" V 4905 2221 50  0000 R CNN
+F 1 "MR754" V 4905 2221 50  0000 R CNN
 F 2 "Yame_library:D_P600_R-6_P18.00mm_Horizontal" H 4950 2300 50  0001 C CNN
 F 3 "~" H 4950 2300 50  0001 C CNN
-F 4 "MR754" H 0   0   50  0001 C CNN "ref"
+F 4 "583-6A10-T" H 0   0   50  0001 C CNN "ref"
 	1    4950 2300
 	0    -1   -1   0   
 $EndComp
@@ -43,10 +43,10 @@ L Device:D D3
 U 1 1 5CABAC34
 P 5350 2300
 F 0 "D3" V 5396 2221 50  0000 R CNN
-F 1 "D" V 5305 2221 50  0000 R CNN
+F 1 "MR754" V 5305 2221 50  0000 R CNN
 F 2 "Yame_library:D_P600_R-6_P18.00mm_Horizontal" H 5350 2300 50  0001 C CNN
 F 3 "~" H 5350 2300 50  0001 C CNN
-F 4 "MR754" H 0   0   50  0001 C CNN "ref"
+F 4 "583-6A10-T" H 0   0   50  0001 C CNN "ref"
 	1    5350 2300
 	0    -1   -1   0   
 $EndComp
@@ -55,10 +55,10 @@ L Device:D D4
 U 1 1 5CABACA9
 P 5750 2300
 F 0 "D4" V 5796 2221 50  0000 R CNN
-F 1 "D" V 5705 2221 50  0000 R CNN
+F 1 "MR754" V 5705 2221 50  0000 R CNN
 F 2 "Yame_library:D_P600_R-6_P18.00mm_Horizontal" H 5750 2300 50  0001 C CNN
 F 3 "~" H 5750 2300 50  0001 C CNN
-F 4 "MR754" H 0   0   50  0001 C CNN "ref"
+F 4 "583-6A10-T" H 0   0   50  0001 C CNN "ref"
 	1    5750 2300
 	0    -1   -1   0   
 $EndComp
@@ -67,10 +67,10 @@ L Device:D D5
 U 1 1 5CABACAF
 P 7200 2350
 F 0 "D5" V 7246 2271 50  0000 R CNN
-F 1 "D" V 7155 2271 50  0000 R CNN
+F 1 "MR754" V 7155 2271 50  0000 R CNN
 F 2 "Yame_library:D_P600_R-6_P18.00mm_Horizontal" H 7200 2350 50  0001 C CNN
 F 3 "~" H 7200 2350 50  0001 C CNN
-F 4 "MR754" H 0   0   50  0001 C CNN "ref"
+F 4 "583-6A10-T" H 0   0   50  0001 C CNN "ref"
 	1    7200 2350
 	0    -1   -1   0   
 $EndComp
@@ -127,6 +127,7 @@ F 0 "D1" H 4306 1678 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 4306 1587 50  0001 C CNN
 F 2 "Yame_library:FASTON Printed Circuit Board Tabs" H 4200 1500 50  0001 C CNN
 F 3 "~" H 4200 1500 50  0001 C CNN
+F 4 "571-624091" H 0   0   50  0001 C CNN "ref"
 	1    4200 1500
 	0    1    1    0   
 $EndComp
@@ -138,6 +139,7 @@ F 0 "A16" V 4956 1541 50  0000 L CNN
 F 1 "Conn_01x01_Male" H 4956 1587 50  0001 C CNN
 F 2 "Yame_library:FASTON Printed Circuit Board Tabs" H 4850 1500 50  0001 C CNN
 F 3 "~" H 4850 1500 50  0001 C CNN
+F 4 " 571-624091" H 0   0   50  0001 C CNN "ref"
 	1    4850 1500
 	0    1    1    0   
 $EndComp
@@ -149,6 +151,7 @@ F 0 "K1" H 9180 3596 50  0000 L CNN
 F 1 "G5V-2" H 9180 3505 50  0000 L CNN
 F 2 "Yame_library:Relay_DPDT_1" H 9200 3500 50  0001 L CNN
 F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf" H 8350 3550 50  0001 C CNN
+F 4 "655-RT424024 " H 0   0   50  0001 C CNN "ref"
 	1    8550 3550
 	0    -1   -1   0   
 $EndComp
@@ -160,6 +163,7 @@ F 0 "B1" V 5406 890 50  0000 L CNN
 F 1 "Conn_01x01_Male" V 5451 890 50  0001 L CNN
 F 2 "Yame_library:FASTON Printed Circuit Board Tabs" H 5300 850 50  0001 C CNN
 F 3 "~" H 5300 850 50  0001 C CNN
+F 4 "571-624091" H 0   0   50  0001 C CNN "ref"
 	1    5300 850 
 	0    1    1    0   
 $EndComp
@@ -171,6 +175,7 @@ F 0 "B2" V 5706 890 50  0000 L CNN
 F 1 "Conn_01x01_Male" H 5706 937 50  0001 C CNN
 F 2 "Yame_library:FASTON Printed Circuit Board Tabs" H 5600 850 50  0001 C CNN
 F 3 "~" H 5600 850 50  0001 C CNN
+F 4 "571-624091" H 0   0   50  0001 C CNN "ref"
 	1    5600 850 
 	0    1    1    0   
 $EndComp
@@ -182,6 +187,7 @@ F 0 "C3" V 6556 890 50  0000 L CNN
 F 1 "Conn_01x01_Male" H 6556 937 50  0001 C CNN
 F 2 "Yame_library:FASTON Printed Circuit Board Tabs" H 6450 850 50  0001 C CNN
 F 3 "~" H 6450 850 50  0001 C CNN
+F 4 "571-624091" H 0   0   50  0001 C CNN "ref"
 	1    6450 850 
 	0    1    1    0   
 $EndComp
@@ -193,6 +199,7 @@ F 0 "G1" V 7356 890 50  0000 L CNN
 F 1 "Conn_01x01_Male" H 7356 937 50  0001 C CNN
 F 2 "Yame_library:FASTON Printed Circuit Board Tabs" H 7250 850 50  0001 C CNN
 F 3 "~" H 7250 850 50  0001 C CNN
+F 4 "571-624091" H 0   0   50  0001 C CNN "ref"
 	1    7250 850 
 	0    1    1    0   
 $EndComp
@@ -204,6 +211,7 @@ F 0 "G2" V 8156 890 50  0000 L CNN
 F 1 "Conn_01x01_Male" H 8156 937 50  0001 C CNN
 F 2 "Yame_library:FASTON Printed Circuit Board Tabs" H 8050 850 50  0001 C CNN
 F 3 "~" H 8050 850 50  0001 C CNN
+F 4 "571-624091" H 0   0   50  0001 C CNN "ref"
 	1    8050 850 
 	0    1    1    0   
 $EndComp
@@ -215,6 +223,7 @@ F 0 "E1" V 9156 941 50  0000 L CNN
 F 1 "Conn_01x01_Male" H 9156 987 50  0001 C CNN
 F 2 "Yame_library:FASTON Printed Circuit Board Tabs" H 9050 900 50  0001 C CNN
 F 3 "~" H 9050 900 50  0001 C CNN
+F 4 "571-624091" H 0   0   50  0001 C CNN "ref"
 	1    9050 900 
 	0    1    1    0   
 $EndComp
@@ -226,6 +235,7 @@ F 0 "E2" V 9406 941 50  0000 L CNN
 F 1 "Conn_01x01_Male" H 9406 987 50  0001 C CNN
 F 2 "Yame_library:FASTON Printed Circuit Board Tabs" H 9300 900 50  0001 C CNN
 F 3 "~" H 9300 900 50  0001 C CNN
+F 4 "571-624091" H 0   0   50  0001 C CNN "ref"
 	1    9300 900 
 	0    1    1    0   
 $EndComp
@@ -237,6 +247,7 @@ F 0 "F1" V 10406 941 50  0000 L CNN
 F 1 "Conn_01x01_Male" H 10406 987 50  0001 C CNN
 F 2 "Yame_library:FASTON Printed Circuit Board Tabs" H 10300 900 50  0001 C CNN
 F 3 "~" H 10300 900 50  0001 C CNN
+F 4 "571-624091" H 0   0   50  0001 C CNN "ref"
 	1    10300 900 
 	0    1    1    0   
 $EndComp
@@ -245,10 +256,10 @@ L Device:D D6
 U 1 1 5CAD2E4C
 P 7600 2350
 F 0 "D6" V 7646 2271 50  0000 R CNN
-F 1 "D" V 7555 2271 50  0000 R CNN
+F 1 "MR754" V 7555 2271 50  0000 R CNN
 F 2 "Yame_library:D_P600_R-6_P18.00mm_Horizontal" H 7600 2350 50  0001 C CNN
 F 3 "~" H 7600 2350 50  0001 C CNN
-F 4 "MR754" H 0   0   50  0001 C CNN "ref"
+F 4 "583-6A10-T" H 0   0   50  0001 C CNN "ref"
 	1    7600 2350
 	0    -1   -1   0   
 $EndComp
@@ -316,10 +327,10 @@ L Device:D D7
 U 1 1 5CAD3752
 P 10150 2250
 F 0 "D7" V 10196 2171 50  0000 R CNN
-F 1 "D" V 10105 2171 50  0000 R CNN
+F 1 "MR754" V 10105 2171 50  0000 R CNN
 F 2 "Yame_library:D_P600_R-6_P18.00mm_Horizontal" H 10150 2250 50  0001 C CNN
 F 3 "~" H 10150 2250 50  0001 C CNN
-F 4 "MR754" H 0   0   50  0001 C CNN "ref"
+F 4 "583-6A10-T" H 0   0   50  0001 C CNN "ref"
 	1    10150 2250
 	0    -1   -1   0   
 $EndComp
@@ -351,9 +362,10 @@ L Device:C C2
 U 1 1 5CAD3986
 P 5750 3400
 F 0 "C2" H 5865 3446 50  0000 L CNN
-F 1 "C" H 5865 3355 50  0000 L CNN
+F 1 "100n" H 5865 3355 50  0000 L CNN
 F 2 "Capacitors_THT:C_Rect_L13.5mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4" H 5788 3250 50  0001 C CNN
 F 3 "~" H 5750 3400 50  0001 C CNN
+F 4 "05-MKS4D031003CMSSD" H 0   0   50  0001 C CNN "ref"
 	1    5750 3400
 	0    1    1    0   
 $EndComp
@@ -374,9 +386,10 @@ L Device:C C7
 U 1 1 5CAD3AF6
 P 6750 3750
 F 0 "C7" H 6865 3796 50  0000 L CNN
-F 1 "C" H 6865 3705 50  0000 L CNN
+F 1 "100n" H 6865 3705 50  0000 L CNN
 F 2 "Capacitors_THT:C_Rect_L13.5mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4" H 6788 3600 50  0001 C CNN
 F 3 "~" H 6750 3750 50  0001 C CNN
+F 4 "505-MKS4D031003CMSSD" H 0   0   50  0001 C CNN "ref"
 	1    6750 3750
 	0    1    1    0   
 $EndComp
@@ -411,7 +424,7 @@ F 0 "C15" H 11068 2146 50  0000 L CNN
 F 1 "CP" H 11068 2055 50  0000 L CNN
 F 2 "Capacitors_THT:CP_Radial_D13.0mm_P5.00mm" H 10988 1950 50  0001 C CNN
 F 3 "~" H 10950 2100 50  0001 C CNN
-F 4 "470uF 40V 85°C" H 0   0   50  0001 C CNN "ref"
+F 4 "598-477CKS063M " H 0   0   50  0001 C CNN "ref"
 	1    10950 2100
 	-1   0    0    1   
 $EndComp
@@ -423,7 +436,7 @@ F 0 "C17" H 11418 2546 50  0000 L CNN
 F 1 "CP" H 11418 2455 50  0000 L CNN
 F 2 "Capacitors_THT:CP_Radial_D13.0mm_P5.00mm" H 11338 2350 50  0001 C CNN
 F 3 "~" H 11300 2500 50  0001 C CNN
-F 4 "470uF 40V 85°C" H 0   0   50  0001 C CNN "ref"
+F 4 "598-477CKS063M " H 0   0   50  0001 C CNN "ref"
 	1    11300 2500
 	1    0    0    -1  
 $EndComp
@@ -435,7 +448,7 @@ F 0 "C18" H 12418 2296 50  0000 L CNN
 F 1 "CP" H 12418 2205 50  0000 L CNN
 F 2 "Capacitors_THT:CP_Radial_D13.0mm_P5.00mm" H 12338 2100 50  0001 C CNN
 F 3 "~" H 12300 2250 50  0001 C CNN
-F 4 "470uF 40V 85°C" H 0   0   50  0001 C CNN "ref"
+F 4 "598-477CKS063M " H 0   0   50  0001 C CNN "ref"
 	1    12300 2250
 	1    0    0    -1  
 $EndComp
@@ -444,10 +457,10 @@ L Device:CP C19
 U 1 1 5CAE4B9D
 P 16450 2750
 F 0 "C19" H 16568 2796 50  0000 L CNN
-F 1 "470u" H 16568 2705 50  0000 L CNN
+F 1 "47u" H 16568 2705 50  0000 L CNN
 F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 16488 2600 50  0001 C CNN
 F 3 "~" H 16450 2750 50  0001 C CNN
-F 4 "598-477CKS063M" H 0   0   50  0001 C CNN "ref"
+F 4 "647-UVR1J470MED1TA " H 0   0   50  0001 C CNN "ref"
 	1    16450 2750
 	-1   0    0    1   
 $EndComp
@@ -519,7 +532,7 @@ F 0 "D10" V 15746 1571 50  0000 R CNN
 F 1 "D" V 15655 1571 50  0000 R CNN
 F 2 "Diodes_THT:D_DO-15_P10.16mm_Horizontal" H 15700 1650 50  0001 C CNN
 F 3 "~" H 15700 1650 50  0001 C CNN
-F 4 "1N4744A" H 0   0   50  0001 C CNN "ref"
+F 4 "512-1N4744ATR" H 0   0   50  0001 C CNN "ref"
 	1    15700 1650
 	0    -1   -1   0   
 $EndComp
@@ -528,10 +541,10 @@ L Device:D_Bridge_+A-A D8
 U 1 1 5CAE57DC
 P 14100 2450
 F 0 "D8" H 14441 2496 50  0000 L CNN
-F 1 "D_Bridge_+A-A" H 13450 2100 50  0000 L CNN
+F 1 "SKB1,2/04" H 13450 2100 50  0000 L CNN
 F 2 "Diodes_THT:Diode_Bridge_Round_D9.8mm" H 14100 2450 50  0001 C CNN
 F 3 "~" H 14100 2450 50  0001 C CNN
-F 4 "SKB1,2/04" H 0   0   50  0001 C CNN "ref"
+F 4 "583-W04M " H 0   0   50  0001 C CNN "ref"
 	1    14100 2450
 	-1   0    0    -1  
 $EndComp
@@ -551,10 +564,10 @@ L Device:R R8
 U 1 1 5CAE60F4
 P 16950 1750
 F 0 "R8" H 17020 1796 50  0000 L CNN
-F 1 "R" H 17020 1705 50  0000 L CNN
+F 1 "330 ohm 5W " H 17020 1705 50  0000 L CNN
 F 2 "Resistors_THT:R_Axial_Power_L25.0mm_W6.4mm_P27.94mm" V 16880 1750 50  0001 C CNN
 F 3 "~" H 16950 1750 50  0001 C CNN
-F 4 "330 ohm 5W" H 0   0   50  0001 C CNN "ref"
+F 4 "756-WHS5-330RJT075 " H 0   0   50  0001 C CNN "ref"
 	1    16950 1750
 	-1   0    0    1   
 $EndComp
@@ -574,9 +587,10 @@ L Device:C C14
 U 1 1 5CAE6815
 P 10650 3900
 F 0 "C14" H 10765 3946 50  0000 L CNN
-F 1 "C" H 10765 3855 50  0000 L CNN
+F 1 "100n" H 10765 3855 50  0000 L CNN
 F 2 "Capacitors_THT:C_Rect_L13.5mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4" H 10688 3750 50  0001 C CNN
 F 3 "~" H 10650 3900 50  0001 C CNN
+F 4 "505-MKS4D031003CMSSD" H 0   0   50  0001 C CNN "ref"
 	1    10650 3900
 	1    0    0    -1  
 $EndComp
@@ -585,9 +599,10 @@ L Device:C C16
 U 1 1 5CAE68D7
 P 11050 3850
 F 0 "C16" H 11165 3896 50  0000 L CNN
-F 1 "C" H 11165 3805 50  0000 L CNN
+F 1 "100n" H 11165 3805 50  0000 L CNN
 F 2 "Capacitors_THT:C_Rect_L13.5mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4" H 11088 3700 50  0001 C CNN
 F 3 "~" H 11050 3850 50  0001 C CNN
+F 4 "505-MKS4D031003CMSSD" H 0   0   50  0001 C CNN "ref"
 	1    11050 3850
 	1    0    0    -1  
 $EndComp
@@ -631,10 +646,10 @@ L Device:D_Bridge_+A-A D19
 U 1 1 5CAE7E2F
 P 16850 5300
 F 0 "D19" H 17191 5346 50  0000 L CNN
-F 1 "D_Bridge_+A-A" H 16200 4950 50  0000 L CNN
+F 1 "SKB1,2/04" H 16200 4950 50  0000 L CNN
 F 2 "Diodes_THT:Diode_Bridge_Round_D9.8mm" H 16850 5300 50  0001 C CNN
 F 3 "~" H 16850 5300 50  0001 C CNN
-F 4 "SKB1,2/04" H 0   0   50  0001 C CNN "ref"
+F 4 "583-W04M " H 0   0   50  0001 C CNN "ref"
 	1    16850 5300
 	1    0    0    -1  
 $EndComp
@@ -646,6 +661,7 @@ F 0 "K2" H 15580 5296 50  0000 L CNN
 F 1 "G5V-2" H 15580 5205 50  0000 L CNN
 F 2 "Yame_library:Relay_DPDT_1" H 15600 5200 50  0001 L CNN
 F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf" H 14750 5250 50  0001 C CNN
+F 4 "655-RT424024 " H 0   0   50  0001 C CNN "ref"
 	1    14950 5250
 	1    0    0    -1  
 $EndComp
@@ -702,10 +718,10 @@ L Device:D D20
 U 1 1 5CAE89E7
 P 16000 7300
 F 0 "D20" V 16046 7221 50  0000 R CNN
-F 1 "D" V 15955 7221 50  0000 R CNN
+F 1 "1N4148" V 15955 7221 50  0000 R CNN
 F 2 "Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal" H 16000 7300 50  0001 C CNN
 F 3 "~" H 16000 7300 50  0001 C CNN
-F 4 "1N4148" H 0   0   50  0001 C CNN "ref"
+F 4 "512-1N4148TR" H 0   0   50  0001 C CNN "ref"
 	1    16000 7300
 	0    -1   -1   0   
 $EndComp
@@ -737,10 +753,10 @@ L Device:D D18
 U 1 1 5CAE8D23
 P 13200 6550
 F 0 "D18" V 13246 6471 50  0000 R CNN
-F 1 "D" V 13155 6471 50  0000 R CNN
+F 1 "1N4148" V 13155 6471 50  0000 R CNN
 F 2 "Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal" H 13200 6550 50  0001 C CNN
 F 3 "~" H 13200 6550 50  0001 C CNN
-F 4 "1N4148" H 0   0   50  0001 C CNN "ref"
+F 4 "512-1N4148TR" H 0   0   50  0001 C CNN "ref"
 	1    13200 6550
 	-1   0    0    -1  
 $EndComp
@@ -785,6 +801,7 @@ F 0 "C38" H 12315 6846 50  0000 L CNN
 F 1 "C" H 12315 6755 50  0000 L CNN
 F 2 "Capacitors_THT:C_Rect_L13.0mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4" H 12238 6650 50  0001 C CNN
 F 3 "~" H 12200 6800 50  0001 C CNN
+F 4 "505-MKS4D031003CMSSD" H 0   0   50  0001 C CNN "ref"
 	1    12200 6800
 	1    0    0    -1  
 $EndComp
@@ -804,10 +821,10 @@ L Device:D D17
 U 1 1 5CAE9854
 P 11400 6800
 F 0 "D17" V 11446 6721 50  0000 R CNN
-F 1 "D" V 11355 6721 50  0000 R CNN
+F 1 "1N4148" V 11355 6721 50  0000 R CNN
 F 2 "Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal" H 11400 6800 50  0001 C CNN
 F 3 "~" H 11400 6800 50  0001 C CNN
-F 4 "1N4148" H 0   0   50  0001 C CNN "ref"
+F 4 "512-1N4148TR" H 0   0   50  0001 C CNN "ref"
 	1    11400 6800
 	0    -1   -1   0   
 $EndComp
@@ -816,10 +833,10 @@ L Device:D D16
 U 1 1 5CAE9A8A
 P 11100 6750
 F 0 "D16" V 11146 6671 50  0000 R CNN
-F 1 "D" V 11055 6671 50  0000 R CNN
+F 1 "1N4148" V 11055 6671 50  0000 R CNN
 F 2 "Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal" H 11100 6750 50  0001 C CNN
 F 3 "~" H 11100 6750 50  0001 C CNN
-F 4 "1N4148" H 0   0   50  0001 C CNN "ref"
+F 4 "512-1N4148TR" H 0   0   50  0001 C CNN "ref"
 	1    11100 6750
 	0    -1   -1   0   
 $EndComp
@@ -843,7 +860,7 @@ F 0 "U3" H 14300 8725 50  0000 C CNN
 F 1 "4011" H 14300 8634 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm" H 14300 8400 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 14300 8400 50  0001 C CNN
-F 4 "MC14011BCL" H 0   0   50  0001 C CNN "ref"
+F 4 "595-CD4011UBE " H 0   0   50  0001 C CNN "ref"
 	1    14300 8400
 	1    0    0    -1  
 $EndComp
@@ -855,7 +872,7 @@ F 0 "U1" H 4650 6575 50  0000 C CNN
 F 1 "4001" H 4650 6484 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm" H 4650 6250 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 4650 6250 50  0001 C CNN
-F 4 "MC14001BCL" H 0   0   50  0001 C CNN "ref"
+F 4 "595-CD4001UBE" H 0   0   50  0001 C CNN "ref"
 	1    4650 6250
 	1    0    0    -1  
 $EndComp
@@ -867,7 +884,7 @@ F 0 "D15" V 8646 4321 50  0000 R CNN
 F 1 "D" V 8555 4321 50  0000 R CNN
 F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 8600 4400 50  0001 C CNN
 F 3 "~" H 8600 4400 50  0001 C CNN
-F 4 "1N4007" H 0   0   50  0001 C CNN "ref"
+F 4 "750-1N4007-G" H 0   0   50  0001 C CNN "ref"
 	1    8600 4400
 	1    0    0    -1  
 $EndComp
@@ -927,7 +944,7 @@ F 0 "D14" V 7096 4871 50  0000 R CNN
 F 1 "D" V 7005 4871 50  0000 R CNN
 F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 7050 4950 50  0001 C CNN
 F 3 "~" H 7050 4950 50  0001 C CNN
-F 4 "1N4007" H 0   0   50  0001 C CNN "ref"
+F 4 "750-1N4007-G" H 0   0   50  0001 C CNN "ref"
 	1    7050 4950
 	0    -1   -1   0   
 $EndComp
@@ -1003,9 +1020,10 @@ L Device:C C26
 U 1 1 5CAED0C6
 P 2500 4900
 F 0 "C26" H 2615 4946 50  0000 L CNN
-F 1 "C" H 2615 4855 50  0000 L CNN
+F 1 "10n" H 2615 4855 50  0000 L CNN
 F 2 "Capacitors_THT:C_Rect_L13.5mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4" H 2538 4750 50  0001 C CNN
 F 3 "~" H 2500 4900 50  0001 C CNN
+F 4 "505-MKS4.01/630/10P " H 0   0   50  0001 C CNN "ref"
 	1    2500 4900
 	-1   0    0    1   
 $EndComp
@@ -1014,9 +1032,10 @@ L Device:C C25
 U 1 1 5CAED1D8
 P 2450 5450
 F 0 "C25" H 2565 5496 50  0000 L CNN
-F 1 "C" H 2565 5405 50  0000 L CNN
+F 1 "100n" H 2565 5405 50  0000 L CNN
 F 2 "Capacitors_THT:C_Rect_L13.5mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4" H 2488 5300 50  0001 C CNN
 F 3 "~" H 2450 5450 50  0001 C CNN
+F 4 "505-MKS4D031003CMSSD" H 0   0   50  0001 C CNN "ref"
 	1    2450 5450
 	-1   0    0    1   
 $EndComp
@@ -1059,10 +1078,10 @@ L Device:D D13
 U 1 1 5CAEE36D
 P 6650 5900
 F 0 "D13" V 6696 5821 50  0000 R CNN
-F 1 "D" V 6605 5821 50  0000 R CNN
+F 1 "1N4148" V 6605 5821 50  0000 R CNN
 F 2 "Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal" H 6650 5900 50  0001 C CNN
 F 3 "~" H 6650 5900 50  0001 C CNN
-F 4 "1N4148" H 0   0   50  0001 C CNN "ref"
+F 4 "512-1N4148TR" H 0   0   50  0001 C CNN "ref"
 	1    6650 5900
 	0    -1   -1   0   
 $EndComp
@@ -1074,7 +1093,7 @@ F 0 "U2" H 7650 6325 50  0000 C CNN
 F 1 "4001" H 7650 6234 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm" H 7650 6000 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 7650 6000 50  0001 C CNN
-F 4 "MC14001BCL" H 0   0   50  0001 C CNN "ref"
+F 4 "595-CD4001UBE" H 0   0   50  0001 C CNN "ref"
 	1    7650 6000
 	1    0    0    -1  
 $EndComp
@@ -1117,9 +1136,10 @@ L Device:C C33
 U 1 1 5CAEEDED
 P 7400 7900
 F 0 "C33" H 7515 7946 50  0000 L CNN
-F 1 "C" H 7515 7855 50  0000 L CNN
+F 1 "100n" H 7515 7855 50  0000 L CNN
 F 2 "Capacitors_THT:C_Rect_L13.5mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4" H 7438 7750 50  0001 C CNN
 F 3 "~" H 7400 7900 50  0001 C CNN
+F 4 "505-MKS4D031003CMSSD" H 0   0   50  0001 C CNN "ref"
 	1    7400 7900
 	-1   0    0    1   
 $EndComp
@@ -1128,9 +1148,10 @@ L Device:C C32
 U 1 1 5CAEEF31
 P 7050 7800
 F 0 "C32" H 7165 7846 50  0000 L CNN
-F 1 "C" H 7165 7755 50  0000 L CNN
+F 1 "100n" H 7165 7755 50  0000 L CNN
 F 2 "Capacitors_THT:C_Rect_L13.5mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4" H 7088 7650 50  0001 C CNN
 F 3 "~" H 7050 7800 50  0001 C CNN
+F 4 "505-MKS4D031003CMSSD" H 0   0   50  0001 C CNN "ref"
 	1    7050 7800
 	-1   0    0    1   
 $EndComp
@@ -1139,9 +1160,10 @@ L Device:C C29
 U 1 1 5CAEF02D
 P 7250 8950
 F 0 "C29" H 7365 8996 50  0000 L CNN
-F 1 "C" H 7365 8905 50  0000 L CNN
+F 1 "100n" H 7365 8905 50  0000 L CNN
 F 2 "Capacitors_THT:C_Rect_L13.5mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4" H 7288 8800 50  0001 C CNN
 F 3 "~" H 7250 8950 50  0001 C CNN
+F 4 "505-MKS4D031003CMSSD" H 0   0   50  0001 C CNN "ref"
 	1    7250 8950
 	0    -1   -1   0   
 $EndComp
@@ -1173,10 +1195,10 @@ L Device:D D12
 U 1 1 5CAEF3C1
 P 4900 8700
 F 0 "D12" V 4946 8621 50  0000 R CNN
-F 1 "D" V 4855 8621 50  0000 R CNN
+F 1 "1N4148" V 4855 8621 50  0000 R CNN
 F 2 "Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal" H 4900 8700 50  0001 C CNN
 F 3 "~" H 4900 8700 50  0001 C CNN
-F 4 "1N4148" H 0   0   50  0001 C CNN "ref"
+F 4 "512-1N4148TR" H 0   0   50  0001 C CNN "ref"
 	1    4900 8700
 	0    -1   -1   0   
 $EndComp
@@ -1185,10 +1207,10 @@ L Device:D D11
 U 1 1 5CAEF4ED
 P 4450 8700
 F 0 "D11" V 4496 8621 50  0000 R CNN
-F 1 "D" V 4405 8621 50  0000 R CNN
+F 1 "1N4148" V 4405 8621 50  0000 R CNN
 F 2 "Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal" H 4450 8700 50  0001 C CNN
 F 3 "~" H 4450 8700 50  0001 C CNN
-F 4 "1N4148" H 0   0   50  0001 C CNN "ref"
+F 4 "512-1N4148TR" H 0   0   50  0001 C CNN "ref"
 	1    4450 8700
 	0    -1   -1   0   
 $EndComp
@@ -1231,10 +1253,10 @@ L Device:R R11
 U 1 1 5CAF1F5C
 P 2050 6200
 F 0 "R11" H 2120 6246 50  0000 L CNN
-F 1 "R" H 2120 6155 50  0000 L CNN
+F 1 "220 ohm 5W" H 2120 6155 50  0000 L CNN
 F 2 "Resistors_THT:R_Axial_Power_L25.0mm_W6.4mm_P27.94mm" V 1980 6200 50  0001 C CNN
 F 3 "~" H 2050 6200 50  0001 C CNN
-F 4 "220 ohm 5W" H 0   0   50  0001 C CNN "ref"
+F 4 "756-WHS5-220RJT075 " H 0   0   50  0001 C CNN "ref"
 	1    2050 6200
 	0    1    1    0   
 $EndComp
@@ -1243,10 +1265,10 @@ L Device:R R12
 U 1 1 5CAF20E6
 P 2100 6500
 F 0 "R12" H 2170 6546 50  0000 L CNN
-F 1 "R" H 2170 6455 50  0000 L CNN
+F 1 "270 ohm 5W" H 2170 6455 50  0000 L CNN
 F 2 "Resistors_THT:R_Axial_Power_L25.0mm_W6.4mm_P27.94mm" V 2030 6500 50  0001 C CNN
 F 3 "~" H 2100 6500 50  0001 C CNN
-F 4 "270 ohm 5W" H 0   0   50  0001 C CNN "ref"
+F 4 "66-W2152700JALF " H 0   0   50  0001 C CNN "ref"
 	1    2100 6500
 	0    1    1    0   
 $EndComp
@@ -1255,10 +1277,10 @@ L Device:R R10
 U 1 1 5CAF226C
 P 2000 5900
 F 0 "R10" H 2070 5946 50  0000 L CNN
-F 1 "R" H 2070 5855 50  0000 L CNN
+F 1 "220 ohm 5W" H 2070 5855 50  0000 L CNN
 F 2 "Resistors_THT:R_Axial_Power_L25.0mm_W6.4mm_P27.94mm" V 1930 5900 50  0001 C CNN
 F 3 "~" H 2000 5900 50  0001 C CNN
-F 4 "220 ohm 5W" H 0   0   50  0001 C CNN "ref"
+F 4 "756-WHS5-220RJT075 " H 0   0   50  0001 C CNN "ref"
 	1    2000 5900
 	0    1    1    0   
 $EndComp
@@ -1301,9 +1323,10 @@ L Device:C C47
 U 1 1 5CB1EB11
 P 1750 8100
 F 0 "C47" H 1865 8146 50  0000 L CNN
-F 1 "C" H 1865 8055 50  0000 L CNN
+F 1 "100n" H 1865 8055 50  0000 L CNN
 F 2 "Capacitors_THT:C_Rect_L13.5mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4" H 1788 7950 50  0001 C CNN
 F 3 "~" H 1750 8100 50  0001 C CNN
+F 4 "505-MKS4.01/630/10P " H 0   0   50  0001 C CNN "ref"
 	1    1750 8100
 	0    -1   -1   0   
 $EndComp
@@ -1312,9 +1335,10 @@ L Device:C C48
 U 1 1 5CB1F2BB
 P 2100 9650
 F 0 "C48" H 2215 9696 50  0000 L CNN
-F 1 "C" H 2215 9605 50  0000 L CNN
+F 1 "100n" H 2215 9605 50  0000 L CNN
 F 2 "Capacitors_THT:C_Rect_L13.5mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4" H 2138 9500 50  0001 C CNN
 F 3 "~" H 2100 9650 50  0001 C CNN
+F 4 "505-MKS4.01/630/10P " H 0   0   50  0001 C CNN "ref"
 	1    2100 9650
 	1    0    0    -1  
 $EndComp
@@ -1323,10 +1347,10 @@ L Transistor_BJT:2N3905 Q8
 U 1 1 5CB1FEB6
 P 1300 8600
 F 0 "Q8" H 1491 8646 50  0000 L CNN
-F 1 "2N3905" H 1491 8555 50  0000 L CNN
+F 1 "BC161-16" H 1491 8555 50  0000 L CNN
 F 2 "TO_SOT_Packages_THT:TO-39-3" H 1500 8525 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3905.pdf" H 1300 8600 50  0001 L CNN
-F 4 "BC161-16" H 0   0   50  0001 C CNN "ref"
+F 4 "757-TTA004BQ" H 0   0   50  0001 C CNN "ref"
 	1    1300 8600
 	1    0    0    -1  
 $EndComp
@@ -1372,7 +1396,7 @@ F 0 "U4" H 3800 11317 50  0000 C CNN
 F 1 "LM324" H 3800 11226 50  0000 C CNN
 F 2 "" H 3750 11050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 3850 11150 50  0001 C CNN
-F 4 "LM324J" H 0   0   50  0001 C CNN "ref"
+F 4 "595-LM324AN " H 0   0   50  0001 C CNN "ref"
 	1    3800 10950
 	1    0    0    -1  
 $EndComp
@@ -1550,9 +1574,10 @@ L Device:C C44
 U 1 1 5CB23736
 P 750 13300
 F 0 "C44" H 865 13346 50  0000 L CNN
-F 1 "C" H 865 13255 50  0000 L CNN
+F 1 "100n" H 865 13255 50  0000 L CNN
 F 2 "Capacitors_THT:C_Rect_L13.5mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4" H 788 13150 50  0001 C CNN
 F 3 "~" H 750 13300 50  0001 C CNN
+F 4 "505-MKS4.01/630/10P " H 0   0   50  0001 C CNN "ref"
 	1    750  13300
 	1    0    0    -1  
 $EndComp
@@ -1621,10 +1646,10 @@ L Device:D D21
 U 1 1 5CB2557C
 P 2050 14300
 F 0 "D21" V 2096 14221 50  0000 R CNN
-F 1 "D" V 2005 14221 50  0000 R CNN
+F 1 "1N4148" V 2005 14221 50  0000 R CNN
 F 2 "Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal" H 2050 14300 50  0001 C CNN
 F 3 "~" H 2050 14300 50  0001 C CNN
-F 4 "1N4148" H 0   0   50  0001 C CNN "ref"
+F 4 "512-1N4148TR" H 0   0   50  0001 C CNN "ref"
 	1    2050 14300
 	1    0    0    -1  
 $EndComp
@@ -1658,7 +1683,7 @@ F 0 "D22" V 2746 15171 50  0000 R CNN
 F 1 "D" V 2655 15171 50  0000 R CNN
 F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2700 15250 50  0001 C CNN
 F 3 "~" H 2700 15250 50  0001 C CNN
-F 4 "1N4007" H 0   0   50  0001 C CNN "ref"
+F 4 "750-1N4007-G" H 0   0   50  0001 C CNN "ref"
 	1    2700 15250
 	0    -1   -1   0   
 $EndComp
@@ -1670,7 +1695,7 @@ F 0 "D23" V 3196 15171 50  0000 R CNN
 F 1 "D" V 3105 15171 50  0000 R CNN
 F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3150 15250 50  0001 C CNN
 F 3 "~" H 3150 15250 50  0001 C CNN
-F 4 "1N4007" H 0   0   50  0001 C CNN "ref"
+F 4 "750-1N4007-G" H 0   0   50  0001 C CNN "ref"
 	1    3150 15250
 	0    -1   -1   0   
 $EndComp
@@ -1811,10 +1836,10 @@ L Device:D D24
 U 1 1 5CB286F6
 P 8150 14150
 F 0 "D24" V 8196 14071 50  0000 R CNN
-F 1 "D" V 8105 14071 50  0000 R CNN
+F 1 "1N4148" V 8105 14071 50  0000 R CNN
 F 2 "Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal" H 8150 14150 50  0001 C CNN
 F 3 "~" H 8150 14150 50  0001 C CNN
-F 4 "1N4148" H 0   0   50  0001 C CNN "ref"
+F 4 "512-1N4148TR" H 0   0   50  0001 C CNN "ref"
 	1    8150 14150
 	0    -1   -1   0   
 $EndComp
@@ -1859,10 +1884,10 @@ L Transistor_BJT:2N3905 Q12
 U 1 1 5CB2AFB3
 P 4450 14700
 F 0 "Q12" H 4641 14746 50  0000 L CNN
-F 1 "2N3905" H 4641 14655 50  0000 L CNN
+F 1 "BC177A" H 4641 14655 50  0000 L CNN
 F 2 "TO_SOT_Packages_THT:TO-18-3" H 4650 14625 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3905.pdf" H 4450 14700 50  0001 L CNN
-F 4 "BC177A" H 0   0   50  0001 C CNN "ref"
+F 4 "512-BC557ATA" H 0   0   50  0001 C CNN "ref"
 	1    4450 14700
 	1    0    0    -1  
 $EndComp
@@ -1915,10 +1940,10 @@ L Device:D D25
 U 1 1 5CB2B5A4
 P 10650 15550
 F 0 "D25" V 10696 15471 50  0000 R CNN
-F 1 "D" V 10605 15471 50  0000 R CNN
+F 1 "1N4148" V 10605 15471 50  0000 R CNN
 F 2 "Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal" H 10650 15550 50  0001 C CNN
 F 3 "~" H 10650 15550 50  0001 C CNN
-F 4 "1N4148" H 0   0   50  0001 C CNN "ref"
+F 4 "512-1N4148TR" H 0   0   50  0001 C CNN "ref"
 	1    10650 15550
 	0    -1   1    0   
 $EndComp
@@ -1960,9 +1985,10 @@ L Device:C C53
 U 1 1 5CB2BAE1
 P 8650 13450
 F 0 "C53" H 8765 13496 50  0000 L CNN
-F 1 "C" H 8765 13405 50  0000 L CNN
+F 1 "10n" H 8765 13405 50  0000 L CNN
 F 2 "Capacitors_THT:C_Rect_L13.5mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4" H 8688 13300 50  0001 C CNN
 F 3 "~" H 8650 13450 50  0001 C CNN
+F 4 "505-MKS4.01/630/10P " H 0   0   50  0001 C CNN "ref"
 	1    8650 13450
 	1    0    0    -1  
 $EndComp
@@ -1974,7 +2000,7 @@ F 0 "U5" H 9700 13917 50  0000 C CNN
 F 1 "LM324" H 9700 13826 50  0000 C CNN
 F 2 "" H 9650 13650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9750 13750 50  0001 C CNN
-F 4 "LM324J" H 0   0   50  0001 C CNN "ref"
+F 4 "595-LM324AN " H 0   0   50  0001 C CNN "ref"
 	1    9700 13550
 	1    0    0    -1  
 $EndComp
@@ -1995,10 +2021,10 @@ L Device:D D26
 U 1 1 5CB2D239
 P 13450 13950
 F 0 "D26" V 13496 13871 50  0000 R CNN
-F 1 "D" V 13405 13871 50  0000 R CNN
+F 1 "1N4148" V 13405 13871 50  0000 R CNN
 F 2 "Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal" H 13450 13950 50  0001 C CNN
 F 3 "~" H 13450 13950 50  0001 C CNN
-F 4 "1N4148" H 0   0   50  0001 C CNN "ref"
+F 4 "512-1N4148TR" H 0   0   50  0001 C CNN "ref"
 	1    13450 13950
 	0    -1   1    0   
 $EndComp
@@ -2007,10 +2033,10 @@ L Device:D D27
 U 1 1 5CB2D23F
 P 13800 13950
 F 0 "D27" V 13846 13871 50  0000 R CNN
-F 1 "D" V 13755 13871 50  0000 R CNN
+F 1 "1N4148" V 13755 13871 50  0000 R CNN
 F 2 "Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal" H 13800 13950 50  0001 C CNN
 F 3 "~" H 13800 13950 50  0001 C CNN
-F 4 "1N4148" H 0   0   50  0001 C CNN "ref"
+F 4 "512-1N4148TR" H 0   0   50  0001 C CNN "ref"
 	1    13800 13950
 	0    -1   1    0   
 $EndComp
@@ -2019,10 +2045,10 @@ L Device:D D28
 U 1 1 5CB2D53B
 P 14200 13950
 F 0 "D28" V 14246 13871 50  0000 R CNN
-F 1 "D" V 14155 13871 50  0000 R CNN
+F 1 "1N4148" V 14155 13871 50  0000 R CNN
 F 2 "Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal" H 14200 13950 50  0001 C CNN
 F 3 "~" H 14200 13950 50  0001 C CNN
-F 4 "1N4148" H 0   0   50  0001 C CNN "ref"
+F 4 "512-1N4148TR" H 0   0   50  0001 C CNN "ref"
 	1    14200 13950
 	0    -1   1    0   
 $EndComp
@@ -2173,7 +2199,7 @@ F 0 "U6" H 13150 11225 50  0000 C CNN
 F 1 "4001" H 13150 11134 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm" H 13150 10900 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 13150 10900 50  0001 C CNN
-F 4 "MC14001BCL" H 0   0   50  0001 C CNN "ref"
+F 4 "595-CD4001UBE" H 0   0   50  0001 C CNN "ref"
 	1    13150 10900
 	1    0    0    -1  
 $EndComp
@@ -2263,9 +2289,10 @@ L Device:C C60
 U 1 1 5CB358B7
 P 15150 15000
 F 0 "C60" H 15265 15046 50  0000 L CNN
-F 1 "C" H 15265 14955 50  0000 L CNN
+F 1 "10n" H 15265 14955 50  0000 L CNN
 F 2 "Capacitors_THT:C_Rect_L13.5mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4" H 15188 14850 50  0001 C CNN
 F 3 "~" H 15150 15000 50  0001 C CNN
+F 4 "505-MKS4.01/630/10P " H 0   0   50  0001 C CNN "ref"
 	1    15150 15000
 	1    0    0    -1  
 $EndComp
@@ -2308,10 +2335,10 @@ L Device:D D29
 U 1 1 5CB35BF4
 P 18550 14200
 F 0 "D29" V 18596 14121 50  0000 R CNN
-F 1 "D" V 18505 14121 50  0000 R CNN
+F 1 "1N4148" V 18505 14121 50  0000 R CNN
 F 2 "Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal" H 18550 14200 50  0001 C CNN
 F 3 "~" H 18550 14200 50  0001 C CNN
-F 4 "1N4148" H 0   0   50  0001 C CNN "ref"
+F 4 "512-1N4148TR" H 0   0   50  0001 C CNN "ref"
 	1    18550 14200
 	0    -1   -1   0   
 $EndComp
@@ -2320,10 +2347,10 @@ L Device:D D30
 U 1 1 5CB35CDA
 P 18850 14200
 F 0 "D30" V 18896 14121 50  0000 R CNN
-F 1 "D" V 18805 14121 50  0000 R CNN
+F 1 "1N4148" V 18805 14121 50  0000 R CNN
 F 2 "Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal" H 18850 14200 50  0001 C CNN
 F 3 "~" H 18850 14200 50  0001 C CNN
-F 4 "1N4148" H 0   0   50  0001 C CNN "ref"
+F 4 "512-1N4148TR" H 0   0   50  0001 C CNN "ref"
 	1    18850 14200
 	0    -1   -1   0   
 $EndComp
@@ -2357,6 +2384,7 @@ F 0 "A1" V 14606 841 50  0000 L CNN
 F 1 "Conn_01x01_Male" H 14606 887 50  0001 C CNN
 F 2 "Yame_library:Pin_d2mm_L11.0mm" H 14500 800 50  0001 C CNN
 F 3 "~" H 14500 800 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "ref"
 	1    14500 800 
 	0    1    1    0   
 $EndComp
@@ -2766,9 +2794,10 @@ L Triac_Thyristor:TIC116 Q2
 U 1 1 5CB740AC
 P 7650 4100
 F 0 "Q2" H 7738 4146 50  0000 L CNN
-F 1 "TIC116" H 7738 4055 50  0000 L CNN
+F 1 "2N6507" H 7738 4055 50  0000 L CNN
 F 2 "Yame_library:TO-220-3_Horizontal_1" H 7750 4025 50  0001 L CIN
 F 3 "https://www.princeton.edu/~mae412/HANDOUTS/Datasheets/TIC116.pdf" H 7650 4100 50  0001 L CNN
+F 4 "863-MCR25DG " H 0   0   50  0001 C CNN "ref"
 	1    7650 4100
 	1    0    0    -1  
 $EndComp
@@ -2777,9 +2806,10 @@ L Triac_Thyristor:TIC116 Q1
 U 1 1 5CB74667
 P 5100 3750
 F 0 "Q1" H 5188 3796 50  0000 L CNN
-F 1 "TIC116" H 5188 3705 50  0000 L CNN
+F 1 "2N6507" H 5188 3705 50  0000 L CNN
 F 2 "Yame_library:TO-220-3_Horizontal_1" H 5200 3675 50  0001 L CIN
 F 3 "https://www.princeton.edu/~mae412/HANDOUTS/Datasheets/TIC116.pdf" H 5100 3750 50  0001 L CNN
+F 4 "863-MCR25DG " H 0   0   50  0001 C CNN "ref"
 	1    5100 3750
 	1    0    0    -1  
 $EndComp
@@ -2788,9 +2818,10 @@ L Triac_Thyristor:TIC116 Q3
 U 1 1 5CB757EB
 P 10050 3300
 F 0 "Q3" H 10138 3346 50  0000 L CNN
-F 1 "TIC116" H 10138 3255 50  0000 L CNN
+F 1 "2N6507" H 10138 3255 50  0000 L CNN
 F 2 "Yame_library:TO-220-3_Horizontal_1" H 10150 3225 50  0001 L CIN
 F 3 "https://www.princeton.edu/~mae412/HANDOUTS/Datasheets/TIC116.pdf" H 10050 3300 50  0001 L CNN
+F 4 "863-MCR25DG " H 0   0   50  0001 C CNN "ref"
 	1    10050 3300
 	1    0    0    -1  
 $EndComp
@@ -2802,6 +2833,7 @@ F 0 "U100" H 14500 3692 50  0000 C CNN
 F 1 "LM317_3PinPackage" H 14500 3601 50  0000 C CNN
 F 2 "Yame_library:TO-220-3_Horizontal_1" H 14500 3700 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm317.pdf" H 14500 3450 50  0001 C CNN
+F 4 "511-LM317T " H 0   0   50  0001 C CNN "ref"
 	1    14500 3450
 	1    0    0    -1  
 $EndComp
@@ -3404,7 +3436,7 @@ F 0 "U1" H 4900 7025 50  0000 C CNN
 F 1 "4001" H 4900 6934 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm" H 4900 6700 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 4900 6700 50  0001 C CNN
-F 4 "MC14001BCL" H 0   0   50  0001 C CNN "ref"
+F 4 "595-CD4001UBE" H 0   0   50  0001 C CNN "ref"
 	2    4900 6700
 	1    0    0    -1  
 $EndComp
@@ -3416,7 +3448,7 @@ F 0 "U1" H 5050 7675 50  0000 C CNN
 F 1 "4001" H 5050 7584 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm" H 5050 7350 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 5050 7350 50  0001 C CNN
-F 4 "MC14001BCL" H 0   0   50  0001 C CNN "ref"
+F 4 "595-CD4001UBE" H 0   0   50  0001 C CNN "ref"
 	3    5050 7350
 	1    0    0    -1  
 $EndComp
@@ -3428,7 +3460,7 @@ F 0 "U1" H 4250 6125 50  0000 C CNN
 F 1 "4001" H 4250 6034 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm" H 4250 5800 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 4250 5800 50  0001 C CNN
-F 4 "MC14001BCL" H 0   0   50  0001 C CNN "ref"
+F 4 "595-CD4001UBE" H 0   0   50  0001 C CNN "ref"
 	4    4250 5800
 	1    0    0    -1  
 $EndComp
@@ -3440,7 +3472,7 @@ F 0 "U1" H 3600 6325 50  0000 C CNN
 F 1 "4001" H 3600 6234 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm" H 3600 6000 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 3600 6000 50  0001 C CNN
-F 4 "MC14001BCL" H 0   0   50  0001 C CNN "ref"
+F 4 "595-CD4001UBE" H 0   0   50  0001 C CNN "ref"
 	5    3600 6000
 	1    0    0    -1  
 $EndComp
@@ -3628,7 +3660,7 @@ F 0 "U2" H 8100 6675 50  0000 C CNN
 F 1 "4001" H 8100 6584 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm" H 8100 6350 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 8100 6350 50  0001 C CNN
-F 4 "MC14001BCL" H 0   0   50  0001 C CNN "ref"
+F 4 "595-CD4001UBE" H 0   0   50  0001 C CNN "ref"
 	2    8100 6350
 	1    0    0    -1  
 $EndComp
@@ -3640,7 +3672,7 @@ F 0 "U2" H 8400 7125 50  0000 C CNN
 F 1 "4001" H 8400 7034 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm" H 8400 6800 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 8400 6800 50  0001 C CNN
-F 4 "MC14001BCL" H 0   0   50  0001 C CNN "ref"
+F 4 "595-CD4001UBE" H 0   0   50  0001 C CNN "ref"
 	3    8400 6800
 	1    0    0    -1  
 $EndComp
@@ -3652,7 +3684,7 @@ F 0 "U2" H 8650 7625 50  0000 C CNN
 F 1 "4001" H 8650 7534 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm" H 8650 7300 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 8650 7300 50  0001 C CNN
-F 4 "MC14001BCL" H 0   0   50  0001 C CNN "ref"
+F 4 "595-CD4001UBE" H 0   0   50  0001 C CNN "ref"
 	4    8650 7300
 	1    0    0    -1  
 $EndComp
@@ -3664,7 +3696,7 @@ F 0 "U2" H 9650 6875 50  0000 C CNN
 F 1 "4001" H 9650 6784 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm" H 9650 6550 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 9650 6550 50  0001 C CNN
-F 4 "MC14001BCL" H 0   0   50  0001 C CNN "ref"
+F 4 "595-CD4001UBE" H 0   0   50  0001 C CNN "ref"
 	5    9650 6550
 	1    0    0    -1  
 $EndComp
@@ -4208,7 +4240,7 @@ F 0 "U7" V 15678 13072 60  0000 R CNN
 F 1 "LM2907N" V 15572 13072 60  0000 R CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm" H 15650 13800 60  0000 C CNN
 F 3 "" H 15650 13800 60  0000 C CNN
-F 4 "LM2907N" H 0   0   50  0001 C CNN "ref"
+F 4 "926-LM2907N/NOPB" H 0   0   50  0001 C CNN "ref"
 	1    15600 13650
 	0    -1   -1   0   
 $EndComp
@@ -4405,7 +4437,7 @@ F 0 "U3" H 16150 8725 50  0000 C CNN
 F 1 "4011" H 16150 8634 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm" H 16150 8400 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 16150 8400 50  0001 C CNN
-F 4 "MC14011BCL" H 0   0   50  0001 C CNN "ref"
+F 4 "595-CD4011UBE " H 0   0   50  0001 C CNN "ref"
 	3    16150 8400
 	1    0    0    -1  
 $EndComp
@@ -4417,7 +4449,7 @@ F 0 "U3" H 15350 8775 50  0000 C CNN
 F 1 "4011" H 15350 8684 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm" H 15350 8450 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 15350 8450 50  0001 C CNN
-F 4 "MC14011BCL" H 0   0   50  0001 C CNN "ref"
+F 4 "595-CD4011UBE " H 0   0   50  0001 C CNN "ref"
 	2    15350 8450
 	1    0    0    -1  
 $EndComp
@@ -4429,7 +4461,7 @@ F 0 "U3" H 16950 8725 50  0000 C CNN
 F 1 "4011" H 16950 8634 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm" H 16950 8400 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 16950 8400 50  0001 C CNN
-F 4 "MC14011BCL" H 0   0   50  0001 C CNN "ref"
+F 4 "595-CD4011UBE " H 0   0   50  0001 C CNN "ref"
 	4    16950 8400
 	1    0    0    -1  
 $EndComp
@@ -4441,7 +4473,7 @@ F 0 "U3" H 12300 8775 50  0000 C CNN
 F 1 "4011" H 12300 8684 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm" H 12300 8450 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 12300 8450 50  0001 C CNN
-F 4 "MC14011BCL" H 0   0   50  0001 C CNN "ref"
+F 4 "595-CD4011UBE " H 0   0   50  0001 C CNN "ref"
 	5    12300 8450
 	1    0    0    -1  
 $EndComp
@@ -4493,7 +4525,7 @@ F 0 "U6" H 14200 11175 50  0000 C CNN
 F 1 "4001" H 14200 11084 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm" H 14200 10850 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 14200 10850 50  0001 C CNN
-F 4 "MC14001BCL" H 0   0   50  0001 C CNN "ref"
+F 4 "595-CD4001UBE" H 0   0   50  0001 C CNN "ref"
 	2    14200 10850
 	1    0    0    -1  
 $EndComp
@@ -4505,7 +4537,7 @@ F 0 "U6" H 15100 11175 50  0000 C CNN
 F 1 "4001" H 15100 11084 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm" H 15100 10850 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 15100 10850 50  0001 C CNN
-F 4 "MC14001BCL" H 0   0   50  0001 C CNN "ref"
+F 4 "595-CD4001UBE" H 0   0   50  0001 C CNN "ref"
 	3    15100 10850
 	1    0    0    -1  
 $EndComp
@@ -4517,7 +4549,7 @@ F 0 "U6" H 16100 11125 50  0000 C CNN
 F 1 "4001" H 16100 11034 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm" H 16100 10800 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 16100 10800 50  0001 C CNN
-F 4 "MC14001BCL" H 0   0   50  0001 C CNN "ref"
+F 4 "595-CD4001UBE" H 0   0   50  0001 C CNN "ref"
 	4    16100 10800
 	1    0    0    -1  
 $EndComp
@@ -4529,7 +4561,7 @@ F 0 "U6" H 17550 10875 50  0000 C CNN
 F 1 "4001" H 17550 10784 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm" H 17550 10550 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 17550 10550 50  0001 C CNN
-F 4 "MC14001BCL" H 0   0   50  0001 C CNN "ref"
+F 4 "595-CD4001UBE" H 0   0   50  0001 C CNN "ref"
 	5    17550 10550
 	1    0    0    -1  
 $EndComp
@@ -4825,7 +4857,7 @@ F 0 "U5" H 10800 13567 50  0000 C CNN
 F 1 "LM324" H 10800 13476 50  0000 C CNN
 F 2 "" H 10750 13300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 10850 13400 50  0001 C CNN
-F 4 "LM324J" H 0   0   50  0001 C CNN "ref"
+F 4 "595-LM324AN " H 0   0   50  0001 C CNN "ref"
 	2    10800 13200
 	1    0    0    -1  
 $EndComp
@@ -4837,7 +4869,7 @@ F 0 "U5" H 11100 12517 50  0000 C CNN
 F 1 "LM324" H 11100 12426 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm" H 11050 12250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 11150 12350 50  0001 C CNN
-F 4 "LM324J" H 0   0   50  0001 C CNN "ref"
+F 4 "595-LM324AN " H 0   0   50  0001 C CNN "ref"
 	3    11100 12150
 	1    0    0    -1  
 $EndComp
@@ -4849,7 +4881,7 @@ F 0 "U5" H 12700 13417 50  0000 C CNN
 F 1 "LM324" H 12700 13326 50  0000 C CNN
 F 2 "" H 12650 13150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 12750 13250 50  0001 C CNN
-F 4 "LM324J" H 0   0   50  0001 C CNN "ref"
+F 4 "595-LM324AN " H 0   0   50  0001 C CNN "ref"
 	4    12700 13050
 	1    0    0    -1  
 $EndComp
@@ -4861,7 +4893,7 @@ F 0 "U5" H 11150 15267 50  0000 C CNN
 F 1 "LM324" H 11150 15176 50  0000 C CNN
 F 2 "" H 11100 15000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 11200 15100 50  0001 C CNN
-F 4 "LM324J" H 0   0   50  0001 C CNN "ref"
+F 4 "595-LM324AN " H 0   0   50  0001 C CNN "ref"
 	5    11150 14900
 	-1   0    0    1   
 $EndComp
@@ -5444,7 +5476,7 @@ F 0 "U4" H 4600 11767 50  0000 C CNN
 F 1 "LM324" H 4600 11676 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm" H 4550 11500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 4650 11600 50  0001 C CNN
-F 4 "LM324J" H 0   0   50  0001 C CNN "ref"
+F 4 "595-LM324AN " H 0   0   50  0001 C CNN "ref"
 	2    4600 11400
 	1    0    0    -1  
 $EndComp
@@ -5456,7 +5488,7 @@ F 0 "U4" H 5350 12167 50  0000 C CNN
 F 1 "LM324" H 5350 12076 50  0000 C CNN
 F 2 "" H 5300 11900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 5400 12000 50  0001 C CNN
-F 4 "LM324J" H 0   0   50  0001 C CNN "ref"
+F 4 "595-LM324AN " H 0   0   50  0001 C CNN "ref"
 	3    5350 11800
 	1    0    0    -1  
 $EndComp
@@ -5468,7 +5500,7 @@ F 0 "U4" H 6100 12517 50  0000 C CNN
 F 1 "LM324" H 6100 12426 50  0000 C CNN
 F 2 "" H 6050 12250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 6150 12350 50  0001 C CNN
-F 4 "LM324J" H 0   0   50  0001 C CNN "ref"
+F 4 "595-LM324AN " H 0   0   50  0001 C CNN "ref"
 	4    6100 12150
 	1    0    0    -1  
 $EndComp
@@ -5480,7 +5512,7 @@ F 0 "U4" H 6900 12267 50  0000 C CNN
 F 1 "LM324" H 6900 12176 50  0000 C CNN
 F 2 "" H 6850 12000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 6950 12100 50  0001 C CNN
-F 4 "LM324J" H 0   0   50  0001 C CNN "ref"
+F 4 "595-LM324AN " H 0   0   50  0001 C CNN "ref"
 	5    6900 11900
 	1    0    0    -1  
 $EndComp
