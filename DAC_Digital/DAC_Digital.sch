@@ -299,7 +299,7 @@ U 1 1 59DAB57B
 P 3900 7550
 F 0 "Y1" H 3900 7700 50  0000 C CNN
 F 1 "10MHz" H 3900 7400 50  0000 C CNN
-F 2 "Crystals:Crystal_HC49-4H_Vertical" H 3900 7550 50  0001 C CNN
+F 2 "Crystal:Crystal_HC49-U_Vertical" H 3900 7550 50  0001 C CNN
 F 3 "" H 3900 7550 50  0001 C CNN
 	1    3900 7550
 	1    0    0    -1  
@@ -475,10 +475,6 @@ F 3 "" H 8900 2800 50  0001 C CNN
 $EndComp
 Text Label 8550 2600 0    50   ~ 10
 +3.3v_Dev
-Text Label 8950 3000 0    60   ~ 0
-UART4_RXD
-Text Label 8950 3750 0    60   ~ 0
-UART4_TXD
 $Comp
 L DAC_Digital-rescue:2N7002 Q6
 U 1 1 59DC229E
@@ -738,8 +734,6 @@ Wire Wire Line
 	17950 1900 17550 1900
 Wire Wire Line
 	18450 1900 18850 1900
-Wire Wire Line
-	17950 2200 17550 2200
 Wire Wire Line
 	17550 2500 17950 2500
 Wire Wire Line
@@ -1066,8 +1060,6 @@ Text Label 8100 5600 0    60   ~ 0
 SCK
 Text Label 8150 5700 0    60   ~ 0
 /CS
-Text Label 5600 2950 0    60   ~ 0
-VDD_5V
 $Comp
 L DAC_Digital-rescue:R R1
 U 1 1 5B2FED1D
@@ -1079,13 +1071,7 @@ F 3 "" H 4350 2350 50  0001 C CNN
 	1    4350 2350
 	1    0    0    -1  
 $EndComp
-Text Label 8050 2550 0    60   ~ 0
-VDD_5V
-Text Label 8050 3300 0    60   ~ 0
-VDD_5V
 Text Label 7950 4300 0    60   ~ 0
-VDD_5V
-Text Label 4350 2100 0    60   ~ 0
 VDD_5V
 Connection ~ 4350 2650
 Wire Wire Line
@@ -1154,27 +1140,15 @@ Wire Wire Line
 	5600 10050 5600 10150
 Wire Wire Line
 	4350 2650 4350 3550
-Wire Wire Line
-	8900 15450 8800 15450
-Wire Wire Line
-	8900 15300 8900 15450
-Wire Wire Line
-	9000 15300 8900 15300
-Wire Wire Line
-	8900 15200 9000 15200
-Wire Wire Line
-	8900 15050 8900 15200
-Wire Wire Line
-	8800 15050 8900 15050
 $Comp
 L DAC_Digital-rescue:Conn_01x02 J4
 U 1 1 59D5CDDE
-P 9200 15200
-F 0 "J4" H 9200 15300 50  0000 C CNN
-F 1 "Out_SPDIF" H 9200 15000 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9200 15200 50  0001 C CNN
-F 3 "" H 9200 15200 50  0001 C CNN
-	1    9200 15200
+P 20950 3900
+F 0 "J4" H 20950 4000 50  0000 C CNN
+F 1 "Out_SPDIF" H 20950 3700 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 20950 3900 50  0001 C CNN
+F 3 "" H 20950 3900 50  0001 C CNN
+	1    20950 3900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1204,10 +1178,6 @@ Wire Wire Line
 Text Label 17400 2100 0    60   ~ 0
 I2CA_SCL
 Wire Wire Line
-	17950 2000 17400 2000
-Wire Wire Line
-	17400 2100 17950 2100
-Wire Wire Line
 	17950 2300 17050 2300
 Wire Wire Line
 	17050 2300 17050 2400
@@ -1220,10 +1190,10 @@ Wire Wire Line
 Text Label 17500 2700 0    60   ~ 0
 VDD_3V3B
 $Comp
-L power:GNDD #PWR?
+L power:GNDD #PWR0101
 U 1 1 5FB79E12
 P 17050 3200
-F 0 "#PWR?" H 17050 2950 50  0001 C CNN
+F 0 "#PWR0101" H 17050 2950 50  0001 C CNN
 F 1 "GNDD" H 17050 3075 50  0000 C CNN
 F 2 "" H 17050 3200 50  0001 C CNN
 F 3 "" H 17050 3200 50  0001 C CNN
@@ -1263,10 +1233,10 @@ Wire Wire Line
 Text Label 18550 2400 0    60   ~ 0
 GPIO_238
 $Comp
-L power:GNDD #PWR?
+L power:GNDD #PWR0102
 U 1 1 5FC0C778
 P 19300 2550
-F 0 "#PWR?" H 19300 2300 50  0001 C CNN
+F 0 "#PWR0102" H 19300 2300 50  0001 C CNN
 F 1 "GNDD" H 19300 2425 50  0000 C CNN
 F 2 "" H 19300 2550 50  0001 C CNN
 F 3 "" H 19300 2550 50  0001 C CNN
@@ -1278,10 +1248,10 @@ Wire Wire Line
 Wire Wire Line
 	18450 2500 19300 2500
 $Comp
-L power:GNDD #PWR?
+L power:GNDD #PWR0103
 U 1 1 5FC1D1E1
 P 19300 2850
-F 0 "#PWR?" H 19300 2600 50  0001 C CNN
+F 0 "#PWR0103" H 19300 2600 50  0001 C CNN
 F 1 "GNDD" H 19300 2725 50  0000 C CNN
 F 2 "" H 19300 2850 50  0001 C CNN
 F 3 "" H 19300 2850 50  0001 C CNN
@@ -1299,10 +1269,10 @@ GPIO_225
 Text Label 18550 3200 0    60   ~ 0
 I2CB_SCL
 $Comp
-L power:GNDD #PWR?
+L power:GNDD #PWR0104
 U 1 1 5FC52888
 P 19300 3650
-F 0 "#PWR?" H 19300 3400 50  0001 C CNN
+F 0 "#PWR0104" H 19300 3400 50  0001 C CNN
 F 1 "GNDD" H 19300 3525 50  0000 C CNN
 F 2 "" H 19300 3650 50  0001 C CNN
 F 3 "" H 19300 3650 50  0001 C CNN
@@ -1323,10 +1293,10 @@ GPIO_218
 Text Label 18550 3800 0    60   ~ 0
 ADC.AIN0
 $Comp
-L power:GNDD #PWR?
+L power:GNDD #PWR0105
 U 1 1 5FCCD87E
 P 21500 1900
-F 0 "#PWR?" H 21500 1650 50  0001 C CNN
+F 0 "#PWR0105" H 21500 1650 50  0001 C CNN
 F 1 "GNDD" H 21500 1775 50  0000 C CNN
 F 2 "" H 21500 1900 50  0001 C CNN
 F 3 "" H 21500 1900 50  0001 C CNN
@@ -1346,12 +1316,12 @@ Wire Wire Line
 Text Label 21150 2000 2    60   ~ 0
 VDD_5V
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J7
 U 1 1 5FD082A8
 P 20600 2950
-F 0 "J?" H 20518 3167 50  0000 C CNN
+F 0 "J7" H 20518 3167 50  0000 C CNN
 F 1 "Conn_01x02" H 20518 3076 50  0000 C CNN
-F 2 "" H 20600 2950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 20600 2950 50  0001 C CNN
 F 3 "~" H 20600 2950 50  0001 C CNN
 	1    20600 2950
 	-1   0    0    -1  
@@ -1375,10 +1345,10 @@ I2S_Data_Out
 Text Label 21200 2950 2    60   ~ 0
 VDD_5V
 $Comp
-L power:GNDD #PWR?
+L power:GNDD #PWR0106
 U 1 1 5FDFDE8C
 P 21200 3100
-F 0 "#PWR?" H 21200 2850 50  0001 C CNN
+F 0 "#PWR0106" H 21200 2850 50  0001 C CNN
 F 1 "GNDD" H 21200 2975 50  0000 C CNN
 F 2 "" H 21200 3100 50  0001 C CNN
 F 3 "" H 21200 3100 50  0001 C CNN
@@ -1391,4 +1361,165 @@ Wire Wire Line
 	21200 3100 21200 3050
 Wire Wire Line
 	21200 3050 20800 3050
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5FE2DE53
+P 1000 1400
+F 0 "H1" H 1100 1446 50  0000 L CNN
+F 1 "MountingHole" H 1100 1355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1000 1400 50  0001 C CNN
+F 3 "~" H 1000 1400 50  0001 C CNN
+	1    1000 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5FE33269
+P 1000 1750
+F 0 "H2" H 1100 1796 50  0000 L CNN
+F 1 "MountingHole" H 1100 1705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1000 1750 50  0001 C CNN
+F 3 "~" H 1000 1750 50  0001 C CNN
+	1    1000 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5FE45E8A
+P 1000 2450
+F 0 "H4" H 1100 2496 50  0000 L CNN
+F 1 "MountingHole" H 1100 2405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1000 2450 50  0001 C CNN
+F 3 "~" H 1000 2450 50  0001 C CNN
+	1    1000 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5FE5688D
+P 1000 2100
+F 0 "H3" H 1100 2146 50  0000 L CNN
+F 1 "MountingHole" H 1100 2055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1000 2100 50  0001 C CNN
+F 3 "~" H 1000 2100 50  0001 C CNN
+	1    1000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5FA57803
+P 2100 1400
+F 0 "H5" H 2200 1446 50  0000 L CNN
+F 1 "MountingHole" H 2200 1355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 2100 1400 50  0001 C CNN
+F 3 "~" H 2100 1400 50  0001 C CNN
+	1    2100 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5FA578C9
+P 2100 1750
+F 0 "H6" H 2200 1796 50  0000 L CNN
+F 1 "MountingHole" H 2200 1705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 2100 1750 50  0001 C CNN
+F 3 "~" H 2100 1750 50  0001 C CNN
+	1    2100 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 5FA578D3
+P 2100 2450
+F 0 "H8" H 2200 2496 50  0000 L CNN
+F 1 "MountingHole" H 2200 2405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 2100 2450 50  0001 C CNN
+F 3 "~" H 2100 2450 50  0001 C CNN
+	1    2100 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 5FA578DD
+P 2100 2100
+F 0 "H7" H 2200 2146 50  0000 L CNN
+F 1 "MountingHole" H 2200 2055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 2100 2100 50  0001 C CNN
+F 3 "~" H 2100 2100 50  0001 C CNN
+	1    2100 2100
+	1    0    0    -1  
+$EndComp
+Text Label 16850 2000 0    60   ~ 0
+SDA
+Text Label 16850 2100 0    60   ~ 0
+SCL
+Wire Wire Line
+	16850 2000 17950 2000
+Wire Wire Line
+	16850 2100 17950 2100
+Text Label 16850 2200 0    50   ~ 10
+Power_Dev
+Wire Wire Line
+	16850 2200 17950 2200
+Text Label 9000 3750 0    60   ~ 0
+TXD1
+Text Label 9000 3000 0    60   ~ 0
+RXD1
+Text Label 20300 3900 0    60   ~ 0
+SPDIF
+$Comp
+L power:GNDD #PWR0107
+U 1 1 5FB65369
+P 20300 4050
+F 0 "#PWR0107" H 20300 3800 50  0001 C CNN
+F 1 "GNDD" H 20300 3925 50  0000 C CNN
+F 2 "" H 20300 4050 50  0001 C CNN
+F 3 "" H 20300 4050 50  0001 C CNN
+	1    20300 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20300 4050 20300 4000
+Wire Wire Line
+	20300 3900 20750 3900
+Wire Wire Line
+	20300 4000 20750 4000
+$Comp
+L Connector_Generic:Conn_01x02 J8
+U 1 1 5FBA8C86
+P 8000 7650
+F 0 "J8" H 7918 7867 50  0000 C CNN
+F 1 "Conn_01x02" H 7918 7776 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8000 7650 50  0001 C CNN
+F 3 "~" H 8000 7650 50  0001 C CNN
+	1    8000 7650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0108
+U 1 1 5FBA8C91
+P 8600 7800
+F 0 "#PWR0108" H 8600 7550 50  0001 C CNN
+F 1 "GNDD" H 8600 7675 50  0000 C CNN
+F 2 "" H 8600 7800 50  0001 C CNN
+F 3 "" H 8600 7800 50  0001 C CNN
+	1    8600 7800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 7650 8600 7650
+Wire Wire Line
+	8600 7800 8600 7750
+Wire Wire Line
+	8600 7750 8200 7750
+Text Label 8300 7650 0    50   ~ 10
++5v_Dev
+Text Label 4350 2100 0    50   ~ 10
++5v_Dev
+Text Label 5600 2950 0    50   ~ 10
++5v_Dev
+Text Label 8050 2550 0    50   ~ 10
++5v_Dev
+Text Label 8050 3300 0    50   ~ 10
++5v_Dev
 $EndSCHEMATC
