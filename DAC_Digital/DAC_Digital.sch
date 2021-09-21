@@ -106,12 +106,10 @@ F 3 "" H 17850 4050 50  0001 C CNN
 	1    17850 4050
 	1    0    0    -1  
 $EndComp
-Text Label 17550 1900 0    60   ~ 0
-VDD_3V3B
 Text Label 18850 1900 2    60   ~ 0
-VDD_5V
+C2_5V
 Text Label 18550 2000 0    60   ~ 0
-VDD_5V
+C2_5V
 Text Label 17550 2200 0    60   ~ 0
 GPIO_249
 Text Label 18550 2200 0    60   ~ 0
@@ -1071,8 +1069,6 @@ F 3 "" H 4350 2350 50  0001 C CNN
 	1    4350 2350
 	1    0    0    -1  
 $EndComp
-Text Label 7950 4300 0    60   ~ 0
-VDD_5V
 Connection ~ 4350 2650
 Wire Wire Line
 	4350 2200 4350 2100
@@ -1314,7 +1310,7 @@ SPDIF
 Wire Wire Line
 	20800 2000 21250 2000
 Text Label 21150 2000 2    60   ~ 0
-VDD_5V
+C2_2_5V
 $Comp
 L Connector_Generic:Conn_01x02 J7
 U 1 1 5FD082A8
@@ -1522,4 +1518,8 @@ Text Label 8050 2550 0    50   ~ 10
 +5v_Dev
 Text Label 8050 3300 0    50   ~ 10
 +5v_Dev
+Text Label 7950 4300 0    50   ~ 10
++5v_Dev
+Text Label 17550 1900 0    50   ~ 10
++3.3v_Dev
 $EndSCHEMATC
