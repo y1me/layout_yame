@@ -1,5 +1,5 @@
-EESchema Schematic File Version 4
-EELAYER 30 0
+EESchema Schematic File Version 5
+EELAYER 36 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -12,93 +12,1417 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
 $EndDescr
+Connection ~ 950  650 
+Connection ~ 950  1550
+Connection ~ 1100 2950
+Connection ~ 1450 650 
+Connection ~ 1450 1550
+Connection ~ 1550 9250
+Connection ~ 1800 650 
+Connection ~ 1800 1550
+Connection ~ 1800 5600
+Connection ~ 2550 7150
+Connection ~ 2750 7150
+Connection ~ 3100 10150
+Connection ~ 3250 7150
+Connection ~ 3450 6100
+Connection ~ 3850 9050
+Connection ~ 3950 3600
+Connection ~ 4250 3100
+Connection ~ 4450 8000
+Connection ~ 4550 8000
+Connection ~ 4600 9650
+Connection ~ 4700 1050
+Connection ~ 4900 4650
+Connection ~ 5000 8000
+Connection ~ 5100 2750
+Connection ~ 5100 6650
+Connection ~ 5250 4650
+Connection ~ 5700 7400
+Connection ~ 5700 8000
+Connection ~ 6600 5150
+Connection ~ 6600 5600
+Connection ~ 6650 7050
+Connection ~ 6800 2350
+Connection ~ 6850 7750
+Connection ~ 6900 2150
+Connection ~ 7250 5400
+Connection ~ 7450 7050
+Connection ~ 7600 5400
+Connection ~ 8050 7500
+Connection ~ 8050 7900
+Connection ~ 8850 1150
+Connection ~ 9350 1850
+Connection ~ 9400 1150
+Connection ~ 10150 700 
+Connection ~ 10150 1400
+Connection ~ 10350 5300
+Connection ~ 10600 6200
+Connection ~ 11150 5300
+Connection ~ 11400 6200
+Connection ~ 11650 1750
+Connection ~ 11650 1850
+Connection ~ 12550 7400
+Connection ~ 12550 8050
+Connection ~ 12550 8650
+Connection ~ 12550 9250
+Connection ~ 12800 3400
+Connection ~ 13500 5250
+Connection ~ 14300 4650
+Connection ~ 14550 4100
+Connection ~ 15400 5800
+Connection ~ 15800 950 
+Connection ~ 15800 1200
+Connection ~ 15800 1450
+Connection ~ 15800 1700
+Connection ~ 15800 1950
+Wire Wire Line
+	650  650  950  650 
+Wire Wire Line
+	650  1550 950  1550
+Wire Wire Line
+	800  6650 950  6650
+Wire Wire Line
+	950  650  950  750 
+Wire Wire Line
+	950  650  1100 650 
+Wire Wire Line
+	950  1050 950  1150
+Wire Wire Line
+	950  1550 950  1650
+Wire Wire Line
+	950  1550 1100 1550
+Wire Wire Line
+	950  1950 950  2050
+Wire Wire Line
+	950  6650 950  6750
+Wire Wire Line
+	950  7050 950  7100
+Wire Wire Line
+	1000 8450 2400 8450
+Wire Wire Line
+	1000 11050 1000 8450
+Wire Wire Line
+	1100 2850 1900 2850
+Wire Wire Line
+	1100 2950 1100 3050
+Wire Wire Line
+	1300 2950 1100 2950
+Wire Wire Line
+	1300 6350 1600 6350
+Wire Wire Line
+	1400 650  1450 650 
+Wire Wire Line
+	1400 1550 1450 1550
+Wire Wire Line
+	1450 650  1450 750 
+Wire Wire Line
+	1450 650  1800 650 
+Wire Wire Line
+	1450 1050 1450 1150
+Wire Wire Line
+	1450 1550 1450 1650
+Wire Wire Line
+	1450 1550 1800 1550
+Wire Wire Line
+	1450 1950 1450 2050
+Wire Wire Line
+	1450 4350 1450 3250
+Wire Wire Line
+	1450 4350 1750 4350
+Wire Wire Line
+	1550 9050 1550 9250
+Wire Wire Line
+	1550 9050 1650 9050
+Wire Wire Line
+	1550 9250 1550 9500
+Wire Wire Line
+	1550 9250 2400 9250
+Wire Wire Line
+	1550 10800 1550 9800
+Wire Wire Line
+	1600 6350 1600 6450
+Wire Wire Line
+	1600 7250 1600 7400
+Wire Wire Line
+	1800 650  1900 650 
+Wire Wire Line
+	1800 800  1800 650 
+Wire Wire Line
+	1800 1550 1900 1550
+Wire Wire Line
+	1800 1700 1800 1550
+Wire Wire Line
+	1800 2950 1900 2950
+Wire Wire Line
+	1800 5000 1500 5000
+Wire Wire Line
+	1800 5050 1800 5000
+Wire Wire Line
+	1800 5350 1800 5600
+Wire Wire Line
+	1800 5600 1800 5650
+Wire Wire Line
+	1800 5600 2100 5600
+Wire Wire Line
+	1800 5950 1800 6050
+Wire Wire Line
+	1900 800  1800 800 
+Wire Wire Line
+	1900 1700 1800 1700
+Wire Wire Line
+	1900 2950 1900 3000
+Wire Wire Line
+	1950 9050 2400 9050
+Wire Wire Line
+	2050 7800 4150 7800
+Wire Wire Line
+	2050 8850 2050 7800
+Wire Wire Line
+	2050 8850 2400 8850
+Wire Wire Line
+	2050 9650 2050 10600
+Wire Wire Line
+	2050 10600 7600 10600
+Wire Wire Line
+	2100 5600 2100 6000
+Wire Wire Line
+	2100 6000 2350 6000
+Wire Wire Line
+	2200 1100 2200 1150
+Wire Wire Line
+	2200 2000 2200 2050
+Wire Wire Line
+	2200 3800 1900 3800
+Wire Wire Line
+	2200 3800 2200 3950
+Wire Wire Line
+	2200 4750 2200 4850
+Wire Wire Line
+	2250 6200 2250 6850
+Wire Wire Line
+	2250 6200 2350 6200
+Wire Wire Line
+	2250 6850 2050 6850
+Wire Wire Line
+	2250 9800 2250 10450
+Wire Wire Line
+	2250 10450 6500 10450
+Wire Wire Line
+	2400 7050 2550 7050
+Wire Wire Line
+	2400 8650 2150 8650
+Wire Wire Line
+	2400 9400 1950 9400
+Wire Wire Line
+	2400 9650 2050 9650
+Wire Wire Line
+	2400 9800 2250 9800
+Wire Wire Line
+	2450 5600 2750 5600
+Wire Wire Line
+	2550 7050 2550 7150
+Wire Wire Line
+	2550 7150 2550 7200
+Wire Wire Line
+	2550 7150 2750 7150
+Wire Wire Line
+	2550 7500 2550 7550
+Wire Wire Line
+	2700 3800 2850 3800
+Wire Wire Line
+	2750 5600 2750 5700
+Wire Wire Line
+	2750 6500 2750 6550
+Wire Wire Line
+	2750 7150 2900 7150
+Wire Wire Line
+	2750 7950 2750 7150
+Wire Wire Line
+	2750 7950 2900 7950
+Wire Wire Line
+	2850 3800 2850 3900
+Wire Wire Line
+	2850 4200 2850 4250
+Wire Wire Line
+	2900 7950 2900 8000
+Wire Wire Line
+	2900 10100 2900 10200
+Wire Wire Line
+	3000 10100 3000 10150
+Wire Wire Line
+	3000 10150 3100 10150
+Wire Wire Line
+	3100 7950 3100 8000
+Wire Wire Line
+	3100 10100 3100 10150
+Wire Wire Line
+	3100 10150 3100 10200
+Wire Wire Line
+	3200 7150 3250 7150
+Wire Wire Line
+	3250 7150 3250 7950
+Wire Wire Line
+	3250 7150 3500 7150
+Wire Wire Line
+	3250 7950 3100 7950
+Wire Wire Line
+	3350 5250 3500 5250
+Wire Wire Line
+	3350 6100 3450 6100
+Wire Wire Line
+	3400 650  2500 650 
+Wire Wire Line
+	3400 750  3400 650 
+Wire Wire Line
+	3400 1050 3400 1150
+Wire Wire Line
+	3400 1550 2500 1550
+Wire Wire Line
+	3400 1650 3400 1550
+Wire Wire Line
+	3400 1950 3400 2050
+Wire Wire Line
+	3450 6100 3450 6450
+Wire Wire Line
+	3450 6100 3700 6100
+Wire Wire Line
+	3450 6450 4000 6450
+Wire Wire Line
+	3500 5250 3500 5350
+Wire Wire Line
+	3500 5650 3500 5700
+Wire Wire Line
+	3500 7150 3500 7200
+Wire Wire Line
+	3500 7500 3500 7550
+Wire Wire Line
+	3650 8800 3850 8800
+Wire Wire Line
+	3650 9050 3850 9050
+Wire Wire Line
+	3650 9650 4200 9650
+Wire Wire Line
+	3650 9800 4250 9800
+Wire Wire Line
+	3850 3450 3850 3600
+Wire Wire Line
+	3850 3600 3950 3600
+Wire Wire Line
+	3850 8800 3850 9050
+Wire Wire Line
+	3850 9050 4350 9050
+Wire Wire Line
+	3950 3550 3950 3600
+Wire Wire Line
+	3950 3600 3950 3650
+Wire Wire Line
+	3950 3950 3950 4000
+Wire Wire Line
+	4050 900  4050 1050
+Wire Wire Line
+	4050 1050 4300 1050
+Wire Wire Line
+	4100 2700 4250 2700
+Wire Wire Line
+	4150 7800 4150 8000
+Wire Wire Line
+	4150 8000 4450 8000
+Wire Wire Line
+	4250 2700 4250 2750
+Wire Wire Line
+	4250 3050 4250 3100
+Wire Wire Line
+	4250 3100 4250 3200
+Wire Wire Line
+	4250 3100 4700 3100
+Wire Wire Line
+	4250 3700 4250 3750
+Wire Wire Line
+	4250 9800 4250 10800
+Wire Wire Line
+	4250 10800 1550 10800
+Wire Wire Line
+	4450 7500 4650 7500
+Wire Wire Line
+	4450 7600 4450 7500
+Wire Wire Line
+	4450 7900 4450 8000
+Wire Wire Line
+	4450 8000 4550 8000
+Wire Wire Line
+	4500 4650 4150 4650
+Wire Wire Line
+	4500 9650 4600 9650
+Wire Wire Line
+	4550 7800 4550 8000
+Wire Wire Line
+	4550 8000 4550 8450
+Wire Wire Line
+	4550 8450 3650 8450
+Wire Wire Line
+	4600 9650 4600 9750
+Wire Wire Line
+	4600 9650 4950 9650
+Wire Wire Line
+	4600 10050 4600 10100
+Wire Wire Line
+	4700 900  4700 1050
+Wire Wire Line
+	4700 1050 4600 1050
+Wire Wire Line
+	4700 1050 4700 1150
+Wire Wire Line
+	4700 1450 4700 1550
+Wire Wire Line
+	4800 4650 4900 4650
+Wire Wire Line
+	4800 6650 4800 6750
+Wire Wire Line
+	4800 6650 5100 6650
+Wire Wire Line
+	4800 7050 4800 7150
+Wire Wire Line
+	4850 8000 5000 8000
+Wire Wire Line
+	4900 4650 4900 4750
+Wire Wire Line
+	4900 4650 5250 4650
+Wire Wire Line
+	4900 5050 4900 5150
+Wire Wire Line
+	4950 2350 5100 2350
+Wire Wire Line
+	5000 2750 5100 2750
+Wire Wire Line
+	5000 3250 5000 3300
+Wire Wire Line
+	5000 8000 5200 8000
+Wire Wire Line
+	5000 8100 5000 8000
+Wire Wire Line
+	5000 8400 5000 8500
+Wire Wire Line
+	5100 2350 5100 2400
+Wire Wire Line
+	5100 2700 5100 2750
+Wire Wire Line
+	5100 2750 5450 2750
+Wire Wire Line
+	5100 6650 5700 6650
+Wire Wire Line
+	5100 6750 5100 6650
+Wire Wire Line
+	5100 7050 5100 7150
+Wire Wire Line
+	5250 4650 5250 4750
+Wire Wire Line
+	5250 4650 5600 4650
+Wire Wire Line
+	5250 5050 5250 5450
+Wire Wire Line
+	5250 5450 5500 5450
+Wire Wire Line
+	5400 7800 4550 7800
+Wire Wire Line
+	5500 8000 5700 8000
+Wire Wire Line
+	5600 4650 5600 4750
+Wire Wire Line
+	5600 5050 5600 5200
+Wire Wire Line
+	5600 5200 5850 5200
+Wire Wire Line
+	5700 7050 5700 7400
+Wire Wire Line
+	5700 7400 5700 7450
+Wire Wire Line
+	5700 7950 5700 8000
+Wire Wire Line
+	5700 8000 5700 8050
+Wire Wire Line
+	5700 8350 5700 8500
+Wire Wire Line
+	5750 2150 6150 2150
+Wire Wire Line
+	5950 900  6900 900 
+Wire Wire Line
+	5950 1100 6250 1100
+Wire Wire Line
+	5950 1200 6750 1200
+Wire Wire Line
+	5950 1300 6300 1300
+Wire Wire Line
+	6000 7400 5700 7400
+Wire Wire Line
+	6150 2350 5750 2350
+Wire Wire Line
+	6200 5150 6600 5150
+Wire Wire Line
+	6200 5600 6600 5600
+Wire Wire Line
+	6300 1300 6300 1350
+Wire Wire Line
+	6300 7400 6650 7400
+Wire Wire Line
+	6450 2150 6900 2150
+Wire Wire Line
+	6450 2350 6800 2350
+Wire Wire Line
+	6500 6650 6850 6650
+Wire Wire Line
+	6500 7050 6650 7050
+Wire Wire Line
+	6500 7750 6850 7750
+Wire Wire Line
+	6500 10450 6500 7750
+Wire Wire Line
+	6600 5050 6600 5150
+Wire Wire Line
+	6600 5150 6650 5150
+Wire Wire Line
+	6600 5500 6600 5600
+Wire Wire Line
+	6600 5600 6700 5600
+Wire Wire Line
+	6650 5050 6600 5050
+Wire Wire Line
+	6650 7050 7050 7050
+Wire Wire Line
+	6650 7400 6650 7050
+Wire Wire Line
+	6700 5500 6600 5500
+Wire Wire Line
+	6750 1200 6750 2750
+Wire Wire Line
+	6750 2750 6950 2750
+Wire Wire Line
+	6800 1000 5950 1000
+Wire Wire Line
+	6800 1000 6800 2350
+Wire Wire Line
+	6800 2350 6950 2350
+Wire Wire Line
+	6850 6650 6850 7750
+Wire Wire Line
+	6850 7750 6850 8050
+Wire Wire Line
+	6850 8350 6850 8500
+Wire Wire Line
+	6900 900  6900 2150
+Wire Wire Line
+	6900 2150 6950 2150
+Wire Wire Line
+	6950 2550 6350 2550
+Wire Wire Line
+	6950 2950 6400 2950
+Wire Wire Line
+	6950 3150 6400 3150
+Wire Wire Line
+	7200 5150 7250 5150
+Wire Wire Line
+	7250 5150 7250 5400
+Wire Wire Line
+	7250 5400 7250 5600
+Wire Wire Line
+	7250 5400 7600 5400
+Wire Wire Line
+	7350 7050 7450 7050
+Wire Wire Line
+	7400 4050 7550 4050
+Wire Wire Line
+	7450 1600 7600 1600
+Wire Wire Line
+	7450 7050 7450 7100
+Wire Wire Line
+	7450 7050 8050 7050
+Wire Wire Line
+	7450 7400 7450 7500
+Wire Wire Line
+	7500 3500 7500 3550
+Wire Wire Line
+	7550 4050 7550 4150
+Wire Wire Line
+	7550 4450 7550 4500
+Wire Wire Line
+	7600 1600 7600 1700
+Wire Wire Line
+	7600 3500 7600 3550
+Wire Wire Line
+	7600 5400 7600 5550
+Wire Wire Line
+	7600 5400 7650 5400
+Wire Wire Line
+	7600 5850 7600 5900
+Wire Wire Line
+	7600 7500 8050 7500
+Wire Wire Line
+	7600 10600 7600 7500
+Wire Wire Line
+	7700 7900 7700 11050
+Wire Wire Line
+	7700 7900 8050 7900
+Wire Wire Line
+	7700 11050 1000 11050
+Wire Wire Line
+	8050 7050 8050 7150
+Wire Wire Line
+	8050 7450 8050 7500
+Wire Wire Line
+	8050 7500 8050 7550
+Wire Wire Line
+	8050 7850 8050 7900
+Wire Wire Line
+	8050 7900 8050 7950
+Wire Wire Line
+	8050 7900 8400 7900
+Wire Wire Line
+	8050 8250 8050 8350
+Wire Wire Line
+	8100 5850 8100 5900
+Wire Wire Line
+	8300 2550 8650 2550
+Wire Wire Line
+	8300 2750 8550 2750
+Wire Wire Line
+	8400 7900 8400 7950
+Wire Wire Line
+	8400 8250 8400 8350
+Wire Wire Line
+	8550 2150 8300 2150
+Wire Wire Line
+	8550 2350 8300 2350
+Wire Wire Line
+	8550 2950 8300 2950
+Wire Wire Line
+	8550 3150 8300 3150
+Wire Wire Line
+	8650 1150 8850 1150
+Wire Wire Line
+	8650 2550 8650 1150
+Wire Wire Line
+	8850 1150 9000 1150
+Wire Wire Line
+	8850 1250 8850 1150
+Wire Wire Line
+	8850 1550 8850 1650
+Wire Wire Line
+	9100 2300 9350 2300
+Wire Wire Line
+	9200 5400 8550 5400
+Wire Wire Line
+	9200 5600 9200 5400
+Wire Wire Line
+	9200 5900 9200 5950
+Wire Wire Line
+	9250 1800 9350 1800
+Wire Wire Line
+	9300 700  9400 700 
+Wire Wire Line
+	9300 1150 9400 1150
+Wire Wire Line
+	9350 1800 9350 1850
+Wire Wire Line
+	9350 1850 9350 1900
+Wire Wire Line
+	9350 1850 9600 1850
+Wire Wire Line
+	9350 2300 9350 2200
+Wire Wire Line
+	9400 700  9400 750 
+Wire Wire Line
+	9400 1050 9400 1150
+Wire Wire Line
+	9400 1150 9750 1150
+Wire Wire Line
+	9600 1850 9600 1900
+Wire Wire Line
+	9600 2200 9600 2300
+Wire Wire Line
+	9600 2300 9950 2300
+Wire Wire Line
+	9850 7800 9600 7800
+Wire Wire Line
+	9850 8000 9600 8000
+Wire Wire Line
+	9850 8200 9600 8200
+Wire Wire Line
+	9850 8400 9600 8400
+Wire Wire Line
+	9950 5300 10350 5300
+Wire Wire Line
+	10050 700  10050 950 
+Wire Wire Line
+	10050 700  10150 700 
+Wire Wire Line
+	10050 1350 10050 1400
+Wire Wire Line
+	10050 1400 10150 1400
+Wire Wire Line
+	10150 700  10350 700 
+Wire Wire Line
+	10150 950  10150 700 
+Wire Wire Line
+	10150 1350 10150 1400
+Wire Wire Line
+	10150 1400 10150 1450
+Wire Wire Line
+	10200 3100 10500 3100
+Wire Wire Line
+	10200 3200 10250 3200
+Wire Wire Line
+	10200 6200 10600 6200
+Wire Wire Line
+	10200 7350 10350 7350
+Wire Wire Line
+	10250 3200 10250 3300
+Wire Wire Line
+	10350 4800 10550 4800
+Wire Wire Line
+	10350 4900 10350 4800
+Wire Wire Line
+	10350 5200 10350 5300
+Wire Wire Line
+	10350 5300 10500 5300
+Wire Wire Line
+	10350 7350 10350 7450
+Wire Wire Line
+	10350 8750 10350 8850
+Wire Wire Line
+	10450 1150 11000 1150
+Wire Wire Line
+	10550 6900 10700 6900
+Wire Wire Line
+	10600 5700 10800 5700
+Wire Wire Line
+	10600 5800 10600 5700
+Wire Wire Line
+	10600 6100 10600 6200
+Wire Wire Line
+	10600 6200 10750 6200
+Wire Wire Line
+	10700 6900 10700 7000
+Wire Wire Line
+	10700 7300 10700 7350
+Wire Wire Line
+	10850 4850 11150 4850
+Wire Wire Line
+	10850 5000 10850 4850
+Wire Wire Line
+	10850 7800 11900 7800
+Wire Wire Line
+	10850 8000 11750 8000
+Wire Wire Line
+	10850 8200 11700 8200
+Wire Wire Line
+	11000 1150 11000 1200
+Wire Wire Line
+	11000 5300 11150 5300
+Wire Wire Line
+	11100 5750 11400 5750
+Wire Wire Line
+	11100 5900 11100 5750
+Wire Wire Line
+	11150 4850 11150 4900
+Wire Wire Line
+	11150 5200 11150 5300
+Wire Wire Line
+	11150 5300 11650 5300
+Wire Wire Line
+	11250 6200 11400 6200
+Wire Wire Line
+	11400 5750 11400 5800
+Wire Wire Line
+	11400 6100 11400 6200
+Wire Wire Line
+	11400 6200 11900 6200
+Wire Wire Line
+	11450 8400 10850 8400
+Wire Wire Line
+	11450 9250 11450 8400
+Wire Wire Line
+	11450 9250 12550 9250
+Wire Wire Line
+	11500 1700 11650 1700
+Wire Wire Line
+	11650 1700 11650 1750
+Wire Wire Line
+	11650 1750 11650 1850
+Wire Wire Line
+	11650 1850 11650 1950
+Wire Wire Line
+	11650 1950 11750 1950
+Wire Wire Line
+	11700 8200 11700 8650
+Wire Wire Line
+	11700 8650 12550 8650
+Wire Wire Line
+	11750 1200 11500 1200
+Wire Wire Line
+	11750 1400 11500 1400
+Wire Wire Line
+	11750 1550 11500 1550
+Wire Wire Line
+	11750 1750 11650 1750
+Wire Wire Line
+	11750 1850 11650 1850
+Wire Wire Line
+	11750 8000 11750 8050
+Wire Wire Line
+	11750 8050 12550 8050
+Wire Wire Line
+	11900 2700 12050 2700
+Wire Wire Line
+	11900 7400 12550 7400
+Wire Wire Line
+	11900 7800 11900 7400
+Wire Wire Line
+	12050 2700 12050 2800
+Wire Wire Line
+	12050 3100 12050 3150
+Wire Wire Line
+	12200 700  12350 700 
+Wire Wire Line
+	12250 2400 12250 2450
+Wire Wire Line
+	12350 700  12350 800 
+Wire Wire Line
+	12350 2400 12350 2450
+Wire Wire Line
+	12550 7400 12650 7400
+Wire Wire Line
+	12550 7450 12550 7400
+Wire Wire Line
+	12550 7750 12550 7800
+Wire Wire Line
+	12550 8050 12650 8050
+Wire Wire Line
+	12550 8100 12550 8050
+Wire Wire Line
+	12550 8400 12550 8450
+Wire Wire Line
+	12550 8650 12650 8650
+Wire Wire Line
+	12550 8700 12550 8650
+Wire Wire Line
+	12550 9000 12550 9050
+Wire Wire Line
+	12550 9250 12650 9250
+Wire Wire Line
+	12550 9300 12550 9250
+Wire Wire Line
+	12550 9600 12550 9650
+Wire Wire Line
+	12600 3400 12800 3400
+Wire Wire Line
+	12800 3400 12800 3500
+Wire Wire Line
+	12800 3400 12950 3400
+Wire Wire Line
+	12800 3800 12800 3850
+Wire Wire Line
+	12950 1400 13200 1400
+Wire Wire Line
+	12950 1600 13100 1600
+Wire Wire Line
+	12950 1700 13300 1700
+Wire Wire Line
+	12950 1800 13350 1800
+Wire Wire Line
+	12950 1900 13400 1900
+Wire Wire Line
+	12950 2000 13450 2000
+Wire Wire Line
+	12950 8050 13500 8050
+Wire Wire Line
+	12950 9250 13500 9250
+Wire Wire Line
+	13000 5250 13000 5300
+Wire Wire Line
+	13050 5250 13000 5250
+Wire Wire Line
+	13100 1600 13100 2250
+Wire Wire Line
+	13100 2250 14450 2250
+Wire Wire Line
+	13150 1500 12950 1500
+Wire Wire Line
+	13150 2100 13150 1500
+Wire Wire Line
+	13150 2100 14600 2100
+Wire Wire Line
+	13200 1400 13200 1650
+Wire Wire Line
+	13200 1650 13500 1650
+Wire Wire Line
+	13250 1300 12950 1300
+Wire Wire Line
+	13250 1600 13250 1300
+Wire Wire Line
+	13300 1300 13900 1300
+Wire Wire Line
+	13300 1700 13300 1300
+Wire Wire Line
+	13350 1400 13600 1400
+Wire Wire Line
+	13350 1800 13350 1400
+Wire Wire Line
+	13350 5250 13500 5250
+Wire Wire Line
+	13400 1500 13900 1500
+Wire Wire Line
+	13400 1900 13400 1500
+Wire Wire Line
+	13400 3850 13400 3900
+Wire Wire Line
+	13450 1800 13600 1800
+Wire Wire Line
+	13450 2000 13450 1800
+Wire Wire Line
+	13500 1650 13500 1700
+Wire Wire Line
+	13500 1700 13900 1700
+Wire Wire Line
+	13500 4650 14300 4650
+Wire Wire Line
+	13500 4850 13500 4650
+Wire Wire Line
+	13500 5150 13500 5250
+Wire Wire Line
+	13500 5250 13650 5250
+Wire Wire Line
+	13500 7200 13250 7200
+Wire Wire Line
+	13500 7200 13500 7300
+Wire Wire Line
+	13500 7400 12950 7400
+Wire Wire Line
+	13500 7500 13500 7550
+Wire Wire Line
+	13500 7850 13250 7850
+Wire Wire Line
+	13500 7850 13500 7950
+Wire Wire Line
+	13500 8150 13500 8200
+Wire Wire Line
+	13500 8450 13250 8450
+Wire Wire Line
+	13500 8450 13500 8550
+Wire Wire Line
+	13500 8650 12950 8650
+Wire Wire Line
+	13500 8750 13500 8800
+Wire Wire Line
+	13500 9050 13250 9050
+Wire Wire Line
+	13500 9050 13500 9150
+Wire Wire Line
+	13500 9350 13500 9400
+Wire Wire Line
+	13600 1600 13250 1600
+Wire Wire Line
+	13650 5500 13250 5500
+Wire Wire Line
+	13650 5650 13200 5650
+Wire Wire Line
+	13850 3400 14550 3400
+Wire Wire Line
+	13900 1400 14400 1400
+Wire Wire Line
+	13900 1800 14100 1800
+Wire Wire Line
+	14100 1800 14100 1950
+Wire Wire Line
+	14100 1950 15300 1950
+Wire Wire Line
+	14100 6550 14100 6650
+Wire Wire Line
+	14150 7150 14300 7150
+Wire Wire Line
+	14150 8400 14300 8400
+Wire Wire Line
+	14200 700  14200 1300
+Wire Wire Line
+	14200 700  14350 700 
+Wire Wire Line
+	14200 1700 15100 1700
+Wire Wire Line
+	14250 6550 14250 6650
+Wire Wire Line
+	14300 4100 14300 4650
+Wire Wire Line
+	14300 4650 14300 4700
+Wire Wire Line
+	14300 7150 14300 7250
+Wire Wire Line
+	14300 7550 14300 7600
+Wire Wire Line
+	14300 8400 14300 8500
+Wire Wire Line
+	14300 8800 14300 8850
+Wire Wire Line
+	14400 950  14550 950 
+Wire Wire Line
+	14400 1400 14400 950 
+Wire Wire Line
+	14400 6550 14400 6650
+Wire Wire Line
+	14550 3400 14550 4100
+Wire Wire Line
+	14550 4100 14300 4100
+Wire Wire Line
+	14550 4100 14550 4250
+Wire Wire Line
+	14550 4550 14550 4600
+Wire Wire Line
+	14550 6550 14550 6650
+Wire Wire Line
+	14650 1200 14650 1500
+Wire Wire Line
+	14650 1500 14200 1500
+Wire Wire Line
+	14650 7950 14800 7950
+Wire Wire Line
+	14650 9150 14800 9150
+Wire Wire Line
+	14750 700  15800 700 
+Wire Wire Line
+	14750 1200 14650 1200
+Wire Wire Line
+	14750 1450 14900 1450
+Wire Wire Line
+	14750 1600 13900 1600
+Wire Wire Line
+	14750 1600 14750 1450
+Wire Wire Line
+	14800 7950 14800 8050
+Wire Wire Line
+	14800 8350 14800 8400
+Wire Wire Line
+	14800 9150 14800 9250
+Wire Wire Line
+	14800 9550 14800 9600
+Wire Wire Line
+	14950 950  15800 950 
+Wire Wire Line
+	15000 5800 15400 5800
+Wire Wire Line
+	15000 5950 15000 6050
+Wire Wire Line
+	15000 6350 15000 6450
+Wire Wire Line
+	15000 6850 15000 6950
+Wire Wire Line
+	15050 4600 15050 5250
+Wire Wire Line
+	15050 5250 15000 5250
+Wire Wire Line
+	15200 5200 15200 5450
+Wire Wire Line
+	15200 5450 15000 5450
+Wire Wire Line
+	15400 4700 15400 5200
+Wire Wire Line
+	15400 5200 15200 5200
+Wire Wire Line
+	15400 5300 15650 5300
+Wire Wire Line
+	15400 5400 15400 5300
+Wire Wire Line
+	15400 5700 15400 5800
+Wire Wire Line
+	15400 5800 15400 5900
+Wire Wire Line
+	15400 6500 15400 6600
+Wire Wire Line
+	15600 4000 15600 4050
+Wire Wire Line
+	15800 700  15800 950 
+Wire Wire Line
+	15800 950  15800 1200
+Wire Wire Line
+	15800 1200 15150 1200
+Wire Wire Line
+	15800 1200 15800 1450
+Wire Wire Line
+	15800 1450 15300 1450
+Wire Wire Line
+	15800 1450 15800 1700
+Wire Wire Line
+	15800 1700 15500 1700
+Wire Wire Line
+	15800 1700 15800 1950
+Wire Wire Line
+	15800 1950 15700 1950
+Wire Wire Line
+	15800 1950 15800 2100
+Text Notes 4800 5450 0    60   ~ 0
+1.3A
+Text Notes 5100 5800 0    60   ~ 0
+130mA
+Text Notes 5500 5800 0    60   ~ 0
+40mA
+Text Label 650  650  0    60   ~ 0
++Vbat
+Text Label 650  1550 0    60   ~ 0
++Vbat
+Text Label 800  6650 0    60   ~ 0
++5V
+Text Label 1300 6350 0    60   ~ 0
++5V
+Text Label 1350 2850 0    60   ~ 0
++Vbat
+Text Label 1500 5000 0    60   ~ 0
++5V
+Text Label 1900 3800 0    60   ~ 0
++Vbat
+Text Label 1950 9400 0    60   ~ 0
+VctrlCHG
+Text Label 2150 8650 0    60   ~ 0
+PWMin
+Text Label 2250 6850 0    60   ~ 0
+Vtemp
+Text Label 2400 7050 0    60   ~ 0
++5V
+Text Label 2450 5600 0    60   ~ 0
++5V
+Text Label 2700 3800 0    60   ~ 0
++Vbat
+Text Label 3100 650  0    60   ~ 0
++Vref1
+Text Label 3100 1550 0    60   ~ 0
++Vref2
+Text Label 3350 5250 0    60   ~ 0
++5V
+Text Label 3450 6100 0    60   ~ 0
+/Shdn
+Text Label 3500 6450 0    60   ~ 0
+VoffCHG
+Text Label 3850 3450 0    60   ~ 0
++12v
+Text Label 4050 900  0    60   ~ 0
++Vref1
+Text Label 4100 2700 0    60   ~ 0
++5V
+Text Label 4100 9050 0    60   ~ 0
+/Shdn
+Text Label 4150 4650 0    60   ~ 0
++5V
+Text Label 4450 7500 0    60   ~ 0
++5V
+Text Label 4700 900  0    60   ~ 0
++Vref2
+Text Label 4700 9650 0    60   ~ 0
+Vsense
+Text Label 4800 6650 0    60   ~ 0
++12v
+Text Label 4950 2350 0    60   ~ 0
++5V
+Text Label 5200 2750 0    60   ~ 0
+/Shdn
+Text Label 5300 4650 0    60   ~ 0
+VctrlCHG
+Text Label 5300 5450 0    60   ~ 0
+SetPreChg
+Text Label 5650 5200 0    60   ~ 0
+SetTail
+Text Label 5700 7300 0    60   ~ 0
+TR_High_Side
+Text Label 5700 8000 0    60   ~ 0
+TR_Low_Side
+Text Label 5750 2150 0    60   ~ 0
+VctrlCHG
+Text Label 5750 2350 0    60   ~ 0
+RDY
+Text Label 6050 1100 0    60   ~ 0
++5V
+Text Label 6200 5150 0    60   ~ 0
++Vfeed
+Text Label 6200 5600 0    60   ~ 0
++12v
+Text Label 6300 900  0    60   ~ 0
+ICSPDATA
+Text Label 6300 1000 0    60   ~ 0
+ICSPCLK
+Text Label 6300 1200 0    60   ~ 0
+/MCLR
+Text Label 6350 2550 0    60   ~ 0
+SCL
+Text Label 6350 7400 0    60   ~ 0
+Self_Out_2
+Text Label 6400 2950 0    60   ~ 0
+SDA
+Text Label 6400 3150 0    60   ~ 0
+VoffCHG
+Text Label 6850 7900 0    60   ~ 0
+Self_Out_1
+Text Label 7400 4050 0    60   ~ 0
++5V
+Text Label 7450 1600 0    60   ~ 0
++5V
+Text Label 7800 7050 0    60   ~ 0
++Vbat
+Text Label 8300 2150 0    60   ~ 0
+Vtemp
+Text Label 8350 2350 0    60   ~ 0
+Vsense
+Text Label 8350 2750 0    60   ~ 0
+PWMin
+Text Label 8400 2950 0    60   ~ 0
+Tx_µC
+Text Label 8400 3150 0    60   ~ 0
+Rx_µC
+Text Label 9000 5400 0    60   ~ 0
++5V
+Text Label 9100 2300 0    60   ~ 0
+SCL
+Text Label 9250 1800 0    60   ~ 0
++5V
+Text Label 9300 700  0    60   ~ 0
++5V
+Text Label 9600 7800 0    60   ~ 0
+SCL
+Text Label 9600 8000 0    60   ~ 0
+SDA
+Text Label 9600 8200 0    60   ~ 0
+RDY
+Text Label 9600 8400 0    60   ~ 0
++5V
+Text Label 9800 2300 0    60   ~ 0
+SDA
+Text Label 9950 5300 0    60   ~ 0
+Rx_µC
+Text Label 10200 6200 0    60   ~ 0
+Tx_µC
+Text Label 10200 7350 0    60   ~ 0
++5V
+Text Label 10300 3100 0    60   ~ 0
++12v
+Text Label 10350 4800 0    60   ~ 0
++5V
+Text Label 10550 6900 0    60   ~ 0
++5V
+Text Label 10600 5700 0    60   ~ 0
++5V
+Text Label 10850 4850 0    60   ~ 0
++3.3V
+Text Label 11100 5750 0    60   ~ 0
++3.3V
+Text Label 11350 5300 0    60   ~ 0
+Tx_BLE
+Text Label 11500 1200 0    60   ~ 0
++5V
+Text Label 11500 1400 0    60   ~ 0
+SCL
+Text Label 11500 1550 0    60   ~ 0
+SDA
+Text Label 11500 1700 0    60   ~ 0
++5V
+Text Label 11600 6200 0    60   ~ 0
+Rx_BLE
+Text Label 11900 2700 0    60   ~ 0
++5V
+Text Label 12200 700  0    60   ~ 0
++5V
+Text Label 12600 3400 0    60   ~ 0
++5V
+Text Label 13200 5650 0    60   ~ 0
+Rx_BLE
+Text Label 13250 5500 0    60   ~ 0
+Tx_BLE
+Text Label 13250 7200 0    60   ~ 0
++Vref1
+Text Label 13250 7850 0    60   ~ 0
++Vref1
+Text Label 13250 8450 0    60   ~ 0
++Vref2
+Text Label 13250 9050 0    60   ~ 0
++Vref2
+Text Label 14150 2100 0    60   ~ 0
+SetPreChg
+Text Label 14150 2250 0    60   ~ 0
+SetTail
+Text Label 14150 7150 0    60   ~ 0
++Vref1
+Text Label 14150 8400 0    60   ~ 0
++Vref2
+Text Label 14200 3400 0    60   ~ 0
++3.3V
+Text Label 14650 7950 0    60   ~ 0
++Vref1
+Text Label 14650 9150 0    60   ~ 0
++Vref2
+Text Label 15400 5300 0    60   ~ 0
++3.3V
 $Comp
-L BancGeo-rescue:PIC16F18323_QFN-BancGeo-rescue U7
-U 1 1 56A53341
-P 7600 2350
-F 0 "U7" H 7200 2900 60  0000 C CNN
-F 1 "PIC16F18323_QFN" H 8050 1300 60  0000 C CNN
-F 2 "Housings_DFN_QFN:QFN-16-1EP_4x4mm_Pitch0.65mm" H 7650 2350 60  0001 C CNN
-F 3 "" H 7650 2350 60  0000 C CNN
-	1    7600 2350
+L BancGeo-rescue:GND-BancGeo-rescue #PWR017
+U 1 1 56B95C21
+P 950 1150
+F 0 "#PWR017" H 950 900 50  0001 C CNN
+F 1 "GND" H 950 1000 50  0000 C CNN
+F 2 "" H 950 1150 60  0000 C CNN
+F 3 "" H 950 1150 60  0000 C CNN
+	1    950  1150
 	1    0    0    -1  
 $EndComp
 $Comp
-L BancGeo-rescue:MCP1631X-ML_QFN-BancGeo-rescue U6
-U 1 1 56A54633
-P 4950 9500
-F 0 "U6" H 2650 10850 60  0000 C CNN
-F 1 "MCP1631V-ML_QFN" H 3600 9050 60  0000 C CNN
-F 2 "Housings_DFN_QFN:QFN-20-1EP_4x4mm_Pitch0.5mm" H 4950 9500 60  0001 C CNN
-F 3 "" H 4950 9500 60  0000 C CNN
-	1    4950 9500
+L BancGeo-rescue:GND-BancGeo-rescue #PWR064
+U 1 1 570A408E
+P 950 2050
+F 0 "#PWR064" H 950 1800 50  0001 C CNN
+F 1 "GND" H 950 1900 50  0000 C CNN
+F 2 "" H 950 2050 60  0000 C CNN
+F 3 "" H 950 2050 60  0000 C CNN
+	1    950  2050
 	1    0    0    -1  
 $EndComp
 $Comp
-L BancGeo-rescue:TC54-BancGeo-rescue U2
-U 1 1 56A54E9E
-P 2100 4350
-F 0 "U2" H 2100 4600 60  0000 C CNN
-F 1 "TC54VC4302ECB713" H 1550 4100 60  0000 C CNN
-F 2 "Yame_library:SOT23-MR" H 2100 4350 60  0001 C CNN
-F 3 "" H 2100 4350 60  0000 C CNN
-	1    2100 4350
-	-1   0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:MCP970x-BancGeo-rescue U1
-U 1 1 56A54EC7
-P 1700 6850
-F 0 "U1" H 1700 7100 60  0000 C CNN
-F 1 "MCP9700A" H 1850 6600 60  0000 C CNN
-F 2 "Yame_library:SOT23-MR" H 1700 6850 60  0001 C CNN
-F 3 "" H 1700 6850 60  0000 C CNN
-	1    1700 6850
+L BancGeo-rescue:GND-BancGeo-rescue #PWR038
+U 1 1 56BB4286
+P 950 7100
+F 0 "#PWR038" H 950 6850 50  0001 C CNN
+F 1 "GND" H 950 6950 50  0000 C CNN
+F 2 "" H 950 7100 60  0000 C CNN
+F 3 "" H 950 7100 60  0000 C CNN
+	1    950  7100
 	1    0    0    -1  
 $EndComp
 $Comp
-L BancGeo-rescue:N-MOS_SOT23-BancGeo-rescue Q3
-U 1 1 56B7BD68
-P 5600 7700
-F 0 "Q3" H 5750 7750 50  0000 L BNN
-F 1 "PMV37EN2R" H 5750 7650 50  0000 L BNN
-F 2 "Yame_library:SOT23-MR" H 5600 7850 50  0001 C CNN
-F 3 "" H 5600 7700 60  0000 C CNN
-	1    5600 7700
+L power:GND1 #PWR?
+U 1 1 6058D762
+P 1100 3050
+F 0 "#PWR?" H 1100 2800 50  0001 C CNN
+F 1 "GND1" H 1105 2877 50  0000 C CNN
+F 2 "" H 1100 3050 50  0001 C CNN
+F 3 "" H 1100 3050 50  0001 C CNN
+	1    1100 3050
 	1    0    0    -1  
 $EndComp
 $Comp
-L BancGeo-rescue:Coupled_Inductor-BancGeo-rescue T1
-U 1 1 56B7C4BB
-P 6100 6850
-F 0 "T1" H 6100 7100 50  0000 C CNN
-F 1 "DRQ127-100-R" H 6100 6550 50  0000 C CNN
-F 2 "Yame_library:DRQ127_CPL_TR" H 6100 6850 60  0001 C CNN
-F 3 "" H 6100 6850 60  0000 C CNN
-	1    6100 6850
+L BancGeo-rescue:GND-BancGeo-rescue #PWR020
+U 1 1 56B96E6A
+P 1450 1150
+F 0 "#PWR020" H 1450 900 50  0001 C CNN
+F 1 "GND" H 1450 1000 50  0000 C CNN
+F 2 "" H 1450 1150 60  0000 C CNN
+F 3 "" H 1450 1150 60  0000 C CNN
+	1    1450 1150
 	1    0    0    -1  
 $EndComp
 $Comp
-L BancGeo-rescue:C-BancGeo-rescue C2
-U 1 1 56B7C530
-P 1800 9050
-F 0 "C2" H 1825 9150 50  0000 L CNN
-F 1 "1500p" H 1825 8950 50  0000 L CNN
-F 2 "Yame_library:SM0603-MR" H 1838 8900 30  0001 C CNN
-F 3 "" H 1800 9050 60  0000 C CNN
-	1    1800 9050
-	0    1    -1   0   
+L BancGeo-rescue:GND-BancGeo-rescue #PWR067
+U 1 1 570A40AD
+P 1450 2050
+F 0 "#PWR067" H 1450 1800 50  0001 C CNN
+F 1 "GND" H 1450 1900 50  0000 C CNN
+F 2 "" H 1450 2050 60  0000 C CNN
+F 3 "" H 1450 2050 60  0000 C CNN
+	1    1450 2050
+	1    0    0    -1  
 $EndComp
 $Comp
-L BancGeo-rescue:R-BancGeo-rescue R2
-U 1 1 56B7C60A
-P 1550 9650
-F 0 "R2" V 1630 9650 50  0000 C CNN
-F 1 "49.9k" V 1550 9650 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 1480 9650 30  0001 C CNN
-F 3 "" H 1550 9650 30  0000 C CNN
-	1    1550 9650
+L BancGeo-rescue:GND-BancGeo-rescue #PWR024
+U 1 1 56B9CF9B
+P 1600 7400
+F 0 "#PWR024" H 1600 7150 50  0001 C CNN
+F 1 "GND" H 1600 7250 50  0000 C CNN
+F 2 "" H 1600 7400 60  0000 C CNN
+F 3 "" H 1600 7400 60  0000 C CNN
+	1    1600 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR022
+U 1 1 56B9CD48
+P 1800 6050
+F 0 "#PWR022" H 1800 5800 50  0001 C CNN
+F 1 "GND" H 1800 5900 50  0000 C CNN
+F 2 "" H 1800 6050 60  0000 C CNN
+F 3 "" H 1800 6050 60  0000 C CNN
+	1    1800 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR?
+U 1 1 60713858
+P 1900 3000
+F 0 "#PWR?" H 1900 2750 50  0001 C CNN
+F 1 "GND" H 1900 2850 50  0000 C CNN
+F 2 "" H 1900 3000 60  0000 C CNN
+F 3 "" H 1900 3000 60  0000 C CNN
+	1    1900 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR018
+U 1 1 56B95D21
+P 2200 1150
+F 0 "#PWR018" H 2200 900 50  0001 C CNN
+F 1 "GND" H 2200 1000 50  0000 C CNN
+F 2 "" H 2200 1150 60  0000 C CNN
+F 3 "" H 2200 1150 60  0000 C CNN
+	1    2200 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR065
+U 1 1 570A4094
+P 2200 2050
+F 0 "#PWR065" H 2200 1800 50  0001 C CNN
+F 1 "GND" H 2200 1900 50  0000 C CNN
+F 2 "" H 2200 2050 60  0000 C CNN
+F 3 "" H 2200 2050 60  0000 C CNN
+	1    2200 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 6058DB12
+P 2200 4850
+F 0 "#PWR?" H 2200 4600 50  0001 C CNN
+F 1 "GND1" H 2205 4677 50  0000 C CNN
+F 2 "" H 2200 4850 50  0001 C CNN
+F 3 "" H 2200 4850 50  0001 C CNN
+	1    2200 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR040
+U 1 1 56BB4B3A
+P 2550 7550
+F 0 "#PWR040" H 2550 7300 50  0001 C CNN
+F 1 "GND" H 2550 7400 50  0000 C CNN
+F 2 "" H 2550 7550 60  0000 C CNN
+F 3 "" H 2550 7550 60  0000 C CNN
+	1    2550 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR023
+U 1 1 56B9CDCE
+P 2750 6550
+F 0 "#PWR023" H 2750 6300 50  0001 C CNN
+F 1 "GND" H 2750 6400 50  0000 C CNN
+F 2 "" H 2750 6550 60  0000 C CNN
+F 3 "" H 2750 6550 60  0000 C CNN
+	1    2750 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR044
+U 1 1 56BB88C2
+P 2850 4250
+F 0 "#PWR044" H 2850 4000 50  0001 C CNN
+F 1 "GND" H 2850 4100 50  0000 C CNN
+F 2 "" H 2850 4250 60  0000 C CNN
+F 3 "" H 2850 4250 60  0000 C CNN
+	1    2850 4250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -124,465 +1448,6 @@ F 3 "" H 3100 10200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BancGeo-rescue:R-BancGeo-rescue R15
-U 1 1 56B7CC3A
-P 5700 8200
-F 0 "R15" V 5780 8200 50  0000 C CNN
-F 1 "0.1" V 5700 8200 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 5630 8200 30  0001 C CNN
-F 3 "" H 5700 8200 30  0000 C CNN
-	1    5700 8200
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:R-BancGeo-rescue R13
-U 1 1 56B7CCA3
-P 5350 8000
-F 0 "R13" V 5430 8000 50  0000 C CNN
-F 1 "1k" V 5350 8000 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 5280 8000 30  0001 C CNN
-F 3 "" H 5350 8000 30  0000 C CNN
-	1    5350 8000
-	0    1    1    0   
-$EndComp
-$Comp
-L BancGeo-rescue:C-BancGeo-rescue C14
-U 1 1 56B7CCFE
-P 5000 8250
-F 0 "C14" H 5025 8350 50  0000 L CNN
-F 1 "22p" H 5025 8150 50  0000 L CNN
-F 2 "Yame_library:SM0603-MR" H 5038 8100 30  0001 C CNN
-F 3 "" H 5000 8250 60  0000 C CNN
-	1    5000 8250
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:R-BancGeo-rescue R10
-U 1 1 56B7CD8D
-P 4700 8000
-F 0 "R10" V 4780 8000 50  0000 C CNN
-F 1 "1k" V 4700 8000 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 4630 8000 30  0001 C CNN
-F 3 "" H 4700 8000 30  0000 C CNN
-	1    4700 8000
-	0    1    1    0   
-$EndComp
-$Comp
-L BancGeo-rescue:R-BancGeo-rescue R8
-U 1 1 56B7D6B9
-P 4450 7750
-F 0 "R8" V 4530 7750 50  0000 C CNN
-F 1 "20k" V 4450 7750 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 4380 7750 30  0001 C CNN
-F 3 "" H 4450 7750 30  0000 C CNN
-	1    4450 7750
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR03
-U 1 1 56B7DA67
-P 5000 8500
-F 0 "#PWR03" H 5000 8250 50  0001 C CNN
-F 1 "GND" H 5000 8350 50  0000 C CNN
-F 2 "" H 5000 8500 60  0000 C CNN
-F 3 "" H 5000 8500 60  0000 C CNN
-	1    5000 8500
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR04
-U 1 1 56B7DB53
-P 5700 8500
-F 0 "#PWR04" H 5700 8250 50  0001 C CNN
-F 1 "GND" H 5700 8350 50  0000 C CNN
-F 2 "" H 5700 8500 60  0000 C CNN
-F 3 "" H 5700 8500 60  0000 C CNN
-	1    5700 8500
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:C-BancGeo-rescue C12
-U 1 1 56B7DFED
-P 4800 6900
-F 0 "C12" H 4825 7000 50  0000 L CNN
-F 1 "10u" H 4825 6800 50  0000 L CNN
-F 2 "Yame_library:SM0805-MR" H 4838 6750 30  0001 C CNN
-F 3 "" H 4800 6900 60  0000 C CNN
-	1    4800 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:C-BancGeo-rescue C15
-U 1 1 56B7E167
-P 5100 6900
-F 0 "C15" H 5125 7000 50  0000 L CNN
-F 1 "10u" H 5125 6800 50  0000 L CNN
-F 2 "Yame_library:SM0805-MR" H 5138 6750 30  0001 C CNN
-F 3 "" H 5100 6900 60  0000 C CNN
-	1    5100 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR05
-U 1 1 56B7E1C7
-P 4800 7150
-F 0 "#PWR05" H 4800 6900 50  0001 C CNN
-F 1 "GND" H 4800 7000 50  0000 C CNN
-F 2 "" H 4800 7150 60  0000 C CNN
-F 3 "" H 4800 7150 60  0000 C CNN
-	1    4800 7150
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR06
-U 1 1 56B7E205
-P 5100 7150
-F 0 "#PWR06" H 5100 6900 50  0001 C CNN
-F 1 "GND" H 5100 7000 50  0000 C CNN
-F 2 "" H 5100 7150 60  0000 C CNN
-F 3 "" H 5100 7150 60  0000 C CNN
-	1    5100 7150
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:C-BancGeo-rescue C16
-U 1 1 56B7E3F3
-P 6150 7400
-F 0 "C16" H 6175 7500 50  0000 L CNN
-F 1 "2.2u" H 6175 7300 50  0000 L CNN
-F 2 "Yame_library:SM0805-MR" H 6188 7250 30  0001 C CNN
-F 3 "" H 6150 7400 60  0000 C CNN
-	1    6150 7400
-	0    1    1    0   
-$EndComp
-$Comp
-L BancGeo-rescue:D-BancGeo-rescue D2
-U 1 1 56B7E5A4
-P 7200 7050
-F 0 "D2" H 7200 7150 50  0000 C CNN
-F 1 "SSA33L-E3" H 7200 6950 50  0000 C CNN
-F 2 "Yame_library:DO-214AC" H 7200 7050 60  0001 C CNN
-F 3 "" H 7200 7050 60  0000 C CNN
-	1    7200 7050
-	-1   0    0    1   
-$EndComp
-$Comp
-L BancGeo-rescue:R-BancGeo-rescue R18
-U 1 1 56B7E8CF
-P 6850 8200
-F 0 "R18" V 6930 8200 50  0000 C CNN
-F 1 "0.1" V 6850 8200 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 6780 8200 30  0001 C CNN
-F 3 "" H 6850 8200 30  0000 C CNN
-	1    6850 8200
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR07
-U 1 1 56B7E8D5
-P 6850 8500
-F 0 "#PWR07" H 6850 8250 50  0001 C CNN
-F 1 "GND" H 6850 8350 50  0000 C CNN
-F 2 "" H 6850 8500 60  0000 C CNN
-F 3 "" H 6850 8500 60  0000 C CNN
-	1    6850 8500
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:C-BancGeo-rescue C17
-U 1 1 56B7EAC4
-P 7450 7250
-F 0 "C17" H 7475 7350 50  0000 L CNN
-F 1 "10u" H 7475 7150 50  0000 L CNN
-F 2 "Yame_library:SM0805-MR" H 7488 7100 30  0001 C CNN
-F 3 "" H 7450 7250 60  0000 C CNN
-	1    7450 7250
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR08
-U 1 1 56B7EACA
-P 7450 7500
-F 0 "#PWR08" H 7450 7250 50  0001 C CNN
-F 1 "GND" H 7450 7350 50  0000 C CNN
-F 2 "" H 7450 7500 60  0000 C CNN
-F 3 "" H 7450 7500 60  0000 C CNN
-	1    7450 7500
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:R-BancGeo-rescue R19
-U 1 1 56B7EC41
-P 8050 7300
-F 0 "R19" V 8130 7300 50  0000 C CNN
-F 1 "270k" V 8050 7300 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 7980 7300 30  0001 C CNN
-F 3 "" H 8050 7300 30  0000 C CNN
-	1    8050 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:R-BancGeo-rescue R20
-U 1 1 56B7ECB8
-P 8050 7700
-F 0 "R20" V 8130 7700 50  0000 C CNN
-F 1 "100k" V 8050 7700 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 7980 7700 30  0001 C CNN
-F 3 "" H 8050 7700 30  0000 C CNN
-	1    8050 7700
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:R-BancGeo-rescue R21
-U 1 1 56B7ED19
-P 8050 8100
-F 0 "R21" V 8130 8100 50  0000 C CNN
-F 1 "47k" V 8050 8100 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 7980 8100 30  0001 C CNN
-F 3 "" H 8050 8100 30  0000 C CNN
-	1    8050 8100
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:C-BancGeo-rescue C19
-U 1 1 56B7EFC3
-P 8400 8100
-F 0 "C19" H 8425 8200 50  0000 L CNN
-F 1 "C" H 8425 8000 50  0000 L CNN
-F 2 "Yame_library:SM0603-MR" H 8438 7950 30  0001 C CNN
-F 3 "" H 8400 8100 60  0000 C CNN
-	1    8400 8100
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR09
-U 1 1 56B7FFF8
-P 8400 8350
-F 0 "#PWR09" H 8400 8100 50  0001 C CNN
-F 1 "GND" H 8400 8200 50  0000 C CNN
-F 2 "" H 8400 8350 60  0000 C CNN
-F 3 "" H 8400 8350 60  0000 C CNN
-	1    8400 8350
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR010
-U 1 1 56B800FD
-P 8050 8350
-F 0 "#PWR010" H 8050 8100 50  0001 C CNN
-F 1 "GND" H 8050 8200 50  0000 C CNN
-F 2 "" H 8050 8350 60  0000 C CNN
-F 3 "" H 8050 8350 60  0000 C CNN
-	1    8050 8350
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:R-BancGeo-rescue R7
-U 1 1 56B80792
-P 4350 9650
-F 0 "R7" V 4430 9650 50  0000 C CNN
-F 1 "100" V 4350 9650 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 4280 9650 30  0001 C CNN
-F 3 "" H 4350 9650 30  0000 C CNN
-	1    4350 9650
-	0    1    1    0   
-$EndComp
-$Comp
-L BancGeo-rescue:C-BancGeo-rescue C10
-U 1 1 56B80824
-P 4600 9900
-F 0 "C10" H 4625 10000 50  0000 L CNN
-F 1 "100n" H 4625 9800 50  0000 L CNN
-F 2 "Yame_library:SM0603-MR" H 4638 9750 30  0001 C CNN
-F 3 "" H 4600 9900 60  0000 C CNN
-	1    4600 9900
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR011
-U 1 1 56B80AB8
-P 4600 10100
-F 0 "#PWR011" H 4600 9850 50  0001 C CNN
-F 1 "GND" H 4600 9950 50  0000 C CNN
-F 2 "" H 4600 10100 60  0000 C CNN
-F 3 "" H 4600 10100 60  0000 C CNN
-	1    4600 10100
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:MCP1754-BancGeo-rescue U5
-U 1 1 56B8EE1C
-P 8100 5450
-F 0 "U5" H 7900 5650 60  0000 C CNN
-F 1 "MCP1754ST-5002E/CB" H 8600 5200 60  0000 C CNN
-F 2 "Yame_library:SOT23-MR" H 8100 5450 60  0001 C CNN
-F 3 "" H 8100 5450 60  0000 C CNN
-	1    8100 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:LM4120-BancGeo-rescue U4
-U 1 1 56B90889
-P 2200 800
-F 0 "U4" H 2050 1100 60  0000 C CNN
-F 1 "LM4120IM5X-5.0/NOPB" H 2750 550 60  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 2200 800 60  0001 C CNN
-F 3 "" H 2200 800 60  0000 C CNN
-	1    2200 800 
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:CONN_01X02-BancGeo-rescue P1
-U 1 1 56B91222
-P 10000 3150
-F 0 "P1" H 10000 3300 50  0000 C CNN
-F 1 "Alim" V 10100 3150 50  0000 C CNN
-F 2 "Yame_library:PINHEAD1-2" H 10000 3150 60  0001 C CNN
-F 3 "" H 10000 3150 60  0000 C CNN
-	1    10000 3150
-	-1   0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR012
-U 1 1 56B9163B
-P 10250 3300
-F 0 "#PWR012" H 10250 3050 50  0001 C CNN
-F 1 "GND" H 10250 3150 50  0000 C CNN
-F 2 "" H 10250 3300 60  0000 C CNN
-F 3 "" H 10250 3300 60  0000 C CNN
-	1    10250 3300
-	1    0    0    -1  
-$EndComp
-Text Label 10300 3100 0    60   ~ 0
-+12v
-$Comp
-L BancGeo-rescue:C-BancGeo-rescue C7
-U 1 1 56B929E4
-P 7600 5700
-F 0 "C7" H 7625 5800 50  0000 L CNN
-F 1 "2.2u" H 7625 5600 50  0000 L CNN
-F 2 "Yame_library:SM0805-MR" H 7638 5550 30  0001 C CNN
-F 3 "" H 7600 5700 60  0000 C CNN
-	1    7600 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR013
-U 1 1 56B92D62
-P 7600 5900
-F 0 "#PWR013" H 7600 5650 50  0001 C CNN
-F 1 "GND" H 7600 5750 50  0000 C CNN
-F 2 "" H 7600 5900 60  0000 C CNN
-F 3 "" H 7600 5900 60  0000 C CNN
-	1    7600 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR014
-U 1 1 56B9304F
-P 8100 5900
-F 0 "#PWR014" H 8100 5650 50  0001 C CNN
-F 1 "GND" H 8100 5750 50  0000 C CNN
-F 2 "" H 8100 5900 60  0000 C CNN
-F 3 "" H 8100 5900 60  0000 C CNN
-	1    8100 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:C-BancGeo-rescue C13
-U 1 1 56B9315D
-P 9200 5750
-F 0 "C13" H 9225 5850 50  0000 L CNN
-F 1 "1u" H 9225 5650 50  0000 L CNN
-F 2 "Yame_library:SM0805-MR" H 9238 5600 30  0001 C CNN
-F 3 "" H 9200 5750 60  0000 C CNN
-	1    9200 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR015
-U 1 1 56B93163
-P 9200 5950
-F 0 "#PWR015" H 9200 5700 50  0001 C CNN
-F 1 "GND" H 9200 5800 50  0000 C CNN
-F 2 "" H 9200 5950 60  0000 C CNN
-F 3 "" H 9200 5950 60  0000 C CNN
-	1    9200 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:CONN_01X02-BancGeo-rescue P2
-U 1 1 56B94194
-P 900 2900
-F 0 "P2" H 900 3050 50  0000 C CNN
-F 1 "Batt" V 1000 2900 50  0000 C CNN
-F 2 "Yame_library:PINHEAD1-2" H 900 2900 60  0001 C CNN
-F 3 "" H 900 2900 60  0000 C CNN
-	1    900  2900
-	-1   0    0    -1  
-$EndComp
-Text Label 1900 3800 0    60   ~ 0
-+Vbat
-Text Label 9000 5400 0    60   ~ 0
-+5V
-$Comp
-L BancGeo-rescue:R-BancGeo-rescue R5
-U 1 1 56B952E3
-P 1250 650
-F 0 "R5" V 1330 650 50  0000 C CNN
-F 1 "10" V 1250 650 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 1180 650 30  0001 C CNN
-F 3 "" H 1250 650 30  0000 C CNN
-	1    1250 650 
-	0    1    1    0   
-$EndComp
-$Comp
-L BancGeo-rescue:C-BancGeo-rescue C3
-U 1 1 56B95354
-P 950 900
-F 0 "C3" H 975 1000 50  0000 L CNN
-F 1 "100n" H 975 800 50  0000 L CNN
-F 2 "Yame_library:SM0603-MR" H 988 750 30  0001 C CNN
-F 3 "" H 950 900 60  0000 C CNN
-	1    950  900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR017
-U 1 1 56B95C21
-P 950 1150
-F 0 "#PWR017" H 950 900 50  0001 C CNN
-F 1 "GND" H 950 1000 50  0000 C CNN
-F 2 "" H 950 1150 60  0000 C CNN
-F 3 "" H 950 1150 60  0000 C CNN
-	1    950  1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR018
-U 1 1 56B95D21
-P 2200 1150
-F 0 "#PWR018" H 2200 900 50  0001 C CNN
-F 1 "GND" H 2200 1000 50  0000 C CNN
-F 2 "" H 2200 1150 60  0000 C CNN
-F 3 "" H 2200 1150 60  0000 C CNN
-	1    2200 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:C-BancGeo-rescue C11
-U 1 1 56B9639E
-P 3400 900
-F 0 "C11" H 3425 1000 50  0000 L CNN
-F 1 "100n" H 3425 800 50  0000 L CNN
-F 2 "Yame_library:SM0603-MR" H 3438 750 30  0001 C CNN
-F 3 "" H 3400 900 60  0000 C CNN
-	1    3400 900 
-	1    0    0    -1  
-$EndComp
-Text Label 650  650  0    60   ~ 0
-+Vbat
-$Comp
 L BancGeo-rescue:GND-BancGeo-rescue #PWR019
 U 1 1 56B96C2A
 P 3400 1150
@@ -594,562 +1459,14 @@ F 3 "" H 3400 1150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BancGeo-rescue:C-BancGeo-rescue C5
-U 1 1 56B96E64
-P 1450 900
-F 0 "C5" H 1475 1000 50  0000 L CNN
-F 1 "1u" H 1475 800 50  0000 L CNN
-F 2 "Yame_library:SM0805-MR" H 1488 750 30  0001 C CNN
-F 3 "" H 1450 900 60  0000 C CNN
-	1    1450 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR020
-U 1 1 56B96E6A
-P 1450 1150
-F 0 "#PWR020" H 1450 900 50  0001 C CNN
-F 1 "GND" H 1450 1000 50  0000 C CNN
-F 2 "" H 1450 1150 60  0000 C CNN
-F 3 "" H 1450 1150 60  0000 C CNN
-	1    1450 1150
-	1    0    0    -1  
-$EndComp
-Text Label 7800 7050 0    60   ~ 0
-+Vbat
-$Comp
-L BancGeo-rescue:N-MOS_SOT23-BancGeo-rescue Q2
-U 1 1 56B98E2D
-P 1550 3050
-F 0 "Q2" V 1450 3150 50  0000 L BNN
-F 1 "PMV37EN2R" V 1350 3050 50  0000 L BNN
-F 2 "Yame_library:SOT23-MR" H 1550 3200 50  0001 C CNN
-F 3 "" H 1550 3050 60  0000 C CNN
-	1    1550 3050
-	0    1    -1   0   
-$EndComp
-$Comp
-L BancGeo-rescue:MCP6541-BancGeo-rescue U3
-U 1 1 56B9B810
-P 2850 6100
-F 0 "U3" H 2900 6300 60  0000 C CNN
-F 1 "MCP6546" H 3000 5900 50  0000 C CNN
-F 2 "Yame_library:SOT23-5-MR" H 2850 6100 60  0001 C CNN
-F 3 "" H 2850 6100 60  0000 C CNN
-	1    2850 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:R-BancGeo-rescue R3
-U 1 1 56B9C03B
-P 1800 5200
-F 0 "R3" V 1880 5200 50  0000 C CNN
-F 1 "220k" V 1800 5200 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 1730 5200 30  0001 C CNN
-F 3 "" H 1800 5200 30  0000 C CNN
-	1    1800 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:R-BancGeo-rescue R4
-U 1 1 56B9C11E
-P 1800 5800
-F 0 "R4" V 1880 5800 50  0000 C CNN
-F 1 "100k" V 1800 5800 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 1730 5800 30  0001 C CNN
-F 3 "" H 1800 5800 30  0000 C CNN
-	1    1800 5800
-	1    0    0    -1  
-$EndComp
-Text Label 3100 650  0    60   ~ 0
-+Vref1
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR022
-U 1 1 56B9CD48
-P 1800 6050
-F 0 "#PWR022" H 1800 5800 50  0001 C CNN
-F 1 "GND" H 1800 5900 50  0000 C CNN
-F 2 "" H 1800 6050 60  0000 C CNN
-F 3 "" H 1800 6050 60  0000 C CNN
-	1    1800 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR023
-U 1 1 56B9CDCE
-P 2750 6550
-F 0 "#PWR023" H 2750 6300 50  0001 C CNN
-F 1 "GND" H 2750 6400 50  0000 C CNN
-F 2 "" H 2750 6550 60  0000 C CNN
-F 3 "" H 2750 6550 60  0000 C CNN
-	1    2750 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR024
-U 1 1 56B9CF9B
-P 1600 7400
-F 0 "#PWR024" H 1600 7150 50  0001 C CNN
-F 1 "GND" H 1600 7250 50  0000 C CNN
-F 2 "" H 1600 7400 60  0000 C CNN
-F 3 "" H 1600 7400 60  0000 C CNN
-	1    1600 7400
-	1    0    0    -1  
-$EndComp
-Text Label 1300 6350 0    60   ~ 0
-+5V
-Text Label 2450 5600 0    60   ~ 0
-+5V
-Text Label 4100 9050 0    60   ~ 0
-/Shdn
-Text Label 3450 6100 0    60   ~ 0
-/Shdn
-$Comp
-L BancGeo-rescue:N-MOS_SOT23-BancGeo-rescue Q1
-U 1 1 56BA338D
-P 4900 3000
-F 0 "Q1" H 5050 3050 50  0000 L BNN
-F 1 "2N7002E" H 5050 2950 50  0000 L BNN
-F 2 "Yame_library:SOT23-MR" H 4900 3150 50  0001 C CNN
-F 3 "" H 4900 3000 60  0000 C CNN
-	1    4900 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR025
-U 1 1 56BA4158
-P 4250 3750
-F 0 "#PWR025" H 4250 3500 50  0001 C CNN
-F 1 "GND" H 4250 3600 50  0000 C CNN
-F 2 "" H 4250 3750 60  0000 C CNN
-F 3 "" H 4250 3750 60  0000 C CNN
-	1    4250 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:R-BancGeo-rescue R1
-U 1 1 56BA4BA9
-P 4250 2900
-F 0 "R1" V 4330 2900 50  0000 C CNN
-F 1 "100k" V 4250 2900 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 4180 2900 30  0001 C CNN
-F 3 "" H 4250 2900 30  0000 C CNN
-	1    4250 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:CONN_01X03-BancGeo-rescue P4
-U 1 1 56BA5A7E
-P 13700 7400
-F 0 "P4" H 13700 7600 50  0000 C CNN
-F 1 "Capt1" V 13800 7400 50  0000 C CNN
-F 2 "Yame_library:PINHEAD1-3" H 13700 7400 60  0001 C CNN
-F 3 "640456-3" H 13700 7400 60  0001 C CNN
-	1    13700 7400
-	1    0    0    -1  
-$EndComp
-Text Label 4450 7500 0    60   ~ 0
-+5V
-$Comp
-L BancGeo-rescue:R-BancGeo-rescue R9
-U 1 1 56BA8075
-P 4650 4650
-F 0 "R9" V 4730 4650 50  0000 C CNN
-F 1 "56k" V 4650 4650 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 4580 4650 30  0001 C CNN
-F 3 "" H 4650 4650 30  0000 C CNN
-	1    4650 4650
-	0    1    1    0   
-$EndComp
-$Comp
-L BancGeo-rescue:R-BancGeo-rescue R11
-U 1 1 56BA8C06
-P 4900 4900
-F 0 "R11" V 4980 4900 50  0000 C CNN
-F 1 "20k" V 4900 4900 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 4830 4900 30  0001 C CNN
-F 3 "" H 4900 4900 30  0000 C CNN
-	1    4900 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR026
-U 1 1 56BA9CB3
-P 4900 5150
-F 0 "#PWR026" H 4900 4900 50  0001 C CNN
-F 1 "GND" H 4900 5000 50  0000 C CNN
-F 2 "" H 4900 5150 60  0000 C CNN
-F 3 "" H 4900 5150 60  0000 C CNN
-	1    4900 5150
-	1    0    0    -1  
-$EndComp
-Text Label 5300 4650 0    60   ~ 0
-VctrlCHG
-Text Label 1950 9400 0    60   ~ 0
-VctrlCHG
-$Comp
-L BancGeo-rescue:R-BancGeo-rescue R12
-U 1 1 56BAB8CB
-P 5250 4900
-F 0 "R12" V 5330 4900 50  0000 C CNN
-F 1 "1.6k" V 5250 4900 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 5180 4900 30  0001 C CNN
-F 3 "" H 5250 4900 30  0000 C CNN
-	1    5250 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:R-BancGeo-rescue R14
-U 1 1 56BABBF8
-P 5600 4900
-F 0 "R14" V 5680 4900 50  0000 C CNN
-F 1 "680" V 5600 4900 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 5530 4900 30  0001 C CNN
-F 3 "" H 5600 4900 30  0000 C CNN
-	1    5600 4900
-	1    0    0    -1  
-$EndComp
-Text Notes 4800 5450 0    60   ~ 0
-1.3A
-Text Notes 5100 5800 0    60   ~ 0
-130mA
-Text Notes 5500 5800 0    60   ~ 0
-40mA
-Text Label 2150 8650 0    60   ~ 0
-PWMin
-$Comp
-L BancGeo-rescue:ADS1115-BancGeo-rescue U8
-U 1 1 56BA6F8B
-P 10350 8100
-F 0 "U8" H 10450 8600 60  0000 C CNN
-F 1 "ADS1115" H 10600 7600 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-10_3x3mm_Pitch0.5mm" H 10300 8000 60  0001 C CNN
-F 3 "" H 10300 8000 60  0000 C CNN
-	1    10350 8100
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:CONN_01X03-BancGeo-rescue P5
-U 1 1 56BA79C0
-P 13700 8050
-F 0 "P5" H 13700 8250 50  0000 C CNN
-F 1 "Capt2" V 13800 8050 50  0000 C CNN
-F 2 "Yame_library:PINHEAD1-3" H 13700 8050 60  0001 C CNN
-F 3 "" H 13700 8050 60  0000 C CNN
-	1    13700 8050
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:CONN_01X03-BancGeo-rescue P6
-U 1 1 56BA7ADC
-P 13700 8650
-F 0 "P6" H 13700 8850 50  0000 C CNN
-F 1 "Capt3" V 13800 8650 50  0000 C CNN
-F 2 "Yame_library:PINHEAD1-3" H 13700 8650 60  0001 C CNN
-F 3 "" H 13700 8650 60  0000 C CNN
-	1    13700 8650
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:CONN_01X03-BancGeo-rescue P7
-U 1 1 56BA7C32
-P 13700 9250
-F 0 "P7" H 13700 9450 50  0000 C CNN
-F 1 "Capt4" V 13800 9250 50  0000 C CNN
-F 2 "Yame_library:PINHEAD1-3" H 13700 9250 60  0001 C CNN
-F 3 "" H 13700 9250 60  0000 C CNN
-	1    13700 9250
-	1    0    0    -1  
-$EndComp
-Text Label 13250 7200 0    60   ~ 0
-+Vref1
-Text Label 13250 8450 0    60   ~ 0
-+Vref2
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR027
-U 1 1 56BA9262
-P 13500 7550
-F 0 "#PWR027" H 13500 7300 50  0001 C CNN
-F 1 "GND" H 13500 7400 50  0000 C CNN
-F 2 "" H 13500 7550 60  0000 C CNN
-F 3 "" H 13500 7550 60  0000 C CNN
-	1    13500 7550
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR028
-U 1 1 56BA9615
-P 13500 8200
-F 0 "#PWR028" H 13500 7950 50  0001 C CNN
-F 1 "GND" H 13500 8050 50  0000 C CNN
-F 2 "" H 13500 8200 60  0000 C CNN
-F 3 "" H 13500 8200 60  0000 C CNN
-	1    13500 8200
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR029
-U 1 1 56BA9828
-P 13500 8800
-F 0 "#PWR029" H 13500 8550 50  0001 C CNN
-F 1 "GND" H 13500 8650 50  0000 C CNN
-F 2 "" H 13500 8800 60  0000 C CNN
-F 3 "" H 13500 8800 60  0000 C CNN
-	1    13500 8800
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR030
-U 1 1 56BA9A6F
-P 13500 9400
-F 0 "#PWR030" H 13500 9150 50  0001 C CNN
-F 1 "GND" H 13500 9250 50  0000 C CNN
-F 2 "" H 13500 9400 60  0000 C CNN
-F 3 "" H 13500 9400 60  0000 C CNN
-	1    13500 9400
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR031
-U 1 1 56BAAF1E
-P 10350 8850
-F 0 "#PWR031" H 10350 8600 50  0001 C CNN
-F 1 "GND" H 10350 8700 50  0000 C CNN
-F 2 "" H 10350 8850 60  0000 C CNN
-F 3 "" H 10350 8850 60  0000 C CNN
-	1    10350 8850
-	1    0    0    -1  
-$EndComp
-Text Label 10200 7350 0    60   ~ 0
-+5V
-$Comp
-L BancGeo-rescue:C-BancGeo-rescue C21
-U 1 1 56BAC278
-P 10700 7150
-F 0 "C21" H 10725 7250 50  0000 L CNN
-F 1 "100n" H 10725 7050 50  0000 L CNN
-F 2 "Yame_library:SM0603-MR" H 10738 7000 30  0001 C CNN
-F 3 "" H 10700 7150 60  0000 C CNN
-	1    10700 7150
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR032
-U 1 1 56BAC6A2
-P 10700 7350
-F 0 "#PWR032" H 10700 7100 50  0001 C CNN
-F 1 "GND" H 10700 7200 50  0000 C CNN
-F 2 "" H 10700 7350 60  0000 C CNN
-F 3 "" H 10700 7350 60  0000 C CNN
-	1    10700 7350
-	1    0    0    -1  
-$EndComp
-Text Label 10550 6900 0    60   ~ 0
-+5V
-$Comp
-L BancGeo-rescue:C-BancGeo-rescue C22
-U 1 1 56BAD3DC
-P 12050 2950
-F 0 "C22" H 12075 3050 50  0000 L CNN
-F 1 "1u" H 12075 2850 50  0000 L CNN
-F 2 "Yame_library:SM0805-MR" H 12088 2800 30  0001 C CNN
-F 3 "" H 12050 2950 60  0000 C CNN
-	1    12050 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR033
-U 1 1 56BAD3E2
-P 12050 3150
-F 0 "#PWR033" H 12050 2900 50  0001 C CNN
-F 1 "GND" H 12050 3000 50  0000 C CNN
-F 2 "" H 12050 3150 60  0000 C CNN
-F 3 "" H 12050 3150 60  0000 C CNN
-	1    12050 3150
-	1    0    0    -1  
-$EndComp
-Text Label 11900 2700 0    60   ~ 0
-+5V
-Text Label 12200 700  0    60   ~ 0
-+5V
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR034
-U 1 1 56BADB1D
-P 12350 2450
-F 0 "#PWR034" H 12350 2200 50  0001 C CNN
-F 1 "GND" H 12350 2300 50  0000 C CNN
-F 2 "" H 12350 2450 60  0000 C CNN
-F 3 "" H 12350 2450 60  0000 C CNN
-	1    12350 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:LED-RESCUE-BancGeo-BancGeo-rescue D3
-U 1 1 56BAE8CB
-P 14550 700
-F 0 "D3" H 14550 800 50  0000 C CNN
-F 1 "LED" H 14550 600 50  0000 C CNN
-F 2 "Yame_library:LED-5MM_center" H 14550 700 60  0001 C CNN
-F 3 "" H 14550 700 60  0000 C CNN
-	1    14550 700 
-	-1   0    0    1   
-$EndComp
-$Comp
-L BancGeo-rescue:LED-RESCUE-BancGeo-BancGeo-rescue D4
-U 1 1 56BAEA55
-P 14750 950
-F 0 "D4" H 14750 1050 50  0000 C CNN
-F 1 "LED" H 14750 850 50  0000 C CNN
-F 2 "Yame_library:LED-5MM_center" H 14750 950 60  0001 C CNN
-F 3 "" H 14750 950 60  0000 C CNN
-	1    14750 950 
-	-1   0    0    1   
-$EndComp
-$Comp
-L BancGeo-rescue:LED-RESCUE-BancGeo-BancGeo-rescue D5
-U 1 1 56BAF1D5
-P 14950 1200
-F 0 "D5" H 14950 1300 50  0000 C CNN
-F 1 "LED" H 14950 1100 50  0000 C CNN
-F 2 "Yame_library:LED-5MM_center" H 14950 1200 60  0001 C CNN
-F 3 "" H 14950 1200 60  0000 C CNN
-	1    14950 1200
-	-1   0    0    1   
-$EndComp
-$Comp
-L BancGeo-rescue:LED-RESCUE-BancGeo-BancGeo-rescue D7
-U 1 1 56BAF1DB
-P 15100 1450
-F 0 "D7" H 15100 1550 50  0000 C CNN
-F 1 "LED" H 15100 1350 50  0000 C CNN
-F 2 "Yame_library:LED-5MM_center" H 15100 1450 60  0001 C CNN
-F 3 "" H 15100 1450 60  0000 C CNN
-	1    15100 1450
-	-1   0    0    1   
-$EndComp
-$Comp
-L BancGeo-rescue:LED-RESCUE-BancGeo-BancGeo-rescue D8
-U 1 1 56BAF1E1
-P 15300 1700
-F 0 "D8" H 15300 1800 50  0000 C CNN
-F 1 "LED" H 15300 1600 50  0000 C CNN
-F 2 "Yame_library:LED-5MM_center" H 15300 1700 60  0001 C CNN
-F 3 "" H 15300 1700 60  0000 C CNN
-	1    15300 1700
-	-1   0    0    1   
-$EndComp
-$Comp
-L BancGeo-rescue:LED-RESCUE-BancGeo-BancGeo-rescue D9
-U 1 1 56BAF1E7
-P 15500 1950
-F 0 "D9" H 15500 2050 50  0000 C CNN
-F 1 "LED" H 15500 1850 50  0000 C CNN
-F 2 "Yame_library:LED-5MM_center" H 15500 1950 60  0001 C CNN
-F 3 "" H 15500 1950 60  0000 C CNN
-	1    15500 1950
-	-1   0    0    1   
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR035
-U 1 1 56BB0974
-P 15800 2100
-F 0 "#PWR035" H 15800 1850 50  0001 C CNN
-F 1 "GND" H 15800 1950 50  0000 C CNN
-F 2 "" H 15800 2100 60  0000 C CNN
-F 3 "" H 15800 2100 60  0000 C CNN
-	1    15800 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:R-BancGeo-rescue R22
-U 1 1 56BB0F2D
-P 9150 1150
-F 0 "R22" V 9230 1150 50  0000 C CNN
-F 1 "100k" V 9150 1150 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 9080 1150 30  0001 C CNN
-F 3 "" H 9150 1150 30  0000 C CNN
-	1    9150 1150
-	0    1    1    0   
-$EndComp
-$Comp
-L BancGeo-rescue:C-BancGeo-rescue C20
-U 1 1 56BB0FF8
-P 8850 1400
-F 0 "C20" H 8875 1500 50  0000 L CNN
-F 1 "100n" H 8875 1300 50  0000 L CNN
-F 2 "Yame_library:SM0603-MR" H 8888 1250 30  0001 C CNN
-F 3 "" H 8850 1400 60  0000 C CNN
-	1    8850 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:R-BancGeo-rescue R23
-U 1 1 56BB127A
-P 9400 900
-F 0 "R23" V 9480 900 50  0000 C CNN
-F 1 "10k" V 9400 900 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 9330 900 30  0001 C CNN
-F 3 "" H 9400 900 30  0000 C CNN
-	1    9400 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR036
-U 1 1 56BB1799
-P 8850 1650
-F 0 "#PWR036" H 8850 1400 50  0001 C CNN
-F 1 "GND" H 8850 1500 50  0000 C CNN
-F 2 "" H 8850 1650 60  0000 C CNN
-F 3 "" H 8850 1650 60  0000 C CNN
-	1    8850 1650
-	1    0    0    -1  
-$EndComp
-Text Label 9300 700  0    60   ~ 0
-+5V
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR037
-U 1 1 56BB281D
-P 10150 1450
-F 0 "#PWR037" H 10150 1200 50  0001 C CNN
-F 1 "GND" H 10150 1300 50  0000 C CNN
-F 2 "" H 10150 1450 60  0000 C CNN
-F 3 "" H 10150 1450 60  0000 C CNN
-	1    10150 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:C-BancGeo-rescue C1
-U 1 1 56BB4280
-P 950 6900
-F 0 "C1" H 975 7000 50  0000 L CNN
-F 1 "100n" H 975 6800 50  0000 L CNN
-F 2 "Yame_library:SM0603-MR" H 988 6750 30  0001 C CNN
-F 3 "" H 950 6900 60  0000 C CNN
-	1    950  6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR038
-U 1 1 56BB4286
-P 950 7100
-F 0 "#PWR038" H 950 6850 50  0001 C CNN
-F 1 "GND" H 950 6950 50  0000 C CNN
-F 2 "" H 950 7100 60  0000 C CNN
-F 3 "" H 950 7100 60  0000 C CNN
-	1    950  7100
-	1    0    0    -1  
-$EndComp
-Text Label 800  6650 0    60   ~ 0
-+5V
-$Comp
-L BancGeo-rescue:C-BancGeo-rescue C8
-U 1 1 56BB4310
-P 3500 5500
-F 0 "C8" H 3525 5600 50  0000 L CNN
-F 1 "100n" H 3525 5400 50  0000 L CNN
-F 2 "Yame_library:SM0603-MR" H 3538 5350 30  0001 C CNN
-F 3 "" H 3500 5500 60  0000 C CNN
-	1    3500 5500
+L BancGeo-rescue:GND-BancGeo-rescue #PWR066
+U 1 1 570A40A1
+P 3400 2050
+F 0 "#PWR066" H 3400 1800 50  0001 C CNN
+F 1 "GND" H 3400 1900 50  0000 C CNN
+F 2 "" H 3400 2050 60  0000 C CNN
+F 3 "" H 3400 2050 60  0000 C CNN
+	1    3400 2050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1161,54 +1478,6 @@ F 1 "GND" H 3500 5550 50  0000 C CNN
 F 2 "" H 3500 5700 60  0000 C CNN
 F 3 "" H 3500 5700 60  0000 C CNN
 	1    3500 5700
-	1    0    0    -1  
-$EndComp
-Text Label 3350 5250 0    60   ~ 0
-+5V
-Text Label 2400 7050 0    60   ~ 0
-+5V
-$Comp
-L BancGeo-rescue:C-BancGeo-rescue C4
-U 1 1 56BB46DC
-P 2550 7350
-F 0 "C4" H 2575 7450 50  0000 L CNN
-F 1 "1u" H 2575 7250 50  0000 L CNN
-F 2 "Yame_library:SM0805-MR" H 2588 7200 30  0001 C CNN
-F 3 "" H 2550 7350 60  0000 C CNN
-	1    2550 7350
-	-1   0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:R-BancGeo-rescue R6
-U 1 1 56BB47A8
-P 3050 7150
-F 0 "R6" V 3130 7150 50  0000 C CNN
-F 1 "10" V 3050 7150 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 2980 7150 30  0001 C CNN
-F 3 "" H 3050 7150 30  0000 C CNN
-	1    3050 7150
-	0    1    1    0   
-$EndComp
-$Comp
-L BancGeo-rescue:C-BancGeo-rescue C9
-U 1 1 56BB4926
-P 3500 7350
-F 0 "C9" H 3525 7450 50  0000 L CNN
-F 1 "1u" H 3525 7250 50  0000 L CNN
-F 2 "Yame_library:SM0805-MR" H 3538 7200 30  0001 C CNN
-F 3 "" H 3500 7350 60  0000 C CNN
-	1    3500 7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR040
-U 1 1 56BB4B3A
-P 2550 7550
-F 0 "#PWR040" H 2550 7300 50  0001 C CNN
-F 1 "GND" H 2550 7400 50  0000 C CNN
-F 2 "" H 2550 7550 60  0000 C CNN
-F 3 "" H 2550 7550 60  0000 C CNN
-	1    2550 7550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1223,14 +1492,157 @@ F 3 "" H 3500 7550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BancGeo-rescue:C-BancGeo-rescue C18
-U 1 1 56BB7702
-P 7550 4300
-F 0 "C18" H 7575 4400 50  0000 L CNN
-F 1 "100n" H 7575 4200 50  0000 L CNN
-F 2 "Yame_library:SM0603-MR" H 7588 4150 30  0001 C CNN
-F 3 "" H 7550 4300 60  0000 C CNN
-	1    7550 4300
+L BancGeo-rescue:GND-BancGeo-rescue #PWR072
+U 1 1 57401FAC
+P 3950 4000
+F 0 "#PWR072" H 3950 3750 50  0001 C CNN
+F 1 "GND" H 3950 3850 50  0000 C CNN
+F 2 "" H 3950 4000 60  0000 C CNN
+F 3 "" H 3950 4000 60  0000 C CNN
+	1    3950 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR025
+U 1 1 56BA4158
+P 4250 3750
+F 0 "#PWR025" H 4250 3500 50  0001 C CNN
+F 1 "GND" H 4250 3600 50  0000 C CNN
+F 2 "" H 4250 3750 60  0000 C CNN
+F 3 "" H 4250 3750 60  0000 C CNN
+	1    4250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR011
+U 1 1 56B80AB8
+P 4600 10100
+F 0 "#PWR011" H 4600 9850 50  0001 C CNN
+F 1 "GND" H 4600 9950 50  0000 C CNN
+F 2 "" H 4600 10100 60  0000 C CNN
+F 3 "" H 4600 10100 60  0000 C CNN
+	1    4600 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR070
+U 1 1 573E3034
+P 4700 1550
+F 0 "#PWR070" H 4700 1300 50  0001 C CNN
+F 1 "GND" H 4700 1400 50  0000 C CNN
+F 2 "" H 4700 1550 60  0000 C CNN
+F 3 "" H 4700 1550 60  0000 C CNN
+	1    4700 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR05
+U 1 1 56B7E1C7
+P 4800 7150
+F 0 "#PWR05" H 4800 6900 50  0001 C CNN
+F 1 "GND" H 4800 7000 50  0000 C CNN
+F 2 "" H 4800 7150 60  0000 C CNN
+F 3 "" H 4800 7150 60  0000 C CNN
+	1    4800 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR026
+U 1 1 56BA9CB3
+P 4900 5150
+F 0 "#PWR026" H 4900 4900 50  0001 C CNN
+F 1 "GND" H 4900 5000 50  0000 C CNN
+F 2 "" H 4900 5150 60  0000 C CNN
+F 3 "" H 4900 5150 60  0000 C CNN
+	1    4900 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR071
+U 1 1 573FF5CC
+P 5000 3300
+F 0 "#PWR071" H 5000 3050 50  0001 C CNN
+F 1 "GND" H 5000 3150 50  0000 C CNN
+F 2 "" H 5000 3300 60  0000 C CNN
+F 3 "" H 5000 3300 60  0000 C CNN
+	1    5000 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR03
+U 1 1 56B7DA67
+P 5000 8500
+F 0 "#PWR03" H 5000 8250 50  0001 C CNN
+F 1 "GND" H 5000 8350 50  0000 C CNN
+F 2 "" H 5000 8500 60  0000 C CNN
+F 3 "" H 5000 8500 60  0000 C CNN
+	1    5000 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR06
+U 1 1 56B7E205
+P 5100 7150
+F 0 "#PWR06" H 5100 6900 50  0001 C CNN
+F 1 "GND" H 5100 7000 50  0000 C CNN
+F 2 "" H 5100 7150 60  0000 C CNN
+F 3 "" H 5100 7150 60  0000 C CNN
+	1    5100 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR04
+U 1 1 56B7DB53
+P 5700 8500
+F 0 "#PWR04" H 5700 8250 50  0001 C CNN
+F 1 "GND" H 5700 8350 50  0000 C CNN
+F 2 "" H 5700 8500 60  0000 C CNN
+F 3 "" H 5700 8500 60  0000 C CNN
+	1    5700 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR049
+U 1 1 56BBF657
+P 6300 1350
+F 0 "#PWR049" H 6300 1100 50  0001 C CNN
+F 1 "GND" H 6300 1200 50  0000 C CNN
+F 2 "" H 6300 1350 60  0000 C CNN
+F 3 "" H 6300 1350 60  0000 C CNN
+	1    6300 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR07
+U 1 1 56B7E8D5
+P 6850 8500
+F 0 "#PWR07" H 6850 8250 50  0001 C CNN
+F 1 "GND" H 6850 8350 50  0000 C CNN
+F 2 "" H 6850 8500 60  0000 C CNN
+F 3 "" H 6850 8500 60  0000 C CNN
+	1    6850 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR08
+U 1 1 56B7EACA
+P 7450 7500
+F 0 "#PWR08" H 7450 7250 50  0001 C CNN
+F 1 "GND" H 7450 7350 50  0000 C CNN
+F 2 "" H 7450 7500 60  0000 C CNN
+F 3 "" H 7450 7500 60  0000 C CNN
+	1    7450 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR074
+U 1 1 5741177E
+P 7500 3550
+F 0 "#PWR074" H 7500 3300 50  0001 C CNN
+F 1 "GND" H 7500 3400 50  0000 C CNN
+F 2 "" H 7500 3550 60  0000 C CNN
+F 3 "" H 7500 3550 60  0000 C CNN
+	1    7500 3550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1244,8 +1656,6 @@ F 3 "" H 7550 4500 60  0000 C CNN
 	1    7550 4500
 	1    0    0    -1  
 $EndComp
-Text Label 7400 4050 0    60   ~ 0
-+5V
 $Comp
 L BancGeo-rescue:GND-BancGeo-rescue #PWR043
 U 1 1 56BB7875
@@ -1257,611 +1667,169 @@ F 3 "" H 7600 3550 60  0000 C CNN
 	1    7600 3550
 	1    0    0    -1  
 $EndComp
-Text Label 7450 1600 0    60   ~ 0
-+5V
 $Comp
-L BancGeo-rescue:C-BancGeo-rescue C6
-U 1 1 56BB88BC
-P 2850 4050
-F 0 "C6" H 2875 4150 50  0000 L CNN
-F 1 "100n" H 2875 3950 50  0000 L CNN
-F 2 "Yame_library:SM0603-MR" H 2888 3900 30  0001 C CNN
-F 3 "" H 2850 4050 60  0000 C CNN
-	1    2850 4050
+L BancGeo-rescue:GND-BancGeo-rescue #PWR013
+U 1 1 56B92D62
+P 7600 5900
+F 0 "#PWR013" H 7600 5650 50  0001 C CNN
+F 1 "GND" H 7600 5750 50  0000 C CNN
+F 2 "" H 7600 5900 60  0000 C CNN
+F 3 "" H 7600 5900 60  0000 C CNN
+	1    7600 5900
 	1    0    0    -1  
 $EndComp
 $Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR044
-U 1 1 56BB88C2
-P 2850 4250
-F 0 "#PWR044" H 2850 4000 50  0001 C CNN
-F 1 "GND" H 2850 4100 50  0000 C CNN
-F 2 "" H 2850 4250 60  0000 C CNN
-F 3 "" H 2850 4250 60  0000 C CNN
-	1    2850 4250
-	1    0    0    -1  
-$EndComp
-Text Label 2700 3800 0    60   ~ 0
-+Vbat
-$Comp
-L BancGeo-rescue:C-BancGeo-rescue C29
-U 1 1 56BB9AE9
-P 14300 7400
-F 0 "C29" H 14325 7500 50  0000 L CNN
-F 1 "1u" H 14325 7300 50  0000 L CNN
-F 2 "Yame_library:SM0805-MR" H 14338 7250 30  0001 C CNN
-F 3 "" H 14300 7400 60  0000 C CNN
-	1    14300 7400
+L BancGeo-rescue:GND-BancGeo-rescue #PWR010
+U 1 1 56B800FD
+P 8050 8350
+F 0 "#PWR010" H 8050 8100 50  0001 C CNN
+F 1 "GND" H 8050 8200 50  0000 C CNN
+F 2 "" H 8050 8350 60  0000 C CNN
+F 3 "" H 8050 8350 60  0000 C CNN
+	1    8050 8350
 	1    0    0    -1  
 $EndComp
 $Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR045
-U 1 1 56BB9AEF
-P 14300 7600
-F 0 "#PWR045" H 14300 7350 50  0001 C CNN
-F 1 "GND" H 14300 7450 50  0000 C CNN
-F 2 "" H 14300 7600 60  0000 C CNN
-F 3 "" H 14300 7600 60  0000 C CNN
-	1    14300 7600
-	1    0    0    -1  
-$EndComp
-Text Label 14150 7150 0    60   ~ 0
-+Vref1
-$Comp
-L BancGeo-rescue:C-BancGeo-rescue C32
-U 1 1 56BB9E53
-P 14800 8200
-F 0 "C32" H 14825 8300 50  0000 L CNN
-F 1 "1u" H 14825 8100 50  0000 L CNN
-F 2 "Yame_library:SM0805-MR" H 14838 8050 30  0001 C CNN
-F 3 "" H 14800 8200 60  0000 C CNN
-	1    14800 8200
+L BancGeo-rescue:GND-BancGeo-rescue #PWR014
+U 1 1 56B9304F
+P 8100 5900
+F 0 "#PWR014" H 8100 5650 50  0001 C CNN
+F 1 "GND" H 8100 5750 50  0000 C CNN
+F 2 "" H 8100 5900 60  0000 C CNN
+F 3 "" H 8100 5900 60  0000 C CNN
+	1    8100 5900
 	1    0    0    -1  
 $EndComp
 $Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR046
-U 1 1 56BB9E59
-P 14800 8400
-F 0 "#PWR046" H 14800 8150 50  0001 C CNN
-F 1 "GND" H 14800 8250 50  0000 C CNN
-F 2 "" H 14800 8400 60  0000 C CNN
-F 3 "" H 14800 8400 60  0000 C CNN
-	1    14800 8400
-	1    0    0    -1  
-$EndComp
-Text Label 14650 7950 0    60   ~ 0
-+Vref1
-$Comp
-L BancGeo-rescue:C-BancGeo-rescue C30
-U 1 1 56BBA237
-P 14300 8650
-F 0 "C30" H 14325 8750 50  0000 L CNN
-F 1 "1u" H 14325 8550 50  0000 L CNN
-F 2 "Yame_library:SM0805-MR" H 14338 8500 30  0001 C CNN
-F 3 "" H 14300 8650 60  0000 C CNN
-	1    14300 8650
+L BancGeo-rescue:GND-BancGeo-rescue #PWR09
+U 1 1 56B7FFF8
+P 8400 8350
+F 0 "#PWR09" H 8400 8100 50  0001 C CNN
+F 1 "GND" H 8400 8200 50  0000 C CNN
+F 2 "" H 8400 8350 60  0000 C CNN
+F 3 "" H 8400 8350 60  0000 C CNN
+	1    8400 8350
 	1    0    0    -1  
 $EndComp
 $Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR047
-U 1 1 56BBA23D
-P 14300 8850
-F 0 "#PWR047" H 14300 8600 50  0001 C CNN
-F 1 "GND" H 14300 8700 50  0000 C CNN
-F 2 "" H 14300 8850 60  0000 C CNN
-F 3 "" H 14300 8850 60  0000 C CNN
-	1    14300 8850
-	1    0    0    -1  
-$EndComp
-Text Label 14150 8400 0    60   ~ 0
-+Vref2
-$Comp
-L BancGeo-rescue:C-BancGeo-rescue C33
-U 1 1 56BBA247
-P 14800 9400
-F 0 "C33" H 14825 9500 50  0000 L CNN
-F 1 "1u" H 14825 9300 50  0000 L CNN
-F 2 "Yame_library:SM0805-MR" H 14838 9250 30  0001 C CNN
-F 3 "" H 14800 9400 60  0000 C CNN
-	1    14800 9400
+L BancGeo-rescue:GND-BancGeo-rescue #PWR036
+U 1 1 56BB1799
+P 8850 1650
+F 0 "#PWR036" H 8850 1400 50  0001 C CNN
+F 1 "GND" H 8850 1500 50  0000 C CNN
+F 2 "" H 8850 1650 60  0000 C CNN
+F 3 "" H 8850 1650 60  0000 C CNN
+	1    8850 1650
 	1    0    0    -1  
 $EndComp
 $Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR048
-U 1 1 56BBA24D
-P 14800 9600
-F 0 "#PWR048" H 14800 9350 50  0001 C CNN
-F 1 "GND" H 14800 9450 50  0000 C CNN
-F 2 "" H 14800 9600 60  0000 C CNN
-F 3 "" H 14800 9600 60  0000 C CNN
-	1    14800 9600
-	1    0    0    -1  
-$EndComp
-Text Label 14650 9150 0    60   ~ 0
-+Vref2
-Text Label 11500 1200 0    60   ~ 0
-+5V
-$Comp
-L BancGeo-rescue:R-BancGeo-rescue R16
-U 1 1 56BBD670
-P 6300 2150
-F 0 "R16" V 6380 2150 50  0000 C CNN
-F 1 "nc" V 6300 2150 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 6230 2150 30  0001 C CNN
-F 3 "" H 6300 2150 30  0000 C CNN
-	1    6300 2150
-	0    1    1    0   
-$EndComp
-Text Label 5750 2150 0    60   ~ 0
-VctrlCHG
-$Comp
-L BancGeo-rescue:CONN_01X05-BancGeo-rescue P3
-U 1 1 56BBEC48
-P 5750 1100
-F 0 "P3" H 5750 1400 50  0000 C CNN
-F 1 "CONN_01X05" V 5850 1100 50  0000 C CNN
-F 2 "Yame_library:HE10_14-5C-2.54-MR" H 5750 1100 60  0001 C CNN
-F 3 "" H 5750 1100 60  0000 C CNN
-	1    5750 1100
-	-1   0    0    -1  
-$EndComp
-Text Label 6050 1100 0    60   ~ 0
-+5V
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR049
-U 1 1 56BBF657
-P 6300 1350
-F 0 "#PWR049" H 6300 1100 50  0001 C CNN
-F 1 "GND" H 6300 1200 50  0000 C CNN
-F 2 "" H 6300 1350 60  0000 C CNN
-F 3 "" H 6300 1350 60  0000 C CNN
-	1    6300 1350
-	1    0    0    -1  
-$EndComp
-Text Label 2250 6850 0    60   ~ 0
-Vtemp
-Text Label 8300 2150 0    60   ~ 0
-Vtemp
-Text Label 4700 9650 0    60   ~ 0
-Vsense
-Text Label 8350 2350 0    60   ~ 0
-Vsense
-Text Label 11500 1400 0    60   ~ 0
-SCL
-Text Label 11500 1550 0    60   ~ 0
-SDA
-Text Label 6350 2550 0    60   ~ 0
-SCL
-Text Label 6400 2950 0    60   ~ 0
-SDA
-Text Label 8400 2950 0    60   ~ 0
-Tx_µC
-Text Label 8400 3150 0    60   ~ 0
-Rx_µC
-Text Label 4100 2700 0    60   ~ 0
-+5V
-Text Label 6400 3150 0    60   ~ 0
-VoffCHG
-Text Label 5300 5450 0    60   ~ 0
-SetPreChg
-Text Label 5650 5200 0    60   ~ 0
-SetTail
-Text Label 14150 2100 0    60   ~ 0
-SetPreChg
-Text Label 14150 2250 0    60   ~ 0
-SetTail
-Text Label 11500 1700 0    60   ~ 0
-+5V
-Text Label 8350 2750 0    60   ~ 0
-PWMin
-Text Label 9600 7800 0    60   ~ 0
-SCL
-Text Label 9600 8000 0    60   ~ 0
-SDA
-Text Label 9600 8200 0    60   ~ 0
-RDY
-Text Label 5750 2350 0    60   ~ 0
-RDY
-$Comp
-L BancGeo-rescue:R-BancGeo-rescue R17
-U 1 1 56BC0800
-P 6300 2350
-F 0 "R17" V 6380 2350 50  0000 C CNN
-F 1 "nc" V 6300 2350 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 6230 2350 30  0001 C CNN
-F 3 "" H 6300 2350 30  0000 C CNN
-	1    6300 2350
-	0    1    1    0   
-$EndComp
-$Comp
-L BancGeo-rescue:MCP1754-BancGeo-rescue U10
-U 1 1 56BC277C
-P 13400 3450
-F 0 "U10" H 13200 3650 60  0000 C CNN
-F 1 "MCP1754ST-3302E/CB" H 13900 3200 60  0000 C CNN
-F 2 "Yame_library:SOT23-MR" H 13400 3450 60  0001 C CNN
-F 3 "" H 13400 3450 60  0000 C CNN
-	1    13400 3450
+L BancGeo-rescue:GND-BancGeo-rescue #PWR015
+U 1 1 56B93163
+P 9200 5950
+F 0 "#PWR015" H 9200 5700 50  0001 C CNN
+F 1 "GND" H 9200 5800 50  0000 C CNN
+F 2 "" H 9200 5950 60  0000 C CNN
+F 3 "" H 9200 5950 60  0000 C CNN
+	1    9200 5950
 	1    0    0    -1  
 $EndComp
 $Comp
-L BancGeo-rescue:C-BancGeo-rescue C28
-U 1 1 56BC338C
-P 13200 5250
-F 0 "C28" H 13225 5350 50  0000 L CNN
-F 1 "C" H 13225 5150 50  0000 L CNN
-F 2 "Yame_library:SM0603-MR" H 13238 5100 30  0001 C CNN
-F 3 "" H 13200 5250 60  0000 C CNN
-	1    13200 5250
-	0    1    1    0   
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR050
-U 1 1 56BC381B
-P 13000 5300
-F 0 "#PWR050" H 13000 5050 50  0001 C CNN
-F 1 "GND" H 13000 5150 50  0000 C CNN
-F 2 "" H 13000 5300 60  0000 C CNN
-F 3 "" H 13000 5300 60  0000 C CNN
-	1    13000 5300
+L BancGeo-rescue:GND-BancGeo-rescue #PWR037
+U 1 1 56BB281D
+P 10150 1450
+F 0 "#PWR037" H 10150 1200 50  0001 C CNN
+F 1 "GND" H 10150 1300 50  0000 C CNN
+F 2 "" H 10150 1450 60  0000 C CNN
+F 3 "" H 10150 1450 60  0000 C CNN
+	1    10150 1450
 	1    0    0    -1  
 $EndComp
 $Comp
-L BancGeo-rescue:R-BancGeo-rescue R32
-U 1 1 56BC3EEC
-P 13500 5000
-F 0 "R32" V 13580 5000 50  0000 C CNN
-F 1 "R" V 13500 5000 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 13430 5000 30  0001 C CNN
-F 3 "" H 13500 5000 30  0000 C CNN
-	1    13500 5000
+L BancGeo-rescue:GND-BancGeo-rescue #PWR012
+U 1 1 56B9163B
+P 10250 3300
+F 0 "#PWR012" H 10250 3050 50  0001 C CNN
+F 1 "GND" H 10250 3150 50  0000 C CNN
+F 2 "" H 10250 3300 60  0000 C CNN
+F 3 "" H 10250 3300 60  0000 C CNN
+	1    10250 3300
 	1    0    0    -1  
 $EndComp
 $Comp
-L BancGeo-rescue:C-BancGeo-rescue C31
-U 1 1 56BC4926
-P 14550 4400
-F 0 "C31" H 14575 4500 50  0000 L CNN
-F 1 "1u" H 14575 4300 50  0000 L CNN
-F 2 "Yame_library:SM0805-MR" H 14588 4250 30  0001 C CNN
-F 3 "" H 14550 4400 60  0000 C CNN
-	1    14550 4400
+L BancGeo-rescue:GND-BancGeo-rescue #PWR068
+U 1 1 5736E123
+P 10350 700
+F 0 "#PWR068" H 10350 450 50  0001 C CNN
+F 1 "GND" H 10350 550 50  0000 C CNN
+F 2 "" H 10350 700 60  0000 C CNN
+F 3 "" H 10350 700 60  0000 C CNN
+	1    10350 700 
 	1    0    0    -1  
 $EndComp
 $Comp
-L BancGeo-rescue:C-BancGeo-rescue C27
-U 1 1 56BC4A62
-P 12800 3650
-F 0 "C27" H 12825 3750 50  0000 L CNN
-F 1 "1u" H 12825 3550 50  0000 L CNN
-F 2 "Yame_library:SM0805-MR" H 12838 3500 30  0001 C CNN
-F 3 "" H 12800 3650 60  0000 C CNN
-	1    12800 3650
+L BancGeo-rescue:GND-BancGeo-rescue #PWR031
+U 1 1 56BAAF1E
+P 10350 8850
+F 0 "#PWR031" H 10350 8600 50  0001 C CNN
+F 1 "GND" H 10350 8700 50  0000 C CNN
+F 2 "" H 10350 8850 60  0000 C CNN
+F 3 "" H 10350 8850 60  0000 C CNN
+	1    10350 8850
 	1    0    0    -1  
 $EndComp
 $Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR051
-U 1 1 56BC5BCA
-P 14550 4600
-F 0 "#PWR051" H 14550 4350 50  0001 C CNN
-F 1 "GND" H 14550 4450 50  0000 C CNN
-F 2 "" H 14550 4600 60  0000 C CNN
-F 3 "" H 14550 4600 60  0000 C CNN
-	1    14550 4600
+L BancGeo-rescue:GND-BancGeo-rescue #PWR032
+U 1 1 56BAC6A2
+P 10700 7350
+F 0 "#PWR032" H 10700 7100 50  0001 C CNN
+F 1 "GND" H 10700 7200 50  0000 C CNN
+F 2 "" H 10700 7350 60  0000 C CNN
+F 3 "" H 10700 7350 60  0000 C CNN
+	1    10700 7350
 	1    0    0    -1  
 $EndComp
 $Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR052
-U 1 1 56BC65E6
-P 13400 3900
-F 0 "#PWR052" H 13400 3650 50  0001 C CNN
-F 1 "GND" H 13400 3750 50  0000 C CNN
-F 2 "" H 13400 3900 60  0000 C CNN
-F 3 "" H 13400 3900 60  0000 C CNN
-	1    13400 3900
+L BancGeo-rescue:GND-BancGeo-rescue #PWR069
+U 1 1 5736E306
+P 11000 1200
+F 0 "#PWR069" H 11000 950 50  0001 C CNN
+F 1 "GND" H 11000 1050 50  0000 C CNN
+F 2 "" H 11000 1200 60  0000 C CNN
+F 3 "" H 11000 1200 60  0000 C CNN
+	1    11000 1200
 	1    0    0    -1  
 $EndComp
 $Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR053
-U 1 1 56BC69F6
-P 12800 3850
-F 0 "#PWR053" H 12800 3600 50  0001 C CNN
-F 1 "GND" H 12800 3700 50  0000 C CNN
-F 2 "" H 12800 3850 60  0000 C CNN
-F 3 "" H 12800 3850 60  0000 C CNN
-	1    12800 3850
+L BancGeo-rescue:GND-BancGeo-rescue #PWR033
+U 1 1 56BAD3E2
+P 12050 3150
+F 0 "#PWR033" H 12050 2900 50  0001 C CNN
+F 1 "GND" H 12050 3000 50  0000 C CNN
+F 2 "" H 12050 3150 60  0000 C CNN
+F 3 "" H 12050 3150 60  0000 C CNN
+	1    12050 3150
 	1    0    0    -1  
 $EndComp
 $Comp
-L BancGeo-rescue:N-MOS_SOT23-BancGeo-rescue Q4
-U 1 1 56BC84DD
-P 10750 5200
-F 0 "Q4" V 11000 5300 50  0000 L BNN
-F 1 "2N7002E" V 11000 4850 50  0000 L BNN
-F 2 "Yame_library:SOT23-MR" H 10750 5350 50  0001 C CNN
-F 3 "" H 10750 5200 60  0000 C CNN
-	1    10750 5200
-	0    -1   1    0   
-$EndComp
-Text Label 13250 5500 0    60   ~ 0
-Tx_BLE
-Text Label 13200 5650 0    60   ~ 0
-Rx_BLE
-$Comp
-L BancGeo-rescue:R-BancGeo-rescue R24
-U 1 1 56BCB79E
-P 10350 5050
-F 0 "R24" V 10430 5050 50  0000 C CNN
-F 1 "10k" V 10350 5050 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 10280 5050 30  0001 C CNN
-F 3 "" H 10350 5050 30  0000 C CNN
-	1    10350 5050
+L BancGeo-rescue:GND-BancGeo-rescue #PWR075
+U 1 1 57412B58
+P 12250 2450
+F 0 "#PWR075" H 12250 2200 50  0001 C CNN
+F 1 "GND" H 12250 2300 50  0000 C CNN
+F 2 "" H 12250 2450 60  0000 C CNN
+F 3 "" H 12250 2450 60  0000 C CNN
+	1    12250 2450
 	1    0    0    -1  
 $EndComp
 $Comp
-L BancGeo-rescue:R-BancGeo-rescue R26
-U 1 1 56BCD521
-P 11150 5050
-F 0 "R26" V 11230 5050 50  0000 C CNN
-F 1 "10k" V 11150 5050 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 11080 5050 30  0001 C CNN
-F 3 "" H 11150 5050 30  0000 C CNN
-	1    11150 5050
-	1    0    0    -1  
-$EndComp
-Text Label 14200 3400 0    60   ~ 0
-+3.3V
-Text Label 12600 3400 0    60   ~ 0
-+5V
-Text Label 10850 4850 0    60   ~ 0
-+3.3V
-Text Label 10350 4800 0    60   ~ 0
-+5V
-Text Label 11350 5300 0    60   ~ 0
-Tx_BLE
-Text Label 9950 5300 0    60   ~ 0
-Rx_µC
-$Comp
-L BancGeo-rescue:N-MOS_SOT23-BancGeo-rescue Q5
-U 1 1 56BD18CD
-P 11000 6100
-F 0 "Q5" V 11250 6200 50  0000 L BNN
-F 1 "2N7002E" V 11250 5750 50  0000 L BNN
-F 2 "Yame_library:SOT23-MR" H 11000 6250 50  0001 C CNN
-F 3 "" H 11000 6100 60  0000 C CNN
-	1    11000 6100
-	0    -1   1    0   
-$EndComp
-$Comp
-L BancGeo-rescue:R-BancGeo-rescue R25
-U 1 1 56BD18D3
-P 10600 5950
-F 0 "R25" V 10680 5950 50  0000 C CNN
-F 1 "10k" V 10600 5950 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 10530 5950 30  0001 C CNN
-F 3 "" H 10600 5950 30  0000 C CNN
-	1    10600 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:R-BancGeo-rescue R27
-U 1 1 56BD18DB
-P 11400 5950
-F 0 "R27" V 11480 5950 50  0000 C CNN
-F 1 "10k" V 11400 5950 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 11330 5950 30  0001 C CNN
-F 3 "" H 11400 5950 30  0000 C CNN
-	1    11400 5950
-	1    0    0    -1  
-$EndComp
-Text Label 11100 5750 0    60   ~ 0
-+3.3V
-Text Label 10600 5700 0    60   ~ 0
-+5V
-Text Label 11600 6200 0    60   ~ 0
-Rx_BLE
-Text Label 10200 6200 0    60   ~ 0
-Tx_µC
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR054
-U 1 1 56BD2F59
-P 14100 6650
-F 0 "#PWR054" H 14100 6400 50  0001 C CNN
-F 1 "GND" H 14100 6500 50  0000 C CNN
-F 2 "" H 14100 6650 60  0000 C CNN
-F 3 "" H 14100 6650 60  0000 C CNN
-	1    14100 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR055
-U 1 1 56BD334D
-P 14250 6650
-F 0 "#PWR055" H 14250 6400 50  0001 C CNN
-F 1 "GND" H 14250 6500 50  0000 C CNN
-F 2 "" H 14250 6650 60  0000 C CNN
-F 3 "" H 14250 6650 60  0000 C CNN
-	1    14250 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR056
-U 1 1 56BD3469
-P 14400 6650
-F 0 "#PWR056" H 14400 6400 50  0001 C CNN
-F 1 "GND" H 14400 6500 50  0000 C CNN
-F 2 "" H 14400 6650 60  0000 C CNN
-F 3 "" H 14400 6650 60  0000 C CNN
-	1    14400 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR057
-U 1 1 56BD3585
-P 14550 6650
-F 0 "#PWR057" H 14550 6400 50  0001 C CNN
-F 1 "GND" H 14550 6500 50  0000 C CNN
-F 2 "" H 14550 6650 60  0000 C CNN
-F 3 "" H 14550 6650 60  0000 C CNN
-	1    14550 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:LED-RESCUE-BancGeo-BancGeo-rescue D6
-U 1 1 56BD4C8C
-P 15000 6650
-F 0 "D6" H 15000 6750 50  0000 C CNN
-F 1 "LED" H 15000 6550 50  0000 C CNN
-F 2 "LEDs:LED_0603" H 15000 6650 60  0001 C CNN
-F 3 "" H 15000 6650 60  0000 C CNN
-	1    15000 6650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L BancGeo-rescue:R-BancGeo-rescue R33
-U 1 1 56BD5350
-P 15000 6200
-F 0 "R33" V 15080 6200 50  0000 C CNN
-F 1 "10k" V 15000 6200 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 14930 6200 30  0001 C CNN
-F 3 "" H 15000 6200 30  0000 C CNN
-	1    15000 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR058
-U 1 1 56BD5802
-P 15000 6950
-F 0 "#PWR058" H 15000 6700 50  0001 C CNN
-F 1 "GND" H 15000 6800 50  0000 C CNN
-F 2 "" H 15000 6950 60  0000 C CNN
-F 3 "" H 15000 6950 60  0000 C CNN
-	1    15000 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:R-BancGeo-rescue R34
-U 1 1 56BD5CED
-P 15400 5550
-F 0 "R34" V 15480 5550 50  0000 C CNN
-F 1 "R" V 15400 5550 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 15330 5550 30  0001 C CNN
-F 3 "" H 15400 5550 30  0000 C CNN
-	1    15400 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:SW_PUSH-BancGeo-rescue SW2
-U 1 1 56BD5DE0
-P 15400 6200
-F 0 "SW2" H 15550 6310 50  0000 C CNN
-F 1 "SW_PUSH" H 15400 6120 50  0000 C CNN
-F 2 "Buttons_Switches_SMD:SW_SPST_B3U-1000P" H 15400 6200 60  0001 C CNN
-F 3 "" H 15400 6200 60  0000 C CNN
-	1    15400 6200
-	0    -1   -1   0   
-$EndComp
-Text Label 15400 5300 0    60   ~ 0
-+3.3V
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR059
-U 1 1 56BD767E
-P 15400 6600
-F 0 "#PWR059" H 15400 6350 50  0001 C CNN
-F 1 "GND" H 15400 6450 50  0000 C CNN
-F 2 "" H 15400 6600 60  0000 C CNN
-F 3 "" H 15400 6600 60  0000 C CNN
-	1    15400 6600
-	1    0    0    -1  
-$EndComp
-Text Label 9600 8400 0    60   ~ 0
-+5V
-$Comp
-L BancGeo-rescue:R-BancGeo-rescue R28
-U 1 1 56BDAE62
-P 12800 7400
-F 0 "R28" V 12880 7400 50  0000 C CNN
-F 1 "100" V 12800 7400 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 12730 7400 30  0001 C CNN
-F 3 "" H 12800 7400 30  0000 C CNN
-	1    12800 7400
-	0    1    1    0   
-$EndComp
-$Comp
-L BancGeo-rescue:R-BancGeo-rescue R29
-U 1 1 56BDB1B2
-P 12800 8050
-F 0 "R29" V 12880 8050 50  0000 C CNN
-F 1 "100" V 12800 8050 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 12730 8050 30  0001 C CNN
-F 3 "" H 12800 8050 30  0000 C CNN
-	1    12800 8050
-	0    1    1    0   
-$EndComp
-$Comp
-L BancGeo-rescue:R-BancGeo-rescue R30
-U 1 1 56BDB2FA
-P 12800 8650
-F 0 "R30" V 12880 8650 50  0000 C CNN
-F 1 "100" V 12800 8650 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 12730 8650 30  0001 C CNN
-F 3 "" H 12800 8650 30  0000 C CNN
-	1    12800 8650
-	0    1    1    0   
-$EndComp
-$Comp
-L BancGeo-rescue:R-BancGeo-rescue R31
-U 1 1 56BDB5D1
-P 12800 9250
-F 0 "R31" V 12880 9250 50  0000 C CNN
-F 1 "100" V 12800 9250 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 12730 9250 30  0001 C CNN
-F 3 "" H 12800 9250 30  0000 C CNN
-	1    12800 9250
-	0    1    1    0   
-$EndComp
-$Comp
-L BancGeo-rescue:C-BancGeo-rescue C23
-U 1 1 56BDB849
-P 12550 7600
-F 0 "C23" H 12575 7700 50  0000 L CNN
-F 1 "1u" H 12575 7500 50  0000 L CNN
-F 2 "Yame_library:SM0805-MR" H 12588 7450 30  0001 C CNN
-F 3 "" H 12550 7600 60  0000 C CNN
-	1    12550 7600
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:C-BancGeo-rescue C24
-U 1 1 56BDB9CE
-P 12550 8250
-F 0 "C24" H 12575 8350 50  0000 L CNN
-F 1 "1u" H 12575 8150 50  0000 L CNN
-F 2 "Yame_library:SM0805-MR" H 12588 8100 30  0001 C CNN
-F 3 "" H 12550 8250 60  0000 C CNN
-	1    12550 8250
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:C-BancGeo-rescue C25
-U 1 1 56BDBB28
-P 12550 8850
-F 0 "C25" H 12575 8950 50  0000 L CNN
-F 1 "1u" H 12575 8750 50  0000 L CNN
-F 2 "Yame_library:SM0805-MR" H 12588 8700 30  0001 C CNN
-F 3 "" H 12550 8850 60  0000 C CNN
-	1    12550 8850
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:C-BancGeo-rescue C26
-U 1 1 56BDBC81
-P 12550 9450
-F 0 "C26" H 12575 9550 50  0000 L CNN
-F 1 "1u" H 12575 9350 50  0000 L CNN
-F 2 "Yame_library:SM0805-MR" H 12588 9300 30  0001 C CNN
-F 3 "" H 12550 9450 60  0000 C CNN
-	1    12550 9450
+L BancGeo-rescue:GND-BancGeo-rescue #PWR034
+U 1 1 56BADB1D
+P 12350 2450
+F 0 "#PWR034" H 12350 2200 50  0001 C CNN
+F 1 "GND" H 12350 2300 50  0000 C CNN
+F 2 "" H 12350 2450 60  0000 C CNN
+F 3 "" H 12350 2450 60  0000 C CNN
+	1    12350 2450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1909,6 +1877,226 @@ F 3 "" H 12550 9650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR053
+U 1 1 56BC69F6
+P 12800 3850
+F 0 "#PWR053" H 12800 3600 50  0001 C CNN
+F 1 "GND" H 12800 3700 50  0000 C CNN
+F 2 "" H 12800 3850 60  0000 C CNN
+F 3 "" H 12800 3850 60  0000 C CNN
+	1    12800 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR050
+U 1 1 56BC381B
+P 13000 5300
+F 0 "#PWR050" H 13000 5050 50  0001 C CNN
+F 1 "GND" H 13000 5150 50  0000 C CNN
+F 2 "" H 13000 5300 60  0000 C CNN
+F 3 "" H 13000 5300 60  0000 C CNN
+	1    13000 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR052
+U 1 1 56BC65E6
+P 13400 3900
+F 0 "#PWR052" H 13400 3650 50  0001 C CNN
+F 1 "GND" H 13400 3750 50  0000 C CNN
+F 2 "" H 13400 3900 60  0000 C CNN
+F 3 "" H 13400 3900 60  0000 C CNN
+	1    13400 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR027
+U 1 1 56BA9262
+P 13500 7550
+F 0 "#PWR027" H 13500 7300 50  0001 C CNN
+F 1 "GND" H 13500 7400 50  0000 C CNN
+F 2 "" H 13500 7550 60  0000 C CNN
+F 3 "" H 13500 7550 60  0000 C CNN
+	1    13500 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR028
+U 1 1 56BA9615
+P 13500 8200
+F 0 "#PWR028" H 13500 7950 50  0001 C CNN
+F 1 "GND" H 13500 8050 50  0000 C CNN
+F 2 "" H 13500 8200 60  0000 C CNN
+F 3 "" H 13500 8200 60  0000 C CNN
+	1    13500 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR029
+U 1 1 56BA9828
+P 13500 8800
+F 0 "#PWR029" H 13500 8550 50  0001 C CNN
+F 1 "GND" H 13500 8650 50  0000 C CNN
+F 2 "" H 13500 8800 60  0000 C CNN
+F 3 "" H 13500 8800 60  0000 C CNN
+	1    13500 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR030
+U 1 1 56BA9A6F
+P 13500 9400
+F 0 "#PWR030" H 13500 9150 50  0001 C CNN
+F 1 "GND" H 13500 9250 50  0000 C CNN
+F 2 "" H 13500 9400 60  0000 C CNN
+F 3 "" H 13500 9400 60  0000 C CNN
+	1    13500 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR054
+U 1 1 56BD2F59
+P 14100 6650
+F 0 "#PWR054" H 14100 6400 50  0001 C CNN
+F 1 "GND" H 14100 6500 50  0000 C CNN
+F 2 "" H 14100 6650 60  0000 C CNN
+F 3 "" H 14100 6650 60  0000 C CNN
+	1    14100 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR055
+U 1 1 56BD334D
+P 14250 6650
+F 0 "#PWR055" H 14250 6400 50  0001 C CNN
+F 1 "GND" H 14250 6500 50  0000 C CNN
+F 2 "" H 14250 6650 60  0000 C CNN
+F 3 "" H 14250 6650 60  0000 C CNN
+	1    14250 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR045
+U 1 1 56BB9AEF
+P 14300 7600
+F 0 "#PWR045" H 14300 7350 50  0001 C CNN
+F 1 "GND" H 14300 7450 50  0000 C CNN
+F 2 "" H 14300 7600 60  0000 C CNN
+F 3 "" H 14300 7600 60  0000 C CNN
+	1    14300 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR047
+U 1 1 56BBA23D
+P 14300 8850
+F 0 "#PWR047" H 14300 8600 50  0001 C CNN
+F 1 "GND" H 14300 8700 50  0000 C CNN
+F 2 "" H 14300 8850 60  0000 C CNN
+F 3 "" H 14300 8850 60  0000 C CNN
+	1    14300 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR056
+U 1 1 56BD3469
+P 14400 6650
+F 0 "#PWR056" H 14400 6400 50  0001 C CNN
+F 1 "GND" H 14400 6500 50  0000 C CNN
+F 2 "" H 14400 6650 60  0000 C CNN
+F 3 "" H 14400 6650 60  0000 C CNN
+	1    14400 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR051
+U 1 1 56BC5BCA
+P 14550 4600
+F 0 "#PWR051" H 14550 4350 50  0001 C CNN
+F 1 "GND" H 14550 4450 50  0000 C CNN
+F 2 "" H 14550 4600 60  0000 C CNN
+F 3 "" H 14550 4600 60  0000 C CNN
+	1    14550 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR057
+U 1 1 56BD3585
+P 14550 6650
+F 0 "#PWR057" H 14550 6400 50  0001 C CNN
+F 1 "GND" H 14550 6500 50  0000 C CNN
+F 2 "" H 14550 6650 60  0000 C CNN
+F 3 "" H 14550 6650 60  0000 C CNN
+	1    14550 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR046
+U 1 1 56BB9E59
+P 14800 8400
+F 0 "#PWR046" H 14800 8150 50  0001 C CNN
+F 1 "GND" H 14800 8250 50  0000 C CNN
+F 2 "" H 14800 8400 60  0000 C CNN
+F 3 "" H 14800 8400 60  0000 C CNN
+	1    14800 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR048
+U 1 1 56BBA24D
+P 14800 9600
+F 0 "#PWR048" H 14800 9350 50  0001 C CNN
+F 1 "GND" H 14800 9450 50  0000 C CNN
+F 2 "" H 14800 9600 60  0000 C CNN
+F 3 "" H 14800 9600 60  0000 C CNN
+	1    14800 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR058
+U 1 1 56BD5802
+P 15000 6950
+F 0 "#PWR058" H 15000 6700 50  0001 C CNN
+F 1 "GND" H 15000 6800 50  0000 C CNN
+F 2 "" H 15000 6950 60  0000 C CNN
+F 3 "" H 15000 6950 60  0000 C CNN
+	1    15000 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR059
+U 1 1 56BD767E
+P 15400 6600
+F 0 "#PWR059" H 15400 6350 50  0001 C CNN
+F 1 "GND" H 15400 6450 50  0000 C CNN
+F 2 "" H 15400 6600 60  0000 C CNN
+F 3 "" H 15400 6600 60  0000 C CNN
+	1    15400 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR073
+U 1 1 5740DFA8
+P 15600 4050
+F 0 "#PWR073" H 15600 3800 50  0001 C CNN
+F 1 "GND" H 15600 3900 50  0000 C CNN
+F 2 "" H 15600 4050 60  0000 C CNN
+F 3 "" H 15600 4050 60  0000 C CNN
+	1    15600 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:GND-BancGeo-rescue #PWR035
+U 1 1 56BB0974
+P 15800 2100
+F 0 "#PWR035" H 15800 1850 50  0001 C CNN
+F 1 "GND" H 15800 1950 50  0000 C CNN
+F 2 "" H 15800 2100 60  0000 C CNN
+F 3 "" H 15800 2100 60  0000 C CNN
+	1    15800 2100
+	1    0    0    -1  
+$EndComp
+$Comp
 L BancGeo-rescue:CONN_01X01-BancGeo-rescue P8
 U 1 1 57083033
 P 15050 4400
@@ -1931,15 +2119,26 @@ F 3 "" H 15400 4500 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BancGeo-rescue:LM4120-BancGeo-rescue U12
-U 1 1 570A407C
-P 2200 1700
-F 0 "U12" H 2050 2000 60  0000 C CNN
-F 1 "LM4120IM5X-5.0/NOPB" H 2750 1450 60  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 2200 1700 60  0001 C CNN
-F 3 "" H 2200 1700 60  0000 C CNN
-	1    2200 1700
-	1    0    0    -1  
+L BancGeo-rescue:CONN_01X01-BancGeo-rescue P10
+U 1 1 5740D599
+P 15600 3800
+F 0 "P10" H 15600 3900 50  0000 C CNN
+F 1 "GND" V 15700 3800 50  0000 C CNN
+F 2 "Yame_library:Test_Point_T_H" H 15600 3800 50  0001 C CNN
+F 3 "" H 15600 3800 50  0000 C CNN
+	1    15600 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R5
+U 1 1 56B952E3
+P 1250 650
+F 0 "R5" V 1330 650 50  0000 C CNN
+F 1 "10" V 1250 650 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 1180 650 30  0001 C CNN
+F 3 "" H 1250 650 30  0000 C CNN
+	1    1250 650 
+	0    1    1    0   
 $EndComp
 $Comp
 L BancGeo-rescue:R-BancGeo-rescue R35
@@ -1953,143 +2152,410 @@ F 3 "" H 1250 1550 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L BancGeo-rescue:C-BancGeo-rescue C34
-U 1 1 570A4088
-P 950 1800
-F 0 "C34" H 975 1900 50  0000 L CNN
-F 1 "100n" H 975 1700 50  0000 L CNN
-F 2 "Yame_library:SM0603-MR" H 988 1650 30  0001 C CNN
-F 3 "" H 950 1800 60  0000 C CNN
-	1    950  1800
+L BancGeo-rescue:R-BancGeo-rescue R2
+U 1 1 56B7C60A
+P 1550 9650
+F 0 "R2" V 1630 9650 50  0000 C CNN
+F 1 "49.9k" V 1550 9650 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 1480 9650 30  0001 C CNN
+F 3 "" H 1550 9650 30  0000 C CNN
+	1    1550 9650
 	1    0    0    -1  
 $EndComp
 $Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR064
-U 1 1 570A408E
-P 950 2050
-F 0 "#PWR064" H 950 1800 50  0001 C CNN
-F 1 "GND" H 950 1900 50  0000 C CNN
-F 2 "" H 950 2050 60  0000 C CNN
-F 3 "" H 950 2050 60  0000 C CNN
-	1    950  2050
+L BancGeo-rescue:R-BancGeo-rescue R3
+U 1 1 56B9C03B
+P 1800 5200
+F 0 "R3" V 1880 5200 50  0000 C CNN
+F 1 "220k" V 1800 5200 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 1730 5200 30  0001 C CNN
+F 3 "" H 1800 5200 30  0000 C CNN
+	1    1800 5200
 	1    0    0    -1  
 $EndComp
 $Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR065
-U 1 1 570A4094
-P 2200 2050
-F 0 "#PWR065" H 2200 1800 50  0001 C CNN
-F 1 "GND" H 2200 1900 50  0000 C CNN
-F 2 "" H 2200 2050 60  0000 C CNN
-F 3 "" H 2200 2050 60  0000 C CNN
-	1    2200 2050
+L BancGeo-rescue:R-BancGeo-rescue R4
+U 1 1 56B9C11E
+P 1800 5800
+F 0 "R4" V 1880 5800 50  0000 C CNN
+F 1 "100k" V 1800 5800 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 1730 5800 30  0001 C CNN
+F 3 "" H 1800 5800 30  0000 C CNN
+	1    1800 5800
 	1    0    0    -1  
 $EndComp
 $Comp
-L BancGeo-rescue:C-BancGeo-rescue C38
-U 1 1 570A409A
-P 3400 1800
-F 0 "C38" H 3425 1900 50  0000 L CNN
-F 1 "100n" H 3425 1700 50  0000 L CNN
-F 2 "Yame_library:SM0603-MR" H 3438 1650 30  0001 C CNN
-F 3 "" H 3400 1800 60  0000 C CNN
-	1    3400 1800
-	1    0    0    -1  
-$EndComp
-Text Label 650  1550 0    60   ~ 0
-+Vbat
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR066
-U 1 1 570A40A1
-P 3400 2050
-F 0 "#PWR066" H 3400 1800 50  0001 C CNN
-F 1 "GND" H 3400 1900 50  0000 C CNN
-F 2 "" H 3400 2050 60  0000 C CNN
-F 3 "" H 3400 2050 60  0000 C CNN
-	1    3400 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:C-BancGeo-rescue C35
-U 1 1 570A40A7
-P 1450 1800
-F 0 "C35" H 1475 1900 50  0000 L CNN
-F 1 "1u" H 1475 1700 50  0000 L CNN
-F 2 "Yame_library:SM0805-MR" H 1488 1650 30  0001 C CNN
-F 3 "" H 1450 1800 60  0000 C CNN
-	1    1450 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR067
-U 1 1 570A40AD
-P 1450 2050
-F 0 "#PWR067" H 1450 1800 50  0001 C CNN
-F 1 "GND" H 1450 1900 50  0000 C CNN
-F 2 "" H 1450 2050 60  0000 C CNN
-F 3 "" H 1450 2050 60  0000 C CNN
-	1    1450 2050
-	1    0    0    -1  
-$EndComp
-Text Label 3100 1550 0    60   ~ 0
-+Vref2
-Text Label 13250 7850 0    60   ~ 0
-+Vref1
-Text Label 13250 9050 0    60   ~ 0
-+Vref2
-$Comp
-L BancGeo-rescue:SWITCH_BRIDE-BancGeo-rescue SW1
-U 1 1 5736D86F
-P 10100 1150
-F 0 "SW1" H 10350 1300 60  0000 C CNN
-F 1 "SWITCH_BRIDE" H 10600 1000 60  0000 C CNN
-F 2 "SWITCH_BRIDE" H 10100 1150 60  0001 C CNN
-F 3 "" H 10100 1150 60  0000 C CNN
-	1    10100 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR068
-U 1 1 5736E123
-P 10350 700
-F 0 "#PWR068" H 10350 450 50  0001 C CNN
-F 1 "GND" H 10350 550 50  0000 C CNN
-F 2 "" H 10350 700 60  0000 C CNN
-F 3 "" H 10350 700 60  0000 C CNN
-	1    10350 700 
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR069
-U 1 1 5736E306
-P 11000 1200
-F 0 "#PWR069" H 11000 950 50  0001 C CNN
-F 1 "GND" H 11000 1050 50  0000 C CNN
-F 2 "" H 11000 1200 60  0000 C CNN
-F 3 "" H 11000 1200 60  0000 C CNN
-	1    11000 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L BancGeo-rescue:R-BancGeo-rescue R40
-U 1 1 57373026
-P 13750 1800
-F 0 "R40" V 13830 1800 50  0000 C CNN
-F 1 "470" V 13750 1800 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 13680 1800 50  0001 C CNN
-F 3 "" H 13750 1800 50  0000 C CNN
-	1    13750 1800
+L BancGeo-rescue:R-BancGeo-rescue R6
+U 1 1 56BB47A8
+P 3050 7150
+F 0 "R6" V 3130 7150 50  0000 C CNN
+F 1 "10" V 3050 7150 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 2980 7150 30  0001 C CNN
+F 3 "" H 3050 7150 30  0000 C CNN
+	1    3050 7150
 	0    1    1    0   
 $EndComp
 $Comp
-L BancGeo-rescue:R-BancGeo-rescue R43
-U 1 1 57375567
-P 14050 1700
-F 0 "R43" V 14130 1700 50  0000 C CNN
-F 1 "470" V 14050 1700 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 13980 1700 50  0001 C CNN
-F 3 "" H 14050 1700 50  0000 C CNN
-	1    14050 1700
+L BancGeo-rescue:R-BancGeo-rescue R37
+U 1 1 573FFF32
+P 3950 3800
+F 0 "R37" V 4030 3800 50  0000 C CNN
+F 1 "100k" V 3950 3800 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 3880 3800 30  0001 C CNN
+F 3 "" H 3950 3800 30  0000 C CNN
+	1    3950 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R1
+U 1 1 56BA4BA9
+P 4250 2900
+F 0 "R1" V 4330 2900 50  0000 C CNN
+F 1 "100k" V 4250 2900 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 4180 2900 30  0001 C CNN
+F 3 "" H 4250 2900 30  0000 C CNN
+	1    4250 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R7
+U 1 1 56B80792
+P 4350 9650
+F 0 "R7" V 4430 9650 50  0000 C CNN
+F 1 "100" V 4350 9650 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 4280 9650 30  0001 C CNN
+F 3 "" H 4350 9650 30  0000 C CNN
+	1    4350 9650
+	0    1    1    0   
+$EndComp
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R36
+U 1 1 573D09DC
+P 4450 1050
+F 0 "R36" V 4530 1050 50  0000 C CNN
+F 1 "nc" V 4450 1050 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 4380 1050 30  0001 C CNN
+F 3 "" H 4450 1050 30  0000 C CNN
+	1    4450 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R8
+U 1 1 56B7D6B9
+P 4450 7750
+F 0 "R8" V 4530 7750 50  0000 C CNN
+F 1 "20k" V 4450 7750 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 4380 7750 30  0001 C CNN
+F 3 "" H 4450 7750 30  0000 C CNN
+	1    4450 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R9
+U 1 1 56BA8075
+P 4650 4650
+F 0 "R9" V 4730 4650 50  0000 C CNN
+F 1 "56k" V 4650 4650 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 4580 4650 30  0001 C CNN
+F 3 "" H 4650 4650 30  0000 C CNN
+	1    4650 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R10
+U 1 1 56B7CD8D
+P 4700 8000
+F 0 "R10" V 4780 8000 50  0000 C CNN
+F 1 "1k" V 4700 8000 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 4630 8000 30  0001 C CNN
+F 3 "" H 4700 8000 30  0000 C CNN
+	1    4700 8000
+	0    1    1    0   
+$EndComp
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R11
+U 1 1 56BA8C06
+P 4900 4900
+F 0 "R11" V 4980 4900 50  0000 C CNN
+F 1 "20k" V 4900 4900 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 4830 4900 30  0001 C CNN
+F 3 "" H 4900 4900 30  0000 C CNN
+	1    4900 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R44
+U 1 1 57407967
+P 5100 2550
+F 0 "R44" V 5180 2550 50  0000 C CNN
+F 1 "100k" V 5100 2550 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 5030 2550 30  0001 C CNN
+F 3 "" H 5100 2550 30  0000 C CNN
+	1    5100 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R12
+U 1 1 56BAB8CB
+P 5250 4900
+F 0 "R12" V 5330 4900 50  0000 C CNN
+F 1 "1.6k" V 5250 4900 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 5180 4900 30  0001 C CNN
+F 3 "" H 5250 4900 30  0000 C CNN
+	1    5250 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R13
+U 1 1 56B7CCA3
+P 5350 8000
+F 0 "R13" V 5430 8000 50  0000 C CNN
+F 1 "1k" V 5350 8000 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 5280 8000 30  0001 C CNN
+F 3 "" H 5350 8000 30  0000 C CNN
+	1    5350 8000
+	0    1    1    0   
+$EndComp
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R14
+U 1 1 56BABBF8
+P 5600 4900
+F 0 "R14" V 5680 4900 50  0000 C CNN
+F 1 "680" V 5600 4900 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 5530 4900 30  0001 C CNN
+F 3 "" H 5600 4900 30  0000 C CNN
+	1    5600 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R15
+U 1 1 56B7CC3A
+P 5700 8200
+F 0 "R15" V 5780 8200 50  0000 C CNN
+F 1 "0.1" V 5700 8200 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 5630 8200 30  0001 C CNN
+F 3 "" H 5700 8200 30  0000 C CNN
+	1    5700 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R16
+U 1 1 56BBD670
+P 6300 2150
+F 0 "R16" V 6380 2150 50  0000 C CNN
+F 1 "nc" V 6300 2150 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 6230 2150 30  0001 C CNN
+F 3 "" H 6300 2150 30  0000 C CNN
+	1    6300 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R17
+U 1 1 56BC0800
+P 6300 2350
+F 0 "R17" V 6380 2350 50  0000 C CNN
+F 1 "nc" V 6300 2350 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 6230 2350 30  0001 C CNN
+F 3 "" H 6300 2350 30  0000 C CNN
+	1    6300 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R18
+U 1 1 56B7E8CF
+P 6850 8200
+F 0 "R18" V 6930 8200 50  0000 C CNN
+F 1 "0.1" V 6850 8200 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 6780 8200 30  0001 C CNN
+F 3 "" H 6850 8200 30  0000 C CNN
+	1    6850 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R19
+U 1 1 56B7EC41
+P 8050 7300
+F 0 "R19" V 8130 7300 50  0000 C CNN
+F 1 "270k" V 8050 7300 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 7980 7300 30  0001 C CNN
+F 3 "" H 8050 7300 30  0000 C CNN
+	1    8050 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R20
+U 1 1 56B7ECB8
+P 8050 7700
+F 0 "R20" V 8130 7700 50  0000 C CNN
+F 1 "100k" V 8050 7700 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 7980 7700 30  0001 C CNN
+F 3 "" H 8050 7700 30  0000 C CNN
+	1    8050 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R21
+U 1 1 56B7ED19
+P 8050 8100
+F 0 "R21" V 8130 8100 50  0000 C CNN
+F 1 "47k" V 8050 8100 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 7980 8100 30  0001 C CNN
+F 3 "" H 8050 8100 30  0000 C CNN
+	1    8050 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R22
+U 1 1 56BB0F2D
+P 9150 1150
+F 0 "R22" V 9230 1150 50  0000 C CNN
+F 1 "100k" V 9150 1150 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 9080 1150 30  0001 C CNN
+F 3 "" H 9150 1150 30  0000 C CNN
+	1    9150 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R46
+U 1 1 58B982F4
+P 9350 2050
+F 0 "R46" V 9430 2050 50  0000 C CNN
+F 1 "2.2k" V 9350 2050 50  0000 C CNN
+F 2 "" V 9280 2050 50  0000 C CNN
+F 3 "" H 9350 2050 50  0000 C CNN
+	1    9350 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R23
+U 1 1 56BB127A
+P 9400 900
+F 0 "R23" V 9480 900 50  0000 C CNN
+F 1 "10k" V 9400 900 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 9330 900 30  0001 C CNN
+F 3 "" H 9400 900 30  0000 C CNN
+	1    9400 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R47
+U 1 1 58B98A00
+P 9600 2050
+F 0 "R47" V 9680 2050 50  0000 C CNN
+F 1 "2.2k" V 9600 2050 50  0000 C CNN
+F 2 "" V 9530 2050 50  0000 C CNN
+F 3 "" H 9600 2050 50  0000 C CNN
+	1    9600 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R24
+U 1 1 56BCB79E
+P 10350 5050
+F 0 "R24" V 10430 5050 50  0000 C CNN
+F 1 "10k" V 10350 5050 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 10280 5050 30  0001 C CNN
+F 3 "" H 10350 5050 30  0000 C CNN
+	1    10350 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R25
+U 1 1 56BD18D3
+P 10600 5950
+F 0 "R25" V 10680 5950 50  0000 C CNN
+F 1 "10k" V 10600 5950 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 10530 5950 30  0001 C CNN
+F 3 "" H 10600 5950 30  0000 C CNN
+	1    10600 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R26
+U 1 1 56BCD521
+P 11150 5050
+F 0 "R26" V 11230 5050 50  0000 C CNN
+F 1 "10k" V 11150 5050 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 11080 5050 30  0001 C CNN
+F 3 "" H 11150 5050 30  0000 C CNN
+	1    11150 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R27
+U 1 1 56BD18DB
+P 11400 5950
+F 0 "R27" V 11480 5950 50  0000 C CNN
+F 1 "10k" V 11400 5950 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 11330 5950 30  0001 C CNN
+F 3 "" H 11400 5950 30  0000 C CNN
+	1    11400 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R28
+U 1 1 56BDAE62
+P 12800 7400
+F 0 "R28" V 12880 7400 50  0000 C CNN
+F 1 "100" V 12800 7400 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 12730 7400 30  0001 C CNN
+F 3 "" H 12800 7400 30  0000 C CNN
+	1    12800 7400
+	0    1    1    0   
+$EndComp
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R29
+U 1 1 56BDB1B2
+P 12800 8050
+F 0 "R29" V 12880 8050 50  0000 C CNN
+F 1 "100" V 12800 8050 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 12730 8050 30  0001 C CNN
+F 3 "" H 12800 8050 30  0000 C CNN
+	1    12800 8050
+	0    1    1    0   
+$EndComp
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R30
+U 1 1 56BDB2FA
+P 12800 8650
+F 0 "R30" V 12880 8650 50  0000 C CNN
+F 1 "100" V 12800 8650 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 12730 8650 30  0001 C CNN
+F 3 "" H 12800 8650 30  0000 C CNN
+	1    12800 8650
+	0    1    1    0   
+$EndComp
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R31
+U 1 1 56BDB5D1
+P 12800 9250
+F 0 "R31" V 12880 9250 50  0000 C CNN
+F 1 "100" V 12800 9250 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 12730 9250 30  0001 C CNN
+F 3 "" H 12800 9250 30  0000 C CNN
+	1    12800 9250
+	0    1    1    0   
+$EndComp
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R32
+U 1 1 56BC3EEC
+P 13500 5000
+F 0 "R32" V 13580 5000 50  0000 C CNN
+F 1 "R" V 13500 5000 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 13430 5000 30  0001 C CNN
+F 3 "" H 13500 5000 30  0000 C CNN
+	1    13500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R38
+U 1 1 57375AEB
+P 13750 1400
+F 0 "R38" V 13830 1400 50  0000 C CNN
+F 1 "470" V 13750 1400 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 13680 1400 50  0001 C CNN
+F 3 "" H 13750 1400 50  0000 C CNN
+	1    13750 1400
 	0    1    1    0   
 $EndComp
 $Comp
@@ -2104,25 +2570,14 @@ F 3 "" H 13750 1600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L BancGeo-rescue:R-BancGeo-rescue R42
-U 1 1 57375963
-P 14050 1500
-F 0 "R42" V 14130 1500 50  0000 C CNN
-F 1 "470" V 14050 1500 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 13980 1500 50  0001 C CNN
-F 3 "" H 14050 1500 50  0000 C CNN
-	1    14050 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L BancGeo-rescue:R-BancGeo-rescue R38
-U 1 1 57375AEB
-P 13750 1400
-F 0 "R38" V 13830 1400 50  0000 C CNN
-F 1 "470" V 13750 1400 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 13680 1400 50  0001 C CNN
-F 3 "" H 13750 1400 50  0000 C CNN
-	1    13750 1400
+L BancGeo-rescue:R-BancGeo-rescue R40
+U 1 1 57373026
+P 13750 1800
+F 0 "R40" V 13830 1800 50  0000 C CNN
+F 1 "470" V 13750 1800 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 13680 1800 50  0001 C CNN
+F 3 "" H 13750 1800 50  0000 C CNN
+	1    13750 1800
 	0    1    1    0   
 $EndComp
 $Comp
@@ -2136,798 +2591,303 @@ F 3 "" H 14050 1300 50  0000 C CNN
 	1    14050 1300
 	0    1    1    0   
 $EndComp
-Text Label 4800 6650 0    60   ~ 0
-+12v
 $Comp
-L BancGeo-rescue:R-BancGeo-rescue R36
-U 1 1 573D09DC
-P 4450 1050
-F 0 "R36" V 4530 1050 50  0000 C CNN
-F 1 "nc" V 4450 1050 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 4380 1050 30  0001 C CNN
-F 3 "" H 4450 1050 30  0000 C CNN
-	1    4450 1050
+L BancGeo-rescue:R-BancGeo-rescue R42
+U 1 1 57375963
+P 14050 1500
+F 0 "R42" V 14130 1500 50  0000 C CNN
+F 1 "470" V 14050 1500 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 13980 1500 50  0001 C CNN
+F 3 "" H 14050 1500 50  0000 C CNN
+	1    14050 1500
 	0    1    1    0   
 $EndComp
-Text Label 4050 900  0    60   ~ 0
-+Vref1
-Text Label 4700 900  0    60   ~ 0
-+Vref2
-Wire Wire Line
-	1550 9250 2400 9250
-Wire Wire Line
-	1550 9050 1550 9250
-Wire Wire Line
-	1550 9050 1650 9050
-Wire Wire Line
-	1950 9050 2400 9050
-Connection ~ 1550 9250
-Wire Wire Line
-	3650 9800 4250 9800
-Wire Wire Line
-	4250 9800 4250 10800
-Wire Wire Line
-	4250 10800 1550 10800
-Wire Wire Line
-	1550 10800 1550 9800
-Wire Wire Line
-	3100 10100 3100 10150
-Wire Wire Line
-	2900 10100 2900 10200
-Wire Wire Line
-	5700 7050 5700 7400
-Wire Wire Line
-	5700 7950 5700 8000
-Wire Wire Line
-	2050 8850 2400 8850
-Wire Wire Line
-	2050 8850 2050 7800
-Wire Wire Line
-	2050 7800 4150 7800
-Wire Wire Line
-	4150 7800 4150 8000
-Wire Wire Line
-	4150 8000 4450 8000
-Wire Wire Line
-	4450 7900 4450 8000
-Connection ~ 4450 8000
-Wire Wire Line
-	4850 8000 5000 8000
-Wire Wire Line
-	5000 8100 5000 8000
-Connection ~ 5000 8000
-Wire Wire Line
-	5500 8000 5700 8000
-Connection ~ 5700 8000
-Wire Wire Line
-	5700 8350 5700 8500
-Wire Wire Line
-	5000 8400 5000 8500
-Wire Wire Line
-	5400 7800 4550 7800
-Wire Wire Line
-	4550 7800 4550 8450
-Wire Wire Line
-	4550 8450 3650 8450
-Wire Wire Line
-	5100 7050 5100 7150
-Wire Wire Line
-	4800 7050 4800 7150
-Wire Wire Line
-	4800 6650 5100 6650
-Wire Wire Line
-	4800 6650 4800 6750
-Wire Wire Line
-	5100 6750 5100 6650
-Connection ~ 5100 6650
-Wire Wire Line
-	6000 7400 5700 7400
-Connection ~ 5700 7400
-Wire Wire Line
-	6300 7400 6650 7400
-Wire Wire Line
-	6650 7400 6650 7050
-Wire Wire Line
-	6500 7050 6650 7050
-Wire Wire Line
-	2400 9800 2250 9800
-Wire Wire Line
-	2250 9800 2250 10450
-Wire Wire Line
-	2250 10450 6500 10450
-Wire Wire Line
-	6500 10450 6500 7750
-Wire Wire Line
-	6500 7750 6850 7750
-Wire Wire Line
-	6850 8350 6850 8500
-Wire Wire Line
-	6500 6650 6850 6650
-Wire Wire Line
-	6850 6650 6850 7750
-Connection ~ 6850 7750
-Connection ~ 6650 7050
-Wire Wire Line
-	7450 7400 7450 7500
-Wire Wire Line
-	7350 7050 7450 7050
-Wire Wire Line
-	7450 7050 7450 7100
-Connection ~ 7450 7050
-Wire Wire Line
-	8050 7050 8050 7150
-Wire Wire Line
-	8050 7450 8050 7500
-Wire Wire Line
-	8050 7850 8050 7900
-Wire Wire Line
-	7700 7900 8050 7900
-Wire Wire Line
-	7700 7900 7700 11050
-Wire Wire Line
-	7700 11050 1000 11050
-Wire Wire Line
-	1000 11050 1000 8450
-Wire Wire Line
-	1000 8450 2400 8450
-Connection ~ 8050 7900
-Wire Wire Line
-	2400 9650 2050 9650
-Wire Wire Line
-	2050 9650 2050 10600
-Wire Wire Line
-	2050 10600 7600 10600
-Wire Wire Line
-	7600 10600 7600 7500
-Wire Wire Line
-	7600 7500 8050 7500
-Connection ~ 8050 7500
-Wire Wire Line
-	8400 7900 8400 7950
-Wire Wire Line
-	8050 8250 8050 8350
-Wire Wire Line
-	8400 8250 8400 8350
-Wire Wire Line
-	3650 9650 4200 9650
-Wire Wire Line
-	4500 9650 4600 9650
-Wire Wire Line
-	4600 9650 4600 9750
-Wire Wire Line
-	4600 10050 4600 10100
-Wire Wire Line
-	10200 3200 10250 3200
-Wire Wire Line
-	10250 3200 10250 3300
-Wire Wire Line
-	10200 3100 10500 3100
-Wire Wire Line
-	7250 5400 7600 5400
-Wire Wire Line
-	7600 5400 7600 5550
-Connection ~ 7600 5400
-Wire Wire Line
-	7600 5850 7600 5900
-Wire Wire Line
-	8100 5850 8100 5900
-Wire Wire Line
-	9200 5900 9200 5950
-Wire Wire Line
-	9200 5600 9200 5400
-Wire Wire Line
-	9200 5400 8550 5400
-Wire Wire Line
-	1400 650  1450 650 
-Wire Wire Line
-	1900 800  1800 800 
-Wire Wire Line
-	1800 800  1800 650 
-Connection ~ 1800 650 
-Wire Wire Line
-	650  650  950  650 
-Wire Wire Line
-	950  650  950  750 
-Wire Wire Line
-	2200 1100 2200 1150
-Wire Wire Line
-	950  1050 950  1150
-Connection ~ 950  650 
-Wire Wire Line
-	1450 1050 1450 1150
-Wire Wire Line
-	1450 650  1450 750 
-Connection ~ 1450 650 
-Wire Wire Line
-	3400 750  3400 650 
-Wire Wire Line
-	3400 650  2500 650 
-Wire Wire Line
-	3400 1050 3400 1150
-Wire Wire Line
-	2200 3800 2200 3950
-Wire Wire Line
-	2200 4750 2200 4850
-Wire Wire Line
-	2250 6200 2350 6200
-Wire Wire Line
-	2100 5600 2100 6000
-Wire Wire Line
-	1800 5600 2100 5600
-Connection ~ 1800 5600
-Wire Wire Line
-	1800 5050 1800 5000
-Wire Wire Line
-	1800 5000 1500 5000
-Wire Wire Line
-	2750 6500 2750 6550
-Wire Wire Line
-	1800 5950 1800 6050
-Wire Wire Line
-	1600 7250 1600 7400
-Wire Wire Line
-	1300 6350 1600 6350
-Wire Wire Line
-	1600 6350 1600 6450
-Wire Wire Line
-	2450 5600 2750 5600
-Wire Wire Line
-	2750 5600 2750 5700
-Wire Wire Line
-	3650 9050 3850 9050
-Wire Wire Line
-	3350 6100 3450 6100
-Wire Wire Line
-	3650 8800 3850 8800
-Wire Wire Line
-	3850 8800 3850 9050
-Connection ~ 3850 9050
-Wire Wire Line
-	2250 6200 2250 6850
-Wire Wire Line
-	2250 6850 2050 6850
-Wire Wire Line
-	2100 6000 2350 6000
-Wire Wire Line
-	5000 2750 5100 2750
-Wire Wire Line
-	4450 7600 4450 7500
-Wire Wire Line
-	4450 7500 4650 7500
-Wire Wire Line
-	2400 9400 1950 9400
-Wire Wire Line
-	4900 5050 4900 5150
-Wire Wire Line
-	4800 4650 4900 4650
-Wire Wire Line
-	4900 4650 4900 4750
-Wire Wire Line
-	4500 4650 4150 4650
-Wire Wire Line
-	5250 4650 5250 4750
-Connection ~ 4900 4650
-Wire Wire Line
-	5600 4650 5600 4750
-Connection ~ 5250 4650
-Wire Wire Line
-	5250 5050 5250 5450
-Wire Wire Line
-	5600 5050 5600 5200
-Wire Wire Line
-	2400 8650 2150 8650
-Wire Wire Line
-	13500 7200 13250 7200
-Wire Wire Line
-	13500 7200 13500 7300
-Wire Wire Line
-	13500 7850 13250 7850
-Wire Wire Line
-	13500 7850 13500 7950
-Wire Wire Line
-	13500 8450 13250 8450
-Wire Wire Line
-	13500 8450 13500 8550
-Wire Wire Line
-	13500 9050 13250 9050
-Wire Wire Line
-	13500 9050 13500 9150
-Wire Wire Line
-	13500 7500 13500 7550
-Wire Wire Line
-	13500 8150 13500 8200
-Wire Wire Line
-	13500 8750 13500 8800
-Wire Wire Line
-	13500 9350 13500 9400
-Wire Wire Line
-	10350 8750 10350 8850
-Wire Wire Line
-	10200 7350 10350 7350
-Wire Wire Line
-	10350 7350 10350 7450
-Wire Wire Line
-	10550 6900 10700 6900
-Wire Wire Line
-	10700 6900 10700 7000
-Wire Wire Line
-	10700 7300 10700 7350
-Wire Wire Line
-	11900 2700 12050 2700
-Wire Wire Line
-	12050 2700 12050 2800
-Wire Wire Line
-	12050 3100 12050 3150
-Wire Wire Line
-	12200 700  12350 700 
-Wire Wire Line
-	12350 700  12350 800 
-Wire Wire Line
-	12350 2400 12350 2450
-Wire Wire Line
-	15800 1950 15700 1950
-Connection ~ 15800 1950
-Wire Wire Line
-	15800 1700 15500 1700
-Connection ~ 15800 1700
-Wire Wire Line
-	15800 1450 15300 1450
-Connection ~ 15800 1450
-Wire Wire Line
-	15800 1200 15150 1200
-Connection ~ 15800 1200
-Wire Wire Line
-	14950 950  15800 950 
-Connection ~ 15800 950 
-Wire Wire Line
-	14750 700  15800 700 
-Wire Wire Line
-	14100 1800 14100 1950
-Wire Wire Line
-	14100 1950 15300 1950
-Wire Wire Line
-	14750 1600 14750 1450
-Wire Wire Line
-	14750 1450 14900 1450
-Wire Wire Line
-	14750 1200 14650 1200
-Wire Wire Line
-	14650 1200 14650 1500
-Wire Wire Line
-	14400 1400 14400 950 
-Wire Wire Line
-	14400 950  14550 950 
-Wire Wire Line
-	14200 700  14200 1300
-Wire Wire Line
-	14200 700  14350 700 
-Wire Wire Line
-	15800 700  15800 950 
-Wire Wire Line
-	8650 1150 8850 1150
-Connection ~ 8850 1150
-Wire Wire Line
-	8850 1550 8850 1650
-Wire Wire Line
-	9300 700  9400 700 
-Wire Wire Line
-	9400 700  9400 750 
-Wire Wire Line
-	9400 1050 9400 1150
-Connection ~ 9400 1150
-Wire Wire Line
-	10450 1150 11000 1150
-Wire Wire Line
-	800  6650 950  6650
-Wire Wire Line
-	950  6650 950  6750
-Wire Wire Line
-	950  7050 950  7100
-Wire Wire Line
-	3350 5250 3500 5250
-Wire Wire Line
-	3500 5250 3500 5350
-Wire Wire Line
-	3500 5650 3500 5700
-Wire Wire Line
-	2400 7050 2550 7050
-Wire Wire Line
-	2550 7050 2550 7150
-Wire Wire Line
-	2550 7500 2550 7550
-Wire Wire Line
-	2550 7150 2750 7150
-Connection ~ 2550 7150
-Wire Wire Line
-	3200 7150 3250 7150
-Wire Wire Line
-	3250 7150 3250 7950
-Wire Wire Line
-	2750 7950 2900 7950
-Wire Wire Line
-	2750 7950 2750 7150
-Connection ~ 2750 7150
-Wire Wire Line
-	2900 7950 2900 8000
-Wire Wire Line
-	3250 7950 3100 7950
-Wire Wire Line
-	3100 7950 3100 8000
-Wire Wire Line
-	3500 7150 3500 7200
-Connection ~ 3250 7150
-Wire Wire Line
-	3500 7500 3500 7550
-Wire Wire Line
-	7400 4050 7550 4050
-Wire Wire Line
-	7550 4050 7550 4150
-Wire Wire Line
-	7550 4450 7550 4500
-Wire Wire Line
-	7450 1600 7600 1600
-Wire Wire Line
-	7600 1600 7600 1700
-Wire Wire Line
-	7600 3500 7600 3550
-Wire Wire Line
-	2700 3800 2850 3800
-Wire Wire Line
-	2850 3800 2850 3900
-Wire Wire Line
-	2850 4200 2850 4250
-Wire Wire Line
-	14150 7150 14300 7150
-Wire Wire Line
-	14300 7150 14300 7250
-Wire Wire Line
-	14300 7550 14300 7600
-Wire Wire Line
-	14650 7950 14800 7950
-Wire Wire Line
-	14800 7950 14800 8050
-Wire Wire Line
-	14800 8350 14800 8400
-Wire Wire Line
-	14150 8400 14300 8400
-Wire Wire Line
-	14300 8400 14300 8500
-Wire Wire Line
-	14300 8800 14300 8850
-Wire Wire Line
-	14650 9150 14800 9150
-Wire Wire Line
-	14800 9150 14800 9250
-Wire Wire Line
-	14800 9550 14800 9600
-Wire Wire Line
-	11750 1200 11500 1200
-Wire Wire Line
-	6450 2150 6900 2150
-Wire Wire Line
-	5750 2150 6150 2150
-Wire Wire Line
-	5950 1100 6250 1100
-Wire Wire Line
-	5950 1300 6300 1300
-Wire Wire Line
-	6300 1300 6300 1350
-Wire Wire Line
-	6900 900  6900 2150
-Connection ~ 6900 2150
-Wire Wire Line
-	6450 2350 6800 2350
-Wire Wire Line
-	6800 1000 6800 2350
-Wire Wire Line
-	6750 1200 6750 2750
-Wire Wire Line
-	6750 2750 6950 2750
-Wire Wire Line
-	6950 2550 6350 2550
-Connection ~ 4600 9650
-Wire Wire Line
-	6950 2950 6400 2950
-Wire Wire Line
-	11750 1400 11500 1400
-Wire Wire Line
-	11750 1550 11500 1550
-Wire Wire Line
-	8550 2150 8300 2150
-Wire Wire Line
-	8550 2350 8300 2350
-Wire Wire Line
-	8550 2950 8300 2950
-Wire Wire Line
-	8550 3150 8300 3150
-Wire Wire Line
-	4100 2700 4250 2700
-Wire Wire Line
-	4250 2700 4250 2750
-Wire Wire Line
-	4250 3050 4250 3100
-Connection ~ 4250 3100
-Wire Wire Line
-	6950 3150 6400 3150
-Wire Wire Line
-	5250 5450 5500 5450
-Wire Wire Line
-	5600 5200 5850 5200
-Wire Wire Line
-	13150 2100 14600 2100
-Wire Wire Line
-	13100 2250 14450 2250
-Wire Wire Line
-	8300 2550 8650 2550
-Wire Wire Line
-	8650 2550 8650 1150
-Wire Wire Line
-	8850 1250 8850 1150
-Wire Wire Line
-	11500 1700 11650 1700
-Wire Wire Line
-	11650 1700 11650 1750
-Wire Wire Line
-	11650 1950 11750 1950
-Wire Wire Line
-	11750 1850 11650 1850
-Connection ~ 11650 1850
-Wire Wire Line
-	11750 1750 11650 1750
-Connection ~ 11650 1750
-Wire Wire Line
-	8300 2750 8550 2750
-Wire Wire Line
-	9850 7800 9600 7800
-Wire Wire Line
-	9850 8000 9600 8000
-Wire Wire Line
-	9850 8200 9600 8200
-Wire Wire Line
-	6150 2350 5750 2350
-Connection ~ 6800 2350
-Wire Wire Line
-	13050 5250 13000 5250
-Wire Wire Line
-	13000 5250 13000 5300
-Wire Wire Line
-	13350 5250 13500 5250
-Wire Wire Line
-	13500 5150 13500 5250
-Connection ~ 13500 5250
-Wire Wire Line
-	13500 4850 13500 4650
-Wire Wire Line
-	13500 4650 14300 4650
-Wire Wire Line
-	14300 4100 14300 4650
-Wire Wire Line
-	13850 3400 14550 3400
-Wire Wire Line
-	14550 3400 14550 4100
-Wire Wire Line
-	14550 4100 14300 4100
-Connection ~ 14300 4650
-Connection ~ 14550 4100
-Wire Wire Line
-	12600 3400 12800 3400
-Wire Wire Line
-	12800 3400 12800 3500
-Connection ~ 12800 3400
-Wire Wire Line
-	14550 4550 14550 4600
-Wire Wire Line
-	13400 3850 13400 3900
-Wire Wire Line
-	12800 3800 12800 3850
-Wire Wire Line
-	13650 5500 13250 5500
-Wire Wire Line
-	13650 5650 13200 5650
-Wire Wire Line
-	10350 5200 10350 5300
-Wire Wire Line
-	9950 5300 10350 5300
-Wire Wire Line
-	10850 5000 10850 4850
-Wire Wire Line
-	11150 4850 11150 4900
-Wire Wire Line
-	10850 4850 11150 4850
-Wire Wire Line
-	11150 5200 11150 5300
-Wire Wire Line
-	11000 5300 11150 5300
-Wire Wire Line
-	10350 4900 10350 4800
-Wire Wire Line
-	10350 4800 10550 4800
-Connection ~ 10350 5300
-Connection ~ 11150 5300
-Wire Wire Line
-	10600 6100 10600 6200
-Wire Wire Line
-	10200 6200 10600 6200
-Wire Wire Line
-	11100 5900 11100 5750
-Wire Wire Line
-	11400 5750 11400 5800
-Wire Wire Line
-	11100 5750 11400 5750
-Wire Wire Line
-	11400 6100 11400 6200
-Wire Wire Line
-	11250 6200 11400 6200
-Wire Wire Line
-	10600 5800 10600 5700
-Wire Wire Line
-	10600 5700 10800 5700
-Connection ~ 10600 6200
-Connection ~ 11400 6200
-Wire Wire Line
-	14550 6550 14550 6650
-Wire Wire Line
-	14400 6550 14400 6650
-Wire Wire Line
-	14250 6550 14250 6650
-Wire Wire Line
-	14100 6550 14100 6650
-Wire Wire Line
-	15400 5400 15400 5300
-Wire Wire Line
-	15400 5300 15650 5300
-Wire Wire Line
-	15400 5700 15400 5800
-Wire Wire Line
-	15000 5800 15400 5800
-Connection ~ 15400 5800
-Wire Wire Line
-	15000 5950 15000 6050
-Wire Wire Line
-	15000 6350 15000 6450
-Wire Wire Line
-	15000 6850 15000 6950
-Wire Wire Line
-	15400 6500 15400 6600
-Wire Wire Line
-	9850 8400 9600 8400
-Wire Wire Line
-	13500 7400 12950 7400
-Wire Wire Line
-	12550 7750 12550 7800
-Wire Wire Line
-	12550 8400 12550 8450
-Wire Wire Line
-	12550 9000 12550 9050
-Wire Wire Line
-	12550 9600 12550 9650
-Wire Wire Line
-	12950 8050 13500 8050
-Wire Wire Line
-	13500 8650 12950 8650
-Wire Wire Line
-	12950 9250 13500 9250
-Wire Wire Line
-	11450 9250 12550 9250
-Wire Wire Line
-	11450 9250 11450 8400
-Wire Wire Line
-	11450 8400 10850 8400
-Wire Wire Line
-	10850 8200 11700 8200
-Wire Wire Line
-	11700 8200 11700 8650
-Wire Wire Line
-	11700 8650 12550 8650
-Wire Wire Line
-	10850 8000 11750 8000
-Wire Wire Line
-	11750 8000 11750 8050
-Wire Wire Line
-	11750 8050 12550 8050
-Wire Wire Line
-	10850 7800 11900 7800
-Wire Wire Line
-	11900 7800 11900 7400
-Wire Wire Line
-	11900 7400 12550 7400
-Wire Wire Line
-	12550 7450 12550 7400
-Connection ~ 12550 7400
-Wire Wire Line
-	12550 8100 12550 8050
-Connection ~ 12550 8050
-Wire Wire Line
-	12550 8700 12550 8650
-Connection ~ 12550 8650
-Wire Wire Line
-	12550 9300 12550 9250
-Connection ~ 12550 9250
-Wire Wire Line
-	5950 1200 6750 1200
-Wire Wire Line
-	6800 1000 5950 1000
-Wire Wire Line
-	5950 900  6900 900 
-Wire Wire Line
-	15050 4600 15050 5250
-Wire Wire Line
-	15050 5250 15000 5250
-Wire Wire Line
-	15400 4700 15400 5200
-Wire Wire Line
-	15400 5200 15200 5200
-Wire Wire Line
-	15200 5200 15200 5450
-Wire Wire Line
-	15200 5450 15000 5450
-Wire Wire Line
-	1400 1550 1450 1550
-Wire Wire Line
-	1900 1700 1800 1700
-Wire Wire Line
-	1800 1700 1800 1550
-Connection ~ 1800 1550
-Wire Wire Line
-	650  1550 950  1550
-Wire Wire Line
-	950  1550 950  1650
-Wire Wire Line
-	2200 2000 2200 2050
-Wire Wire Line
-	950  1950 950  2050
-Connection ~ 950  1550
-Wire Wire Line
-	1450 1950 1450 2050
-Wire Wire Line
-	1450 1550 1450 1650
-Connection ~ 1450 1550
-Wire Wire Line
-	3400 1650 3400 1550
-Wire Wire Line
-	3400 1550 2500 1550
-Wire Wire Line
-	3400 1950 3400 2050
-Wire Wire Line
-	11000 1150 11000 1200
-Wire Wire Line
-	10050 700  10150 700 
-Wire Wire Line
-	10050 700  10050 950 
-Wire Wire Line
-	10150 950  10150 700 
-Connection ~ 10150 700 
-Wire Wire Line
-	10050 1350 10050 1400
-Wire Wire Line
-	10050 1400 10150 1400
-Wire Wire Line
-	10150 1350 10150 1400
-Connection ~ 10150 1400
-Wire Wire Line
-	9300 1150 9400 1150
-Wire Wire Line
-	13900 1400 14400 1400
-Wire Wire Line
-	14650 1500 14200 1500
-Wire Wire Line
-	14750 1600 13900 1600
-Wire Wire Line
-	14200 1700 15100 1700
-Wire Wire Line
-	13900 1800 14100 1800
-Wire Wire Line
-	4050 900  4050 1050
-Wire Wire Line
-	4050 1050 4300 1050
-Wire Wire Line
-	4700 900  4700 1050
-Wire Wire Line
-	4700 1050 4600 1050
-Wire Wire Line
-	13300 1300 13900 1300
-Wire Wire Line
-	13400 1500 13900 1500
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R43
+U 1 1 57375567
+P 14050 1700
+F 0 "R43" V 14130 1700 50  0000 C CNN
+F 1 "470" V 14050 1700 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 13980 1700 50  0001 C CNN
+F 3 "" H 14050 1700 50  0000 C CNN
+	1    14050 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R33
+U 1 1 56BD5350
+P 15000 6200
+F 0 "R33" V 15080 6200 50  0000 C CNN
+F 1 "10k" V 15000 6200 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 14930 6200 30  0001 C CNN
+F 3 "" H 15000 6200 30  0000 C CNN
+	1    15000 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:R-BancGeo-rescue R34
+U 1 1 56BD5CED
+P 15400 5550
+F 0 "R34" V 15480 5550 50  0000 C CNN
+F 1 "R" V 15400 5550 50  0000 C CNN
+F 2 "Yame_library:SM0603-MR" V 15330 5550 30  0001 C CNN
+F 3 "" H 15400 5550 30  0000 C CNN
+	1    15400 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:D-BancGeo-rescue D2
+U 1 1 56B7E5A4
+P 7200 7050
+F 0 "D2" H 7200 7150 50  0000 C CNN
+F 1 "SSA33L-E3" H 7200 6950 50  0000 C CNN
+F 2 "Yame_library:DO-214AC" H 7200 7050 60  0001 C CNN
+F 3 "" H 7200 7050 60  0000 C CNN
+	1    7200 7050
+	-1   0    0    1   
+$EndComp
+$Comp
+L BancGeo-rescue:CONN_01X02-BancGeo-rescue P2
+U 1 1 56B94194
+P 900 2900
+F 0 "P2" H 900 3050 50  0000 C CNN
+F 1 "Batt" V 1000 2900 50  0000 C CNN
+F 2 "Yame_library:PINHEAD1-2" H 900 2900 60  0001 C CNN
+F 3 "" H 900 2900 60  0000 C CNN
+	1    900  2900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:CONN_01X02-BancGeo-rescue P1
+U 1 1 56B91222
+P 10000 3150
+F 0 "P1" H 10000 3300 50  0000 C CNN
+F 1 "Alim" V 10100 3150 50  0000 C CNN
+F 2 "Yame_library:PINHEAD1-2" H 10000 3150 60  0001 C CNN
+F 3 "" H 10000 3150 60  0000 C CNN
+	1    10000 3150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:LED-RESCUE-BancGeo-BancGeo-rescue D3
+U 1 1 56BAE8CB
+P 14550 700
+F 0 "D3" H 14550 800 50  0000 C CNN
+F 1 "LED" H 14550 600 50  0000 C CNN
+F 2 "Yame_library:LED-5MM_center" H 14550 700 60  0001 C CNN
+F 3 "" H 14550 700 60  0000 C CNN
+	1    14550 700 
+	-1   0    0    1   
+$EndComp
+$Comp
+L BancGeo-rescue:LED-RESCUE-BancGeo-BancGeo-rescue D4
+U 1 1 56BAEA55
+P 14750 950
+F 0 "D4" H 14750 1050 50  0000 C CNN
+F 1 "LED" H 14750 850 50  0000 C CNN
+F 2 "Yame_library:LED-5MM_center" H 14750 950 60  0001 C CNN
+F 3 "" H 14750 950 60  0000 C CNN
+	1    14750 950 
+	-1   0    0    1   
+$EndComp
+$Comp
+L BancGeo-rescue:LED-RESCUE-BancGeo-BancGeo-rescue D5
+U 1 1 56BAF1D5
+P 14950 1200
+F 0 "D5" H 14950 1300 50  0000 C CNN
+F 1 "LED" H 14950 1100 50  0000 C CNN
+F 2 "Yame_library:LED-5MM_center" H 14950 1200 60  0001 C CNN
+F 3 "" H 14950 1200 60  0000 C CNN
+	1    14950 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L BancGeo-rescue:LED-RESCUE-BancGeo-BancGeo-rescue D6
+U 1 1 56BD4C8C
+P 15000 6650
+F 0 "D6" H 15000 6750 50  0000 C CNN
+F 1 "LED" H 15000 6550 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 15000 6650 60  0001 C CNN
+F 3 "" H 15000 6650 60  0000 C CNN
+	1    15000 6650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BancGeo-rescue:LED-RESCUE-BancGeo-BancGeo-rescue D7
+U 1 1 56BAF1DB
+P 15100 1450
+F 0 "D7" H 15100 1550 50  0000 C CNN
+F 1 "LED" H 15100 1350 50  0000 C CNN
+F 2 "Yame_library:LED-5MM_center" H 15100 1450 60  0001 C CNN
+F 3 "" H 15100 1450 60  0000 C CNN
+	1    15100 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L BancGeo-rescue:LED-RESCUE-BancGeo-BancGeo-rescue D8
+U 1 1 56BAF1E1
+P 15300 1700
+F 0 "D8" H 15300 1800 50  0000 C CNN
+F 1 "LED" H 15300 1600 50  0000 C CNN
+F 2 "Yame_library:LED-5MM_center" H 15300 1700 60  0001 C CNN
+F 3 "" H 15300 1700 60  0000 C CNN
+	1    15300 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L BancGeo-rescue:LED-RESCUE-BancGeo-BancGeo-rescue D9
+U 1 1 56BAF1E7
+P 15500 1950
+F 0 "D9" H 15500 2050 50  0000 C CNN
+F 1 "LED" H 15500 1850 50  0000 C CNN
+F 2 "Yame_library:LED-5MM_center" H 15500 1950 60  0001 C CNN
+F 3 "" H 15500 1950 60  0000 C CNN
+	1    15500 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L BancGeo-rescue:C-BancGeo-rescue C3
+U 1 1 56B95354
+P 950 900
+F 0 "C3" H 975 1000 50  0000 L CNN
+F 1 "100n" H 975 800 50  0000 L CNN
+F 2 "Yame_library:SM0603-MR" H 988 750 30  0001 C CNN
+F 3 "" H 950 900 60  0000 C CNN
+	1    950  900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:C-BancGeo-rescue C34
+U 1 1 570A4088
+P 950 1800
+F 0 "C34" H 975 1900 50  0000 L CNN
+F 1 "100n" H 975 1700 50  0000 L CNN
+F 2 "Yame_library:SM0603-MR" H 988 1650 30  0001 C CNN
+F 3 "" H 950 1800 60  0000 C CNN
+	1    950  1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:C-BancGeo-rescue C1
+U 1 1 56BB4280
+P 950 6900
+F 0 "C1" H 975 7000 50  0000 L CNN
+F 1 "100n" H 975 6800 50  0000 L CNN
+F 2 "Yame_library:SM0603-MR" H 988 6750 30  0001 C CNN
+F 3 "" H 950 6900 60  0000 C CNN
+	1    950  6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:C-BancGeo-rescue C5
+U 1 1 56B96E64
+P 1450 900
+F 0 "C5" H 1475 1000 50  0000 L CNN
+F 1 "1u" H 1475 800 50  0000 L CNN
+F 2 "Yame_library:SM0805-MR" H 1488 750 30  0001 C CNN
+F 3 "" H 1450 900 60  0000 C CNN
+	1    1450 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:C-BancGeo-rescue C35
+U 1 1 570A40A7
+P 1450 1800
+F 0 "C35" H 1475 1900 50  0000 L CNN
+F 1 "1u" H 1475 1700 50  0000 L CNN
+F 2 "Yame_library:SM0805-MR" H 1488 1650 30  0001 C CNN
+F 3 "" H 1450 1800 60  0000 C CNN
+	1    1450 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:C-BancGeo-rescue C2
+U 1 1 56B7C530
+P 1800 9050
+F 0 "C2" H 1825 9150 50  0000 L CNN
+F 1 "1500p" H 1825 8950 50  0000 L CNN
+F 2 "Yame_library:SM0603-MR" H 1838 8900 30  0001 C CNN
+F 3 "" H 1800 9050 60  0000 C CNN
+	1    1800 9050
+	0    1    -1   0   
+$EndComp
+$Comp
+L BancGeo-rescue:C-BancGeo-rescue C4
+U 1 1 56BB46DC
+P 2550 7350
+F 0 "C4" H 2575 7450 50  0000 L CNN
+F 1 "1u" H 2575 7250 50  0000 L CNN
+F 2 "Yame_library:SM0805-MR" H 2588 7200 30  0001 C CNN
+F 3 "" H 2550 7350 60  0000 C CNN
+	1    2550 7350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:C-BancGeo-rescue C6
+U 1 1 56BB88BC
+P 2850 4050
+F 0 "C6" H 2875 4150 50  0000 L CNN
+F 1 "100n" H 2875 3950 50  0000 L CNN
+F 2 "Yame_library:SM0603-MR" H 2888 3900 30  0001 C CNN
+F 3 "" H 2850 4050 60  0000 C CNN
+	1    2850 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:C-BancGeo-rescue C11
+U 1 1 56B9639E
+P 3400 900
+F 0 "C11" H 3425 1000 50  0000 L CNN
+F 1 "100n" H 3425 800 50  0000 L CNN
+F 2 "Yame_library:SM0603-MR" H 3438 750 30  0001 C CNN
+F 3 "" H 3400 900 60  0000 C CNN
+	1    3400 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:C-BancGeo-rescue C38
+U 1 1 570A409A
+P 3400 1800
+F 0 "C38" H 3425 1900 50  0000 L CNN
+F 1 "100n" H 3425 1700 50  0000 L CNN
+F 2 "Yame_library:SM0603-MR" H 3438 1650 30  0001 C CNN
+F 3 "" H 3400 1800 60  0000 C CNN
+	1    3400 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:C-BancGeo-rescue C8
+U 1 1 56BB4310
+P 3500 5500
+F 0 "C8" H 3525 5600 50  0000 L CNN
+F 1 "100n" H 3525 5400 50  0000 L CNN
+F 2 "Yame_library:SM0603-MR" H 3538 5350 30  0001 C CNN
+F 3 "" H 3500 5500 60  0000 C CNN
+	1    3500 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:C-BancGeo-rescue C9
+U 1 1 56BB4926
+P 3500 7350
+F 0 "C9" H 3525 7450 50  0000 L CNN
+F 1 "1u" H 3525 7250 50  0000 L CNN
+F 2 "Yame_library:SM0805-MR" H 3538 7200 30  0001 C CNN
+F 3 "" H 3500 7350 60  0000 C CNN
+	1    3500 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:C-BancGeo-rescue C10
+U 1 1 56B80824
+P 4600 9900
+F 0 "C10" H 4625 10000 50  0000 L CNN
+F 1 "100n" H 4625 9800 50  0000 L CNN
+F 2 "Yame_library:SM0603-MR" H 4638 9750 30  0001 C CNN
+F 3 "" H 4600 9900 60  0000 C CNN
+	1    4600 9900
+	1    0    0    -1  
+$EndComp
 $Comp
 L BancGeo-rescue:C-BancGeo-rescue C36
 U 1 1 573E302E
@@ -2940,229 +2900,311 @@ F 3 "" H 4700 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR070
-U 1 1 573E3034
-P 4700 1550
-F 0 "#PWR070" H 4700 1300 50  0001 C CNN
-F 1 "GND" H 4700 1400 50  0000 C CNN
-F 2 "" H 4700 1550 60  0000 C CNN
-F 3 "" H 4700 1550 60  0000 C CNN
-	1    4700 1550
+L BancGeo-rescue:C-BancGeo-rescue C12
+U 1 1 56B7DFED
+P 4800 6900
+F 0 "C12" H 4825 7000 50  0000 L CNN
+F 1 "10u" H 4825 6800 50  0000 L CNN
+F 2 "Yame_library:SM0805-MR" H 4838 6750 30  0001 C CNN
+F 3 "" H 4800 6900 60  0000 C CNN
+	1    4800 6900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4700 1450 4700 1550
-Connection ~ 4700 1050
-Text Label 5700 8000 0    60   ~ 0
-TR_Low_Side
-Text Label 5700 7300 0    60   ~ 0
-TR_High_Side
-Text Label 6350 7400 0    60   ~ 0
-Self_Out_2
-Text Label 6850 7900 0    60   ~ 0
-Self_Out_1
-Text Label 3500 6450 0    60   ~ 0
-VoffCHG
-Wire Wire Line
-	3450 6450 4000 6450
-Wire Wire Line
-	3450 6100 3450 6450
-Connection ~ 3450 6100
 $Comp
-L BancGeo-rescue:N-MOS_SOT23-BancGeo-rescue Q6
-U 1 1 573FE97B
-P 4150 3450
-F 0 "Q6" H 4300 3500 50  0000 L BNN
-F 1 "2N7002E" H 4300 3400 50  0000 L BNN
-F 2 "Yame_library:SOT23-MR" H 4150 3600 50  0001 C CNN
-F 3 "" H 4150 3450 60  0000 C CNN
-	1    4150 3450
+L BancGeo-rescue:C-BancGeo-rescue C14
+U 1 1 56B7CCFE
+P 5000 8250
+F 0 "C14" H 5025 8350 50  0000 L CNN
+F 1 "22p" H 5025 8150 50  0000 L CNN
+F 2 "Yame_library:SM0603-MR" H 5038 8100 30  0001 C CNN
+F 3 "" H 5000 8250 60  0000 C CNN
+	1    5000 8250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4250 3100 4700 3100
 $Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR071
-U 1 1 573FF5CC
-P 5000 3300
-F 0 "#PWR071" H 5000 3050 50  0001 C CNN
-F 1 "GND" H 5000 3150 50  0000 C CNN
-F 2 "" H 5000 3300 60  0000 C CNN
-F 3 "" H 5000 3300 60  0000 C CNN
-	1    5000 3300
+L BancGeo-rescue:C-BancGeo-rescue C15
+U 1 1 56B7E167
+P 5100 6900
+F 0 "C15" H 5125 7000 50  0000 L CNN
+F 1 "10u" H 5125 6800 50  0000 L CNN
+F 2 "Yame_library:SM0805-MR" H 5138 6750 30  0001 C CNN
+F 3 "" H 5100 6900 60  0000 C CNN
+	1    5100 6900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5000 3250 5000 3300
 $Comp
-L BancGeo-rescue:R-BancGeo-rescue R37
-U 1 1 573FFF32
-P 3950 3800
-F 0 "R37" V 4030 3800 50  0000 C CNN
-F 1 "100k" V 3950 3800 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 3880 3800 30  0001 C CNN
-F 3 "" H 3950 3800 30  0000 C CNN
-	1    3950 3800
+L BancGeo-rescue:C-BancGeo-rescue C16
+U 1 1 56B7E3F3
+P 6150 7400
+F 0 "C16" H 6175 7500 50  0000 L CNN
+F 1 "2.2u" H 6175 7300 50  0000 L CNN
+F 2 "Yame_library:SM0805-MR" H 6188 7250 30  0001 C CNN
+F 3 "" H 6150 7400 60  0000 C CNN
+	1    6150 7400
+	0    1    1    0   
+$EndComp
+$Comp
+L BancGeo-rescue:C-BancGeo-rescue C17
+U 1 1 56B7EAC4
+P 7450 7250
+F 0 "C17" H 7475 7350 50  0000 L CNN
+F 1 "10u" H 7475 7150 50  0000 L CNN
+F 2 "Yame_library:SM0805-MR" H 7488 7100 30  0001 C CNN
+F 3 "" H 7450 7250 60  0000 C CNN
+	1    7450 7250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3950 3550 3950 3600
-Text Label 3850 3450 0    60   ~ 0
-+12v
-Wire Wire Line
-	3850 3450 3850 3600
-Wire Wire Line
-	3850 3600 3950 3600
-Connection ~ 3950 3600
 $Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR072
-U 1 1 57401FAC
-P 3950 4000
-F 0 "#PWR072" H 3950 3750 50  0001 C CNN
-F 1 "GND" H 3950 3850 50  0000 C CNN
-F 2 "" H 3950 4000 60  0000 C CNN
-F 3 "" H 3950 4000 60  0000 C CNN
-	1    3950 4000
+L BancGeo-rescue:C-BancGeo-rescue C18
+U 1 1 56BB7702
+P 7550 4300
+F 0 "C18" H 7575 4400 50  0000 L CNN
+F 1 "100n" H 7575 4200 50  0000 L CNN
+F 2 "Yame_library:SM0603-MR" H 7588 4150 30  0001 C CNN
+F 3 "" H 7550 4300 60  0000 C CNN
+	1    7550 4300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3950 3950 3950 4000
-Wire Wire Line
-	4250 3700 4250 3750
-Text Label 5200 2750 0    60   ~ 0
-/Shdn
 $Comp
-L BancGeo-rescue:R-BancGeo-rescue R44
-U 1 1 57407967
-P 5100 2550
-F 0 "R44" V 5180 2550 50  0000 C CNN
-F 1 "100k" V 5100 2550 50  0000 C CNN
-F 2 "Yame_library:SM0603-MR" V 5030 2550 30  0001 C CNN
-F 3 "" H 5100 2550 30  0000 C CNN
-	1    5100 2550
+L BancGeo-rescue:C-BancGeo-rescue C7
+U 1 1 56B929E4
+P 7600 5700
+F 0 "C7" H 7625 5800 50  0000 L CNN
+F 1 "2.2u" H 7625 5600 50  0000 L CNN
+F 2 "Yame_library:SM0805-MR" H 7638 5550 30  0001 C CNN
+F 3 "" H 7600 5700 60  0000 C CNN
+	1    7600 5700
 	1    0    0    -1  
 $EndComp
-Text Label 4950 2350 0    60   ~ 0
-+5V
-Wire Wire Line
-	4950 2350 5100 2350
-Wire Wire Line
-	5100 2350 5100 2400
-Wire Wire Line
-	5100 2700 5100 2750
-Connection ~ 5100 2750
 $Comp
-L BancGeo-rescue:CONN_01X01-BancGeo-rescue P10
-U 1 1 5740D599
-P 15600 3800
-F 0 "P10" H 15600 3900 50  0000 C CNN
-F 1 "GND" V 15700 3800 50  0000 C CNN
-F 2 "Yame_library:Test_Point_T_H" H 15600 3800 50  0001 C CNN
-F 3 "" H 15600 3800 50  0000 C CNN
-	1    15600 3800
+L BancGeo-rescue:C-BancGeo-rescue C19
+U 1 1 56B7EFC3
+P 8400 8100
+F 0 "C19" H 8425 8200 50  0000 L CNN
+F 1 "C" H 8425 8000 50  0000 L CNN
+F 2 "Yame_library:SM0603-MR" H 8438 7950 30  0001 C CNN
+F 3 "" H 8400 8100 60  0000 C CNN
+	1    8400 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:C-BancGeo-rescue C20
+U 1 1 56BB0FF8
+P 8850 1400
+F 0 "C20" H 8875 1500 50  0000 L CNN
+F 1 "100n" H 8875 1300 50  0000 L CNN
+F 2 "Yame_library:SM0603-MR" H 8888 1250 30  0001 C CNN
+F 3 "" H 8850 1400 60  0000 C CNN
+	1    8850 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:C-BancGeo-rescue C13
+U 1 1 56B9315D
+P 9200 5750
+F 0 "C13" H 9225 5850 50  0000 L CNN
+F 1 "1u" H 9225 5650 50  0000 L CNN
+F 2 "Yame_library:SM0805-MR" H 9238 5600 30  0001 C CNN
+F 3 "" H 9200 5750 60  0000 C CNN
+	1    9200 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:C-BancGeo-rescue C21
+U 1 1 56BAC278
+P 10700 7150
+F 0 "C21" H 10725 7250 50  0000 L CNN
+F 1 "100n" H 10725 7050 50  0000 L CNN
+F 2 "Yame_library:SM0603-MR" H 10738 7000 30  0001 C CNN
+F 3 "" H 10700 7150 60  0000 C CNN
+	1    10700 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:C-BancGeo-rescue C22
+U 1 1 56BAD3DC
+P 12050 2950
+F 0 "C22" H 12075 3050 50  0000 L CNN
+F 1 "1u" H 12075 2850 50  0000 L CNN
+F 2 "Yame_library:SM0805-MR" H 12088 2800 30  0001 C CNN
+F 3 "" H 12050 2950 60  0000 C CNN
+	1    12050 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:C-BancGeo-rescue C23
+U 1 1 56BDB849
+P 12550 7600
+F 0 "C23" H 12575 7700 50  0000 L CNN
+F 1 "1u" H 12575 7500 50  0000 L CNN
+F 2 "Yame_library:SM0805-MR" H 12588 7450 30  0001 C CNN
+F 3 "" H 12550 7600 60  0000 C CNN
+	1    12550 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:C-BancGeo-rescue C24
+U 1 1 56BDB9CE
+P 12550 8250
+F 0 "C24" H 12575 8350 50  0000 L CNN
+F 1 "1u" H 12575 8150 50  0000 L CNN
+F 2 "Yame_library:SM0805-MR" H 12588 8100 30  0001 C CNN
+F 3 "" H 12550 8250 60  0000 C CNN
+	1    12550 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:C-BancGeo-rescue C25
+U 1 1 56BDBB28
+P 12550 8850
+F 0 "C25" H 12575 8950 50  0000 L CNN
+F 1 "1u" H 12575 8750 50  0000 L CNN
+F 2 "Yame_library:SM0805-MR" H 12588 8700 30  0001 C CNN
+F 3 "" H 12550 8850 60  0000 C CNN
+	1    12550 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:C-BancGeo-rescue C26
+U 1 1 56BDBC81
+P 12550 9450
+F 0 "C26" H 12575 9550 50  0000 L CNN
+F 1 "1u" H 12575 9350 50  0000 L CNN
+F 2 "Yame_library:SM0805-MR" H 12588 9300 30  0001 C CNN
+F 3 "" H 12550 9450 60  0000 C CNN
+	1    12550 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:C-BancGeo-rescue C27
+U 1 1 56BC4A62
+P 12800 3650
+F 0 "C27" H 12825 3750 50  0000 L CNN
+F 1 "1u" H 12825 3550 50  0000 L CNN
+F 2 "Yame_library:SM0805-MR" H 12838 3500 30  0001 C CNN
+F 3 "" H 12800 3650 60  0000 C CNN
+	1    12800 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:C-BancGeo-rescue C28
+U 1 1 56BC338C
+P 13200 5250
+F 0 "C28" H 13225 5350 50  0000 L CNN
+F 1 "C" H 13225 5150 50  0000 L CNN
+F 2 "Yame_library:SM0603-MR" H 13238 5100 30  0001 C CNN
+F 3 "" H 13200 5250 60  0000 C CNN
+	1    13200 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L BancGeo-rescue:C-BancGeo-rescue C29
+U 1 1 56BB9AE9
+P 14300 7400
+F 0 "C29" H 14325 7500 50  0000 L CNN
+F 1 "1u" H 14325 7300 50  0000 L CNN
+F 2 "Yame_library:SM0805-MR" H 14338 7250 30  0001 C CNN
+F 3 "" H 14300 7400 60  0000 C CNN
+	1    14300 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:C-BancGeo-rescue C30
+U 1 1 56BBA237
+P 14300 8650
+F 0 "C30" H 14325 8750 50  0000 L CNN
+F 1 "1u" H 14325 8550 50  0000 L CNN
+F 2 "Yame_library:SM0805-MR" H 14338 8500 30  0001 C CNN
+F 3 "" H 14300 8650 60  0000 C CNN
+	1    14300 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:C-BancGeo-rescue C31
+U 1 1 56BC4926
+P 14550 4400
+F 0 "C31" H 14575 4500 50  0000 L CNN
+F 1 "1u" H 14575 4300 50  0000 L CNN
+F 2 "Yame_library:SM0805-MR" H 14588 4250 30  0001 C CNN
+F 3 "" H 14550 4400 60  0000 C CNN
+	1    14550 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:C-BancGeo-rescue C32
+U 1 1 56BB9E53
+P 14800 8200
+F 0 "C32" H 14825 8300 50  0000 L CNN
+F 1 "1u" H 14825 8100 50  0000 L CNN
+F 2 "Yame_library:SM0805-MR" H 14838 8050 30  0001 C CNN
+F 3 "" H 14800 8200 60  0000 C CNN
+	1    14800 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:C-BancGeo-rescue C33
+U 1 1 56BBA247
+P 14800 9400
+F 0 "C33" H 14825 9500 50  0000 L CNN
+F 1 "1u" H 14825 9300 50  0000 L CNN
+F 2 "Yame_library:SM0805-MR" H 14838 9250 30  0001 C CNN
+F 3 "" H 14800 9400 60  0000 C CNN
+	1    14800 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:SW_PUSH-BancGeo-rescue SW2
+U 1 1 56BD5DE0
+P 15400 6200
+F 0 "SW2" H 15550 6310 50  0000 C CNN
+F 1 "SW_PUSH" H 15400 6120 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_B3U-1000P" H 15400 6200 60  0001 C CNN
+F 3 "" H 15400 6200 60  0000 C CNN
+	1    15400 6200
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR073
-U 1 1 5740DFA8
-P 15600 4050
-F 0 "#PWR073" H 15600 3800 50  0001 C CNN
-F 1 "GND" H 15600 3900 50  0000 C CNN
-F 2 "" H 15600 4050 60  0000 C CNN
-F 3 "" H 15600 4050 60  0000 C CNN
-	1    15600 4050
+L BancGeo-rescue:CONN_01X03-BancGeo-rescue P4
+U 1 1 56BA5A7E
+P 13700 7400
+F 0 "P4" H 13700 7600 50  0000 C CNN
+F 1 "Capt1" V 13800 7400 50  0000 C CNN
+F 2 "Yame_library:PINHEAD1-3" H 13700 7400 60  0001 C CNN
+F 3 "640456-3" H 13700 7400 60  0001 C CNN
+	1    13700 7400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	15600 4000 15600 4050
 $Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR074
-U 1 1 5741177E
-P 7500 3550
-F 0 "#PWR074" H 7500 3300 50  0001 C CNN
-F 1 "GND" H 7500 3400 50  0000 C CNN
-F 2 "" H 7500 3550 60  0000 C CNN
-F 3 "" H 7500 3550 60  0000 C CNN
-	1    7500 3550
+L BancGeo-rescue:CONN_01X03-BancGeo-rescue P5
+U 1 1 56BA79C0
+P 13700 8050
+F 0 "P5" H 13700 8250 50  0000 C CNN
+F 1 "Capt2" V 13800 8050 50  0000 C CNN
+F 2 "Yame_library:PINHEAD1-3" H 13700 8050 60  0001 C CNN
+F 3 "" H 13700 8050 60  0000 C CNN
+	1    13700 8050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7500 3500 7500 3550
 $Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR075
-U 1 1 57412B58
-P 12250 2450
-F 0 "#PWR075" H 12250 2200 50  0001 C CNN
-F 1 "GND" H 12250 2300 50  0000 C CNN
-F 2 "" H 12250 2450 60  0000 C CNN
-F 3 "" H 12250 2450 60  0000 C CNN
-	1    12250 2450
+L BancGeo-rescue:CONN_01X03-BancGeo-rescue P6
+U 1 1 56BA7ADC
+P 13700 8650
+F 0 "P6" H 13700 8850 50  0000 C CNN
+F 1 "Capt3" V 13800 8650 50  0000 C CNN
+F 2 "Yame_library:PINHEAD1-3" H 13700 8650 60  0001 C CNN
+F 3 "" H 13700 8650 60  0000 C CNN
+	1    13700 8650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12250 2400 12250 2450
-Wire Wire Line
-	3000 10100 3000 10150
-Wire Wire Line
-	3000 10150 3100 10150
-Connection ~ 3100 10150
-Wire Wire Line
-	12950 1700 13300 1700
-Wire Wire Line
-	13300 1700 13300 1300
-Wire Wire Line
-	12950 1800 13350 1800
-Wire Wire Line
-	13350 1800 13350 1400
-Wire Wire Line
-	13350 1400 13600 1400
-Wire Wire Line
-	12950 1900 13400 1900
-Wire Wire Line
-	13400 1900 13400 1500
-Wire Wire Line
-	13600 1600 13250 1600
-Wire Wire Line
-	13250 1600 13250 1300
-Wire Wire Line
-	13250 1300 12950 1300
-Wire Wire Line
-	12950 1400 13200 1400
-Wire Wire Line
-	13200 1400 13200 1650
-Wire Wire Line
-	13200 1650 13500 1650
-Wire Wire Line
-	13500 1650 13500 1700
-Wire Wire Line
-	13500 1700 13900 1700
-Wire Wire Line
-	12950 2000 13450 2000
-Wire Wire Line
-	13450 2000 13450 1800
-Wire Wire Line
-	13450 1800 13600 1800
-Wire Wire Line
-	13150 2100 13150 1500
-Wire Wire Line
-	13150 1500 12950 1500
-Wire Wire Line
-	12950 1600 13100 1600
-Wire Wire Line
-	13100 1600 13100 2250
-Wire Wire Line
-	1100 2950 1100 3050
-Text Label 6200 5150 0    60   ~ 0
-+Vfeed
 $Comp
-L BancGeo-rescue:DIODE_SCHOTTKY_3PIN-BancGeo-rescue D10
-U 1 1 58A8F0BC
-P 6950 5600
-F 0 "D10" H 6950 5750 60  0000 C CNN
-F 1 "PDS760-13" H 7050 5450 60  0000 C CNN
-F 2 "" H 6950 5600 60  0000 C CNN
-F 3 "" H 6950 5600 60  0000 C CNN
-	1    6950 5600
+L BancGeo-rescue:CONN_01X03-BancGeo-rescue P7
+U 1 1 56BA7C32
+P 13700 9250
+F 0 "P7" H 13700 9450 50  0000 C CNN
+F 1 "Capt4" V 13800 9250 50  0000 C CNN
+F 2 "Yame_library:PINHEAD1-3" H 13700 9250 60  0001 C CNN
+F 3 "" H 13700 9250 60  0000 C CNN
+	1    13700 9250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3176,82 +3218,215 @@ F 3 "" H 6900 5150 60  0000 C CNN
 	1    6900 5150
 	1    0    0    -1  
 $EndComp
-Text Label 6200 5600 0    60   ~ 0
-+12v
-Wire Wire Line
-	7200 5150 7250 5150
-Wire Wire Line
-	7250 5150 7250 5400
-Connection ~ 7250 5400
-Wire Wire Line
-	6700 5500 6600 5500
-Wire Wire Line
-	6600 5500 6600 5600
-Wire Wire Line
-	6200 5600 6600 5600
-Wire Wire Line
-	6650 5050 6600 5050
-Wire Wire Line
-	6600 5050 6600 5150
-Wire Wire Line
-	6200 5150 6600 5150
-Connection ~ 6600 5600
-Connection ~ 6600 5150
-Text Label 6300 1200 0    60   ~ 0
-/MCLR
-Text Label 6300 1000 0    60   ~ 0
-ICSPCLK
-Text Label 6300 900  0    60   ~ 0
-ICSPDATA
 $Comp
-L BancGeo-rescue:R-BancGeo-rescue R46
-U 1 1 58B982F4
-P 9350 2050
-F 0 "R46" V 9430 2050 50  0000 C CNN
-F 1 "2.2k" V 9350 2050 50  0000 C CNN
-F 2 "" V 9280 2050 50  0000 C CNN
-F 3 "" H 9350 2050 50  0000 C CNN
-	1    9350 2050
+L BancGeo-rescue:DIODE_SCHOTTKY_3PIN-BancGeo-rescue D10
+U 1 1 58A8F0BC
+P 6950 5600
+F 0 "D10" H 6950 5750 60  0000 C CNN
+F 1 "PDS760-13" H 7050 5450 60  0000 C CNN
+F 2 "" H 6950 5600 60  0000 C CNN
+F 3 "" H 6950 5600 60  0000 C CNN
+	1    6950 5600
 	1    0    0    -1  
 $EndComp
-Text Label 9250 1800 0    60   ~ 0
-+5V
-Wire Wire Line
-	9250 1800 9350 1800
-Wire Wire Line
-	9350 1800 9350 1850
 $Comp
-L BancGeo-rescue:R-BancGeo-rescue R47
-U 1 1 58B98A00
-P 9600 2050
-F 0 "R47" V 9680 2050 50  0000 C CNN
-F 1 "2.2k" V 9600 2050 50  0000 C CNN
-F 2 "" V 9530 2050 50  0000 C CNN
-F 3 "" H 9600 2050 50  0000 C CNN
-	1    9600 2050
+L BancGeo-rescue:CONN_01X05-BancGeo-rescue P3
+U 1 1 56BBEC48
+P 5750 1100
+F 0 "P3" H 5750 1400 50  0000 C CNN
+F 1 "CONN_01X05" V 5850 1100 50  0000 C CNN
+F 2 "Yame_library:HE10_14-5C-2.54-MR" H 5750 1100 60  0001 C CNN
+F 3 "" H 5750 1100 60  0000 C CNN
+	1    5750 1100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:N-MOS_SOT23-BancGeo-rescue Q2
+U 1 1 56B98E2D
+P 1550 3050
+F 0 "Q2" V 1450 3150 50  0000 L BNN
+F 1 "PMV37EN2R" V 1350 3050 50  0000 L BNN
+F 2 "Yame_library:SOT23-MR" H 1550 3200 50  0001 C CNN
+F 3 "" H 1550 3050 60  0000 C CNN
+	1    1550 3050
+	0    1    -1   0   
+$EndComp
+$Comp
+L BancGeo-rescue:N-MOS_SOT23-BancGeo-rescue Q6
+U 1 1 573FE97B
+P 4150 3450
+F 0 "Q6" H 4300 3500 50  0000 L BNN
+F 1 "2N7002E" H 4300 3400 50  0000 L BNN
+F 2 "Yame_library:SOT23-MR" H 4150 3600 50  0001 C CNN
+F 3 "" H 4150 3450 60  0000 C CNN
+	1    4150 3450
 	1    0    0    -1  
 $EndComp
-Text Label 9100 2300 0    60   ~ 0
-SCL
-Text Label 9800 2300 0    60   ~ 0
-SDA
-Wire Wire Line
-	9100 2300 9350 2300
-Wire Wire Line
-	9600 2300 9950 2300
-Wire Wire Line
-	9350 2300 9350 2200
-Wire Wire Line
-	9600 2200 9600 2300
-Wire Wire Line
-	9350 1850 9600 1850
-Wire Wire Line
-	9600 1850 9600 1900
-Connection ~ 9350 1850
-Text Label 1500 5000 0    60   ~ 0
-+5V
-Text Label 4150 4650 0    60   ~ 0
-+5V
+$Comp
+L BancGeo-rescue:N-MOS_SOT23-BancGeo-rescue Q1
+U 1 1 56BA338D
+P 4900 3000
+F 0 "Q1" H 5050 3050 50  0000 L BNN
+F 1 "2N7002E" H 5050 2950 50  0000 L BNN
+F 2 "Yame_library:SOT23-MR" H 4900 3150 50  0001 C CNN
+F 3 "" H 4900 3000 60  0000 C CNN
+	1    4900 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:N-MOS_SOT23-BancGeo-rescue Q3
+U 1 1 56B7BD68
+P 5600 7700
+F 0 "Q3" H 5750 7750 50  0000 L BNN
+F 1 "PMV37EN2R" H 5750 7650 50  0000 L BNN
+F 2 "Yame_library:SOT23-MR" H 5600 7850 50  0001 C CNN
+F 3 "" H 5600 7700 60  0000 C CNN
+	1    5600 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:N-MOS_SOT23-BancGeo-rescue Q4
+U 1 1 56BC84DD
+P 10750 5200
+F 0 "Q4" V 11000 5300 50  0000 L BNN
+F 1 "2N7002E" V 11000 4850 50  0000 L BNN
+F 2 "Yame_library:SOT23-MR" H 10750 5350 50  0001 C CNN
+F 3 "" H 10750 5200 60  0000 C CNN
+	1    10750 5200
+	0    -1   1    0   
+$EndComp
+$Comp
+L BancGeo-rescue:N-MOS_SOT23-BancGeo-rescue Q5
+U 1 1 56BD18CD
+P 11000 6100
+F 0 "Q5" V 11250 6200 50  0000 L BNN
+F 1 "2N7002E" V 11250 5750 50  0000 L BNN
+F 2 "Yame_library:SOT23-MR" H 11000 6250 50  0001 C CNN
+F 3 "" H 11000 6100 60  0000 C CNN
+	1    11000 6100
+	0    -1   1    0   
+$EndComp
+$Comp
+L BancGeo-rescue:SWITCH_BRIDE-BancGeo-rescue SW1
+U 1 1 5736D86F
+P 10100 1150
+F 0 "SW1" H 10350 1300 60  0000 C CNN
+F 1 "SWITCH_BRIDE" H 10600 1000 60  0000 C CNN
+F 2 "SWITCH_BRIDE" H 10100 1150 60  0001 C CNN
+F 3 "" H 10100 1150 60  0000 C CNN
+	1    10100 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:LM4120-BancGeo-rescue U4
+U 1 1 56B90889
+P 2200 800
+F 0 "U4" H 2050 1100 60  0000 C CNN
+F 1 "LM4120IM5X-5.0/NOPB" H 2750 550 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 2200 800 60  0001 C CNN
+F 3 "" H 2200 800 60  0000 C CNN
+	1    2200 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:LM4120-BancGeo-rescue U12
+U 1 1 570A407C
+P 2200 1700
+F 0 "U12" H 2050 2000 60  0000 C CNN
+F 1 "LM4120IM5X-5.0/NOPB" H 2750 1450 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 2200 1700 60  0001 C CNN
+F 3 "" H 2200 1700 60  0000 C CNN
+	1    2200 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:Coupled_Inductor-BancGeo-rescue T1
+U 1 1 56B7C4BB
+P 6100 6850
+F 0 "T1" H 6100 7100 50  0000 C CNN
+F 1 "DRQ127-100-R" H 6100 6550 50  0000 C CNN
+F 2 "Yame_library:DRQ127_CPL_TR" H 6100 6850 60  0001 C CNN
+F 3 "" H 6100 6850 60  0000 C CNN
+	1    6100 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Relay:G5Q-1A K?
+U 1 1 608161A3
+P 2750 3050
+F 0 "K?" H 3080 3096 50  0000 L CNN
+F 1 "G5Q-1A" H 3080 3005 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPST_Omron-G5Q-1A" H 3100 3000 50  0001 L CNN
+F 3 "https://www.omron.com/ecb/products/pdf/en-g5q.pdf" H 2750 3050 50  0001 C CNN
+	1    2750 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:MCP970x-BancGeo-rescue U1
+U 1 1 56A54EC7
+P 1700 6850
+F 0 "U1" H 1700 7100 60  0000 C CNN
+F 1 "MCP9700A" H 1850 6600 60  0000 C CNN
+F 2 "Yame_library:SOT23-MR" H 1700 6850 60  0001 C CNN
+F 3 "" H 1700 6850 60  0000 C CNN
+	1    1700 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:TC54-BancGeo-rescue U2
+U 1 1 56A54E9E
+P 2100 4350
+F 0 "U2" H 2100 4600 60  0000 C CNN
+F 1 "TC54VC4302ECB713" H 1550 4100 60  0000 C CNN
+F 2 "Yame_library:SOT23-MR" H 2100 4350 60  0001 C CNN
+F 3 "" H 2100 4350 60  0000 C CNN
+	1    2100 4350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:MCP1754-BancGeo-rescue U5
+U 1 1 56B8EE1C
+P 8100 5450
+F 0 "U5" H 7900 5650 60  0000 C CNN
+F 1 "MCP1754ST-5002E/CB" H 8600 5200 60  0000 C CNN
+F 2 "Yame_library:SOT23-MR" H 8100 5450 60  0001 C CNN
+F 3 "" H 8100 5450 60  0000 C CNN
+	1    8100 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:MCP1754-BancGeo-rescue U10
+U 1 1 56BC277C
+P 13400 3450
+F 0 "U10" H 13200 3650 60  0000 C CNN
+F 1 "MCP1754ST-3302E/CB" H 13900 3200 60  0000 C CNN
+F 2 "Yame_library:SOT23-MR" H 13400 3450 60  0001 C CNN
+F 3 "" H 13400 3450 60  0000 C CNN
+	1    13400 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:MCP6541-BancGeo-rescue U3
+U 1 1 56B9B810
+P 2850 6100
+F 0 "U3" H 2900 6300 60  0000 C CNN
+F 1 "MCP6546" H 3000 5900 50  0000 C CNN
+F 2 "Yame_library:SOT23-5-MR" H 2850 6100 60  0001 C CNN
+F 3 "" H 2850 6100 60  0000 C CNN
+	1    2850 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:ADS1115-BancGeo-rescue U8
+U 1 1 56BA6F8B
+P 10350 8100
+F 0 "U8" H 10450 8600 60  0000 C CNN
+F 1 "ADS1115" H 10600 7600 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-10_3x3mm_Pitch0.5mm" H 10300 8000 60  0001 C CNN
+F 3 "" H 10300 8000 60  0000 C CNN
+	1    10350 8100
+	1    0    0    -1  
+$EndComp
 $Comp
 L BancGeo-rescue:MCP23008-QFN_PCKG-BancGeo-rescue U9
 U 1 1 58B97AC8
@@ -3261,6 +3436,17 @@ F 1 "MCP23008-QFN_PCKG" H 12900 1050 60  0000 C CNN
 F 2 "" H 12350 1650 60  0000 C CNN
 F 3 "" H 12350 1650 60  0000 C CNN
 	1    12350 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L BancGeo-rescue:PIC16F18323_QFN-BancGeo-rescue U7
+U 1 1 56A53341
+P 7600 2350
+F 0 "U7" H 7200 2900 60  0000 C CNN
+F 1 "PIC16F18323_QFN" H 8050 1300 60  0000 C CNN
+F 2 "Housings_DFN_QFN:QFN-16-1EP_4x4mm_Pitch0.65mm" H 7650 2350 60  0001 C CNN
+F 3 "" H 7650 2350 60  0000 C CNN
+	1    7600 2350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3274,193 +3460,15 @@ F 3 "" H 14400 5700 60  0000 C CNN
 	1    14300 5700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1550 9250 1550 9500
-Wire Wire Line
-	4450 8000 4550 8000
-Wire Wire Line
-	5000 8000 5200 8000
-Wire Wire Line
-	5700 8000 5700 8050
-Wire Wire Line
-	5100 6650 5700 6650
-Wire Wire Line
-	5700 7400 5700 7450
-Wire Wire Line
-	6850 7750 6850 8050
-Wire Wire Line
-	6650 7050 7050 7050
-Wire Wire Line
-	7450 7050 8050 7050
-Wire Wire Line
-	8050 7900 8050 7950
-Wire Wire Line
-	8050 7900 8400 7900
-Wire Wire Line
-	8050 7500 8050 7550
-Wire Wire Line
-	7600 5400 7650 5400
-Wire Wire Line
-	1800 650  1900 650 
-Wire Wire Line
-	950  650  1100 650 
-Wire Wire Line
-	1450 650  1800 650 
-Wire Wire Line
-	1800 5600 1800 5650
-Wire Wire Line
-	3850 9050 4350 9050
-Wire Wire Line
-	4900 4650 5250 4650
-Wire Wire Line
-	5250 4650 5600 4650
-Wire Wire Line
-	15800 1950 15800 2100
-Wire Wire Line
-	15800 1700 15800 1950
-Wire Wire Line
-	15800 1450 15800 1700
-Wire Wire Line
-	15800 1200 15800 1450
-Wire Wire Line
-	15800 950  15800 1200
-Wire Wire Line
-	8850 1150 9000 1150
-Wire Wire Line
-	9400 1150 9750 1150
-Wire Wire Line
-	2550 7150 2550 7200
-Wire Wire Line
-	2750 7150 2900 7150
-Wire Wire Line
-	3250 7150 3500 7150
-Wire Wire Line
-	6900 2150 6950 2150
-Wire Wire Line
-	4600 9650 4950 9650
-Wire Wire Line
-	4250 3100 4250 3200
-Wire Wire Line
-	11650 1850 11650 1950
-Wire Wire Line
-	11650 1750 11650 1850
-Wire Wire Line
-	6800 2350 6950 2350
-Wire Wire Line
-	13500 5250 13650 5250
-Wire Wire Line
-	14300 4650 14300 4700
-Wire Wire Line
-	14550 4100 14550 4250
-Wire Wire Line
-	12800 3400 12950 3400
-Wire Wire Line
-	10350 5300 10500 5300
-Wire Wire Line
-	11150 5300 11650 5300
-Wire Wire Line
-	10600 6200 10750 6200
-Wire Wire Line
-	11400 6200 11900 6200
-Wire Wire Line
-	15400 5800 15400 5900
-Wire Wire Line
-	12550 7400 12650 7400
-Wire Wire Line
-	12550 8050 12650 8050
-Wire Wire Line
-	12550 8650 12650 8650
-Wire Wire Line
-	12550 9250 12650 9250
-Wire Wire Line
-	1800 1550 1900 1550
-Wire Wire Line
-	950  1550 1100 1550
-Wire Wire Line
-	1450 1550 1800 1550
-Wire Wire Line
-	10150 700  10350 700 
-Wire Wire Line
-	10150 1400 10150 1450
-Wire Wire Line
-	4700 1050 4700 1150
-Wire Wire Line
-	3450 6100 3700 6100
-Wire Wire Line
-	3950 3600 3950 3650
-Wire Wire Line
-	5100 2750 5450 2750
-Wire Wire Line
-	3100 10150 3100 10200
-Wire Wire Line
-	7250 5400 7250 5600
-Wire Wire Line
-	6600 5600 6700 5600
-Wire Wire Line
-	6600 5150 6650 5150
-Wire Wire Line
-	9350 1850 9350 1900
-Wire Wire Line
-	1800 5350 1800 5600
 $Comp
-L power:GND1 #PWR?
-U 1 1 6058D762
-P 1100 3050
-F 0 "#PWR?" H 1100 2800 50  0001 C CNN
-F 1 "GND1" H 1105 2877 50  0000 C CNN
-F 2 "" H 1100 3050 50  0001 C CNN
-F 3 "" H 1100 3050 50  0001 C CNN
-	1    1100 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND1 #PWR?
-U 1 1 6058DB12
-P 2200 4850
-F 0 "#PWR?" H 2200 4600 50  0001 C CNN
-F 1 "GND1" H 2205 4677 50  0000 C CNN
-F 2 "" H 2200 4850 50  0001 C CNN
-F 3 "" H 2200 4850 50  0001 C CNN
-	1    2200 4850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2200 3800 1900 3800
-Wire Wire Line
-	1300 2950 1100 2950
-Connection ~ 1100 2950
-$Comp
-L BancGeo-rescue:GND-BancGeo-rescue #PWR?
-U 1 1 60713858
-P 1900 3000
-F 0 "#PWR?" H 1900 2750 50  0001 C CNN
-F 1 "GND" H 1900 2850 50  0000 C CNN
-F 2 "" H 1900 3000 60  0000 C CNN
-F 3 "" H 1900 3000 60  0000 C CNN
-	1    1900 3000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1800 2950 1900 2950
-Wire Wire Line
-	1900 2950 1900 3000
-Wire Wire Line
-	1450 4350 1750 4350
-Wire Wire Line
-	1450 4350 1450 3250
-Wire Wire Line
-	1100 2850 1900 2850
-Text Label 1350 2850 0    60   ~ 0
-+Vbat
-$Comp
-L Relay:G5Q-1A K?
-U 1 1 608161A3
-P 2750 3050
-F 0 "K?" H 3080 3096 50  0000 L CNN
-F 1 "G5Q-1A" H 3080 3005 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPST_Omron-G5Q-1A" H 3100 3000 50  0001 L CNN
-F 3 "https://www.omron.com/ecb/products/pdf/en-g5q.pdf" H 2750 3050 50  0001 C CNN
-	1    2750 3050
+L BancGeo-rescue:MCP1631X-ML_QFN-BancGeo-rescue U6
+U 1 1 56A54633
+P 4950 9500
+F 0 "U6" H 2650 10850 60  0000 C CNN
+F 1 "MCP1631V-ML_QFN" H 3600 9050 60  0000 C CNN
+F 2 "Housings_DFN_QFN:QFN-20-1EP_4x4mm_Pitch0.5mm" H 4950 9500 60  0001 C CNN
+F 3 "" H 4950 9500 60  0000 C CNN
+	1    4950 9500
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
